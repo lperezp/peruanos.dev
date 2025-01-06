@@ -1,0 +1,36 @@
+.hero {
+    height: 322px;
+    background-color: var(--color-primary);
+    width: 100%;
+    color: var(--color-light);
+
+    &__content {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+
+        &Title {
+            padding-top: 80px;
+            font-size: 42px;
+            margin-bottom: 24px;
+        }
+
+        &Paragraph {
+            font-size: 16px;
+            width: 650px;
+            line-height: 1.6;
+
+            .btnLink {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__image {
+        position: absolute;
+        right: calc(100% / 5);
+        top: 70px;
+        height: 322px;
+        width: 322px;
+    }
+}
