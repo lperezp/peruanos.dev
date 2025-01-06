@@ -32,6 +32,7 @@
         top: 70px;
         height: 322px;
         width: 322px;
+        opacity: 0.2;
     }
 }
 
@@ -61,5 +62,14 @@
             border-radius: 4px;
             cursor: pointer;
         }
+    }
+}
+
+.communities {
+
+    &__list {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
     }
 }

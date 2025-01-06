@@ -1,0 +1,45 @@
+.card {
+    padding: 24px 20px;
+    display: flex;
+    gap: 24px;
+    border-top: 1px solid var(--color-gray-light);
+
+    &__logo {
+        height: 144px;
+        border-radius: 8px;
+        width: 144px;
+        box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+
+        .image {
+            border-radius: 8px;
+        }
+    }
+
+    &__info {
+        height: 144px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &Title {
+            font-size: 20px;
+        }
+
+        &Paragraph {
+            font-size: 16px;
+            line-height: 1.4;
+            color: var(--color-gray-200);
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+    }
+
+    &__location {
+        display: flex;
+        gap: 8px;
+        color: var(--color-gray-200);
+        font-size: 16px;
+    }
+}

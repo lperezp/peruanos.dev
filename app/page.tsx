@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.scss";
 import Header from './components/header';
 import Link from 'next/link';
+import CommunityCard from './components/cards/community-card';
 
 export default function Home() {
   return (
@@ -27,7 +28,29 @@ export default function Home() {
           <button className={styles.filters__containerButton}>Filtrar</button>
         </div>
       </section>
-      <main className={styles.main}></main>
+      <main className={styles.communities}>
+        <div className={styles.communities__list}>
+          <CommunityCard />
+          <CommunityCard />
+          <CommunityCard />
+          <CommunityCard />
+          <CommunityCard />
+          <CommunityCard />
+          <CommunityCard />
+          <CommunityCard />
+          <CommunityCard />
+          <CommunityCard />
+          <CommunityCard />
+          <CommunityCard />
+          <CommunityCard />
+          <CommunityCard />
+          <CommunityCard />
+          <CommunityCard />
+          <CommunityCard />
+          <CommunityCard />
+          <CommunityCard />
+        </div>
+      </main>
       {/* <Footer /> */}
     </div>
   );

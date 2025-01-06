@@ -5,6 +5,7 @@
   --color-accent: #A82227;
   --color-light:#FFFFFF;
   --color-gray-light: #E5E5E5;
+  --color-gray-200: #979797;
 }
 
 @media (prefers-color-scheme: dark) {
