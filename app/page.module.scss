@@ -34,3 +34,32 @@
         width: 322px;
     }
 }
+
+.filters {
+    user-select: none;
+
+    &__container {
+        padding: 40px 0px;
+        display: flex;
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        gap: 24px;
+
+        &Select {
+            outline: none;
+            border: 1px solid var(--color-gray-light);
+            border-radius: 4px;
+            padding: 0px 12px;
+        }
+
+        &Button {
+            background-color: var(--color-primary);
+            color: var(--color-light);
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    }
+}

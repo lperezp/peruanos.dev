@@ -16,9 +16,18 @@ export default function Home() {
           <Image src="./svg/nazca-lines.svg" alt="Líneas decorativas estilo Nazca" width={492} height={287} />
         </div>
       </section>
-      <main className={styles.main}>
-
-      </main>
+      <section className={styles.filters}>
+        <div className={styles.filters__container}>
+          <select defaultValue="" className={styles.filters__containerSelect} aria-label="Filtrar por ciudad">
+            <option disabled value="">Seleccionar ciudad</option>
+          </select>
+          <select defaultValue="" className={styles.filters__containerSelect} aria-label="Filtrar por tópicos">
+            <option disabled value="">Seleccionar tópico</option>
+          </select>
+          <button className={styles.filters__containerButton}>Filtrar</button>
+        </div>
+      </section>
+      <main className={styles.main}></main>
       {/* <Footer /> */}
     </div>
   );
