@@ -2,10 +2,31 @@ import Link from 'next/link';
 import styles from './page.module.scss';
 import CardEventHome from './components/card-event-home/card-event-home';
 import CardCommunityHome from './components/card-community-home/card-community-home';
-import { LIST_COMMUNITIES } from './data/communities';
+import { COMMUNITIES } from './data/communities';
 import { ICommunity } from './models/community.model';
+import { EVENTS } from './data/events';
+import { IEvent } from './models/event.model';
+
+export const dynamic = 'force-dynamic';
+
+function getRandomCommunities(communities: ICommunity[], count: number) {
+  // Fisher-Yates shuffle
+  const shuffled = [...communities];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled.slice(0, count);
+}
 
 export default function Home() {
+  const upcomingEvents = EVENTS
+    .filter((event) => new Date(event.date) >= new Date())
+    .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
+    .slice(0, 3);
+
+  const randomCommunities = getRandomCommunities(COMMUNITIES, 3);
+
   return (
     <main className="flex w-full max-w-7xl flex-col items-center bg-[var(--color-background)] mx-auto">
       <section className={`${styles.hero} py-40 px-16 flex flex-col items-center`}>
@@ -24,9 +45,9 @@ export default function Home() {
         <h2 className="text-5xl text-center font-bold mb-9  w-[90%]">Próximos <span className="text-[var(--color-primary)]">Eventos</span></h2>
         <p className="text-center w-[70%] text-[20px]">Participa en meetups, conferencias y workshops organizados por la comunidad peruana.</p>
         <div className="flex flex-row gap-6 m-10">
-          <CardEventHome />
-          <CardEventHome />
-          <CardEventHome />
+          {upcomingEvents.map((event: IEvent) => (
+            <CardEventHome key={event.title} event={event} />
+          ))}
         </div>
         <Link className="px-6 py-3 bg-[var(--color-primary)] text-white rounded-full hover:bg-[var(--color-primary-hover)] transition" href='/events'>
           Ver todos los eventos
@@ -36,7 +57,7 @@ export default function Home() {
         <h2 className="text-5xl text-center font-bold mb-9  w-[90%]">Comunidades</h2>
         <p className="text-center w-[70%] text-[20px]">Descubre y únete a las comunidades que impulsan la tecnología en el Perú.</p>
         <div className="flex flex-row gap-6 m-10 w-full justify-center">
-          {LIST_COMMUNITIES.slice(0, 3).map((community: ICommunity) => (
+          {randomCommunities.map((community: ICommunity) => (
             <CardCommunityHome
               key={community.name}
               community={community}
