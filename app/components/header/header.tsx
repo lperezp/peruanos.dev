@@ -12,8 +12,8 @@ export default function Header() {
         <header className={styles.header}>
             <Image src={theme === 'light' ? './svg/logo-peruanos-dev-dark.svg' : './svg/logo-peruanos-dev.svg'} alt="Logo" width={31} height={44} />
             <nav className={styles.header__nav}>
-                <Link className={styles.header__navItem} href="/events">Eventos</Link>
-                <Link className={styles.header__navItem} href="/communities">Comunidades</Link>
+                {/* <Link className={styles.header__navItem} href="/events">Eventos</Link>
+                <Link className={styles.header__navItem} href="/communities">Comunidades</Link> */}
                 <Link className={styles.header__navItem} href="/projects">Proyectos Open Source</Link>
                 <button
                     className={styles.header__navButton}
