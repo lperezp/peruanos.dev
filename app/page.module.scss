@@ -1,0 +1,14 @@
+.titleCustom {
+    position: relative;
+
+    &::after {
+        content: '';
+        display: block;
+        width: 418px;
+        height: 42px;
+        background-image: url('/svg/line-text.svg');
+        position: absolute;
+        bottom: 90px;
+        left: 200px;
+    }
+}

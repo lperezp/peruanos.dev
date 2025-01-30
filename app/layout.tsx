@@ -1,14 +1,9 @@
 ﻿import type { Metadata } from "next";
-import { Google_Sans } from "next/font/google";
+import { GoogleSans } from './fonts';
 import "./globals.scss";
 import Header from './components/Header/header';
 import { ThemeProvider } from './context/ThemeContext';
 import Footer from './components/Footer/footer';
-
-const GoogleSans = Google_Sans({
-  variable: "--font-google-sans",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Inicio | peruanos.dev",
@@ -23,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body
-        className={`${GoogleSans.variable} antialiased`}
+        className={`${GoogleSans.className} antialiased`}
       >
         <ThemeProvider>
           <Header />
