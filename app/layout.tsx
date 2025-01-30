@@ -3,8 +3,8 @@ import { GoogleSans } from './fonts';
 import "./globals.scss";
 import { ThemeProvider } from './context/ThemeContext';
 import { Analytics } from "@vercel/analytics/next"
-import Footer from './components/footer/Footer';
-import Header from './components/header/Header';
+import Footer from './components/footer/footer';
+import Header from './components/header/header';
 
 export const metadata: Metadata = {
   title: "Inicio | peruanos.dev",
