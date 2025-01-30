@@ -1,10 +1,10 @@
 ﻿import type { Metadata } from "next";
 import { GoogleSans } from './fonts';
 import "./globals.scss";
-import Header from './components/Header/header';
 import { ThemeProvider } from './context/ThemeContext';
-import Footer from './components/Footer/footer';
 import { Analytics } from "@vercel/analytics/next"
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
 
 export const metadata: Metadata = {
   title: "Inicio | peruanos.dev",
