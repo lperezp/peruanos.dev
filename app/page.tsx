@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: 'Inicio',
   description: 'Conecta con la comunidad tech en el Perú. Descubre eventos, únete a comunidades y contribuye a proyectos de código abierto realizados por peruanos.',
   openGraph: {
-    title: 'Peruanos.dev - Comunidad Tech del Perú',
+    title: 'Peruanos.dev',
     description: 'Conecta con la comunidad tech en el Perú. Descubre eventos, únete a comunidades y contribuye a proyectos de código abierto.',
   },
 };

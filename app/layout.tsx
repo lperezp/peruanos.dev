@@ -10,7 +10,7 @@ import { organizationSchema, websiteSchema } from './lib/structured-data';
 export const metadata: Metadata = {
   metadataBase: new URL('https://peruanos.dev'),
   title: {
-    default: "Peruanos.dev - Comunidad Tech del Perú",
+    default: "Peruanos.dev",
     template: "%s | Peruanos.dev"
   },
   description: "Conecta con la comunidad tech en el Perú. Descubre eventos, únete a comunidades y contribuye a proyectos de código abierto realizados por peruanos.",
@@ -23,22 +23,22 @@ export const metadata: Metadata = {
     locale: 'es_PE',
     url: 'https://peruanos.dev',
     siteName: 'Peruanos.dev',
-    title: 'Peruanos.dev - Comunidad Tech del Perú',
+    title: 'Peruanos.dev',
     description: 'Conecta con la comunidad tech en el Perú. Descubre eventos, únete a comunidades y contribuye a proyectos de código abierto.',
     images: [
       {
-        url: '/images/og-image.png',
+        url: 'https://peruanos.dev/images/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Peruanos.dev - Comunidad Tech del Perú',
+        alt: 'Peruanos.dev',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Peruanos.dev - Comunidad Tech del Perú',
+    title: 'Peruanos.dev',
     description: 'Conecta con la comunidad tech en el Perú. Descubre eventos, únete a comunidades y contribuye a proyectos de código abierto.',
-    images: ['/images/twitter-image.png'],
+    images: ['https://peruanos.dev/images/twitter-image.png'],
     creator: '@peruanosdev',
   },
   robots: {

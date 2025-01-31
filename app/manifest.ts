@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
     return {
-        name: 'Peruanos.dev - Comunidad Tech del Perú',
+        name: 'Peruanos.dev',
         short_name: 'Peruanos.dev',
         description: 'Conecta con la comunidad tech en el Perú. Descubre eventos, únete a comunidades y contribuye a proyectos de código abierto.',
         start_url: '/',
