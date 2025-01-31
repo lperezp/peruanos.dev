@@ -25,7 +25,11 @@
     .titleCustom {
         position: relative;
 
-        &::after {
+        @media (max-width: 768px) {
+            display: block;
+        }
+
+        &::before {
             content: '';
             display: block;
             width: 418px;
@@ -38,10 +42,11 @@
             left: 130px;
 
             @media (max-width: 768px) {
-                width: 320px;
-                height: 30px;
-                left: -180px;
-                top: 170px;
+                width: 240px;
+                height: 24px;
+                top: 50px;
+                bottom: 0;
+                left: 50px;
             }
         }
     }
