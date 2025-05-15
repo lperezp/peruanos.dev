@@ -3,7 +3,7 @@ import { IEvent } from "../models/event.model";
 export const EVENTS: IEvent[] = [
     {
         title: "Firebase Day Lima 2026",
-        description: "Un día completo dedicado a Firebase, con charlas, talleres y networking para desarrolladores móviles y web.",
+        description: "Espacio especial para actualizarse sobre cómo los datos y la inteligencia artificial están impulsando no solo innovación, sino más confianza para el usuario y nuevas oportunidades de rentabilidad. Espacio especial para actualizarse sobre cómo los datos y la inteligencia artificial están impulsando no solo innovación, sino más confianza para el usuario y nuevas oportunidades de rentabilidad. ",
         date: "2026-01-02",
         time: "09:00 AM",
         location: "Centro de Convenciones María Angola",
