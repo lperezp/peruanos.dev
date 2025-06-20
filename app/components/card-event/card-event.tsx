@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { Calendar, ExternalLink, MapPin } from 'lucide-react';
+import { ExternalLink, MapPin } from 'lucide-react';
 import { IEvent } from '../../models/event.model';
 import Badge from '../badge/badge';
 import Link from 'next/link';

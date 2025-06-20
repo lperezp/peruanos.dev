@@ -74,7 +74,7 @@ export default function Home() {
             />
           ))}
         </div>
-        <Link className="px-6 py-3 bg-[var(--color-primary)] text-white rounded-full hover:bg-[var(--color-primary-hover)] transition" href='/communities'>
+        <Link className="px-6 py-3 bg-[var(--color-primary)] text-white rounded-full hover:bg-[var(--color-primary-hover)] transition" href='/community'>
           Explorar comunidades
         </Link>
       </section>
