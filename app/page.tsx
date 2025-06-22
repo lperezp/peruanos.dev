@@ -3,10 +3,13 @@ import type { Metadata } from 'next';
 import styles from './page.module.scss';
 import CardEventHome from './components/card-event-home/card-event-home';
 import CardCommunityHome from './components/card-community-home/card-community-home';
+import CardProject from './components/card-project/card-project';
 import { COMMUNITIES } from './data/communities';
 import { ICommunity } from './models/community.model';
 import { EVENTS } from './data/events';
 import { IEvent } from './models/event.model';
+import { PROJECTS } from './data/projects';
+import { IGitHubRepo } from './models/project.model';
 
 export const metadata: Metadata = {
   title: 'Inicio',
@@ -29,13 +32,29 @@ function getRandomCommunities(communities: ICommunity[], count: number) {
   return shuffled.slice(0, count);
 }
 
-export default function Home() {
+export default async function Home() {
   const upcomingEvents = EVENTS
     .filter((event) => new Date(event.date) >= new Date())
     .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
     .slice(0, 3);
 
   const randomCommunities = getRandomCommunities(COMMUNITIES, 3);
+
+  // Fetch GitHub data for projects
+  const projectsData: IGitHubRepo[] = await Promise.all(
+    PROJECTS.map(async (project) => {
+      try {
+        const response = await fetch(`https://api.github.com/repos/${project.owner}/${project.repo}`, {
+          next: { revalidate: 3600 } // Cache for 1 hour
+        });
+        if (!response.ok) throw new Error('Failed to fetch');
+        return await response.json();
+      } catch (error) {
+        console.error(`Error fetching ${project.owner}/${project.repo}:`, error);
+        return null;
+      }
+    })
+  ).then(results => results.filter(Boolean));
 
   return (
     <main className="flex w-full max-w-7xl flex-col items-center bg-[var(--color-background)] mx-auto">
@@ -76,6 +95,18 @@ export default function Home() {
         </div>
         <Link className="px-6 py-3 bg-[var(--color-primary)] text-white rounded-full hover:bg-[var(--color-primary-hover)] transition" href='/community'>
           Explorar comunidades
+        </Link>
+      </section>
+      <section className="py-10 sm:py-15 px-5 w-full flex flex-col items-center">
+        <h2 className="text-4xl sm:text-5xl text-center font-bold mb-9">Proyectos <span className="text-[var(--color-primary-text)]">Open Source</span></h2>
+        <p className="text-center w-full sm:w-[70%] text-[20px]">Descubre y contribuye a proyectos de código abierto creados por desarrolladores peruanos.</p>
+        <div className="flex flex-col sm:flex-row gap-6 m-0 mt-10 mb-10 sm:m-10">
+          {projectsData.map((project: IGitHubRepo) => (
+            <CardProject key={project.full_name} project={project} />
+          ))}
+        </div>
+        <Link className="px-6 py-3 bg-[var(--color-primary)] text-white rounded-full hover:bg-[var(--color-primary-hover)] transition" href='/projects'>
+          Ver todos los proyectos
         </Link>
       </section>
     </main>
