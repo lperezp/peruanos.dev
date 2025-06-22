@@ -1,52 +1,44 @@
-'use client';
-
 import Link from 'next/link';
-import { useCommunityFilters } from '../hooks/useCommunityFilters';
-import CommunityFilters from '../components/community-filters/community-filters';
-import CommunityList from '../components/community-list/community-list';
+import type { Metadata } from 'next';
+import CommunityClient from '../components/community-client/community-client';
+
+export const metadata: Metadata = {
+    title: 'Comunidades Tech en Perú | Peruanos.dev',
+    description: 'Únete a comunidades de desarrolladores, grupos de usuarios y espacios de aprendizaje tech en Perú. Descubre Angular Perú, GDG, Python Perú y más.',
+    keywords: ['comunidades tech peru', 'grupos desarrolladores peru', 'comunidad programadores', 'user groups peru', 'tech communities lima'],
+    openGraph: {
+        title: 'Comunidades Tech en Perú | Peruanos.dev',
+        description: 'Únete a comunidades de desarrolladores, grupos de usuarios y espacios de aprendizaje tech en Perú.',
+        url: 'https://peruanos.dev/community',
+        siteName: 'Peruanos.dev',
+        locale: 'es_PE',
+        type: 'website',
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Comunidades Tech en Perú | Peruanos.dev',
+        description: 'Únete a comunidades de desarrolladores, grupos de usuarios y espacios de aprendizaje tech en Perú.',
+    },
+};
 
 export default function Community() {
-    const {
-        searchQuery,
-        setSearchQuery,
-        selectedCities,
-        selectedTopics,
-        isCityOpen,
-        setIsCityOpen,
-        isTopicOpen,
-        setIsTopicOpen,
-        cities,
-        topics,
-        filteredCommunities,
-        toggleCity,
-        toggleTopic,
-    } = useCommunityFilters();
-
     return (
         <main className="flex w-full max-w-7xl flex-col items-center bg-[var(--color-background)] mx-auto">
-            <section className={`py-20 flex flex-col items-start w-full px-8 sm:px-10`}>
+            <section className="py-20 flex flex-col items-start w-full px-8 sm:px-10">
                 <h1 className="text-6xl text-left font-bold mb-4 leading-[1.4] w-full">Comunidades</h1>
-                <p className="text-left mb-4 w-full text-[20px]">Descubre y únete a las comunidades que impulsan la tecnología en el Perú. ¿Organizas una comunidad? ¡Agrégala a la lista!</p>
-                <Link className="px-6 py-3 text-center bg-[var(--color-primary)] text-white rounded-full hover:bg-[var(--color-primary-hover)] transition" href='https://github.com/lperezp/peruanos.dev/pulls' target='_blank' rel="noopener noreferrer">
+                <p className="text-left mb-4 w-full text-[20px]">
+                    Descubre y únete a las comunidades que impulsan la tecnología en el Perú. ¿Organizas una comunidad? ¡Agrégala a la lista!
+                </p>
+                <Link
+                    className="px-6 py-3 text-center bg-[var(--color-primary)] text-white rounded-full hover:bg-[var(--color-primary-hover)] transition"
+                    href='https://github.com/lperezp/peruanos.dev/pulls'
+                    target='_blank'
+                    rel="noopener noreferrer"
+                >
                     Publicar una comunidad
                 </Link>
 
-                <CommunityFilters
-                    searchQuery={searchQuery}
-                    setSearchQuery={setSearchQuery}
-                    cities={cities}
-                    selectedCities={selectedCities}
-                    toggleCity={toggleCity}
-                    isCityOpen={isCityOpen}
-                    setIsCityOpen={setIsCityOpen}
-                    topics={topics}
-                    selectedTopics={selectedTopics}
-                    toggleTopic={toggleTopic}
-                    isTopicOpen={isTopicOpen}
-                    setIsTopicOpen={setIsTopicOpen}
-                />
-
-                <CommunityList communities={filteredCommunities} />
+                <CommunityClient />
             </section>
         </main>
     );

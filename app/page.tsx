@@ -10,7 +10,7 @@ import { EVENTS } from './data/events';
 import { IEvent } from './models/event.model';
 import { PROJECTS } from './data/projects';
 import { IGitHubRepo } from './models/project.model';
-import { Check, CircleCheck, Edit, GitFork, Github } from 'lucide-react';
+import { CircleCheck, Edit, GitFork, Github } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Inicio',

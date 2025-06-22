@@ -1,41 +1,27 @@
-'use client';
-
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
-import CardProject from '../components/card-project/card-project';
-import { PROJECTS } from '../data/projects';
-import { IGitHubRepo } from '../models/project.model';
+import type { Metadata } from 'next';
+import ProjectsClient from '../components/projects-client/projects-client';
+
+export const metadata: Metadata = {
+    title: 'Proyectos Open Source Peruanos | Peruanos.dev',
+    description: 'Explora y contribuye a proyectos de código abierto creados por desarrolladores peruanos. Librerías, herramientas, aplicaciones y más.',
+    keywords: ['open source peru', 'proyectos opensource peruanos', 'github peru', 'codigo abierto peru', 'desarrolladores peru'],
+    openGraph: {
+        title: 'Proyectos Open Source Peruanos | Peruanos.dev',
+        description: 'Explora y contribuye a proyectos de código abierto creados por desarrolladores peruanos.',
+        url: 'https://peruanos.dev/projects',
+        siteName: 'Peruanos.dev',
+        locale: 'es_PE',
+        type: 'website',
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Proyectos Open Source Peruanos | Peruanos.dev',
+        description: 'Explora y contribuye a proyectos de código abierto creados por desarrolladores peruanos.',
+    },
+};
 
 export default function Projects() {
-    const [projects, setProjects] = useState<IGitHubRepo[]>([]);
-    const [loading, setLoading] = useState(true);
-
-    useEffect(() => {
-        const fetchProjects = async () => {
-            try {
-                const projectsData: IGitHubRepo[] = await Promise.all(
-                    PROJECTS.map(async (project) => {
-                        try {
-                            const response = await fetch(`https://api.github.com/repos/${project.owner}/${project.repo}`);
-                            if (!response.ok) throw new Error('Failed to fetch');
-                            return await response.json();
-                        } catch (error) {
-                            console.error(`Error fetching ${project.owner}/${project.repo}:`, error);
-                            return null;
-                        }
-                    })
-                );
-                setProjects(projectsData.filter(Boolean));
-            } catch (error) {
-                console.error('Error fetching projects:', error);
-            } finally {
-                setLoading(false);
-            }
-        };
-
-        fetchProjects();
-    }, []);
-
     return (
         <main className="flex w-full max-w-7xl flex-col items-center bg-[var(--color-background)] mx-auto">
             <section className="py-20 flex flex-col items-start w-full px-8 sm:px-10">
@@ -54,21 +40,7 @@ export default function Projects() {
                     Publicar un proyecto
                 </Link>
 
-                {loading ? (
-                    <div className="w-full text-center py-8">
-                        <p className="text-[var(--color-accent)]">Cargando proyectos...</p>
-                    </div>
-                ) : projects.length === 0 ? (
-                    <div className="w-full text-center py-8">
-                        <p className="text-[var(--color-accent)]">No se encontraron proyectos.</p>
-                    </div>
-                ) : (
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
-                        {projects.map((project) => (
-                            <CardProject key={project.full_name} project={project} />
-                        ))}
-                    </div>
-                )}
+                <ProjectsClient />
             </section>
         </main>
     );
