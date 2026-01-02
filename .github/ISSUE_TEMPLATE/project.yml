@@ -1,0 +1,80 @@
+name: 🚀 Agregar Proyecto Open Source
+description: Proponer un proyecto de código abierto creado por peruanos
+title: "[Proyecto] "
+labels: ["proyecto", "open-source"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por querer agregar un proyecto a peruanos.dev! 
+        Por favor completa la siguiente información.
+
+  - type: input
+    id: owner
+    attributes:
+      label: Owner (Usuario o Organización de GitHub)
+      description: Nombre del usuario u organización propietaria del repositorio
+      placeholder: "ej. username o organization-name"
+    validations:
+      required: true
+
+  - type: input
+    id: repo
+    attributes:
+      label: Nombre del repositorio
+      description: Nombre del repositorio en GitHub
+      placeholder: "ej. awesome-project"
+    validations:
+      required: true
+
+  - type: input
+    id: full_url
+    attributes:
+      label: URL completa del repositorio
+      description: Para verificación
+      placeholder: "https://github.com/username/awesome-project"
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: ¿Por qué debería incluirse este proyecto?
+      description: Explica brevemente por qué este proyecto es relevante para la comunidad
+      placeholder: |
+        Este proyecto es relevante porque...
+    validations:
+      required: true
+
+  - type: input
+    id: technologies
+    attributes:
+      label: Tecnologías principales
+      description: Lenguajes de programación o frameworks principales
+      placeholder: "ej. TypeScript, React, Node.js"
+
+  - type: checkboxes
+    id: requirements
+    attributes:
+      label: Requisitos del proyecto
+      description: Verifica que el proyecto cumpla con lo siguiente
+      options:
+        - label: El proyecto es de código abierto (open source)
+          required: true
+        - label: El repositorio es público en GitHub
+          required: true
+        - label: El proyecto está creado o mantenido por desarrolladores peruanos
+          required: true
+        - label: El proyecto tiene un README.md descriptivo
+          required: true
+        - label: El proyecto tiene actividad reciente o es relevante para la comunidad
+          required: true
+        - label: El proyecto no está duplicado en la lista actual
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Nota:** La información detallada del proyecto (descripción, estrellas, lenguaje, etc.) 
+        se obtendrá automáticamente de la API de GitHub.

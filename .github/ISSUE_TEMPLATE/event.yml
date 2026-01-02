@@ -1,0 +1,122 @@
+name: 📅 Agregar Evento
+description: Proponer un nuevo evento para la comunidad tech en Perú
+title: "[Evento] "
+labels: ["evento", "comunidad"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por querer agregar un evento a peruanos.dev! 
+        Por favor completa la siguiente información.
+
+  - type: input
+    id: title
+    attributes:
+      label: Título del evento
+      description: Nombre completo del evento
+      placeholder: ej. "Tech Talk: Introducción a React"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción
+      description: Describe brevemente el evento (qué se tratará, quién lo organiza, etc.)
+      placeholder: |
+        En este evento aprenderás...
+    validations:
+      required: true
+
+  - type: input
+    id: date
+    attributes:
+      label: Fecha
+      description: Fecha del evento
+      placeholder: "YYYY-MM-DD (ej. 2026-02-15)"
+    validations:
+      required: true
+
+  - type: input
+    id: time
+    attributes:
+      label: Hora
+      description: Hora de inicio del evento
+      placeholder: "HH:MM (ej. 19:00)"
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Ubicación
+      description: Dirección del evento o plataforma virtual
+      placeholder: "ej. Av. Larco 1234, Miraflores o https://zoom.us/..."
+    validations:
+      required: true
+
+  - type: input
+    id: city
+    attributes:
+      label: Ciudad
+      description: Ciudad donde se realiza el evento
+      placeholder: "ej. Lima"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Tipo de evento
+      description: Modalidad del evento
+      options:
+        - Presencial
+        - Virtual
+        - Híbrido
+    validations:
+      required: true
+
+  - type: input
+    id: image_url
+    attributes:
+      label: URL de la imagen
+      description: (Opcional) Link a una imagen del evento
+      placeholder: "https://ejemplo.com/imagen.jpg"
+
+  - type: input
+    id: registration_url
+    attributes:
+      label: URL de registro
+      description: Link donde los usuarios pueden registrarse
+      placeholder: "https://eventbrite.com/..."
+    validations:
+      required: true
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: Etiquetas separadas por comas (temas relacionados)
+      placeholder: "javascript, react, frontend"
+    validations:
+      required: true
+
+  - type: input
+    id: organizer
+    attributes:
+      label: Organizador
+      description: (Opcional) Nombre del organizador o comunidad
+      placeholder: "ej. React Lima"
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmación
+      description: Por favor confirma lo siguiente
+      options:
+        - label: He verificado que el evento no esté duplicado
+          required: true
+        - label: La información proporcionada es correcta y está actualizada
+          required: true
+        - label: Tengo permiso para publicar este evento
+          required: true
