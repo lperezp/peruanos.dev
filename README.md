@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# peruanos.dev
 
-## Getting Started
+Directorio centralizado de eventos, comunidades y proyectos open source de la comunidad tech peruana.
 
-First, run the development server:
+## Sobre el proyecto
+
+peruanos.dev es una plataforma que reúne información sobre:
+
+- **Eventos**: Meetups, conferencias, talleres y charlas de tecnología en Perú
+- **Comunidades**: Grupos y organizaciones tech peruanas
+- **Proyectos Open Source**: Proyectos de código abierto creados por desarrolladores peruanos
+
+## Características
+
+- Búsqueda y filtrado por ciudad, categoría y tags
+- Información actualizada de eventos próximos
+- Directorio de comunidades activas
+- Showcase de proyectos open source peruanos
+- Modo claro/oscuro
+- Diseño responsive
+- Sitemap y structured data
+
+## Comenzar
+
+Instala las dependencias:
+
+```bash
+npm install
+```
+
+Inicia el servidor de desarrollo:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contribuir
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Hay dos formas de contribuir al proyecto:
 
-## Learn More
+### Para todos (sin conocimientos técnicos)
 
-To learn more about Next.js, take a look at the following resources:
+Usa nuestros formularios de GitHub Issues para agregar contenido:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Agregar un evento](../../issues/new?template=event.yml)
+- [Agregar una comunidad](../../issues/new?template=community.yml)
+- [Agregar un proyecto](../../issues/new?template=project.yml)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Para desarrolladores
 
-## Deploy on Vercel
+Si quieres contribuir código, corregir bugs o mejorar el proyecto:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Fork el repositorio
+2. Crea una rama: `git checkout -b feature/nueva-funcionalidad`
+3. Haz tus cambios y commits
+4. Push a tu fork: `git push origin feature/nueva-funcionalidad`
+5. Abre un Pull Request
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Lee la [guía de contribución](CONTRIBUTING.md) completa para más detalles.
+
+## Estructura del Proyecto
+
+```
+app/
+├── components/         # Componentes React
+├── context/           # Context API (Theme)
+├── data/              # Datos de eventos, comunidades, proyectos
+├── hooks/             # Custom hooks
+├── lib/               # Utilidades
+├── models/            # Interfaces TypeScript
+├── community/         # Página de comunidades
+├── events/            # Página de eventos
+└── projects/          # Página de proyectos
+```
+
+## Comandos Disponibles
+
+```bash
+npm run dev          # Inicia servidor de desarrollo
+npm run build        # Crea build de producción
+npm run start        # Inicia servidor de producción
+npm run lint         # Ejecuta ESLint
+```
+
+## Licencia
+
+Este proyecto está abierto a la comunidad. Si tienes sugerencias sobre licenciamiento, por favor abre un Issue.
+
+## Comunidad
+
+¿Tienes preguntas o sugerencias? Abre un [Issue](../../issues/new) o únete a la conversación.
