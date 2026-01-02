@@ -14,7 +14,7 @@ body:
     attributes:
       label: Nombre de la comunidad
       description: Nombre oficial de la comunidad
-      placeholder: "ej. React Peru"
+      placeholder: 'ej. React Peru'
     validations:
       required: true
 
@@ -33,7 +33,7 @@ body:
     attributes:
       label: URL del logo
       description: Link al logo de la comunidad (preferiblemente PNG o SVG)
-      placeholder: "https://ejemplo.com/logo.png"
+      placeholder: 'https://ejemplo.com/logo.png'
     validations:
       required: true
 
@@ -42,7 +42,7 @@ body:
     attributes:
       label: Ciudad
       description: Ciudad principal donde opera la comunidad
-      placeholder: "ej. Lima"
+      placeholder: 'ej. Lima'
     validations:
       required: true
 
@@ -51,20 +51,20 @@ body:
     attributes:
       label: Temas/Topics
       description: Temas principales separados por comas
-      placeholder: "react, javascript, frontend, web"
+      placeholder: 'react, javascript, frontend, web'
     validations:
       required: true
 
   - type: markdown
     attributes:
-      value: "## 📬 Información de Contacto"
+      value: "## Información de Contacto"
 
   - type: input
     id: email
     attributes:
       label: Email
       description: Email de contacto de la comunidad
-      placeholder: "contacto@ejemplo.com"
+      placeholder: 'contacto@ejemplo.com'
     validations:
       required: true
 
@@ -73,7 +73,7 @@ body:
     attributes:
       label: Website
       description: URL del sitio web oficial (o red social principal si no tienen)
-      placeholder: "https://reactperu.org"
+      placeholder: 'https://reactperu.org'
     validations:
       required: true
 
@@ -82,28 +82,28 @@ body:
     attributes:
       label: GitHub
       description: (Opcional) URL del perfil o organización en GitHub
-      placeholder: "https://github.com/reactperu"
+      placeholder: 'https://github.com/reactperu'
 
   - type: input
     id: twitter
     attributes:
       label: Twitter/X
       description: (Opcional) URL del perfil en Twitter/X
-      placeholder: "https://twitter.com/reactperu"
+      placeholder: 'https://twitter.com/reactperu'
 
   - type: input
     id: linkedin
     attributes:
       label: LinkedIn
       description: (Opcional) URL de la página en LinkedIn
-      placeholder: "https://linkedin.com/company/reactperu"
+      placeholder: 'https://linkedin.com/company/reactperu'
 
   - type: input
     id: discord
     attributes:
       label: Discord
       description: (Opcional) URL del servidor de Discord
-      placeholder: "https://discord.gg/..."
+      placeholder: 'https://discord.gg/...'
 
   - type: checkboxes
     id: terms

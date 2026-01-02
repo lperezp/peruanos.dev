@@ -14,7 +14,7 @@ body:
     attributes:
       label: Owner (Usuario o Organización de GitHub)
       description: Nombre del usuario u organización propietaria del repositorio
-      placeholder: "ej. username o organization-name"
+      placeholder: 'ej. username o organization-name'
     validations:
       required: true
 
@@ -23,7 +23,7 @@ body:
     attributes:
       label: Nombre del repositorio
       description: Nombre del repositorio en GitHub
-      placeholder: "ej. awesome-project"
+      placeholder: 'ej. awesome-project'
     validations:
       required: true
 
@@ -32,7 +32,7 @@ body:
     attributes:
       label: URL completa del repositorio
       description: Para verificación
-      placeholder: "https://github.com/username/awesome-project"
+      placeholder: 'https://github.com/username/awesome-project'
     validations:
       required: true
 
