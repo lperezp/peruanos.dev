@@ -3,11 +3,11 @@ import type { Metadata } from 'next';
 import ProjectsClient from '../components/projects-client/projects-client';
 
 export const metadata: Metadata = {
-    title: 'Proyectos Open Source Peruanos | Peruanos.dev',
+    title: 'Proyectos Open Source peruanos | Peruanos.dev',
     description: 'Explora y contribuye a proyectos de código abierto creados por desarrolladores peruanos. Librerías, herramientas, aplicaciones y más.',
     keywords: ['open source peru', 'proyectos opensource peruanos', 'github peru', 'codigo abierto peru', 'desarrolladores peru'],
     openGraph: {
-        title: 'Proyectos Open Source Peruanos | Peruanos.dev',
+        title: 'Proyectos Open Source peruanos | Peruanos.dev',
         description: 'Explora y contribuye a proyectos de código abierto creados por desarrolladores peruanos.',
         url: 'https://peruanos.dev/projects',
         siteName: 'Peruanos.dev',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Proyectos Open Source Peruanos | Peruanos.dev',
+        title: 'Proyectos Open Source peruanos | Peruanos.dev',
         description: 'Explora y contribuye a proyectos de código abierto creados por desarrolladores peruanos.',
     },
 };

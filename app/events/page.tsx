@@ -3,11 +3,11 @@ import type { Metadata } from 'next';
 import EventsClient from '../components/events-client/events-client';
 
 export const metadata: Metadata = {
-    title: 'Eventos Tech en Perú | Peruanos.dev',
+    title: 'Eventos tecnológicos en Perú | Peruanos.dev',
     description: 'Descubre meetups, conferencias, workshops y hackathons organizados por la comunidad tech en Perú. Conecta con desarrolladores y aprende nuevas tecnologías.',
     keywords: ['eventos tech peru', 'meetups peru', 'conferencias tecnología', 'workshops desarrollo', 'hackathons peru', 'comunidad desarrolladores peru'],
     openGraph: {
-        title: 'Eventos Tech en Perú | Peruanos.dev',
+        title: 'Eventos tecnológicos en Perú | Peruanos.dev',
         description: 'Descubre meetups, conferencias, workshops y hackathons organizados por la comunidad tech en Perú.',
         url: 'https://peruanos.dev/events',
         siteName: 'Peruanos.dev',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Eventos Tech en Perú | Peruanos.dev',
+        title: 'Eventos tecnológicos en Perú | Peruanos.dev',
         description: 'Descubre meetups, conferencias, workshops y hackathons organizados por la comunidad tech en Perú.',
     },
 };
