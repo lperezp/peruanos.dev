@@ -3,11 +3,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useThemeContext } from '../../context/ThemeContext';
-import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { useGitHubStars } from '../../hooks/useGitHubStars';
+import { useState, useEffect } from 'react';
+import { Menu, X, Github, Star } from 'lucide-react';
 
 export default function Header() {
     const { theme, toggleTheme, mounted } = useThemeContext();
+    const { stars } = useGitHubStars('lperezp/peruanos.dev');
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
@@ -27,7 +29,7 @@ export default function Header() {
                 {/* Desktop Actions */}
                 <div className="hidden md:flex items-center gap-3 text-[var(--color-foreground)]">
                     <button
-                        className="h-10 w-10 flex justify-center items-center rounded bg-[var(--color-background)] cursor-pointer border-none hover:bg-[var(--color-hover)]"
+                        className="h-10 px-3 flex justify-center items-center rounded bg-[var(--color-background)] cursor-pointer border-none hover:bg-[var(--color-hover)]"
                         onClick={toggleTheme}
                         aria-label={`Cambiar a tema ${theme === 'light' ? 'oscuro' : 'claro'}`}
                     >
@@ -42,8 +44,20 @@ export default function Header() {
                             <div style={{ width: 22, height: 22 }} />
                         )}
                     </button>
-                    <Link href="https://github.com/lperezp/peruanos.dev" target='_blank' className="h-10 w-10 flex justify-center items-center rounded bg-[var(--color-background)] cursor-pointer border-none hover:bg-[var(--color-hover)]" aria-label="GitHub Repository">
-                        <Image src={theme === 'light' ? './svg/icon-github-dark.svg' : './svg/icon-github.svg'} alt="Logo" width={22} height={22} />
+
+                    <Link
+                        href="https://github.com/lperezp/peruanos.dev"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hidden md:flex h-10 px-3 justify-center items-center rounded bg-[var(--color-background)] cursor-pointer border-none hover:bg-[var(--color-hover)]"
+                        aria-label="GitHub Repository"
+                        title={mounted ? `${stars || 0} estrellas` : "GitHub Repository"}
+                    >
+                        <div className="flex items-center justify-center gap-2">
+                            <Github size={16} />
+                            <span className="text-xs font-medium">{mounted ? (stars || '0') : '0'}</span>
+                            <Star size={16} />
+                        </div>
                     </Link>
                 </div>
 
@@ -85,7 +99,7 @@ export default function Header() {
 
                         <div className="flex items-center gap-3 mt-4 pt-6 border-t border-[var(--color-border)]">
                             <button
-                                className="h-10 w-10 flex justify-center items-center rounded bg-[var(--color-background)] cursor-pointer border border-[var(--color-border)] hover:bg-[var(--color-hover)]"
+                                className="h-10 px-3 flex justify-center items-center rounded bg-[var(--color-background)] cursor-pointer border border-[var(--color-border)] hover:bg-[var(--color-hover)]"
                                 onClick={toggleTheme}
                                 aria-label={`Cambiar a tema ${theme === 'light' ? 'oscuro' : 'claro'}`}
                             >
@@ -100,13 +114,20 @@ export default function Header() {
                                     <div style={{ width: 22, height: 22 }} />
                                 )}
                             </button>
+
                             <Link
                                 href="https://github.com/lperezp/peruanos.dev"
-                                target='_blank'
-                                className="h-10 w-10 flex justify-center items-center rounded bg-[var(--color-background)] cursor-pointer border border-[var(--color-border)] hover:bg-[var(--color-hover)]"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="h-10 px-3 flex justify-center items-center rounded bg-[var(--color-background)] cursor-pointer border border-[var(--color-border)] hover:bg-[var(--color-hover)]"
                                 aria-label="GitHub Repository"
+                                title={mounted ? `${stars || 0} estrellas` : "GitHub Repository"}
                             >
-                                <Image src={theme === 'light' ? './svg/icon-github-dark.svg' : './svg/icon-github.svg'} alt="Logo" width={22} height={22} />
+                                <div className="flex items-center justify-center gap-2">
+                                    <Github size={22} />
+                                    <span className="text-xs font-medium">{mounted ? (stars || '0') : '0'}</span>
+                                    <Star size={22} />
+                                </div>
                             </Link>
                         </div>
                     </nav>
