@@ -13,7 +13,7 @@ import { IGitHubRepo } from './models/project.model';
 import { CircleCheck, Edit, GitFork, Github } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Inicio',
+  title: 'Inicio | Peruanos.dev',
   description: 'Conecta con la comunidad tech en el Perú. Descubre eventos, únete a comunidades y contribuye a proyectos de código abierto realizados por peruanos.',
   openGraph: {
     title: 'Peruanos.dev',
