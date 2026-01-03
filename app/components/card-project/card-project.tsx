@@ -1,6 +1,8 @@
 import { ExternalLink, Star, GitFork, Github } from 'lucide-react';
 import { IGitHubRepo } from '@/app/models/project.model';
 import Badge from '../badge/badge';
+import { addUTMParams } from '../../lib/utm';
+import Link from 'next/link';
 
 interface Props {
     project: IGitHubRepo;
@@ -32,15 +34,14 @@ export default function CardProject({ project }: Props) {
                 </div>
             </div>
 
-            <a
-                href={project.html_url}
-                target="_blank"
-                rel="noopener noreferrer"
+            <Link
+                href={addUTMParams(project.html_url)}
+                target="_blank" rel="noopener noreferrer"
                 className="flex items-center gap-2 font-medium text-[var(--color-primary-text)]"
             >
                 <span>Ver en GitHub</span>
                 <ExternalLink size={16} />
-            </a>
+            </Link>
         </div>
     );
 }

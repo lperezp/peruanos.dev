@@ -1,5 +1,6 @@
 import { ExternalLink } from 'lucide-react';
 import { ICommunity } from '@/app/models/community.model';
+import { addUTMParams } from '../../lib/utm';
 
 export default function CardCommunityHome({ community }: { community: ICommunity }) {
     return (
@@ -7,7 +8,7 @@ export default function CardCommunityHome({ community }: { community: ICommunity
             <p className="text-[20px] color-[var(--color-foreground)] font-bold mb-1">{community.name}</p>
             <p className="font-medium text-[var(--color-accent)]">{community.city}</p>
             <p className="font-medium my-4 text-[var(--color-accent)] line-clamp-4">{community.description}</p>
-            <a href={community.contact.website} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 font-medium text-[var(--color-primary-text)] mb-1">
+            <a href={addUTMParams(community.contact.website)} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 font-medium text-[var(--color-primary-text)] mb-1">
                 <span>Visitar sitio web</span>
                 <ExternalLink size={16} />
             </a>

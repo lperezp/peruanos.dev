@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import ProjectsClient from '../components/projects-client/projects-client';
+import { addUTMParams } from '../lib/utm';
 
 export const metadata: Metadata = {
     title: 'Proyectos Open Source peruanos | Peruanos.dev',
@@ -33,7 +34,7 @@ export default function Projects() {
                 </p>
                 <Link
                     className="px-6 py-3 text-center bg-[var(--color-primary)] text-white rounded-full hover:bg-[var(--color-primary-hover)] transition mb-8"
-                    href='https://github.com/lperezp/peruanos.dev/issues/new?template=project.yml'
+                    href={addUTMParams('https://github.com/lperezp/peruanos.dev/issues/new?template=project.yml')}
                     target='_blank'
                     rel="noopener noreferrer"
                 >

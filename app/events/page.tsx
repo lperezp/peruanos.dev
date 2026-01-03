@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import EventsClient from '../components/events-client/events-client';
+import { addUTMParams } from '../lib/utm';
 
 export const metadata: Metadata = {
     title: 'Eventos tecnológicos en Perú | Peruanos.dev',
@@ -33,7 +34,7 @@ export default function Events() {
                 </p>
                 <Link
                     className="px-6 py-3 text-center bg-[var(--color-primary)] text-white rounded-full hover:bg-[var(--color-primary-hover)] transition"
-                    href='https://github.com/lperezp/peruanos.dev/issues/new?template=event.yml'
+                    href={addUTMParams('https://github.com/lperezp/peruanos.dev/issues/new?template=event.yml')}
                     target='_blank'
                     rel="noopener noreferrer"
                 >

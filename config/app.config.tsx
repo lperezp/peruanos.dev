@@ -1,1 +1,0 @@
-export const EVENTS_TYPES = ['presencial', 'virtual', 'híbrido'];

@@ -2,6 +2,7 @@
 import { ExternalLink } from 'lucide-react';
 import { ICommunity } from '@/app/models/community.model';
 import Badge from '../badge/badge';
+import { addUTMParams } from '../../lib/utm';
 
 export default function CardCommunity({ community }: { community: ICommunity }) {
     return (
@@ -34,7 +35,7 @@ export default function CardCommunity({ community }: { community: ICommunity }) 
                         <Badge key={topic} variant="outline">{topic}</Badge>
                     ))}
                 </div>
-                <a href={community.contact.website} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 font-medium text-[var(--color-primary-text)]">
+                <a href={addUTMParams(community.contact.website)} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 font-medium text-[var(--color-primary-text)]">
                     <span>Visitar sitio web</span>
                     <ExternalLink size={16} />
                 </a>

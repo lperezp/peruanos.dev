@@ -11,6 +11,7 @@ import { IEvent } from './models/event.model';
 import { PROJECTS } from './data/projects';
 import { IGitHubRepo } from './models/project.model';
 import { CircleCheck, Edit, GitFork, Github } from 'lucide-react';
+import { addUTMParams } from './lib/utm';
 
 export const metadata: Metadata = {
   title: 'Inicio | Peruanos.dev',
@@ -66,7 +67,7 @@ export default async function Home() {
           <Link className="px-6 py-3 text-center bg-[var(--color-primary)] text-white rounded-full hover:bg-[var(--color-primary-hover)] transition" href='/events'>
             Ver próximos eventos
           </Link>
-          <Link className="px-6 py-3 text-center bg-[var(--color-white)] text-black rounded-full border border-[var(--color-accent)] hover:bg-[var(--color-hover)] transition" target='_blank' href='https://github.com/lperezp/peruanos.dev/issues/new?template=event.yml' rel="noopener noreferrer">
+          <Link className="px-6 py-3 text-center bg-[var(--color-white)] text-black rounded-full border border-[var(--color-accent)] hover:bg-[var(--color-hover)] transition" target='_blank' href={addUTMParams('https://github.com/lperezp/peruanos.dev/issues/new?template=event.yml')} rel="noopener noreferrer">
             Publicar un evento
           </Link>
         </div>
@@ -169,7 +170,7 @@ export default async function Home() {
           <div className="flex justify-center">
             <Link
               className="px-6 py-3 bg-[var(--color-primary)] text-white rounded-full hover:bg-[var(--color-primary-hover)] transition"
-              href='https://github.com/lperezp/peruanos.dev'
+              href={addUTMParams('https://github.com/lperezp/peruanos.dev')}
               target='_blank'
               rel="noopener noreferrer"
             >

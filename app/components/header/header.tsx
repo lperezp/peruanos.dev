@@ -6,6 +6,7 @@ import { useThemeContext } from '../../context/ThemeContext';
 import { useGitHubStars } from '../../hooks/useGitHubStars';
 import { useState, useEffect } from 'react';
 import { Menu, X, Github, Star } from 'lucide-react';
+import { addUTMParams } from '../../lib/utm';
 
 export default function Header() {
     const { theme, toggleTheme, mounted } = useThemeContext();
@@ -46,7 +47,7 @@ export default function Header() {
                     </button>
 
                     <Link
-                        href="https://github.com/lperezp/peruanos.dev"
+                        href={addUTMParams('https://github.com/lperezp/peruanos.dev')}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hidden md:flex h-10 px-3 justify-center items-center rounded bg-[var(--color-background)] cursor-pointer border-none hover:bg-[var(--color-hover)]"
@@ -116,7 +117,7 @@ export default function Header() {
                             </button>
 
                             <Link
-                                href="https://github.com/lperezp/peruanos.dev"
+                                href={addUTMParams('https://github.com/lperezp/peruanos.dev')}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="h-10 px-3 flex justify-center items-center rounded bg-[var(--color-background)] cursor-pointer border border-[var(--color-border)] hover:bg-[var(--color-hover)]"
