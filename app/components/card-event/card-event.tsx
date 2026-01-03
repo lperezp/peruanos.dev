@@ -11,9 +11,9 @@ interface Props {
 export default function CardEvent({ event }: Props) {
     // Formatear la fecha para el badge
     const dateObj = new Date(event.date);
-    const month = dateObj.toLocaleString('es-ES', { month: 'short' }).toUpperCase();
-    const day = dateObj.getDate();
-    const year = dateObj.getFullYear();
+    const month = dateObj.toLocaleString('es-PE', { month: 'short', timeZone: 'UTC' }).toUpperCase();
+    const day = dateObj.getUTCDate();
+    const year = dateObj.getUTCFullYear();
 
     return (
         <div className="bg-[var(--color-background)] border border-[var(--color-accent)] rounded-lg overflow-hidden flex flex-col sm:flex-row sm:h-[300px]">
@@ -35,7 +35,7 @@ export default function CardEvent({ event }: Props) {
                 </div>
             </div>
             <div className="p-6 flex-1">
-                <div className="flex gap-2 mb-3 flex-wrap">
+                <div className="flex mb-3 flex-wrap">
                     <Badge>{event.type}</Badge>
                     {event.tags.map((tag) => (
                         <Badge key={tag} variant="outline">{tag}</Badge>
