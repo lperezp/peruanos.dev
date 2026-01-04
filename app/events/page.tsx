@@ -26,10 +26,10 @@ export default function Events() {
     return (
         <main className="flex w-full max-w-7xl flex-col items-center bg-[var(--color-background)] mx-auto">
             <section className="py-20 flex flex-col items-start w-full px-8 sm:px-10">
-                <h1 className="text-6xl text-left font-bold mb-4 leading-[1.4] w-full">
+                <h1 className="text-4xl sm:text-6xl text-left font-bold mb-4 leading-[1.4] w-full">
                     Próximos <span className="text-[var(--color-primary-text)]">eventos</span>
                 </h1>
-                <p className="text-left mb-4 w-full text-[20px]">
+                <p className="text-left mb-4 w-full sm:text-[20px]">
                     Conecta con la comunidad tech peruana en eventos, meetups y conferencias. ¿Organizas un evento? ¡Agrégalo a la lista!
                 </p>
                 <Link
