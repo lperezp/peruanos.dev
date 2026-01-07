@@ -26,5 +26,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://luma.com/5uv64ic8",
         tags: ["Supabase"],
         organizer: "Luis Eduardo"
+    },
+    {
+        title: "Meetup #5 de AWS UG Arequipa - Virtual",
+        description: "La comunidad de AWS User Group Arequipa esta creciendo y queremos invitarte a nuestro Quinto Meetup en modo virtual; el primero del 2026: un espacio para aprender, compartir conocimientos y conectar con otros apasionados por la nube. Si trabajas con AWS, simplemente quieres profundizar en la tecnología en la nube o solamente eres curioso tecnológico; este evento es una gran oportunidad para expandir tus conocimientos y fortalecer tu red profesional",
+        date: "2026-01-15",
+        time: "17:30",
+        location: "https://us06web.zoom.us/j/84784249701",
+        city: "Arequipa",
+        type: "Virtual",
+        image_url: "https://secure.meetupstatic.com/photos/event/4/2/2/1/highres_532096929.webp?w=1080",
+        registration_url: "https://www.meetup.com/aws-user-group-arequipa/events/312679853/",
+        tags: ["AWS"],
+        organizer: "AWS User Group Arequipa"
     }
 ];
