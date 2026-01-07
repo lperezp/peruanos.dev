@@ -1,5 +1,4 @@
 import { ICommunity } from '@/app/models/community.model';
-import CardCommunityHome from '../card-community-home/card-community-home';
 import CardCommunity from '../card-community/card-community';
 
 interface CommunityListProps {

@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useThemeContext } from '../../context/ThemeContext';
 import { useGitHubStars } from '../../hooks/useGitHubStars';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Menu, X, Github, Star } from 'lucide-react';
 import { addUTMParams } from '../../lib/utm';
 
