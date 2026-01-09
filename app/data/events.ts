@@ -2,6 +2,19 @@ import { IEvent } from "../models/event.model";
 
 export const EVENTS: IEvent[] = [
     {
+        title: "Herramientas IA para escalar Productos Digitales",
+        description: "Todo el mundo esta hablando de como la IA está cambiando las reglas de juego en las empresas. Pero en la práctica ... ¿Cómo impulsamos el crecimiento de productos digitales? \nEn este evento tendremos espacio para conocer experiencias y tips para apalancar el crecimiento de productos digitales con herramientas de inteligencia artificial generativa.",
+        date: "2026-01-15",
+        time: "19:15",
+        location: "UTEC Ventures",
+        city: "Lima",
+        type: "Presencial",
+        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/ss/9c0c30f2-9c8c-4e42-9729-3163ffea088f.jpg",
+        registration_url: "https://luma.com/19a6no1m?locale=es",
+        tags: ["IA"],
+        organizer: "PM Beers"
+    },
+    {
         title: "Notion para diseñadores y emprendedores",
         description: "​Si te dedicas al diseño, emprendes un proyecto o simplemente buscas una forma más clara y ordenada de trabajar, este evento te va a encantar 🙌",
         date: "2026-01-17",
