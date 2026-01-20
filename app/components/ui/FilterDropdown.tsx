@@ -46,7 +46,7 @@ export default function FilterDropdown({
                 <button
                     type="button"
                     onClick={() => setIsOpen(!isOpen)}
-                    className="w-full p-3 rounded-md border border-[var(--color-border)] bg-[var(--color-background)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)] text-left flex items-center justify-between"
+                    className="w-full p-3 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary text-left flex items-center justify-between"
                 >
                     <span className="text-sm">
                         {selectedItems.length > 0
@@ -58,21 +58,21 @@ export default function FilterDropdown({
                     </svg>
                 </button>
                 {isOpen && (
-                    <div className="absolute z-10 w-full mt-1 bg-[var(--color-background)] border border-[var(--color-border)] rounded-md shadow-lg max-h-60 overflow-y-auto">
+                    <div className="absolute z-10 w-full mt-1 bg-background border border-border rounded-md shadow-lg max-h-60 overflow-y-auto">
                         {items.length > 0 ? (
                             items.map(item => (
-                                <label key={item} className="flex items-center cursor-pointer hover:bg-[var(--color-border)] p-3 transition">
+                                <label key={item} className="flex items-center cursor-pointer hover:bg-border p-3 transition">
                                     <input
                                         type="checkbox"
                                         checked={selectedItems.includes(item)}
                                         onChange={() => onToggle(item)}
-                                        className="mr-2 w-4 h-4 accent-[var(--color-primary)]"
+                                        className="mr-2 w-4 h-4 accent-primary"
                                     />
                                     <span className={`text-sm ${capitalize ? 'capitalize' : ''}`}>{item}</span>
                                 </label>
                             ))
                         ) : (
-                            <div className="p-3 text-sm text-[var(--color-text-secondary)]">
+                            <div className="p-3 text-sm text-accent">
                                 No hay opciones disponibles
                             </div>
                         )}

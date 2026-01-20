@@ -1,4 +1,4 @@
-import FilterDropdown from '../filter-dropdown/filter-dropdown';
+import FilterDropdown from '../ui/FilterDropdown';
 
 interface CommunityFiltersProps {
     searchQuery: string;
@@ -37,7 +37,7 @@ export default function CommunityFilters({
                     placeholder="Buscar comunidades..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    className="w-full sm:w-1/2 h-[46px] px-3 border border-[var(--color-border)] rounded-md bg-[var(--color-background)] text-[var(--color-foreground)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]"
+                    className="w-full sm:w-1/2 h-[46px] px-3 border border-border rounded-md bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary"
                 />
                 <div className="w-full sm:w-1/4">
                     <FilterDropdown

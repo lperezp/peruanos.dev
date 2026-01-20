@@ -1,13 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import { ExternalLink } from 'lucide-react';
 import { ICommunity } from '@/app/models/community.model';
-import Badge from '../badge/badge';
+import Badge from '../ui/Badge';
 import { addUTMParams } from '../../lib/utm';
 
 export default function CardCommunity({ community }: { community: ICommunity }) {
     return (
-        <div className="bg-[var(--color-background)] border border-[var(--color-accent)] rounded-lg overflow-hidden flex flex-col sm:flex-row sm:h-[250px] w-full">
-            <div className="relative w-full sm:w-[250px] h-48 sm:h-full flex-shrink-0 p-10 flex items-center justify-center bg-[var(--color-background)] overflow-hidden">
+        <div className="bg-background border border-accent rounded-lg overflow-hidden flex flex-col sm:flex-row sm:h-[250px] w-full">
+            <div className="relative w-full sm:w-[250px] h-48 sm:h-full flex-shrink-0 p-10 flex items-center justify-center bg-background overflow-hidden">
                 {community.logo_url ? (
                     <>
                         <img
@@ -27,15 +27,15 @@ export default function CardCommunity({ community }: { community: ICommunity }) 
                 )}
             </div>
             <div className="p-6 flex-1">
-                <p className="text-[20px] color-[var(--color-foreground)] font-bold mb-1">{community.name}</p>
-                <p className="font-medium text-[var(--color-accent)]">{community.city}</p>
-                <p className="font-medium my-4 text-[var(--color-accent)] line-clamp-2">{community.description}</p>
+                <p className="text-[20px] text-foreground font-bold mb-1">{community.name}</p>
+                <p className="font-medium text-accent">{community.city}</p>
+                <p className="font-medium my-4 text-accent line-clamp-2">{community.description}</p>
                 <div className="flex gap-2 mb-3 flex-wrap">
                     {community.topics.map((topic) => (
                         <Badge key={topic} variant="outline">{topic}</Badge>
                     ))}
                 </div>
-                <a href={addUTMParams(community.contact.website)} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 font-medium text-[var(--color-primary-text)]">
+                <a href={addUTMParams(community.contact.website)} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 font-medium text-primary-text">
                     <span>Visitar sitio web</span>
                     <ExternalLink size={16} />
                 </a>

@@ -1,10 +1,10 @@
 ﻿import { Metadata } from 'next';
 import { GoogleSans } from './fonts';
-import "./globals.scss";
+import "./globals.css";
 import { ThemeProvider } from './context/ThemeContext';
 import { Analytics } from "@vercel/analytics/next"
-import Header from './components/header/header';
-import Footer from './components/footer/footer';
+import Header from './components/layout/Header';
+import Footer from './components/layout/Footer';
 import { organizationSchema, websiteSchema } from './lib/structured-data';
 
 export const metadata: Metadata = {

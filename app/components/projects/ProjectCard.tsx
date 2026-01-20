@@ -1,6 +1,6 @@
 import { ExternalLink, Star, GitFork, Github } from 'lucide-react';
 import { IGitHubRepo } from '@/app/models/project.model';
-import Badge from '../badge/badge';
+import Badge from '../ui/Badge';
 import { addUTMParams } from '../../lib/utm';
 import Link from 'next/link';
 
@@ -10,7 +10,7 @@ interface Props {
 
 export default function CardProject({ project }: Props) {
     return (
-        <div className="bg-[var(--color-background)] border border-[var(--color-accent)] rounded-lg p-6 flex-1 max-w-sm">
+        <div className="bg-background border border-accent rounded-lg p-6 flex-1 max-w-sm">
             {project.language && (
                 <Badge variant="outline">{project.language}</Badge>
             )}
@@ -18,12 +18,12 @@ export default function CardProject({ project }: Props) {
                 <Github size={24} />
                 <p className="text-[20px] font-bold">{project.name}</p>
             </div>
-            <p className="text-sm text-[var(--color-accent)] mb-4">por {project.owner.login}</p>
-            <p className="font-medium my-4 text-[var(--color-accent)] line-clamp-2 overflow-hidden text-ellipsis">
+            <p className="text-sm text-accent mb-4">por {project.owner.login}</p>
+            <p className="font-medium my-4 text-accent line-clamp-2 overflow-hidden text-ellipsis">
                 {project.description || 'Sin descripción disponible'}
             </p>
 
-            <div className="flex items-center gap-4 mb-4 text-sm text-[var(--color-accent)]">
+            <div className="flex items-center gap-4 mb-4 text-sm text-accent">
                 <div className="flex items-center gap-1">
                     <Star size={16} />
                     <span>{project.stargazers_count}</span>
@@ -37,7 +37,7 @@ export default function CardProject({ project }: Props) {
             <Link
                 href={addUTMParams(project.html_url)}
                 target="_blank" rel="noopener noreferrer"
-                className="flex items-center gap-2 font-medium text-[var(--color-primary-text)]"
+                className="flex items-center gap-2 font-medium text-primary-text"
             >
                 <span>Ver en GitHub</span>
                 <ExternalLink size={16} />

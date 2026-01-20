@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import CommunityClient from '../components/community-client/community-client';
+import CommunityClient from '../components/communities/CommunityClient';
 import { addUTMParams } from '../lib/utm';
 
 export const metadata: Metadata = {
@@ -24,14 +24,14 @@ export const metadata: Metadata = {
 
 export default function Community() {
     return (
-        <main className="flex w-full max-w-7xl flex-col items-center bg-[var(--color-background)] mx-auto">
+        <main className="flex w-full max-w-7xl flex-col items-center bg-background mx-auto">
             <section className="py-20 flex flex-col items-start w-full px-8 sm:px-10">
                 <h1 className="text-4xl sm:text-6xl text-left font-bold mb-4 leading-[1.4] w-full">Comunidades</h1>
                 <p className="text-left mb-4 w-full sm:text-[20px]">
                     Descubre y únete a las comunidades que impulsan la tecnología en el Perú. ¿Organizas una comunidad? ¡Agrégala a la lista!
                 </p>
                 <Link
-                    className="px-6 py-3 text-center bg-[var(--color-primary)] text-white rounded-full hover:bg-[var(--color-primary-hover)] transition"
+                    className="px-6 py-3 text-center bg-primary text-white rounded-full hover:bg-primary-hover transition"
                     href={addUTMParams('https://github.com/lperezp/peruanos.dev/issues/new?template=community.yml')}
                     target='_blank'
                     rel="noopener noreferrer"

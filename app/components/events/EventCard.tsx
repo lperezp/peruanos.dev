@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { ExternalLink, MapPin } from 'lucide-react';
 import { IEvent } from '../../models/event.model';
-import Badge from '../badge/badge';
+import Badge from '../ui/Badge';
 import Link from 'next/link';
 import { addUTMParams } from '../../lib/utm';
 
@@ -17,7 +17,7 @@ export default function CardEvent({ event }: Props) {
     const year = dateObj.getUTCFullYear();
 
     return (
-        <div className="bg-[var(--color-background)] border border-[var(--color-accent)] rounded-lg overflow-hidden flex flex-col sm:flex-row sm:h-[300px]">
+        <div className="bg-background border border-accent rounded-lg overflow-hidden flex flex-col sm:flex-row sm:h-[300px]">
             <div className="relative w-full sm:w-[300px] h-64 sm:h-full flex-shrink-0">
                 {event.image_url ? (
                     <img
@@ -42,14 +42,14 @@ export default function CardEvent({ event }: Props) {
                         <Badge key={tag} variant="outline">{tag}</Badge>
                     ))}
                 </div>
-                <p className="text-[20px] color-[var(--color-foreground)] font-bold mb-1">{event.title}</p>
-                <p className="font-medium text-[var(--color-accent)]">{event.organizer}</p>
-                <p className="font-medium my-4 text-[var(--color-accent)] line-clamp-2">{event.description}</p>
-                <div className="flex items-center gap-2 font-medium text-[var(--color-accent)]">
+                <p className="text-[20px] text-foreground font-bold mb-1">{event.title}</p>
+                <p className="font-medium text-accent">{event.organizer}</p>
+                <p className="font-medium my-4 text-accent line-clamp-2">{event.description}</p>
+                <div className="flex items-center gap-2 font-medium text-accent">
                     <MapPin size={16} />
                     <span>{event.location}</span>
                 </div>
-                <Link href={addUTMParams(event.registration_url)} target="_blank" rel="noopener noreferrer" className="flex items-center mt-4 gap-2 font-medium text-[var(--color-primary)] font-semibold">
+                <Link href={addUTMParams(event.registration_url)} target="_blank" rel="noopener noreferrer" className="flex items-center mt-4 gap-2 font-medium text-primary font-semibold">
                     Registrarse
                     <ExternalLink size={16} />
                 </Link>

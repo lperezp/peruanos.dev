@@ -1,5 +1,5 @@
 import { ICommunity } from '@/app/models/community.model';
-import CardCommunity from '../card-community/card-community';
+import CardCommunity from './CommunityCard';
 
 interface CommunityListProps {
     communities: ICommunity[];
@@ -9,7 +9,7 @@ export default function CommunityList({ communities }: CommunityListProps) {
     if (communities.length === 0) {
         return (
             <div className="w-full text-center py-8">
-                <p className="text-[var(--color-accent)]">No se encontraron comunidades con los filtros seleccionados.</p>
+                <p className="text-accent">No se encontraron comunidades con los filtros seleccionados.</p>
             </div>
         );
     }

@@ -1,34 +1,29 @@
 'use client';
 
-import { useEventFilters } from '../../hooks/useEventFilters';
-import EventFilters from '../event-filters/event-filters';
-import EventList from '../event-list/event-list';
+import { useCommunityFilters } from '../../hooks/useCommunityFilters';
+import CommunityFilters from './CommunityFilters';
+import CommunityList from './CommunityList';
 
-export default function EventsClient() {
+export default function CommunityClient() {
     const {
         searchQuery,
         setSearchQuery,
         selectedCities,
         selectedTopics,
-        selectedTypes,
         isCityOpen,
         setIsCityOpen,
         isTopicOpen,
         setIsTopicOpen,
-        isTypeOpen,
-        setIsTypeOpen,
         cities,
         topics,
-        availableTypes,
-        filteredEvents,
+        filteredCommunities,
         toggleCity,
         toggleTopic,
-        toggleType,
-    } = useEventFilters();
+    } = useCommunityFilters();
 
     return (
         <>
-            <EventFilters
+            <CommunityFilters
                 searchQuery={searchQuery}
                 setSearchQuery={setSearchQuery}
                 cities={cities}
@@ -41,14 +36,9 @@ export default function EventsClient() {
                 toggleTopic={toggleTopic}
                 isTopicOpen={isTopicOpen}
                 setIsTopicOpen={setIsTopicOpen}
-                availableTypes={availableTypes}
-                selectedTypes={selectedTypes}
-                toggleType={toggleType}
-                isTypeOpen={isTypeOpen}
-                setIsTypeOpen={setIsTypeOpen}
             />
 
-            <EventList events={filteredEvents} />
+            <CommunityList communities={filteredCommunities} />
         </>
     );
 }

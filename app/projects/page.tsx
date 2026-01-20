@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import ProjectsClient from '../components/projects-client/projects-client';
+import ProjectsClient from '../components/projects/ProjectsClient';
 import { addUTMParams } from '../lib/utm';
 
 export const metadata: Metadata = {
@@ -24,16 +24,16 @@ export const metadata: Metadata = {
 
 export default function Projects() {
     return (
-        <main className="flex w-full max-w-7xl flex-col items-center bg-[var(--color-background)] mx-auto">
+        <main className="flex w-full max-w-7xl flex-col items-center bg-background mx-auto">
             <section className="py-20 flex flex-col items-start w-full px-8 sm:px-10">
                 <h1 className="text-4xl sm:text-6xl text-left font-bold mb-4 leading-[1.4] w-full">
-                    Proyectos <span className="text-[var(--color-primary-text)]">Open Source</span>
+                    Proyectos <span className="text-primary-text">Open Source</span>
                 </h1>
                 <p className="text-left mb-4 w-full sm:text-[20px]">
                     Descubre y contribuye a proyectos de código abierto creados por desarrolladores peruanos. ¿Tienes un proyecto? ¡Agrégalo a la lista!
                 </p>
                 <Link
-                    className="px-6 py-3 text-center bg-[var(--color-primary)] text-white rounded-full hover:bg-[var(--color-primary-hover)] transition mb-8"
+                    className="px-6 py-3 text-center bg-primary text-white rounded-full hover:bg-primary-hover transition mb-8"
                     href={addUTMParams('https://github.com/lperezp/peruanos.dev/issues/new?template=project.yml')}
                     target='_blank'
                     rel="noopener noreferrer"

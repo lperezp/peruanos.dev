@@ -8,8 +8,8 @@ export default function Badge({ children, variant = 'default', className = '' }:
     const baseStyles = 'inline-flex items-center rounded-full px-3 py-1 text-xs font-medium transition-colors';
 
     const variantStyles = {
-        default: 'bg-[var(--color-primary)] text-white hover:bg-[var(--color-primary-hover)] mb-2 mr-2',
-        outline: 'border border-[var(--color-border)] text-[var(--color-text)] bg-transparent hover:bg-[var(--color-border)] mb-2 mr-2',
+        default: 'bg-primary text-white hover:bg-primary-hover mb-2 mr-2',
+        outline: 'border border-border text-foreground bg-transparent hover:bg-border mb-2 mr-2',
     };
 
     return (

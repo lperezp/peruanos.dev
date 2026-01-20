@@ -1,5 +1,5 @@
 import { IEvent } from '@/app/models/event.model';
-import CardEvent from '../card-event/card-event';
+import CardEvent from './EventCard';
 
 interface EventListProps {
     events: IEvent[];
@@ -9,7 +9,7 @@ export default function EventList({ events }: EventListProps) {
     if (events.length === 0) {
         return (
             <div className="text-center py-10">
-                <p className="text-xl text-[var(--color-text-secondary)]">
+                <p className="text-xl text-accent">
                     No se encontraron eventos con los filtros seleccionados.
                 </p>
             </div>

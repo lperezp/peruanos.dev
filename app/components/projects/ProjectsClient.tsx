@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import CardProject from '../card-project/card-project';
+import CardProject from './ProjectCard';
 import { PROJECTS } from '../../data/projects';
 import { IGitHubRepo } from '../../models/project.model';
 
@@ -38,7 +38,7 @@ export default function ProjectsClient() {
     if (loading) {
         return (
             <div className="w-full text-center py-8">
-                <p className="text-[var(--color-accent)]">Cargando proyectos...</p>
+                <p className="text-accent">Cargando proyectos...</p>
             </div>
         );
     }
@@ -46,7 +46,7 @@ export default function ProjectsClient() {
     if (projects.length === 0) {
         return (
             <div className="w-full text-center py-8">
-                <p className="text-[var(--color-accent)]">No se encontraron proyectos.</p>
+                <p className="text-accent">No se encontraron proyectos.</p>
             </div>
         );
     }

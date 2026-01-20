@@ -1,4 +1,4 @@
-import FilterDropdown from '../filter-dropdown/filter-dropdown';
+import FilterDropdown from '../ui/FilterDropdown';
 
 interface EventFiltersProps {
     searchQuery: string;
@@ -47,7 +47,7 @@ export default function EventFilters({
                     placeholder="Buscar eventos..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    className="w-full h-[46px] px-3 rounded-md border border-[var(--color-border)] bg-[var(--color-background)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]"
+                    className="w-full h-[46px] px-3 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary"
                 />
             </div>
 
@@ -84,7 +84,7 @@ export default function EventFilters({
                 />
             </div>
 
-            <div className="h-1 w-full mt-8 bg-[var(--color-border)]" />
+            <div className="h-1 w-full mt-8 bg-border" />
         </div>
     );
 }

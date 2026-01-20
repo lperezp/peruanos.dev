@@ -1,4 +1,19 @@
-﻿@import url("tailwindcss");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-google-sans);
+
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  
+  --color-primary: var(--color-primary);
+  --color-primary-text: var(--color-primary-text);
+  --color-primary-hover: var(--color-primary-hover);
+  
+  --color-accent: var(--color-accent);
+  --color-hover: var(--color-hover);
+  --color-border: var(--color-border);
+}
 
 :root {
   /* ============================================
@@ -11,55 +26,39 @@
   /* ============================================
      TEMA LIGHT (Default)
      ============================================ */
-
-  /* Fondos y textos principales */
   --color-background: var(--color-white);
   --color-foreground: var(--color-black);
 
   /* Colores de marca */
   --color-primary: var(--color-red);
   --color-primary-text: #C71F26;
-  /* Texto con contraste AA */
   --color-primary-hover: #A82228;
-  /* Estado hover de botones primarios */
 
   /* Colores de soporte */
   --color-accent: #6B6B6B;
-  /* Textos secundarios con contraste AA */
   --color-hover: #E8E8E8;
-  /* Fondo hover de elementos secundarios */
   --color-border: rgba(0, 0, 0, 0.1);
-  /* Bordes sutiles */
-
-  /* Fuentes */
-  --font-sans: var(--font-google-sans);
 }
 
 [data-theme='dark'] {
   /* ============================================
      TEMA DARK
      ============================================ */
-
-  /* Fondos y textos principales */
   --color-background: var(--color-black);
   --color-foreground: var(--color-white);
 
   /* Colores de marca */
   --color-primary-text: #E54046;
-  /* Texto con contraste AA */
 
   /* Colores de soporte */
   --color-accent: #979797;
-  /* Textos secundarios con contraste AA */
   --color-hover: #2A2A2D;
-  /* Fondo hover de elementos secundarios */
   --color-border: rgba(255, 255, 255, 0.1);
 }
 
+/* Base Styles */
 body {
-  background: var(--color-background);
-  color: var(--color-foreground);
-  font-family: var(--font-sans);
+  @apply bg-background text-foreground font-sans;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
