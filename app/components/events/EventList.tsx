@@ -8,7 +8,7 @@ interface EventListProps {
 export default function EventList({ events }: EventListProps) {
     if (events.length === 0) {
         return (
-            <div className="text-center py-10">
+            <div className="text-center py-10" role="status" aria-live="polite">
                 <p className="text-xl text-accent">
                     No se encontraron eventos con los filtros seleccionados.
                 </p>

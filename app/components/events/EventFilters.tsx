@@ -48,6 +48,7 @@ export default function EventFilters({
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     className="w-full h-[46px] px-3 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary"
+                    aria-label="Buscar eventos"
                 />
             </div>
 
