@@ -52,5 +52,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://www.meetup.com/aws-user-group-arequipa/events/312679853/",
         tags: ["AWS"],
         organizer: "AWS User Group Arequipa"
+    },
+    {
+        title: "Meetup Nro 1 - Machine Learning & Gen AI",
+        description: "Únete a nuestro Meetup presencial de AWS en Lima, Perú, un espacio diseñado para profesionales, estudiantes y entusiastas de la tecnología interesados en Machine Learning e Inteligencia Artificial Generativa.",
+        date: "2026-01-24",
+        time: "10:00",
+        location: "Lince",
+        city: "Lima",
+        type: "Presencial",
+        image_url: "https://secure.meetupstatic.com/photos/event/5/7/2/1/highres_532282305.webp?w=1080",
+        registration_url: "https://www.meetup.com/es-es/aws-ug-machine-learning-latam/events/312922631/",
+        tags: ["AWS", "Machine Learning", "Gen AI"],
+        organizer: "AWS UG Machine Learning Latam"
     }
 ];
