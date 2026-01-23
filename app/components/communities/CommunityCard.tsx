@@ -26,14 +26,16 @@ export default function CardCommunity({ community }: { community: ICommunity }) 
                     <div className="w-full h-full bg-gradient-to-br from-blue-400 via-purple-400 to-pink-400 rounded-lg" />
                 )}
             </div>
-            <div className="p-6 flex-1">
+            <div className="p-6 flex-1 flex flex-col min-w-0">
                 <p className="text-[20px] text-foreground font-bold mb-1">{community.name}</p>
                 <p className="font-medium text-accent">{community.city}</p>
                 <p className="font-medium my-4 text-accent line-clamp-2">{community.description}</p>
-                <div className="flex gap-2 mb-3 flex-wrap">
-                    {community.topics.map((topic) => (
-                        <Badge key={topic} variant="outline">{topic}</Badge>
-                    ))}
+                <div className="mb-3 overflow-x-auto overflow-y-hidden custom-scrollbar">
+                    <div className="flex gap-2">
+                        {community.topics.map((topic) => (
+                            <Badge key={topic} variant="outline" className="whitespace-nowrap flex-shrink-0">{topic}</Badge>
+                        ))}
+                    </div>
                 </div>
                 <a href={addUTMParams(community.contact.website)} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 font-medium text-primary-text">
                     <span>Visitar sitio web</span>
