@@ -12,6 +12,9 @@ export interface ICommunity {
             twitter: string;
             linkedin: string;
             discord: string;
+            facebook: string;
+            youtube: string;
+            instagram: string;
         };
     };
 }
