@@ -15,6 +15,19 @@ export const EVENTS: IEvent[] = [
         organizer: "PM Beers"
     },
     {
+        title: "re:Cap del AWS re:Invent (parte 2)",
+        description: "re:Cap de AWS re:Invent realizado, los nuevos anuncios de productos y servicios de AWS, y rifa de créditos de AWS.",
+        date: "2026-01-23",
+        time: "18:00",
+        location: "En línea",
+        city: "Lima",
+        type: "Virtual",
+        image_url: "https://secure.meetupstatic.com/photos/event/2/d/0/8/highres_532331528.webp?w=640",
+        registration_url: "https://www.meetup.com/aws-girls-peru/events/312874067/",
+        tags: ["AWS", "Cloud Computing"],
+        organizer: "AWS Girls Perú"
+    },
+    {
         title: "Notion para diseñadores y emprendedores",
         description: "​Si te dedicas al diseño, emprendes un proyecto o simplemente buscas una forma más clara y ordenada de trabajar, este evento te va a encantar 🙌",
         date: "2026-01-17",
@@ -65,5 +78,96 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://www.meetup.com/es-es/aws-ug-machine-learning-latam/events/312922631/",
         tags: ["AWS", "Machine Learning", "Gen AI"],
         organizer: "AWS UG Machine Learning Latam"
+    },
+    {
+        title: "Season of AI – Model Context Protocol (MCP)",
+        description: "¡Únete a nuestro evento de comunidad sobre AI - Model Context Protocol (MCP)! En esta sesión contaremos con un panel de expertos Microsoft MVPs de toda Latinoamérica y Estados Unidos, quienes compartirán sus conocimientos y experiencias sobre MCP.",
+        date: "2026-01-24",
+        time: "09:00",
+        location: "En línea",
+        city: "Lima",
+        type: "Virtual",
+        image_url: "https://secure.meetupstatic.com/photos/event/8/d/b/a/highres_532176282.webp?w=640",
+        registration_url: "https://www.meetup.com/es-ES/bi-expert/events/312817275/",
+        tags: ["AI", "MCP", "Microsoft"],
+        organizer: "BI Expert"
+    },
+    {
+        title: "Casual Unreal Meetup - Enero",
+        description: "En esta reunión aprovecharemos para ponernos al día con los participantes, ver en qué andan y compartir un buen momento. Nos reuniremos en la entrada del Restaurante Garden ubicado en Centro Comercial San Felipe.",
+        date: "2026-01-29",
+        time: "19:00",
+        location: "Restaurante Garden, Centro comercial San Felipe Tda 67D int. 78",
+        city: "Lima",
+        type: "Presencial",
+        image_url: "https://secure.meetupstatic.com/photos/event/7/b/b/4/highres_532351668.webp?w=640",
+        registration_url: "https://www.meetup.com/es-ES/unreal-engine-lima/events/312935949/",
+        tags: ["Unreal Engine", "Gaming"],
+        organizer: "Unreal Engine Lima"
+    },
+    {
+        title: "Hack The Box Meetup: Lima, PE - 0x23 | Insecure Deep Link Usage in Mobile Apps",
+        description: "Este evento es perfecto para entusiastas y curiosos de la ciberseguridad que buscan aprender, colaborar y sumergirse en desafíos prácticos. Charla sobre vulnerabilidades de Deep Links en aplicaciones móviles por Gabriel Rodriguez.",
+        date: "2026-01-31",
+        time: "16:00",
+        location: "En línea",
+        city: "Lima",
+        type: "Virtual",
+        image_url: "https://secure.meetupstatic.com/photos/event/1/3/e/8/highres_527405096.jpeg?w=640",
+        registration_url: "https://www.meetup.com/es-ES/hack-the-box-meetup-lima-pe/events/312740782/",
+        tags: ["Cybersecurity", "Hacking", "Mobile"],
+        organizer: "Hack The Box Meetup: Lima, PE"
+    },
+    {
+        title: "Hack The Box Meetup: Lima, PE - 0x24 | LLM Exploitation 101: Art of Breaking AI",
+        description: "Charla sobre explotación de modelos de lenguaje (LLM). Exploraremos técnicas como Prompt Injections, ataques directos e indirectos, y ejecución avanzada de comandos remotos. Por Hernan Rodriguez.",
+        date: "2026-02-06",
+        time: "19:00",
+        location: "En línea",
+        city: "Lima",
+        type: "Virtual",
+        image_url: "https://secure.meetupstatic.com/photos/event/1/3/e/8/highres_527405096.jpeg?w=640",
+        registration_url: "https://www.meetup.com/es-ES/hack-the-box-meetup-lima-pe/events/312960707/",
+        tags: ["Cybersecurity", "AI", "LLM"],
+        organizer: "Hack The Box Meetup: Lima, PE"
+    },
+    {
+        title: "SQL Saturday Lima 2026",
+        description: "Prepárate para un día lleno de aprendizaje, innovación y networking en el apasionante mundo de SQL y los datos. Sesiones técnicas de alto nivel, talleres prácticos para mejorar tus habilidades y oportunidades para conectar con la comunidad de datos en Latinoamérica.",
+        date: "2026-02-07",
+        time: "09:00",
+        location: "Colegio de Ingenieros del Perú - CD Lima, C. Barcelona 290, San Isidro 15076",
+        city: "Lima",
+        type: "Presencial",
+        image_url: "https://secure.meetupstatic.com/photos/event/d/9/f/3/highres_531835795.webp?w=640",
+        registration_url: "https://www.meetup.com/es-ES/cloudexpertsc/events/312468427/",
+        tags: ["SQL", "Data", "Database"],
+        organizer: "Cloud Experts Community"
+    },
+    {
+        title: "Power Platform Bootcamp 2026 - Lima Peru",
+        description: "La comunidad BIExpert estara organizando nuevamente el Power Platform Bootcamp 2026, un evento donde hablaremos del poder de esta plataforma.",
+        date: "2026-02-21",
+        time: "09:00",
+        location: "Por confirmar",
+        city: "Lima",
+        type: "Presencial",
+        image_url: "https://secure.meetupstatic.com/photos/event/2/6/d/8/highres_531669944.webp?w=640",
+        registration_url: "https://www.meetup.com/es-ES/bi-expert/events/312340316/",
+        tags: ["Power BI", "Power Platform", "Microsoft"],
+        organizer: "BI Expert"
+    },
+    {
+        title: "Ninja Defender XDR: Microsoft Defender for Cloud",
+        description: "Únase a nosotros en una sesión y obtenga información sobre cómo Microsoft Defender for Cloud proporciona visibilidad avanzada y protección contra amenazas en sus cargas de trabajo y recursos en la nube. Descubra cómo esta solución ayuda a identificar vulnerabilidades, detectar actividades sospechosas y responder a riesgos de seguridad mediante análisis en tiempo real e inteligencia integrada.",
+        date: "2026-02-13",
+        time: "19:00",
+        location: "En línea",
+        city: "Lima",
+        type: "Virtual",
+        image_url: "https://secure.meetupstatic.com/photos/event/8/e/a/d/highres_527556525.webp?w=640",
+        registration_url: "https://www.meetup.com/es-ES/msperu/events/310802191/",
+        tags: ["Microsoft", "Security", "Cloud", "Defender"],
+        organizer: "Microsoft User Group Perú"
     }
 ];
