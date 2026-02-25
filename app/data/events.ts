@@ -169,5 +169,17 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://www.meetup.com/es-ES/msperu/events/310802191/",
         tags: ["Microsoft", "Security", "Cloud", "Defender"],
         organizer: "Microsoft User Group Perú"
+    },
+    {
+        title: "Title test",
+        description: "Esto es un test",
+        date: "2026-03-12",
+        time: "12:00",
+        location: "Lima",
+        city: "Lima",
+        type: "Presencial",
+        registration_url: "https://www.google.com",
+        tags: ["test"],
+        organizer: "Test"
     }
 ];
