@@ -67,7 +67,7 @@ export default async function Home() {
           <Link className="px-6 py-3 text-center bg-primary text-white rounded-full hover:bg-primary-hover transition" href='/events'>
             Ver próximos eventos
           </Link>
-          <Link className="px-6 py-3 text-center bg-white text-black rounded-full border border-accent hover:bg-hover dark:border-white dark:hover:bg-hover/50 transition dark:bg-black dark:text-white" target='_blank' href={addUTMParams('https://github.com/lperezp/peruanos.dev/issues/new?template=event.yml')} rel="noopener noreferrer">
+          <Link className="px-6 py-3 text-center bg-background text-foreground rounded-full border border-accent hover:bg-hover transition" target='_blank' href={addUTMParams('https://github.com/lperezp/peruanos.dev/issues/new?template=event.yml')} rel="noopener noreferrer">
             Publicar un evento
           </Link>
         </div>
@@ -182,5 +182,3 @@ export default async function Home() {
     </main>
   );
 }
-
-

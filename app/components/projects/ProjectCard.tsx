@@ -10,7 +10,7 @@ interface Props {
 
 export default function CardProject({ project }: Props) {
     return (
-        <div className="bg-background border border-accent rounded-lg p-6 flex-1 max-w-sm">
+        <div className="bg-background border border-accent rounded-lg p-6 flex-1 max-w-sm transition-all duration-300 hover:scale-[1.02] hover:shadow-md hover:border-primary/50">
             {project.language && (
                 <Badge variant="outline">{project.language}</Badge>
             )}
