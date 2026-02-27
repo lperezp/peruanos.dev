@@ -207,5 +207,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://luma.com/bs9baz59",
         tags: ["WebFlow"],
         organizer: "forHuman"
+    },
+    {
+        title: "AWS Student Community Day Perú 2026",
+        description: "¡Únete al AWS Student Community Day Perú 2026 para aprender, conectar y potenciar tu futuro en la nube!",
+        date: "2026-02-28",
+        time: "08:00",
+        location: "UTP - Torre Arequipa",
+        city: "Lima",
+        type: "Presencial",
+        image_url: "https://www.eventbrite.com/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1176342116%252F1114540439223%252F1%252Foriginal.20260131-200635%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.722%26fp-y%3D0.631%26s%3Da8647a576bd6227ba617d1165d10e4c5&w=940&q=75",
+        registration_url: "https://www.eventbrite.com/e/aws-student-community-day-peru-2026-tickets-1982081702729#location",
+        tags: ["AWS", "Cloud"],
+        organizer: "AWS Cloud Clubs UTP"
     }
 ];
