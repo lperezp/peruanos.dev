@@ -194,5 +194,18 @@ export const EVENTS: IEvent[] = [
         image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/jd/1a0adf06-7798-4234-a419-0ae4f22a03c5.png",
         registration_url: "https://luma.com/7kbstw8m?tk=QEGGxI",
         tags: ["AI", "N8N"]
+    },
+    {
+        title: "Human Sessions - Baby Steps in Webflow",
+        description: "¿Nunca tocaste Webflow? Perfecto. Este es tu momento. Human Sessions: Baby Steps in Webflow es un espacio para que des tus primeros pasos reales en una de las herramientas de diseño web más poderosas del momento. Si eres programador, diseñador, marketero o simplemente tienes curiosidad, date una vuelta por el evento, porque te vas a llevar merch. Vamos a arrancar con una demo en vivo y luego tú mismo lo practicas. No hay nivel mínimo requerido, solo curiosidad y ganas de aprender algo nuevo. 📍 Universidad César Vallejo · Lab de Redes E-303, Trujillo. Organizado por forHuman en colaboración con FOF Trujillo 🫡",
+        date: "2026-02-28",
+        time: "14:30",
+        location: "Universidad César Vallejo",
+        city: "Trujillo",
+        type: "Presencial",
+        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/0s/3cdecf81-ad8e-400d-adc0-262ed35cd63a.png",
+        registration_url: "https://luma.com/bs9baz59",
+        tags: ["WebFlow"],
+        organizer: "forHuman"
     }
 ];
