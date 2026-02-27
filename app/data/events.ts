@@ -169,5 +169,17 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://www.meetup.com/es-ES/msperu/events/310802191/",
         tags: ["Microsoft", "Security", "Cloud", "Defender"],
         organizer: "Microsoft User Group Perú"
+    },
+    {
+        title: "N8N Virtual: Crea Agentes IA con N8N Y Chatwoot",
+        description: "🚀N8N Fest: Crea Agentes de IA con n8n y Chatwoot\n​¡Arranca el n8n Fest! Únete a este webinar de apertura donde Stiven Rosales te enseñará el paso a paso para construir e integrar agentes de Inteligencia Artificial utilizando n8n y Chatwoot.\n​Este evento marca el inicio de nuestro mes dedicado a la automatización. Durante todo marzo tendremos una serie de workshops virtuales y dos grandes eventos presenciales en Lima, Perú. Si planeas asistir a las fechas físicas en Lima, es fundamental que participes en este webinar para entrar en sintonía.",
+        date: "2026-02-27",
+        time: "19:00",
+        location: "Virtual",
+        city: "Lima",
+        type: "Virtual",
+        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/jd/1a0adf06-7798-4234-a419-0ae4f22a03c5.png",
+        registration_url: "https://luma.com/7kbstw8m?tk=QEGGxI",
+        tags: ["AI", "N8N"]
     }
 ];
