@@ -171,6 +171,44 @@ export const EVENTS: IEvent[] = [
         organizer: "Microsoft User Group Perú"
     },
     {
+        title: "AI Dev Peru Meetup #2",
+        description: "Si estás trabajando en agentes, explorando RAG o quieres entender cómo estructurar mejor la memoria de tus proyectos de IA… este meetup es para ti.",
+        date: "2026-02-27",
+        time: "19:00",
+        location: "Virtual",
+        city: "Lima",
+        type: "Virtual",
+        image_url: "https://instagram.flim3-3.fna.fbcdn.net/v/t51.82787-15/639706334_17854626468670000_1907835784388985156_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_cb=04374bf5-9763b1f0&ig_cache_key=Mzg0MDUxOTUxODI4ODgwMTk1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzMifQ%3D%3D&_nc_ohc=4QGamX-71ZkQ7kNvwG8bGOP&_nc_oc=Adn4DhthARdNoiao1hheUtNUwtMY0_nwk2YKwpV9NAKSmywoLQ1SgZWfrIGyJsKWGvw&_nc_ad=z-m&_nc_cid=1549&_nc_zt=23&_nc_ht=instagram.flim3-3.fna&_nc_gid=vS4gLwMQMu372jp8sk8hGA&oh=00_AfshhChxe_5dWOhebHbK8-DK-jX5rRrTwlRWchan9pv8_g&oe=69A7C8FA",
+        registration_url: "https://www.youtube.com/watch?v=wJTFnmC9s5s",
+        tags: ["AI", "RAG"],
+        organizer: "AI Dev Peru"
+    },
+    {
+        title: "N8N Virtual: Crea Agentes IA con N8N Y Chatwoot",
+        description: "🚀N8N Fest: Crea Agentes de IA con n8n y Chatwoot\n​¡Arranca el n8n Fest! Únete a este webinar de apertura donde Stiven Rosales te enseñará el paso a paso para construir e integrar agentes de Inteligencia Artificial utilizando n8n y Chatwoot.\n​Este evento marca el inicio de nuestro mes dedicado a la automatización. Durante todo marzo tendremos una serie de workshops virtuales y dos grandes eventos presenciales en Lima, Perú. Si planeas asistir a las fechas físicas en Lima, es fundamental que participes en este webinar para entrar en sintonía.",
+        date: "2026-02-27",
+        time: "19:00",
+        location: "Virtual",
+        city: "Lima",
+        type: "Virtual",
+        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/jd/1a0adf06-7798-4234-a419-0ae4f22a03c5.png",
+        registration_url: "https://luma.com/7kbstw8m?tk=QEGGxI",
+        tags: ["AI", "N8N"]
+    },
+    {
+        title: "Human Sessions - Baby Steps in Webflow",
+        description: "¿Nunca tocaste Webflow? Perfecto. Este es tu momento. Human Sessions: Baby Steps in Webflow es un espacio para que des tus primeros pasos reales en una de las herramientas de diseño web más poderosas del momento. Si eres programador, diseñador, marketero o simplemente tienes curiosidad, date una vuelta por el evento, porque te vas a llevar merch. Vamos a arrancar con una demo en vivo y luego tú mismo lo practicas. No hay nivel mínimo requerido, solo curiosidad y ganas de aprender algo nuevo. 📍 Universidad César Vallejo · Lab de Redes E-303, Trujillo. Organizado por forHuman en colaboración con FOF Trujillo 🫡",
+        date: "2026-02-28",
+        time: "14:30",
+        location: "Universidad César Vallejo",
+        city: "Trujillo",
+        type: "Presencial",
+        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/0s/3cdecf81-ad8e-400d-adc0-262ed35cd63a.png",
+        registration_url: "https://luma.com/bs9baz59",
+        tags: ["WebFlow"],
+        organizer: "forHuman"
+    },
+    {
         title: "AWS Student Community Day Perú 2026",
         description: "¡Únete al AWS Student Community Day Perú 2026 para aprender, conectar y potenciar tu futuro en la nube!",
         date: "2026-02-28",
