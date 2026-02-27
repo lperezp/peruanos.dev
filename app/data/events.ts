@@ -171,6 +171,19 @@ export const EVENTS: IEvent[] = [
         organizer: "Microsoft User Group Perú"
     },
     {
+        title: "AI Dev Peru Meetup #2",
+        description: "Si estás trabajando en agentes, explorando RAG o quieres entender cómo estructurar mejor la memoria de tus proyectos de IA… este meetup es para ti.",
+        date: "2026-02-27",
+        time: "19:00",
+        location: "Virtual",
+        city: "Lima",
+        type: "Virtual",
+        image_url: "https://instagram.flim3-3.fna.fbcdn.net/v/t51.82787-15/639706334_17854626468670000_1907835784388985156_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_cb=04374bf5-9763b1f0&ig_cache_key=Mzg0MDUxOTUxODI4ODgwMTk1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzMifQ%3D%3D&_nc_ohc=4QGamX-71ZkQ7kNvwG8bGOP&_nc_oc=Adn4DhthARdNoiao1hheUtNUwtMY0_nwk2YKwpV9NAKSmywoLQ1SgZWfrIGyJsKWGvw&_nc_ad=z-m&_nc_cid=1549&_nc_zt=23&_nc_ht=instagram.flim3-3.fna&_nc_gid=vS4gLwMQMu372jp8sk8hGA&oh=00_AfshhChxe_5dWOhebHbK8-DK-jX5rRrTwlRWchan9pv8_g&oe=69A7C8FA",
+        registration_url: "https://www.youtube.com/watch?v=wJTFnmC9s5s",
+        tags: ["AI", "RAG"],
+        organizer: "AI Dev Peru"
+    },
+    {
         title: "N8N Virtual: Crea Agentes IA con N8N Y Chatwoot",
         description: "🚀N8N Fest: Crea Agentes de IA con n8n y Chatwoot\n​¡Arranca el n8n Fest! Únete a este webinar de apertura donde Stiven Rosales te enseñará el paso a paso para construir e integrar agentes de Inteligencia Artificial utilizando n8n y Chatwoot.\n​Este evento marca el inicio de nuestro mes dedicado a la automatización. Durante todo marzo tendremos una serie de workshops virtuales y dos grandes eventos presenciales en Lima, Perú. Si planeas asistir a las fechas físicas en Lima, es fundamental que participes en este webinar para entrar en sintonía.",
         date: "2026-02-27",
