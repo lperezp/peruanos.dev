@@ -220,5 +220,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://www.eventbrite.com/e/aws-student-community-day-peru-2026-tickets-1982081702729#location",
         tags: ["AWS", "Cloud"],
         organizer: "AWS Cloud Clubs UTP"
+    },
+    {
+        title: "Human Sessions - Lorem ipsum '26",
+        description: "​Lima no es el Perú.\n​Y por eso estamos acá 🫡\n​forHuman llega a Chimbote para hacer lo que mejor sabemos: reunir personas, generar conversación real y co-crear experiencias que tengan sentido para quienes vivimos fuera de la capital.\n​Esta noche es simple: nos presentamos, nos conocemos, y hablamos de lo que nos está pasando con la IA, el trabajo, el futuro y todo lo que no cabe en un hilo de Twitter.\n​Habrá networking, habrá catarsis, y habrá espacio para imaginar juntos qué puede pasar cuando una comunidad decide construir algo propio.\n​Lorem Ipsum '26 es el comienzo del forHuman Tour por el norte del Perú. Y Chimbote es la primera parada 😎",
+        date: "2026-02-27",
+        time: "19:00",
+        location: "Jirón Guillermo Moore 236",
+        city: "Chimbote",
+        type: "Presencial",
+        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/uz/23ead35b-57b5-4b69-b12b-aec5e339eb7f.png",
+        registration_url: "https://luma.com/090w891j",
+        tags: ["AI", "Comunidad"],
+        organizer: "forHuman"
     }
 ];
