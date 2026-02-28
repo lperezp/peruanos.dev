@@ -246,5 +246,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://wtmayacucho.tech/",
         tags: ["Liderazgo", "Innovación"],
         organizer: "Women Techmakers Ayacucho"
+    },
+    {
+        title: "Women Build Summit",
+        description: "Este sábado 7 de marzo llega el 🟣⚡ 𝗪𝗢𝗠𝗘𝗡 𝗕𝗨𝗜𝗟𝗗 𝗦𝗨𝗠𝗠𝗜𝗧, un espacio gratuito para mujeres en tecnología que quieren crecer, conectar y abrir nuevas oportunidades de verdad.",
+        date: "2026-03-07",
+        time: "15:00",
+        location: "Gran Teatro UNI, Av. Túpac Amaru 280, Lima 15333, Perú",
+        city: "Lima",
+        type: "Presencial",
+        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/09/7461b3e2-f104-4fae-bf5f-91fa6291a233.png",
+        registration_url: "https://luma.com/ziz7wesi",
+        tags: ["Tech"],
+        organizer: "Soleil Kamitto Nuñez Pumacallahui & 6 others"
     }
 ];
