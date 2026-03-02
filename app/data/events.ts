@@ -259,5 +259,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://luma.com/ziz7wesi",
         tags: ["Tech"],
         organizer: "Soleil Kamitto Nuñez Pumacallahui & 6 others"
+    },
+    {
+        title: "Transforma tu trabajo con Notion",
+        description: "¿Sientes que el potencial de tu equipo o de tu proyecto se pierde entre archivos dispersos y procesos lentos? Es hora de centralizar. 🧠✨\nEn Transforma tu trabajo con Notion, vamos a ir más allá de las notas simples. Exploraremos cómo esta herramienta está revolucionando desde la creación de negocios digitales hasta la gestión en el sector público y las aulas. Ven a descubrir cómo convertir a Notion en el motor de tu productividad.",
+        date: "2026-03-14",
+        time: "18:00",
+        location: "San Isidro",
+        city: "Lima",
+        type: "Presencial",
+        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/j7/db3092ab-b3ca-4043-86a1-fc0838d9db43.jpg",
+        registration_url: "https://luma.com/67pvhxje",
+        tags: ["Notion"],
+        organizer: "Notion Perú"
     }
 ];
