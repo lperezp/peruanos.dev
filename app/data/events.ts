@@ -298,5 +298,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://gdg.community.dev/events/details/google-gdg-arequipa-presents-iwd-arequipa-2026-breaking-the-pattern/",
         tags: ["Conferencia"],
         organizer: "GDG Arequipa"
+    },
+    {
+        title: "AI Developer Day: Build with AI 2026",
+        description: "La inteligencia artificial está transformando la manera en que construimos tecnología, ¿estás listo para ser parte? 😉\nAI Developer Day: Build with AI es un evento para desarrolladores, estudiantes y profesionales tech que quieren aprender, experimentar y construir con IA usando el ecosistema de Google.\nDurante la jornada exploraremos herramientas como Gemini, Vertex AI y Google AI Studio, a través de charlas y workshops. Hablaremos de agentes inteligentes, modelos generativos, visión por computadora, procesamiento del lenguaje natural y cómo llevar soluciones de IA del prototipo a producción.",
+        date: "2026-04-11",
+        time: "09:00",
+        location: "UPC Campus San Isidro 2255 Avenida General Felipe Salaverry San Isidro, 15076",
+        city: "Lima",
+        type: "Presencial",
+        image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_AbDRnP6",
+        registration_url: "https://ai-developer-day-2026.vercel.app/",
+        tags: ["AI", "Gemini", "Angular", "Firebase", "Flutter", "Web"],
+        organizer: "GDG Callao"
     }
 ];
