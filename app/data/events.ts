@@ -311,5 +311,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://ai-developer-day-2026.vercel.app/",
         tags: ["AI", "Gemini", "Angular", "Firebase", "Flutter", "Web"],
         organizer: "GDG Callao"
+    },
+    {
+        title: "Desplegando Agentes IA con Google Cloud Tools",
+        description: "En esta sesión técnica, exploraremos cómo llevar un agente conversacional de Inteligencia Artificial desde el código fuente hasta producción mediante una arquitectura moderna, desacoplada y escalable. Aprenderemos a integrar el poder de los modelos generativos de Google (Gemini 3.0 Flash) utilizando herramientas nativas para la automatización de la infraestructura.",
+        date: "2026-03-14",
+        time: "09:00",
+        location: "Universidad Tecnológica Del Perú 1 Anexo Andrés Avelino Cáceres Piura, 20001",
+        city: "Piura",
+        type: "Presencial",
+        image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_PdngdwI",
+        registration_url: "https://gdg.community.dev/events/details/google-gdg-piura-presents-desplegando-agentes-ia-con-google-cloud-tools/",
+        tags: ["AI"],
+        organizer: "GDG Piura"
     }
 ];
