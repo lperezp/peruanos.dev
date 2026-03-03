@@ -274,6 +274,19 @@ export const EVENTS: IEvent[] = [
         organizer: "Notion Perú"
     },
     {
+        title: "Mujeres Open Power Lima: Conectando mundos",
+        description: "Mujeres Open Power nace como un espacio para reunir a mujeres que están creando, liderando y transformando sus propios caminos. Emprendedoras que están construyendo negocios, Profesionales que están expandiendo su impacto, Fundadoras que están abriendo nuevas posibilidades. Este no es un evento de networking tradicional. Es un espacio diseñado intencionalmente para generar conexiones reales, profundas y significativas.",
+        date: "2026-03-05",
+        time: "18:00",
+        location: "Av. República de Panamá 3591, San Isidro (Oficinas de Globant)",
+        city: "Lima",
+        type: "Presencial",
+        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/uk/c7875575-e401-41db-b8ee-fc0c3b675250.png",
+        registration_url: "https://luma.com/0929xmku",
+        tags: ["Tech", "Wellness", "Liderazgo"],
+        organizer: "Women Biz"
+    },
+    {
         title: "IWD Arequipa 2026: Breaking the Pattern",
         description: "Únete a nosotros en \"IWD Arequipa: Breaking the Pattern\" donde conmemoramos el Día Internacional de la Mujer. Este evento busca desafiar convenciones y cuestionar patrones existentes en la tecnológica, fomentando un ambiente inclusivo y equitativo para todas y todos. Será una jornada inspiradora llena de charlas y espacios de networking. No te pierdas la oportunidad de ser parte del cambio y empoderar a mujeres talentosas en nuestro campo. ¡Te esperamos para hacer la diferencia juntos! Inscríbete ahora y suma tu voz para transformar nuestro entorno.",
         date: "2026-03-28",
