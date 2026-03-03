@@ -272,5 +272,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://luma.com/67pvhxje",
         tags: ["Notion"],
         organizer: "Notion Perú"
+    },
+    {
+        title: "Mujeres Open Power Lima: Conectando mundos",
+        description: "Mujeres Open Power nace como un espacio para reunir a mujeres que están creando, liderando y transformando sus propios caminos. Emprendedoras que están construyendo negocios, Profesionales que están expandiendo su impacto, Fundadoras que están abriendo nuevas posibilidades. Este no es un evento de networking tradicional. Es un espacio diseñado intencionalmente para generar conexiones reales, profundas y significativas.",
+        date: "2026-03-05",
+        time: "18:00",
+        location: "Av. República de Panamá 3591, San Isidro (Oficinas de Globant)",
+        city: "Lima",
+        type: "Presencial",
+        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/uk/c7875575-e401-41db-b8ee-fc0c3b675250.png",
+        registration_url: "https://luma.com/0929xmku",
+        tags: ["Tech", "Wellness", "Liderazgo"],
+        organizer: "Women Biz"
     }
 ];
