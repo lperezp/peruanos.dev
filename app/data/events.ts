@@ -285,5 +285,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://luma.com/0929xmku",
         tags: ["Tech", "Wellness", "Liderazgo"],
         organizer: "Women Biz"
+    },
+    {
+        title: "IWD Arequipa 2026: Breaking the Pattern",
+        description: "Únete a nosotros en \"IWD Arequipa: Breaking the Pattern\" donde conmemoramos el Día Internacional de la Mujer. Este evento busca desafiar convenciones y cuestionar patrones existentes en la tecnológica, fomentando un ambiente inclusivo y equitativo para todas y todos. Será una jornada inspiradora llena de charlas y espacios de networking. No te pierdas la oportunidad de ser parte del cambio y empoderar a mujeres talentosas en nuestro campo. ¡Te esperamos para hacer la diferencia juntos! Inscríbete ahora y suma tu voz para transformar nuestro entorno.",
+        date: "2026-03-28",
+        time: "09:00",
+        location: "Tecsup, José Luis Bustamante, 04009",
+        city: "Arequipa",
+        type: "Presencial",
+        image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/IWD%20Arequipa%20-%20Break%20the%20Pattern%20WTM_Style%20Guide_KNWJewj.png",
+        registration_url: "https://gdg.community.dev/events/details/google-gdg-arequipa-presents-iwd-arequipa-2026-breaking-the-pattern/",
+        tags: ["Conferencia"],
+        organizer: "GDG Arequipa"
     }
 ];
