@@ -324,5 +324,66 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://gdg.community.dev/events/details/google-gdg-piura-presents-desplegando-agentes-ia-con-google-cloud-tools/",
         tags: ["AI"],
         organizer: "GDG Piura"
+    },
+    {
+        title: "BBVA Talks 💙: Liderazgo Femenino",
+        description: "¡Sé parte de nuestra siguiente edición de \"BBVA Talks\"! Te invitamos a participar en una experiencia en nuestra Universidad Corporativa \"Campus BBVA\", donde te llevarás grandes conocimientos y podrás recorrer algunas de nuestras instalaciones. En esta oportunidad, contaremos con la participación especial de Mónica Nureña, Estrella Espinosa y Marta Cadenas, tres líderes de nuestra organización que te compartirán su trayectoria y cómo empoderarte profesionalmente.",
+        date: "2026-03-04",
+        time: "19:00",
+        location: "Campus BBVA",
+        city: "Lima",
+        type: "Híbrido",
+        registration_url: "https://docs.google.com/forms/d/e/1FAIpQLSfRHEK0PoLN4evPDKZg2j7qjnNV6BQqUXzS0TPyPBuFLaxJSA/viewform?pli=1",
+        tags: ["Liderazgo", "Tech"],
+        organizer: "BBVA en Perú"
+    },
+    {
+        title: "MUJERES DE IMPACTO 2026",
+        description: "Evento dirigido a Ingenieras Colegiadas y público en general para conmemorar el impacto de las mujeres en la ingeniería.",
+        date: "2026-03-04",
+        time: "08:00",
+        location: "Auditorio principal en Calle Barcelona N° 240 - San Isidro",
+        city: "Lima",
+        type: "Presencial",
+        registration_url: "https://docs.google.com/forms/d/e/1FAIpQLSe2d6tsiimQrLXcF5VjJXl0SZGJDR5oh9ZZerTnk1gkBv5LBw/viewform",
+        tags: ["Ingeniería", "Liderazgo"],
+        organizer: "Colegio de Ingenieros del Perú - CDLIMA"
+    },
+    {
+        title: "Women Leading Innovation Latam 2026",
+        description: "El Women Leading Innovation LATAM es un espacio de alto nivel que reúne a mujeres referentes en innovación y tecnología en América Latina para compartir experiencias, aprendizajes y visión estratégica, fortaleciendo la articulación entre academia, empresa y ecosistema emprendedor.",
+        date: "2026-03-05",
+        time: "10:00",
+        location: "Coworking 1551 Incubadora de Empresas Innovadoras de la UNMSM, Ciudad Universitaria UNMSM, Calle Germán Amezaga N° 375",
+        city: "Lima",
+        type: "Presencial",
+        registration_url: "https://docs.google.com/forms/d/e/1FAIpQLSfT5Oxd30QiDVFQNVIyoYYhOBFwoIih5dWoncV0wyNiTqZ4hg/viewform",
+        tags: ["Innovación", "Tech", "Emprendimiento"],
+        organizer: "1551 Incubadora de Empresas Innovadoras de la UNMSM"
+    },
+    {
+        title: "Visionarias del dato: Innovación, ética y liderazgo femenino en la era de la IA",
+        description: "En conmemoración del Día Internacional de la Mujer. Sesiones Virtuales 02 al 06 de marzo (18:00 – 21:00 h) y Clausura Presencial Sábado 07 de marzo (11:00 – 14:15 h) en el Auditorio Ricardo Palma.",
+        date: "2026-03-07",
+        time: "18:00",
+        location: "Virtual y Auditorio Ricardo Palma",
+        city: "Lima",
+        type: "Híbrido",
+        registration_url: "https://idia.com.pe/eventos/registro-visionarias.html",
+        tags: ["IA", "Datos", "Ética", "Liderazgo"],
+        organizer: "IDIA y Data Ladies URP"
+    },
+    {
+        title: "Mujeres Open Power Ica: Conectando mundos🌎",
+        description: "¡LAS MUJERES QUE CAMBIAN EL MUNDO, PRIMERO SE CONECTAN ENTRE ELLAS! 🌎 Mujeres Open Power nace como un espacio para reunir a mujeres que están creando, liderando y transformando sus propios caminos. Emprendedoras, Profesionales y Fundadoras conectando en la ciudad de ICA.",
+        date: "2026-03-07",
+        time: "10:00",
+        location: "Calle Pedro Olaechea 285, Ica - Cámara de Comercio y Turismo de Ica",
+        city: "Ica",
+        type: "Presencial",
+        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/ct/b3a203f1-fb06-4430-99d9-013aef20b974.png",
+        registration_url: "https://luma.com/0fujae7p",
+        tags: ["Tech", "Wellness", "Liderazgo"],
+        organizer: "Women Biz"
     }
 ];
