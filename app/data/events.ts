@@ -385,5 +385,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://luma.com/0fujae7p",
         tags: ["Tech", "Wellness", "Liderazgo"],
         organizer: "Women Biz"
+    },
+    {
+        title: "N8N Meetup: Agentes AI con N8N y Chatwoot",
+        description: "Únete a nosotros para un emocionante meetup donde exploraremos cómo integrar WhatsApp con N8N y Chatwoot. Esta sesión está diseñada para desarrolladores, entusiastas de la automatización y cualquier persona interesada en mejorar la comunicación empresarial con flujos de trabajo automatizados. En colaboración con la comunidad Data Hackers, descubriremos juntos las mejores prácticas, compartiremos casos de uso y realizaremos una demostración en vivo para que puedas empezar a construir tus propios flujos de trabajo.",
+        date: "2026-02-27",
+        time: "19:00",
+        location: "Universidad Peruana de Ciencias Aplicadas",
+        city: "Lima",
+        type: "Híbrido",
+        image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_DefaultEventThumbnail_2_va1kAS9.png",
+        registration_url: "https://gdg.community.dev/events/details/google-gdg-open-presents-n8n-meetup-agentes-ai-con-n8n-y-chatwoot/",
+        tags: ["AI", "N8N", "WhatsApp", "Automation"],
+        organizer: "GDG Open"
     }
 ];
