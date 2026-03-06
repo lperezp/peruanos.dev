@@ -398,5 +398,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://gdg.community.dev/events/details/google-gdg-open-presents-n8n-meetup-agentes-ai-con-n8n-y-chatwoot/",
         tags: ["AI", "N8N", "WhatsApp", "Automation"],
         organizer: "GDG Open"
+    },
+    {
+        title: "Iterando en Femenino",
+        description: "Un espacio para conectar y compartir entre mujeres de Agilidad, Diseño, Tecnología y Data & IA. Evento organizado con Agile Perú.",
+        date: "2026-03-14",
+        time: "08:30",
+        location: "UPC - Campus San Miguel",
+        city: "Lima",
+        type: "Presencial",
+        image_url: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178972340%2F271304262338%2F1%2Foriginal.20260304-021140?w=480&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1600%2C800&s=190be262e0e30f316366ccf5782709f3",
+        registration_url: "https://www.eventbrite.com.pe/e/iterando-en-femenino-tickets-1984436467895",
+        tags: ["Agilidad", "Diseño", "Tecnología", "IA"],
+        organizer: "Más mujeres en UX Perú"
     }
 ];
