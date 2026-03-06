@@ -242,7 +242,7 @@ export const EVENTS: IEvent[] = [
         location: "Centro Cultural UNSCH",
         city: "Ayacucho",
         type: "Presencial",
-        image_url: "https://instagram.flim15-1.fna.fbcdn.net/v/t39.30808-6/628115727_122155098020739316_3276477073991300334_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_cb=04374bf5-9763b1f0&ig_cache_key=MzgyNTg0NjM4NTk1NDk2MjM2NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjk0MHg3ODguc2RyLkMzIn0%3D&_nc_ohc=TnqhfuQ58jAQ7kNvwFaV5bM&_nc_oc=Adm6m6FIG8zVBCkn6Id6Nk16P-YJIPVHp59D4WK6zz6lCdTKHk_rRzLwCiu0LPFjB0UIvWB6OSWEBjtv0lGTmfoE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.flim15-1.fna&_nc_gid=5Hf_l4wlfRobbvkueBjpOw&_nc_ss=8&oh=00_AfvG2JsRldSJmlIxHilfoDUKAOyKTTnEBtNK3dG3RlPWDg&oe=69A8D36B",
+        image_url: "https://wtmayacucho.tech/images/Logo_break_the_pattern.png",
         registration_url: "https://wtmayacucho.tech/",
         tags: ["Liderazgo", "Innovación"],
         organizer: "Women Techmakers Ayacucho"
