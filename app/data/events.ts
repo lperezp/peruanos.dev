@@ -398,5 +398,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://gdg.community.dev/events/details/google-gdg-open-presents-n8n-meetup-agentes-ai-con-n8n-y-chatwoot/",
         tags: ["AI", "N8N", "WhatsApp", "Automation"],
         organizer: "GDG Open"
+    },
+    {
+        title: "GitHub Copilot Dev Days | Lima (Cloud Experts Community)",
+        description: "GitHub Copilot Dev Days es una iniciativa comunitaria global y presencial que se celebrará del 15 de marzo al 30 de abril. Nosotros como comunidad lo celebraremos el 28 de marzo. Nuestro objetivo es reunir a desarrolladores, entusiastas y comunidades locales para explorar el potencial de GitHub Copilot con materiales de formación gratuitos y de alta calidad. Contaremos con materiales de formación que cubrirán GitHub Copilot en VS Code en múltiples lenguajes de programación, GitHub Copilot en Visual Studio, Xcode, Eclipse, la CLI de GitHub Copilot y mucho más.",
+        date: "2026-03-28",
+        time: "09:00",
+        location: "UPC Campus San Isidro",
+        city: "Lima",
+        type: "Presencial",
+        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,anim=false,background=white,quality=75,width=500,height=500/event-covers/di/977b2bc8-639d-4de9-aa02-142b0412f48a.png",
+        registration_url: "https://luma.com/ze8sf4kq?tk=8Sr06Q",
+        tags: ["AI", "GitHub Copilot"],
+        organizer: "Cloud Experts Community"
     }
 ];
