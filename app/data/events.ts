@@ -242,7 +242,7 @@ export const EVENTS: IEvent[] = [
         location: "Centro Cultural UNSCH",
         city: "Ayacucho",
         type: "Presencial",
-        image_url: "https://instagram.flim15-1.fna.fbcdn.net/v/t39.30808-6/628115727_122155098020739316_3276477073991300334_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_cb=04374bf5-9763b1f0&ig_cache_key=MzgyNTg0NjM4NTk1NDk2MjM2NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjk0MHg3ODguc2RyLkMzIn0%3D&_nc_ohc=TnqhfuQ58jAQ7kNvwFaV5bM&_nc_oc=Adm6m6FIG8zVBCkn6Id6Nk16P-YJIPVHp59D4WK6zz6lCdTKHk_rRzLwCiu0LPFjB0UIvWB6OSWEBjtv0lGTmfoE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.flim15-1.fna&_nc_gid=5Hf_l4wlfRobbvkueBjpOw&_nc_ss=8&oh=00_AfvG2JsRldSJmlIxHilfoDUKAOyKTTnEBtNK3dG3RlPWDg&oe=69A8D36B",
+        image_url: "https://wtmayacucho.tech/images/Logo_break_the_pattern.png",
         registration_url: "https://wtmayacucho.tech/",
         tags: ["Liderazgo", "Innovación"],
         organizer: "Women Techmakers Ayacucho"
@@ -398,6 +398,19 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://gdg.community.dev/events/details/google-gdg-open-presents-n8n-meetup-agentes-ai-con-n8n-y-chatwoot/",
         tags: ["AI", "N8N", "WhatsApp", "Automation"],
         organizer: "GDG Open"
+    },
+    {
+        title: "Iterando en Femenino",
+        description: "Un espacio para conectar y compartir entre mujeres de Agilidad, Diseño, Tecnología y Data & IA. Evento organizado con Agile Perú.",
+        date: "2026-03-14",
+        time: "08:30",
+        location: "UPC - Campus San Miguel",
+        city: "Lima",
+        type: "Presencial",
+        image_url: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178972340%2F271304262338%2F1%2Foriginal.20260304-021140?w=480&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1600%2C800&s=190be262e0e30f316366ccf5782709f3",
+        registration_url: "https://www.eventbrite.com.pe/e/iterando-en-femenino-tickets-1984436467895",
+        tags: ["Agilidad", "Diseño", "Tecnología", "IA"],
+        organizer: "Más mujeres en UX Perú"
     },
     {
         title: "GitHub Copilot Dev Days | Lima (Cloud Experts Community)",
