@@ -424,5 +424,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://luma.com/ze8sf4kq?tk=8Sr06Q",
         tags: ["AI", "GitHub Copilot"],
         organizer: "Cloud Experts Community"
+    },
+    {
+        title: "LEAD TALENT SHOWCASE",
+        description: "¿Listo para el siguiente nivel de tu carrera? LEAD Talent Showcase es el punto de encuentro definitivo para el talento joven más prometedor. Conecta con los miembros más destacados de diversos chapters de LEAD Peru y descubre, a través de sus historias de éxito, la hoja de ruta real para tu futuro profesional.",
+        date: "2026-03-07",
+        time: "15:00",
+        location: "UTP - Torre Arequipa",
+        city: "Lima",
+        type: "Presencial",
+        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,anim=false,background=white,quality=75,width=500,height=500/event-covers/4f/e382ae24-9583-4590-ba1c-08a68fa09ba5.png",
+        registration_url: "https://luma.com/d9vlwfq5",
+        tags: ["Tech"],
+        organizer: "LEAD UTP"
     }
 ];
