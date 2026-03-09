@@ -437,5 +437,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://luma.com/d9vlwfq5",
         tags: ["Tech"],
         organizer: "LEAD UTP"
+    },
+    {
+        title: "Meetup #7 de AWS UG Arequipa - Virtual",
+        description: "La comunidad de AWS User Group Arequipa esta creciendo y queremos invitarte a nuestro Septimo Meetup; en modo virtual; del 2026: un espacio para aprender, compartir conocimientos y conectar con otros apasionados por la nube. En esta edición contaremos con charlas sobre AWS DMS para alimentar un data lake y los 50 términos de LLM que debes conocer en AWS.",
+        date: "2026-03-13",
+        time: "18:00",
+        location: "Virtual",
+        city: "Arequipa",
+        type: "Virtual",
+        image_url: "https://secure.meetupstatic.com/photos/event/2/7/0/b/highres_533109995.jpeg",
+        registration_url: "https://www.meetup.com/aws-user-group-arequipa/events/313704973/",
+        tags: ["AWS", "Data & Analytics", "AI", "ML"],
+        organizer: "AWS User Group Arequipa"
     }
 ];
