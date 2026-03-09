@@ -450,5 +450,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://www.meetup.com/aws-user-group-arequipa/events/313704973/",
         tags: ["AWS", "Data & Analytics", "AI", "ML"],
         organizer: "AWS User Group Arequipa"
+    },
+    {
+        title: "Lanzamiento 🚀 IRF 2026",
+        description: "​🚀 𝗘𝗹 𝘁𝗮𝗹𝗲𝗻𝘁𝗼 𝗻𝗮𝗰𝗲 𝗲𝗻 𝗻𝘂𝗲𝘀𝘁𝗿𝗮𝘀 𝗿𝗲𝗴𝗶𝗼𝗻𝗲𝘀.\n\n​Este 15.03.26 | 22:00 lanzamos el IRF 2026, un programa híbrido para estudiantes de educación superior de regiones que los prepara con habilidades de vanguardia, tecnología y conexiones para convertir ideas en soluciones reales para sus territorios.\n\n​Año a año, este viaje inicia en una región del Perú y termina en Lima. Acompáñanos a descubrir cuál será la región anfitriona del 2026.",
+        date: "2026-03-15",
+        time: "22:00",
+        location: "Virtual",
+        city: "Lima",
+        type: "Virtual",
+        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/9l/ca3d2d30-5725-4d59-b8d7-732dd4449ebe.png",
+        registration_url: "https://luma.com/umnm1fxi",
+        tags: ["Tech", "Emprendimiento"],
+        organizer: "Impact Spinout"
     }
 ];
