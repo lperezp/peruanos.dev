@@ -319,5 +319,32 @@ export const COMMUNITIES: ICommunity[] = [
                 "instagram": "https://www.instagram.com/aws.cloud.club/"
             }
         }
+    },
+    {
+        "name": "Google Developers Group Open",
+        "description": "GDG Open es un espacio vibrante y abierto para los apasionados de las tecnologías AI, Cloud, Mobile y Web. Queremos que seas parte de esta comunidad donde compartir y aprender es lo primero.",
+        "logo_url": "https://avatars.githubusercontent.com/u/4676241?s=280&v=4",
+        "city": "Lima",
+        "topics": [
+            "Mobile",
+            "Cloud",
+            "Web",
+            "Flutter/Kotlin",
+            "Kubernetes",
+            "AI"
+        ],
+        "contact": {
+            "email": "gdgopenlima@gmail.com",
+            "website": "https://devfestlima.pe/",
+            "socialMedia": {
+                "github": "https://github.com/GDGOpenLima",
+                "twitter": "",
+                "linkedin": "https://www.linkedin.com/company/gdg-open-lima/",
+                "discord": "",
+                "facebook": "",
+                "youtube": "",
+                "instagram": ""
+            }
+        }
     }
 ];
