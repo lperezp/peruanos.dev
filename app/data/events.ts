@@ -463,5 +463,83 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://luma.com/umnm1fxi",
         tags: ["Tech", "Emprendimiento"],
         organizer: "Impact Spinout"
+    },
+    {
+        title: "GDG Open Day: Google AppSheet: Del No Code a la Integración con IA",
+        description: "Únete a nuestro emocionante evento donde exploraremos cómo Google AppSheet está revolucionando el desarrollo de aplicaciones no code. Aprenderemos a elaborar soluciones rápidas y efectivas, y daremos un paso más allá integrando inteligencia artificial en nuestras aplicaciones. Este taller está diseñado para que tanto principiantes como usuarios avanzados descubran nuevas formas de optimizar sus proyectos sin necesidad de escribir una sola línea de código. ¡Es la oportunidad perfecta para despegar tus habilidades al siguiente nivel! No te lo pierdas, las plazas son limitadas. ¡Síguenos para más detalles y asegura tu lugar!",
+        date: "2026-03-13",
+        time: "17:00",
+        location: "Virtual",
+        city: "Lima",
+        type: "Virtual",
+        image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_900,q_auto:good,w_1200/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_SocialSharingThumbnail_KFxxrrs.png",
+        registration_url: "https://gdg.community.dev/events/details/google-gdg-open-presents-gdg-open-day-google-appsheet-del-no-code-a-la-integracion-con-ia/",
+        tags: ["AI", "AppSheet", "GDG", "Google", "No-Code"],
+        organizer: "GDG Open"
+    },
+    {
+        title: "GDG Open Day: Diseño, luego existo - Desarrollando con API-First",
+        description: "Únete a nosotros para un taller único titulado 'Diseño, luego existo: El mantra del desarrollo API-First', donde exploraremos los cimientos del diseño de APIs antes del desarrollo. Descubre cómo este enfoque puede optimizar la creación de software, mejorar la colaboración entre equipos y brindar resultados más eficientes. En este evento práctico y colaborativo, aprenderás de la experiencia de expertos locales y participarás en actividades donde podrás aplicar lo aprendido a situaciones reales. No importa si eres un principiante o un desarrollador experimentado, esta es una oportunidad perfecta para expandir tus habilidades y conectarte con otros profesionales del área. ¡Confirma tu participación ahora y forma parte de la transformación tecnológica! No te pierdas la oportunidad de crecer junto a nuestra comunidad. Sigue nuestro perfil para más novedades y si te interesa compartir tus conocimientos en próximos meetups escríbenos. ¡Esperamos verte allí!",
+        date: "2026-03-13",
+        time: "18:00",
+        location: "Virtual",
+        city: "Lima",
+        type: "Virtual",
+        image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/event_banners/GDG_Bevy_DefaultEventThumbnail_2_rErq7xD.png",
+        registration_url: "https://gdg.community.dev/events/details/google-gdg-open-presents-gdg-open-day-diseno-luego-existo-desarrollando-con-api-first/",
+        tags: ["AI", "API", "GDG", "Google"],
+        organizer: "GDG Open"
+    },
+    {
+        title: "GDG Open Day: Evitando Aplicaciones Frankenstein generadas por AI Coding usando SDD y Antigravity",
+        description: "Acompáñanos en una sesión dinámica titulada 'Construyendo Software Sostenible con IA: Evitando las Apps Frankenstein' . Adéntrate en el mundo del AI Coding y descubre cómo aprovechar su potencia de manera eficiente con la ayuda de Documentos de Diseño de Software (SDD) y herramientas de Antigravity . Exploraremos cómo el Diseño Orientado al Dominio (DDD) y los SDD pueden evitar que tu código se vuelva inmanejable, asegurando que tus sistemas sean robustos y fáciles de mantener. Este es un evento imperdible para desarrolladores interesados en dominar el desarrollo de software sostenible en la era de la inteligencia artificial. No te pierdas esta oportunidad de expandir tus habilidades y conectar con profesionales con tus mismos intereses. ¡Síguenos para recibir actualizaciones y marca tu calendario para esta experiencia reveladora!",
+        date: "2026-03-16",
+        time: "21:00",
+        location: "Virtual",
+        city: "Lima",
+        type: "Virtual",
+        image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/event_banners/GDG_Bevy_DefaultEventThumbnail_2_rErq7xD.png",
+        registration_url: "https://gdg.community.dev/events/details/google-gdg-open-presents-gdg-open-day-evitando-aplicaciones-frankenstein-generadas-por-ai-coding-usando-sdd-y-antigravity/",
+        tags: ["AI", "GDG", "Google"],
+        organizer: "GDG Open"
+    },
+    {
+        title: "N8N Meetup: Camino al N8N Fest",
+        description: "En este evento podrás conocer la herramienta Open Source de N8N y cómo dar tus primeros pasos en ella, exploraremos casos de uso reales y veremos como la tecnología, automatización y agentes inteligentes se alinean con el desarrollo de software permitiendo optimizar tiempo y trabajo. Nos prepararemos para nuestro evento de N8N Fest donde podrás profundizar mucho más en la herramienta con los aprendizajes de este evento.",
+        date: "2026-03-21",
+        time: "13:00",
+        location: "Universidad Peruana de Ciencias Aplicadas",
+        city: "San Isidro",
+        type: "Presencial",
+        image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_900,q_auto:good,w_1200/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_SocialSharingThumbnail_KFxxrrs.png",
+        registration_url: "https://gdg.community.dev/events/details/google-gdg-open-presents-n8n-meetup-camino-al-n8n-fest/",
+        tags: ["Automation", "GDG", "Google", "n8n"],
+        organizer: "GDG Open"
+    },
+    {
+        title: "Build With AI PUCP: Introducción a Cloud Computing y AI",
+        description: "Únete a nosotros para una emocionante sesión sobre los fundamentos del Cloud Computing y la Inteligencia Artificial, diseñada especialmente para principiantes. En este evento, exploraremos cómo estas tecnologías están transformando el mundo de hoy y lo que necesitas saber para iniciarte en ellas. Será una oportunidad magnífica para aprender de expertos y conectar con otros entusiastas de la tecnología. No te lo pierdas, es tu oportunidad de dar tu primer paso en el mundo del Cloud y AI. ¡Sigue nuestra página para más detalles y confirma tu asistencia en nuestro próximo meetup!",
+        date: "2026-03-26",
+        time: "12:00",
+        location: "Auditorio de la Facultad de Ciencias e Ingeniería PUCP",
+        city: "San Miguel",
+        type: "Presencial",
+        image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/events/blob_GYAjc3i",
+        registration_url: "https://gdg.community.dev/events/details/google-gdg-open-presents-build-with-ai-pucp-introduccion-a-cloud-computing-y-ai/",
+        tags: ["AI", "Cloud", "Cloud Computing", "GDG", "Google"],
+        organizer: "GDG Open"
+    },
+    {
+        title: "Build with AI 2026 - GDG Open",
+        description: "Build with AI 2026 en Lima es un evento dirigido a desarrolladores de todos los niveles que buscan aprender a crear, prototipar e implementar aplicaciones con inteligencia artificial utilizando las tecnologías más recientes de Google. A través de charlas y talleres prácticos, los asistentes podrán trabajar con herramientas y modelos como Gemini, Vertex AI, AI Studio y Antigravity , además de conectar con otros profesionales de la comunidad, compartir experiencias y llevarse conocimientos aplicables a proyectos reales.",
+        date: "2026-05-30",
+        time: "09:00",
+        location: "Universidad Peruana de Ciencias Aplicadas",
+        city: "San Isidro",
+        type: "Presencial",
+        image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/events/blob_UdIdMuy",
+        registration_url: "https://gdg.community.dev/events/details/google-gdg-open-presents-build-with-ai-2026-gdg-open/",
+        tags: ["AI", "GDG", "Google"],
+        organizer: "GDG Open"
     }
 ];
