@@ -27,7 +27,7 @@ export const COMMUNITIES: ICommunity[] = [
     {
         "name": "Google Developers Group Callao",
         "description": "Google Developers Groups Callao es una iniciativa para concentrar los esfuerzos de muchos desarrolladores en el Callao y sus alrededores para aprender, compartir y ser productivos utilizando los diversos productos de Google.",
-        "logo_url": "https://gdgcallao.dev/assets/icons/ic_gdgcallao_black.svg",
+        "logo_url": "https://avatars.githubusercontent.com/u/137642496?v=4",
         "city": "Callao",
         "topics": [
             "Angular",
