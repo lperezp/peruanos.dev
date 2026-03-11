@@ -541,5 +541,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://gdg.community.dev/events/details/google-gdg-open-presents-build-with-ai-2026-gdg-open/",
         tags: ["AI", "GDG", "Google"],
         organizer: "GDG Open"
+    },
+    {
+        title: "Taller Gratuito Aprende a Instalar Open Claw en 90 minutos",
+        description: "¿Quieres usar Open Claw pero no sabes por dónde empezar? En este taller en vivo vamos a instalarlo juntos, paso a paso. Al final de los 90 minutos tendrás Open Claw corriendo en un entorno seguro. 🎯 ¿Qué vas a aprender? Qué es Open Claw y para qué sirve. Cómo descargarlo e instalarlo correctamente en un servidor seguro. Configuración inicial desde cero. Cómo solucionar los errores más comunes.",
+        date: "2026-03-14",
+        time: "10:00",
+        location: "Google Meet",
+        city: "Lima",
+        type: "Virtual",
+        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/f5/d216810a-f347-4920-8c00-02e0896f25dd.png",
+        registration_url: "https://luma.com/9906kkux",
+        tags: ["AI", "Open Claw", "IA"],
+        organizer: "Ande Studio"
     }
 ];
