@@ -243,5 +243,24 @@ export const EVENTS: IEvent[] = [
             "IA"
         ],
         organizer: "Ande Studio"
+    },
+    {
+        title: "🚀 Construye tu Chatbot RAG con n8n + Supabase | Pre-Evento OFICIAL n8n Day",
+        description: "Pre-Evento Oficial del N8N Fest - \"Low Code\" ¿Quieres crear chatbots inteligentes que entiendan contexto real sin complicaciones técnicas? Únete este DOMINGO 15 MARZO • 8PM a un Live Build exclusivo con: 👨‍💼 Daniel Santos Pareja Senior Data Engineer | Founder Datahackers ✅ RAG vs prompting tradicional - ¿cuándo usar cada uno? ✅ Arquitectura completa: n8n + Supabase + Telegram ✅ Live coding paso a paso (webhook → vector search → LLM) 🎁 SORTEO: 1 cupo GRATIS al curso \"n8n desde CERO\" (grabado + vivo) 📍 Discord LEAD UTP Stage ⏰ Domingo 15 marzo 2026 • 8:00 PM ⏱️ Duración: 1 hora 💰 100% GRATIS 👉 Inscríbete y únete al grupo WhatsApp → https://chat.whatsapp.com/Le0yE8MhfVlD26FcBoRZPZ ¡Cupos limitados! Reserva tu lugar YA. #n8n #NoCode #Automatización #Datahackers #LEADUTP",
+        date: "2026-03-15",
+        time: "20:00",
+        location: "Discord LEAD UTP Stage",
+        city: "Lima",
+        type: "Virtual",
+        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,anim=false,background=white,quality=75,width=500,height=500/event-covers/jb/7e15bfeb-6d91-4a1d-b301-2e55a97163a9.jpg",
+        registration_url: "https://luma.com/9c0qtbjp",
+        tags: [
+            "n8n",
+            "NoCode",
+            "Automatización",
+            "Datahackers",
+            "LEADUTP"
+        ],
+        organizer: "LEAD UTP"
     }
 ];
