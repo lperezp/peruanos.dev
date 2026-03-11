@@ -262,5 +262,22 @@ export const EVENTS: IEvent[] = [
             "LEADUTP"
         ],
         organizer: "LEAD UTP"
+    },
+    {
+        title: "Build With AI: Ica 2026",
+        description: "La Inteligencia Artificial está redefiniendo nuestro mundo, y en Ica estamos listos para ser protagonistas. Build With AI: Ica 2026 es una iniciativa comunitaria abierta a todos: desde estudiantes dando sus primeros pasos hasta profesionales que buscan innovar en sus campos. Aquí, el objetivo es aprender juntos a usar la IA para transformar ideas en soluciones reales y fortalecer el ecosistema tecnológico regional. En esta jornada intensiva, dejaremos de ser espectadores para convertirnos en creadores. Exploraremos las fronteras de la Inteligencia Artificial, integrando herramientas del ecosistema de Google y las tendencias que están redefiniendo la industria. Desde la optimización de flujos de trabajo hasta el desarrollo de soluciones innovadoras, aprenderás a aterrizar conceptos complejos en proyectos con impacto real.",
+        date: "2026-05-09",
+        time: "07:00",
+        location: "Universidad Tecnológica Del Perú, S/N Avenida Ayabaca",
+        city: "Ica",
+        type: "Presencial",
+        image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_DLIIHkX",
+        registration_url: "https://gdg.community.dev/events/details/google-gdg-ica-presents-build-with-ai-ica-2026/",
+        tags: [
+            "AI",
+            "GDG",
+            "Google"
+        ],
+        organizer: "GDG Ica"
     }
 ];
