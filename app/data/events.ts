@@ -2,265 +2,6 @@ import { IEvent } from "../models/event.model";
 
 export const EVENTS: IEvent[] = [
     {
-        title: "Herramientas IA para escalar Productos Digitales",
-        description: "Todo el mundo esta hablando de como la IA está cambiando las reglas de juego en las empresas. Pero en la práctica ... ¿Cómo impulsamos el crecimiento de productos digitales? \nEn este evento tendremos espacio para conocer experiencias y tips para apalancar el crecimiento de productos digitales con herramientas de inteligencia artificial generativa.",
-        date: "2026-01-15",
-        time: "19:15",
-        location: "UTEC Ventures",
-        city: "Lima",
-        type: "Presencial",
-        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/ss/9c0c30f2-9c8c-4e42-9729-3163ffea088f.jpg",
-        registration_url: "https://luma.com/19a6no1m?locale=es",
-        tags: ["IA"],
-        organizer: "PM Beers"
-    },
-    {
-        title: "re:Cap del AWS re:Invent (parte 2)",
-        description: "re:Cap de AWS re:Invent realizado, los nuevos anuncios de productos y servicios de AWS, y rifa de créditos de AWS.",
-        date: "2026-01-23",
-        time: "18:00",
-        location: "En línea",
-        city: "Lima",
-        type: "Virtual",
-        image_url: "https://secure.meetupstatic.com/photos/event/2/d/0/8/highres_532331528.webp?w=640",
-        registration_url: "https://www.meetup.com/aws-girls-peru/events/312874067/",
-        tags: ["AWS", "Cloud Computing"],
-        organizer: "AWS Girls Perú"
-    },
-    {
-        title: "Notion para diseñadores y emprendedores",
-        description: "​Si te dedicas al diseño, emprendes un proyecto o simplemente buscas una forma más clara y ordenada de trabajar, este evento te va a encantar 🙌",
-        date: "2026-01-17",
-        time: "18:00",
-        location: "San Isidro",
-        city: "Lima",
-        type: "Presencial",
-        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,background=white,quality=75,width=400,height=400/event-covers/st/8291eb70-fa0c-4737-9ce9-16f21fde54b2.png",
-        registration_url: "https://luma.com/xtsxqp1s?tk=QCCgsC",
-        tags: ["Notion"],
-        organizer: "Notion Perú"
-    },
-    {
-        title: "Supabase Meetup",
-        description: "Ven a pasar el rato, conocer gente increíble y charlar sobre todo lo relacionado con la tecnología y la innovación. Ya sea que sea un profesional experimentado o simplemente sienta curiosidad, todos son bienvenidos a unirse a la diversión.Tendremos excelentes conversaciones, y un ambiente relajado, perfecto para conectarse y relajarse.",
-        date: "2026-01-24",
-        time: "17:00",
-        location: "Por confirmar",
-        city: "Lima",
-        type: "Presencial",
-        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,background=white,quality=75,width=400,height=400/event-covers/e2/a048e040-cb23-4249-8b84-8dcd2202ece4.png",
-        registration_url: "https://luma.com/5uv64ic8",
-        tags: ["Supabase"],
-        organizer: "Luis Eduardo"
-    },
-    {
-        title: "Meetup #5 de AWS UG Arequipa - Virtual",
-        description: "La comunidad de AWS User Group Arequipa esta creciendo y queremos invitarte a nuestro Quinto Meetup en modo virtual; el primero del 2026: un espacio para aprender, compartir conocimientos y conectar con otros apasionados por la nube. Si trabajas con AWS, simplemente quieres profundizar en la tecnología en la nube o solamente eres curioso tecnológico; este evento es una gran oportunidad para expandir tus conocimientos y fortalecer tu red profesional",
-        date: "2026-01-15",
-        time: "17:30",
-        location: "https://us06web.zoom.us/j/84784249701",
-        city: "Arequipa",
-        type: "Virtual",
-        image_url: "https://secure.meetupstatic.com/photos/event/4/2/2/1/highres_532096929.webp?w=1080",
-        registration_url: "https://www.meetup.com/aws-user-group-arequipa/events/312679853/",
-        tags: ["AWS"],
-        organizer: "AWS User Group Arequipa"
-    },
-    {
-        title: "Meetup Nro 1 - Machine Learning & Gen AI",
-        description: "Únete a nuestro Meetup presencial de AWS en Lima, Perú, un espacio diseñado para profesionales, estudiantes y entusiastas de la tecnología interesados en Machine Learning e Inteligencia Artificial Generativa.",
-        date: "2026-01-24",
-        time: "10:00",
-        location: "Lince",
-        city: "Lima",
-        type: "Presencial",
-        image_url: "https://secure.meetupstatic.com/photos/event/5/7/2/1/highres_532282305.webp?w=1080",
-        registration_url: "https://www.meetup.com/es-es/aws-ug-machine-learning-latam/events/312922631/",
-        tags: ["AWS", "Machine Learning", "Gen AI"],
-        organizer: "AWS UG Machine Learning Latam"
-    },
-    {
-        title: "Season of AI – Model Context Protocol (MCP)",
-        description: "¡Únete a nuestro evento de comunidad sobre AI - Model Context Protocol (MCP)! En esta sesión contaremos con un panel de expertos Microsoft MVPs de toda Latinoamérica y Estados Unidos, quienes compartirán sus conocimientos y experiencias sobre MCP.",
-        date: "2026-01-24",
-        time: "09:00",
-        location: "En línea",
-        city: "Lima",
-        type: "Virtual",
-        image_url: "https://secure.meetupstatic.com/photos/event/8/d/b/a/highres_532176282.webp?w=640",
-        registration_url: "https://www.meetup.com/es-ES/bi-expert/events/312817275/",
-        tags: ["AI", "MCP", "Microsoft"],
-        organizer: "BI Expert"
-    },
-    {
-        title: "Casual Unreal Meetup - Enero",
-        description: "En esta reunión aprovecharemos para ponernos al día con los participantes, ver en qué andan y compartir un buen momento. Nos reuniremos en la entrada del Restaurante Garden ubicado en Centro Comercial San Felipe.",
-        date: "2026-01-29",
-        time: "19:00",
-        location: "Restaurante Garden, Centro comercial San Felipe Tda 67D int. 78",
-        city: "Lima",
-        type: "Presencial",
-        image_url: "https://secure.meetupstatic.com/photos/event/7/b/b/4/highres_532351668.webp?w=640",
-        registration_url: "https://www.meetup.com/es-ES/unreal-engine-lima/events/312935949/",
-        tags: ["Unreal Engine", "Gaming"],
-        organizer: "Unreal Engine Lima"
-    },
-    {
-        title: "Hack The Box Meetup: Lima, PE - 0x23 | Insecure Deep Link Usage in Mobile Apps",
-        description: "Este evento es perfecto para entusiastas y curiosos de la ciberseguridad que buscan aprender, colaborar y sumergirse en desafíos prácticos. Charla sobre vulnerabilidades de Deep Links en aplicaciones móviles por Gabriel Rodriguez.",
-        date: "2026-01-31",
-        time: "16:00",
-        location: "En línea",
-        city: "Lima",
-        type: "Virtual",
-        image_url: "https://secure.meetupstatic.com/photos/event/1/3/e/8/highres_527405096.jpeg?w=640",
-        registration_url: "https://www.meetup.com/es-ES/hack-the-box-meetup-lima-pe/events/312740782/",
-        tags: ["Cybersecurity", "Hacking", "Mobile"],
-        organizer: "Hack The Box Meetup: Lima, PE"
-    },
-    {
-        title: "Hack The Box Meetup: Lima, PE - 0x24 | LLM Exploitation 101: Art of Breaking AI",
-        description: "Charla sobre explotación de modelos de lenguaje (LLM). Exploraremos técnicas como Prompt Injections, ataques directos e indirectos, y ejecución avanzada de comandos remotos. Por Hernan Rodriguez.",
-        date: "2026-02-06",
-        time: "19:00",
-        location: "En línea",
-        city: "Lima",
-        type: "Virtual",
-        image_url: "https://secure.meetupstatic.com/photos/event/1/3/e/8/highres_527405096.jpeg?w=640",
-        registration_url: "https://www.meetup.com/es-ES/hack-the-box-meetup-lima-pe/events/312960707/",
-        tags: ["Cybersecurity", "AI", "LLM"],
-        organizer: "Hack The Box Meetup: Lima, PE"
-    },
-    {
-        title: "SQL Saturday Lima 2026",
-        description: "Prepárate para un día lleno de aprendizaje, innovación y networking en el apasionante mundo de SQL y los datos. Sesiones técnicas de alto nivel, talleres prácticos para mejorar tus habilidades y oportunidades para conectar con la comunidad de datos en Latinoamérica.",
-        date: "2026-02-07",
-        time: "09:00",
-        location: "Colegio de Ingenieros del Perú - CD Lima, C. Barcelona 290, San Isidro 15076",
-        city: "Lima",
-        type: "Presencial",
-        image_url: "https://secure.meetupstatic.com/photos/event/d/9/f/3/highres_531835795.webp?w=640",
-        registration_url: "https://www.meetup.com/es-ES/cloudexpertsc/events/312468427/",
-        tags: ["SQL", "Data", "Database"],
-        organizer: "Cloud Experts Community"
-    },
-    {
-        title: "Power Platform Bootcamp 2026 - Lima Peru",
-        description: "La comunidad BIExpert estara organizando nuevamente el Power Platform Bootcamp 2026, un evento donde hablaremos del poder de esta plataforma.",
-        date: "2026-02-21",
-        time: "09:00",
-        location: "Por confirmar",
-        city: "Lima",
-        type: "Presencial",
-        image_url: "https://secure.meetupstatic.com/photos/event/2/6/d/8/highres_531669944.webp?w=640",
-        registration_url: "https://www.meetup.com/es-ES/bi-expert/events/312340316/",
-        tags: ["Power BI", "Power Platform", "Microsoft"],
-        organizer: "BI Expert"
-    },
-    {
-        title: "Ninja Defender XDR: Microsoft Defender for Cloud",
-        description: "Únase a nosotros en una sesión y obtenga información sobre cómo Microsoft Defender for Cloud proporciona visibilidad avanzada y protección contra amenazas en sus cargas de trabajo y recursos en la nube. Descubra cómo esta solución ayuda a identificar vulnerabilidades, detectar actividades sospechosas y responder a riesgos de seguridad mediante análisis en tiempo real e inteligencia integrada.",
-        date: "2026-02-13",
-        time: "19:00",
-        location: "En línea",
-        city: "Lima",
-        type: "Virtual",
-        image_url: "https://secure.meetupstatic.com/photos/event/8/e/a/d/highres_527556525.webp?w=640",
-        registration_url: "https://www.meetup.com/es-ES/msperu/events/310802191/",
-        tags: ["Microsoft", "Security", "Cloud", "Defender"],
-        organizer: "Microsoft User Group Perú"
-    },
-    {
-        title: "AI Dev Peru Meetup #2",
-        description: "Si estás trabajando en agentes, explorando RAG o quieres entender cómo estructurar mejor la memoria de tus proyectos de IA… este meetup es para ti.",
-        date: "2026-02-27",
-        time: "19:00",
-        location: "Virtual",
-        city: "Lima",
-        type: "Virtual",
-        image_url: "https://instagram.flim3-3.fna.fbcdn.net/v/t51.82787-15/639706334_17854626468670000_1907835784388985156_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_cb=04374bf5-9763b1f0&ig_cache_key=Mzg0MDUxOTUxODI4ODgwMTk1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzMifQ%3D%3D&_nc_ohc=4QGamX-71ZkQ7kNvwG8bGOP&_nc_oc=Adn4DhthARdNoiao1hheUtNUwtMY0_nwk2YKwpV9NAKSmywoLQ1SgZWfrIGyJsKWGvw&_nc_ad=z-m&_nc_cid=1549&_nc_zt=23&_nc_ht=instagram.flim3-3.fna&_nc_gid=vS4gLwMQMu372jp8sk8hGA&oh=00_AfshhChxe_5dWOhebHbK8-DK-jX5rRrTwlRWchan9pv8_g&oe=69A7C8FA",
-        registration_url: "https://www.youtube.com/watch?v=wJTFnmC9s5s",
-        tags: ["AI", "RAG"],
-        organizer: "AI Dev Peru"
-    },
-    {
-        title: "N8N Virtual: Crea Agentes IA con N8N Y Chatwoot",
-        description: "🚀N8N Fest: Crea Agentes de IA con n8n y Chatwoot\n​¡Arranca el n8n Fest! Únete a este webinar de apertura donde Stiven Rosales te enseñará el paso a paso para construir e integrar agentes de Inteligencia Artificial utilizando n8n y Chatwoot.\n​Este evento marca el inicio de nuestro mes dedicado a la automatización. Durante todo marzo tendremos una serie de workshops virtuales y dos grandes eventos presenciales en Lima, Perú. Si planeas asistir a las fechas físicas en Lima, es fundamental que participes en este webinar para entrar en sintonía.",
-        date: "2026-02-27",
-        time: "19:00",
-        location: "Virtual",
-        city: "Lima",
-        type: "Virtual",
-        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/jd/1a0adf06-7798-4234-a419-0ae4f22a03c5.png",
-        registration_url: "https://luma.com/7kbstw8m?tk=QEGGxI",
-        tags: ["AI", "N8N"]
-    },
-    {
-        title: "Human Sessions - Baby Steps in Webflow",
-        description: "¿Nunca tocaste Webflow? Perfecto. Este es tu momento. Human Sessions: Baby Steps in Webflow es un espacio para que des tus primeros pasos reales en una de las herramientas de diseño web más poderosas del momento. Si eres programador, diseñador, marketero o simplemente tienes curiosidad, date una vuelta por el evento, porque te vas a llevar merch. Vamos a arrancar con una demo en vivo y luego tú mismo lo practicas. No hay nivel mínimo requerido, solo curiosidad y ganas de aprender algo nuevo. 📍 Universidad César Vallejo · Lab de Redes E-303, Trujillo. Organizado por forHuman en colaboración con FOF Trujillo 🫡",
-        date: "2026-02-28",
-        time: "14:30",
-        location: "Universidad César Vallejo",
-        city: "Trujillo",
-        type: "Presencial",
-        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/0s/3cdecf81-ad8e-400d-adc0-262ed35cd63a.png",
-        registration_url: "https://luma.com/bs9baz59",
-        tags: ["WebFlow"],
-        organizer: "forHuman"
-    },
-    {
-        title: "AWS Student Community Day Perú 2026",
-        description: "¡Únete al AWS Student Community Day Perú 2026 para aprender, conectar y potenciar tu futuro en la nube!",
-        date: "2026-02-28",
-        time: "08:00",
-        location: "UTP - Torre Arequipa",
-        city: "Lima",
-        type: "Presencial",
-        image_url: "https://www.eventbrite.com/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1176342116%252F1114540439223%252F1%252Foriginal.20260131-200635%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.722%26fp-y%3D0.631%26s%3Da8647a576bd6227ba617d1165d10e4c5&w=940&q=75",
-        registration_url: "https://www.eventbrite.com/e/aws-student-community-day-peru-2026-tickets-1982081702729#location",
-        tags: ["AWS", "Cloud"],
-        organizer: "AWS Cloud Clubs UTP"
-    },
-    {
-        title: "Human Sessions - Lorem ipsum '26",
-        description: "​Lima no es el Perú.\n​Y por eso estamos acá 🫡\n​forHuman llega a Chimbote para hacer lo que mejor sabemos: reunir personas, generar conversación real y co-crear experiencias que tengan sentido para quienes vivimos fuera de la capital.\n​Esta noche es simple: nos presentamos, nos conocemos, y hablamos de lo que nos está pasando con la IA, el trabajo, el futuro y todo lo que no cabe en un hilo de Twitter.\n​Habrá networking, habrá catarsis, y habrá espacio para imaginar juntos qué puede pasar cuando una comunidad decide construir algo propio.\n​Lorem Ipsum '26 es el comienzo del forHuman Tour por el norte del Perú. Y Chimbote es la primera parada 😎",
-        date: "2026-02-27",
-        time: "19:00",
-        location: "Jirón Guillermo Moore 236",
-        city: "Chimbote",
-        type: "Presencial",
-        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/uz/23ead35b-57b5-4b69-b12b-aec5e339eb7f.png",
-        registration_url: "https://luma.com/090w891j",
-        tags: ["AI", "Comunidad"],
-        organizer: "forHuman"
-    },
-    {
-        title: "IWD Ayacucho 2026: Break the Pattern",
-        description: "Women Techmakers Ayacucho presenta un espacio diseñado para conmemorar el Día Internacional de la Mujer a través de tecnología, liderazgo y comunidad. Será una jornada con charlas técnicas, inspiración profesional y networking, promoviendo mayor participación femenina en el ecosistema tecnológico regional.",
-        date: "2026-03-07",
-        time: "08:30",
-        location: "Centro Cultural UNSCH",
-        city: "Ayacucho",
-        type: "Presencial",
-        image_url: "https://wtmayacucho.tech/images/Logo_break_the_pattern.png",
-        registration_url: "https://wtmayacucho.tech/",
-        tags: ["Liderazgo", "Innovación"],
-        organizer: "Women Techmakers Ayacucho"
-    },
-    {
-        title: "Women Build Summit",
-        description: "Este sábado 7 de marzo llega el 🟣⚡ 𝗪𝗢𝗠𝗘𝗡 𝗕𝗨𝗜𝗟𝗗 𝗦𝗨𝗠𝗠𝗜𝗧, un espacio gratuito para mujeres en tecnología que quieren crecer, conectar y abrir nuevas oportunidades de verdad.",
-        date: "2026-03-07",
-        time: "15:00",
-        location: "Gran Teatro UNI, Av. Túpac Amaru 280, Lima 15333, Perú",
-        city: "Lima",
-        type: "Presencial",
-        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/09/7461b3e2-f104-4fae-bf5f-91fa6291a233.png",
-        registration_url: "https://luma.com/ziz7wesi",
-        tags: ["Tech"],
-        organizer: "Soleil Kamitto Nuñez Pumacallahui & 6 others"
-    },
-    {
         title: "Transforma tu trabajo con Notion",
         description: "¿Sientes que el potencial de tu equipo o de tu proyecto se pierde entre archivos dispersos y procesos lentos? Es hora de centralizar. 🧠✨\nEn Transforma tu trabajo con Notion, vamos a ir más allá de las notas simples. Exploraremos cómo esta herramienta está revolucionando desde la creación de negocios digitales hasta la gestión en el sector público y las aulas. Ven a descubrir cómo convertir a Notion en el motor de tu productividad.",
         date: "2026-03-14",
@@ -270,21 +11,10 @@ export const EVENTS: IEvent[] = [
         type: "Presencial",
         image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/j7/db3092ab-b3ca-4043-86a1-fc0838d9db43.jpg",
         registration_url: "https://luma.com/67pvhxje",
-        tags: ["Notion"],
+        tags: [
+            "Notion"
+        ],
         organizer: "Notion Perú"
-    },
-    {
-        title: "Mujeres Open Power Lima: Conectando mundos",
-        description: "Mujeres Open Power nace como un espacio para reunir a mujeres que están creando, liderando y transformando sus propios caminos. Emprendedoras que están construyendo negocios, Profesionales que están expandiendo su impacto, Fundadoras que están abriendo nuevas posibilidades. Este no es un evento de networking tradicional. Es un espacio diseñado intencionalmente para generar conexiones reales, profundas y significativas.",
-        date: "2026-03-05",
-        time: "18:00",
-        location: "Av. República de Panamá 3591, San Isidro (Oficinas de Globant)",
-        city: "Lima",
-        type: "Presencial",
-        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/uk/c7875575-e401-41db-b8ee-fc0c3b675250.png",
-        registration_url: "https://luma.com/0929xmku",
-        tags: ["Tech", "Wellness", "Liderazgo"],
-        organizer: "Women Biz"
     },
     {
         title: "IWD Arequipa 2026: Breaking the Pattern",
@@ -296,7 +26,9 @@ export const EVENTS: IEvent[] = [
         type: "Presencial",
         image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/IWD%20Arequipa%20-%20Break%20the%20Pattern%20WTM_Style%20Guide_KNWJewj.png",
         registration_url: "https://gdg.community.dev/events/details/google-gdg-arequipa-presents-iwd-arequipa-2026-breaking-the-pattern/",
-        tags: ["Conferencia"],
+        tags: [
+            "Conferencia"
+        ],
         organizer: "GDG Arequipa"
     },
     {
@@ -309,95 +41,15 @@ export const EVENTS: IEvent[] = [
         type: "Presencial",
         image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_AbDRnP6",
         registration_url: "https://ai-developer-day-2026.vercel.app/",
-        tags: ["AI", "Gemini", "Angular", "Firebase", "Flutter", "Web"],
+        tags: [
+            "AI",
+            "Gemini",
+            "Angular",
+            "Firebase",
+            "Flutter",
+            "Web"
+        ],
         organizer: "GDG Callao"
-    },
-    {
-        title: "Desplegando Agentes IA con Google Cloud Tools",
-        description: "En esta sesión técnica, exploraremos cómo llevar un agente conversacional de Inteligencia Artificial desde el código fuente hasta producción mediante una arquitectura moderna, desacoplada y escalable. Aprenderemos a integrar el poder de los modelos generativos de Google (Gemini 3.0 Flash) utilizando herramientas nativas para la automatización de la infraestructura.",
-        date: "2026-03-14",
-        time: "09:00",
-        location: "Universidad Tecnológica Del Perú 1 Anexo Andrés Avelino Cáceres Piura, 20001",
-        city: "Piura",
-        type: "Presencial",
-        image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_PdngdwI",
-        registration_url: "https://gdg.community.dev/events/details/google-gdg-piura-presents-desplegando-agentes-ia-con-google-cloud-tools/",
-        tags: ["AI"],
-        organizer: "GDG Piura"
-    },
-    {
-        title: "BBVA Talks 💙: Liderazgo Femenino",
-        description: "¡Sé parte de nuestra siguiente edición de \"BBVA Talks\"! Te invitamos a participar en una experiencia en nuestra Universidad Corporativa \"Campus BBVA\", donde te llevarás grandes conocimientos y podrás recorrer algunas de nuestras instalaciones. En esta oportunidad, contaremos con la participación especial de Mónica Nureña, Estrella Espinosa y Marta Cadenas, tres líderes de nuestra organización que te compartirán su trayectoria y cómo empoderarte profesionalmente.",
-        date: "2026-03-04",
-        time: "19:00",
-        location: "Campus BBVA",
-        city: "Lima",
-        type: "Híbrido",
-        registration_url: "https://docs.google.com/forms/d/e/1FAIpQLSfRHEK0PoLN4evPDKZg2j7qjnNV6BQqUXzS0TPyPBuFLaxJSA/viewform?pli=1",
-        tags: ["Liderazgo", "Tech"],
-        organizer: "BBVA en Perú"
-    },
-    {
-        title: "MUJERES DE IMPACTO 2026",
-        description: "Evento dirigido a Ingenieras Colegiadas y público en general para conmemorar el impacto de las mujeres en la ingeniería.",
-        date: "2026-03-04",
-        time: "08:00",
-        location: "Auditorio principal en Calle Barcelona N° 240 - San Isidro",
-        city: "Lima",
-        type: "Presencial",
-        registration_url: "https://docs.google.com/forms/d/e/1FAIpQLSe2d6tsiimQrLXcF5VjJXl0SZGJDR5oh9ZZerTnk1gkBv5LBw/viewform",
-        tags: ["Ingeniería", "Liderazgo"],
-        organizer: "Colegio de Ingenieros del Perú - CDLIMA"
-    },
-    {
-        title: "Women Leading Innovation Latam 2026",
-        description: "El Women Leading Innovation LATAM es un espacio de alto nivel que reúne a mujeres referentes en innovación y tecnología en América Latina para compartir experiencias, aprendizajes y visión estratégica, fortaleciendo la articulación entre academia, empresa y ecosistema emprendedor.",
-        date: "2026-03-05",
-        time: "10:00",
-        location: "Coworking 1551 Incubadora de Empresas Innovadoras de la UNMSM, Ciudad Universitaria UNMSM, Calle Germán Amezaga N° 375",
-        city: "Lima",
-        type: "Presencial",
-        registration_url: "https://docs.google.com/forms/d/e/1FAIpQLSfT5Oxd30QiDVFQNVIyoYYhOBFwoIih5dWoncV0wyNiTqZ4hg/viewform",
-        tags: ["Innovación", "Tech", "Emprendimiento"],
-        organizer: "1551 Incubadora de Empresas Innovadoras de la UNMSM"
-    },
-    {
-        title: "Visionarias del dato: Innovación, ética y liderazgo femenino en la era de la IA",
-        description: "En conmemoración del Día Internacional de la Mujer. Sesiones Virtuales 02 al 06 de marzo (18:00 – 21:00 h) y Clausura Presencial Sábado 07 de marzo (11:00 – 14:15 h) en el Auditorio Ricardo Palma.",
-        date: "2026-03-07",
-        time: "18:00",
-        location: "Virtual y Auditorio Ricardo Palma",
-        city: "Lima",
-        type: "Híbrido",
-        registration_url: "https://idia.com.pe/eventos/registro-visionarias.html",
-        tags: ["IA", "Datos", "Ética", "Liderazgo"],
-        organizer: "IDIA y Data Ladies URP"
-    },
-    {
-        title: "Mujeres Open Power Ica: Conectando mundos🌎",
-        description: "¡LAS MUJERES QUE CAMBIAN EL MUNDO, PRIMERO SE CONECTAN ENTRE ELLAS! 🌎 Mujeres Open Power nace como un espacio para reunir a mujeres que están creando, liderando y transformando sus propios caminos. Emprendedoras, Profesionales y Fundadoras conectando en la ciudad de ICA.",
-        date: "2026-03-07",
-        time: "10:00",
-        location: "Calle Pedro Olaechea 285, Ica - Cámara de Comercio y Turismo de Ica",
-        city: "Ica",
-        type: "Presencial",
-        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/ct/b3a203f1-fb06-4430-99d9-013aef20b974.png",
-        registration_url: "https://luma.com/0fujae7p",
-        tags: ["Tech", "Wellness", "Liderazgo"],
-        organizer: "Women Biz"
-    },
-    {
-        title: "N8N Meetup: Agentes AI con N8N y Chatwoot",
-        description: "Únete a nosotros para un emocionante meetup donde exploraremos cómo integrar WhatsApp con N8N y Chatwoot. Esta sesión está diseñada para desarrolladores, entusiastas de la automatización y cualquier persona interesada en mejorar la comunicación empresarial con flujos de trabajo automatizados. En colaboración con la comunidad Data Hackers, descubriremos juntos las mejores prácticas, compartiremos casos de uso y realizaremos una demostración en vivo para que puedas empezar a construir tus propios flujos de trabajo.",
-        date: "2026-02-27",
-        time: "19:00",
-        location: "Universidad Peruana de Ciencias Aplicadas",
-        city: "Lima",
-        type: "Híbrido",
-        image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_DefaultEventThumbnail_2_va1kAS9.png",
-        registration_url: "https://gdg.community.dev/events/details/google-gdg-open-presents-n8n-meetup-agentes-ai-con-n8n-y-chatwoot/",
-        tags: ["AI", "N8N", "WhatsApp", "Automation"],
-        organizer: "GDG Open"
     },
     {
         title: "Iterando en Femenino",
@@ -409,7 +61,12 @@ export const EVENTS: IEvent[] = [
         type: "Presencial",
         image_url: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178972340%2F271304262338%2F1%2Foriginal.20260304-021140?w=480&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1600%2C800&s=190be262e0e30f316366ccf5782709f3",
         registration_url: "https://www.eventbrite.com.pe/e/iterando-en-femenino-tickets-1984436467895",
-        tags: ["Agilidad", "Diseño", "Tecnología", "IA"],
+        tags: [
+            "Agilidad",
+            "Diseño",
+            "Tecnología",
+            "IA"
+        ],
         organizer: "Más mujeres en UX Perú"
     },
     {
@@ -422,21 +79,11 @@ export const EVENTS: IEvent[] = [
         type: "Presencial",
         image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,anim=false,background=white,quality=75,width=500,height=500/event-covers/di/977b2bc8-639d-4de9-aa02-142b0412f48a.png",
         registration_url: "https://luma.com/ze8sf4kq?tk=8Sr06Q",
-        tags: ["AI", "GitHub Copilot"],
+        tags: [
+            "AI",
+            "GitHub Copilot"
+        ],
         organizer: "Cloud Experts Community"
-    },
-    {
-        title: "LEAD TALENT SHOWCASE",
-        description: "¿Listo para el siguiente nivel de tu carrera? LEAD Talent Showcase es el punto de encuentro definitivo para el talento joven más prometedor. Conecta con los miembros más destacados de diversos chapters de LEAD Peru y descubre, a través de sus historias de éxito, la hoja de ruta real para tu futuro profesional.",
-        date: "2026-03-07",
-        time: "15:00",
-        location: "UTP - Torre Arequipa",
-        city: "Lima",
-        type: "Presencial",
-        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,anim=false,background=white,quality=75,width=500,height=500/event-covers/4f/e382ae24-9583-4590-ba1c-08a68fa09ba5.png",
-        registration_url: "https://luma.com/d9vlwfq5",
-        tags: ["Tech"],
-        organizer: "LEAD UTP"
     },
     {
         title: "Meetup #7 de AWS UG Arequipa - Virtual",
@@ -448,7 +95,12 @@ export const EVENTS: IEvent[] = [
         type: "Virtual",
         image_url: "https://secure.meetupstatic.com/photos/event/2/7/0/b/highres_533109995.jpeg",
         registration_url: "https://www.meetup.com/aws-user-group-arequipa/events/313704973/",
-        tags: ["AWS", "Data & Analytics", "AI", "ML"],
+        tags: [
+            "AWS",
+            "Data & Analytics",
+            "AI",
+            "ML"
+        ],
         organizer: "AWS User Group Arequipa"
     },
     {
@@ -461,7 +113,10 @@ export const EVENTS: IEvent[] = [
         type: "Virtual",
         image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/9l/ca3d2d30-5725-4d59-b8d7-732dd4449ebe.png",
         registration_url: "https://luma.com/umnm1fxi",
-        tags: ["Tech", "Emprendimiento"],
+        tags: [
+            "Tech",
+            "Emprendimiento"
+        ],
         organizer: "Impact Spinout"
     },
     {
@@ -474,7 +129,13 @@ export const EVENTS: IEvent[] = [
         type: "Virtual",
         image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_900,q_auto:good,w_1200/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_SocialSharingThumbnail_KFxxrrs.png",
         registration_url: "https://gdg.community.dev/events/details/google-gdg-open-presents-gdg-open-day-google-appsheet-del-no-code-a-la-integracion-con-ia/",
-        tags: ["AI", "AppSheet", "GDG", "Google", "No-Code"],
+        tags: [
+            "AI",
+            "AppSheet",
+            "GDG",
+            "Google",
+            "No-Code"
+        ],
         organizer: "GDG Open"
     },
     {
@@ -487,7 +148,12 @@ export const EVENTS: IEvent[] = [
         type: "Virtual",
         image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/event_banners/GDG_Bevy_DefaultEventThumbnail_2_rErq7xD.png",
         registration_url: "https://gdg.community.dev/events/details/google-gdg-open-presents-gdg-open-day-diseno-luego-existo-desarrollando-con-api-first/",
-        tags: ["AI", "API", "GDG", "Google"],
+        tags: [
+            "AI",
+            "API",
+            "GDG",
+            "Google"
+        ],
         organizer: "GDG Open"
     },
     {
@@ -500,7 +166,11 @@ export const EVENTS: IEvent[] = [
         type: "Virtual",
         image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/event_banners/GDG_Bevy_DefaultEventThumbnail_2_rErq7xD.png",
         registration_url: "https://gdg.community.dev/events/details/google-gdg-open-presents-gdg-open-day-evitando-aplicaciones-frankenstein-generadas-por-ai-coding-usando-sdd-y-antigravity/",
-        tags: ["AI", "GDG", "Google"],
+        tags: [
+            "AI",
+            "GDG",
+            "Google"
+        ],
         organizer: "GDG Open"
     },
     {
@@ -513,7 +183,12 @@ export const EVENTS: IEvent[] = [
         type: "Presencial",
         image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_900,q_auto:good,w_1200/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_SocialSharingThumbnail_KFxxrrs.png",
         registration_url: "https://gdg.community.dev/events/details/google-gdg-open-presents-n8n-meetup-camino-al-n8n-fest/",
-        tags: ["Automation", "GDG", "Google", "n8n"],
+        tags: [
+            "Automation",
+            "GDG",
+            "Google",
+            "n8n"
+        ],
         organizer: "GDG Open"
     },
     {
@@ -526,7 +201,13 @@ export const EVENTS: IEvent[] = [
         type: "Presencial",
         image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/events/blob_GYAjc3i",
         registration_url: "https://gdg.community.dev/events/details/google-gdg-open-presents-build-with-ai-pucp-introduccion-a-cloud-computing-y-ai/",
-        tags: ["AI", "Cloud", "Cloud Computing", "GDG", "Google"],
+        tags: [
+            "AI",
+            "Cloud",
+            "Cloud Computing",
+            "GDG",
+            "Google"
+        ],
         organizer: "GDG Open"
     },
     {
@@ -539,7 +220,11 @@ export const EVENTS: IEvent[] = [
         type: "Presencial",
         image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/events/blob_UdIdMuy",
         registration_url: "https://gdg.community.dev/events/details/google-gdg-open-presents-build-with-ai-2026-gdg-open/",
-        tags: ["AI", "GDG", "Google"],
+        tags: [
+            "AI",
+            "GDG",
+            "Google"
+        ],
         organizer: "GDG Open"
     },
     {
@@ -552,7 +237,11 @@ export const EVENTS: IEvent[] = [
         type: "Virtual",
         image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/f5/d216810a-f347-4920-8c00-02e0896f25dd.png",
         registration_url: "https://luma.com/9906kkux",
-        tags: ["AI", "Open Claw", "IA"],
+        tags: [
+            "AI",
+            "Open Claw",
+            "IA"
+        ],
         organizer: "Ande Studio"
     }
 ];
