@@ -279,5 +279,31 @@ export const EVENTS: IEvent[] = [
             "Google"
         ],
         organizer: "GDG Ica"
+    },
+    {
+        title: "¿Cómo (nos) Diseñamos en nuestro territorio? - Día 1",
+        description: "Diseño, ética y territorio: conversaciones para una práctica más justa¿Qué significa diseñar con ética hoy?\nEn distintos territorios y contextos laborales, quienes ejercemos el diseño enfrentamos tensiones constantes: tiempos exigentes, intereses diversos e impactos que trascienden el proyecto mismo. Frente a ello surge una pregunta clave: ¿cómo debería posicionarse el diseñador en la actualidad para ejercer su práctica de manera ética?\nEste encuentro propone un espacio de conversación y reflexión colectiva donde diseñadoras y diseñadores compartirán experiencias, dilemas y posturas sobre las implicancias éticas en sus procesos de diseño. A partir de estas miradas, buscaremos identificar qué tensiones nos atraviesan, qué nos limita y qué desafíos necesitamos abordar de manera conjunta.\nMás que ofrecer respuestas cerradas, el encuentro invita a abrir preguntas, imaginar formas de trabajo colectivo y proyectar prácticas de diseño más justas, conscientes y responsables.\nEste encuentro se desarrollará en dos sesiones complementarias: una sesión virtual (7 de abril) y una sesión presencial (8 de abril). La participación está pensada para ambas fechas.\nRecuerda registrarte también en la otra sesión:Día 2 – sesión presencial: https://luma.com/c1fra2gw",
+        date: "2026-04-07",
+        time: "19:00",
+        location: "Virtual",
+        city: "Virtual",
+        type: "Virtual",
+        image_url: "https://images.lumacdn.com/event-covers/2a/3b9dd19d-e37b-450b-ad38-408612921e99.png",
+        registration_url: "https://luma.com/w1syr3j6",
+        tags: ["Arts & Culture"],
+        organizer: "Ética en Diseño"
+    },
+    {
+        title: "¿Cómo (nos) Diseñamos en nuestro territorio? - Día 2",
+        description: "Diseño, ética y territorio: conversaciones para una práctica más justa\n¿Qué significa diseñar con ética hoy?\n​En distintos territorios y contextos laborales, quienes ejercemos el diseño enfrentamos tensiones constantes: tiempos exigentes, intereses diversos e impactos que trascienden el proyecto mismo. Frente a ello surge una pregunta clave: ¿cómo debería posicionarse el diseñador en la actualidad para ejercer su práctica de manera ética?\n​Este encuentro propone un espacio de conversación y reflexión colectiva donde diseñadoras y diseñadores compartirán experiencias, dilemas y posturas sobre las implicancias éticas en sus procesos de diseño. A partir de estas miradas, buscaremos identificar qué tensiones nos atraviesan, qué nos limita y qué desafíos necesitamos abordar de manera conjunta.\n​Más que ofrecer respuestas cerradas, el encuentro invita a abrir preguntas, imaginar formas de trabajo colectivo y proyectar prácticas de diseño más justas, conscientes y responsables.\nEste encuentro se desarrollará en dos sesiones complementarias: una sesión virtual (7 de abril) y una sesión presencial (8 de abril). La participación está pensada para ambas fechas.\nRecuerda registrarte también en la otra sesión:Día 1 – sesión virtual: https://luma.com/w1syr3j6",
+        date: "2026-04-08",
+        time: "19:00",
+        location: "NOS PUCP, Av. Camino Real 1037, San Isidro",
+        city: "San Isidro",
+        type: "Presencial",
+        image_url: "https://images.lumacdn.com/event-covers/p5/ea997f2b-976b-4277-bfb8-55411343a87d.png",
+        registration_url: "https://luma.com/c1fra2gw",
+        tags: ["Arts & Culture"],
+        organizer: "Ética en Diseño"
     }
 ];
