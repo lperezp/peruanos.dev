@@ -12,6 +12,7 @@ import { PROJECTS } from './data/projects';
 import { IGitHubRepo } from './models/project.model';
 import { CircleCheck, Edit, GitFork, Github } from 'lucide-react';
 import { addUTMParams } from './lib/utm';
+import { eventSchema, itemListSchema, softwareSourceCodeSchema } from './lib/structured-data';
 
 export const metadata: Metadata = {
   title: 'Inicio | Peruanos.dev',
@@ -58,8 +59,32 @@ export default async function Home() {
     })
   ).then(results => results.filter(Boolean));
 
+  const jsonLdEvents = itemListSchema(upcomingEvents.map(event => eventSchema({
+    name: event.title,
+    description: event.description,
+    startDate: event.date,
+    location: event.location,
+    organizer: event.organizer || '',
+    url: event.registration_url,
+  })));
+
+  const jsonLdProjects = itemListSchema(projectsData.map(project => softwareSourceCodeSchema({
+    name: project.name,
+    description: project.description,
+    codeRepository: project.html_url,
+    author: project.owner.login,
+  })));
+
   return (
     <main className="flex w-full max-w-7xl flex-col items-center bg-background mx-auto">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdEvents) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdProjects) }}
+      />
       <section className={`relative flex flex-col items-center py-25 sm:py-40 px-16 max-sm:px-10 overflow-hidden after:content-[''] after:absolute after:w-[1280px] after:h-[717px] after:bg-[radial-gradient(50%_50%_at_50.03%_49.91%,_rgba(205,43,49,0.35)_0%,_rgba(255,255,255,0)_100%)] after:z-0 after:left-0 after:top-0 after:pointer-events-none max-md:after:w-full max-md:after:h-[431px] dark:after:hidden`}>
         <h1 className="text-5xl sm:text-7xl z-1 text-center font-bold mb-9 leading-[1.4] w-full sm:w-[90%]">Conecta con <span className={`relative max-md:block before:content-[''] before:block before:w-[418px] before:h-[42px] before:bg-[url('/svg/line-text.svg')] before:bg-no-repeat before:bg-cover before:absolute before:-bottom-[10px] before:left-[130px] max-md:before:w-[240px] max-md:before:h-[24px] max-md:before:top-[50px] max-md:before:left-[50px] text-primary-text`}>la comunidad tech</span> en el Perú</h1>
         <p className="text-center z-1 w-fullsm:w-[70%] text-[20px]">Descubre eventos, únete a comunidades y contribuye a proyectos de código abierto realizados en Perú.</p>

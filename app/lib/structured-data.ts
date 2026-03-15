@@ -74,3 +74,33 @@ export const eventSchema = (event: {
     eventStatus: 'https://schema.org/EventScheduled',
     ...(event.url && { url: event.url }),
 });
+
+export const softwareSourceCodeSchema = (project: {
+    name: string;
+    description: string;
+    codeRepository: string;
+    author: string;
+}) => ({
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareSourceCode',
+    name: project.name,
+    description: project.description,
+    codeRepository: project.codeRepository,
+    author: {
+        '@type': 'Person',
+        name: project.author,
+    },
+});
+
+export const itemListSchema = (items: Record<string, unknown>[]) => ({
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    itemListElement: items.map((item, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        item: {
+            '@context': undefined,
+            ...item
+        },
+    })),
+});

@@ -2,6 +2,8 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import ProjectsClient from '../components/projects/ProjectsClient';
 import { addUTMParams } from '../lib/utm';
+import { PROJECTS } from '../data/projects';
+import { itemListSchema, softwareSourceCodeSchema } from '../lib/structured-data';
 
 export const metadata: Metadata = {
     title: 'Proyectos Open Source peruanos | Peruanos.dev',
@@ -23,8 +25,19 @@ export const metadata: Metadata = {
 };
 
 export default function Projects() {
+    const jsonLdProjects = itemListSchema(PROJECTS.map(project => softwareSourceCodeSchema({
+        name: project.repo,
+        description: `Open source project ${project.repo} by ${project.owner}`,
+        codeRepository: `https://github.com/${project.owner}/${project.repo}`,
+        author: project.owner,
+    })));
+
     return (
         <main className="flex w-full max-w-7xl flex-col items-center bg-background mx-auto">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdProjects) }}
+            />
             <section className="py-20 flex flex-col items-start w-full px-8 sm:px-10">
                 <h1 className="text-4xl sm:text-6xl text-left font-bold mb-4 leading-[1.4] w-full">
                     Proyectos <span className="text-primary-text">Open Source</span>
