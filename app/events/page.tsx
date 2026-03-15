@@ -2,6 +2,8 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import EventsClient from '../components/events/EventsClient';
 import { addUTMParams } from '../lib/utm';
+import { EVENTS } from '../data/events';
+import { eventSchema, itemListSchema } from '../lib/structured-data';
 
 export const metadata: Metadata = {
     title: 'Eventos tecnológicos en Perú | Peruanos.dev',
@@ -23,8 +25,21 @@ export const metadata: Metadata = {
 };
 
 export default function Events() {
+    const jsonLdEvents = itemListSchema(EVENTS.map(event => eventSchema({
+        name: event.title,
+        description: event.description,
+        startDate: event.date,
+        location: event.location,
+        organizer: event.organizer || '',
+        url: event.registration_url,
+    })));
+
     return (
         <main className="flex w-full max-w-7xl flex-col items-center bg-background mx-auto">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdEvents) }}
+            />
             <section className="py-20 flex flex-col items-start w-full px-8 sm:px-10">
                 <h1 className="text-4xl sm:text-6xl text-left font-bold mb-4 leading-[1.4] w-full">
                     Próximos <span className="text-primary-text">eventos</span>
