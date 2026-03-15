@@ -306,4 +306,18 @@ export const EVENTS: IEvent[] = [
         tags: ["Arts & Culture"],
         organizer: "Ética en Diseño"
     }
+,
+    {
+        title: "Women AI Revolution !",
+        description: "✨ AI Wommen Revolution Mujeres liderando la revolución de la IA\nEste año en She Leads Data celebrramos algo muy especial: 3 años impulsando mujeres que están transformando el mundo de los datos y la inteligencia artificial.\nY queremos celebrarlo contigo. 💜\nTe invitamos a vivir una experiencia única donde nos reuniremos mujeres visionarias, curiosas y valientes convencidas que la inteligencia artificial necesita nuestro talento, nuestra voz y nuestro liderazgo para construir un mejor futuro para todos.",
+        date: "2026-03-26",
+        time: "17:30",
+        location: "Edificio Interbank, Av. Carlos Villarán 140",
+        city: "La Victoria",
+        type: "Presencial",
+        image_url: "https://images.lumacdn.com/event-covers/u5/25315e03-dfe1-41b5-8b49-0ec32ad42dc2.png",
+        registration_url: "https://luma.com/m1qhdyxk",
+        tags: ["IA", "Women in Tech", "Data"],
+        organizer: "She Leads Data"
+    }
 ];
