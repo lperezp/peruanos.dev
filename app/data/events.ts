@@ -319,5 +319,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://luma.com/m1qhdyxk",
         tags: ["IA", "Women in Tech", "Data"],
         organizer: "She Leads Data"
+    },
+    {
+        title: "Empieza con los Custom Agents de Notion",
+        description: "Notion AI es genial para obtener respuestas rápidas. ¿Agentes personalizados? Ahí es donde ocurre el verdadero trabajo.\nEn esta sesión, vamos a analizar qué hace que los agentes personalizados sean diferentes y por qué son la clave que la mayoría de los equipos aún no han aprovechado.\nLo que cubriremos:\n✅ Agentes personalizados vs. Notion AI: ¿cuál es la diferencia real y cuándo tiene sentido cada uno?\n✅ Lograr que sus agentes rindan: los consejos que separan a los agentes que funcionan de los que permanecen sin usar.\n✅ Avance de funciones avanzadas: cómo activar notificaciones de Slack, configurar activadores de automatización y organizar flujos de trabajo que realmente ahorren tiempo.\nPara quién es esto:\nLíderes de equipo que ya utilizan Notion y que desean ir más allá de las funciones básicas de IA y comenzar a construir flujos de trabajo inteligentes que manejen el trabajo real.",
+        date: "2026-03-20",
+        time: "18:00",
+        location: "Google Meet",
+        city: "Virtual",
+        type: "Virtual",
+        image_url: "https://images.lumacdn.com/event-covers/d3/fc0e6230-1e4d-4ffd-95ab-0c975e785a45.png",
+        registration_url: "https://luma.com/5pr59sm9",
+        tags: ["Notion", "IA", "AI", "Custom Agents"],
+        organizer: "GianSecurAI"
     }
 ];
