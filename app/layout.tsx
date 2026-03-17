@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   },
   verification: {
     google: 'googlec8db8ebb988f2c99',
-    // yandex: 'tu-codigo-yandex',
+    yandex: '5acfd9d539db8b3c',
     // bing: 'tu-codigo-bing',
   },
   alternates: {
