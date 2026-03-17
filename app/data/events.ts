@@ -332,5 +332,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://luma.com/5pr59sm9",
         tags: ["Notion", "IA", "AI", "Custom Agents"],
         organizer: "GianSecurAI"
+    },
+    {
+        title: "Kubernetes Community Days Lima 2026",
+        description: "Kubernetes Community Days (KCD) son eventos organizados por la comunidad que reúnen a todo el ecosistema open source, tecnología y cloud native para impulsar la educación, colaboración y networking. KCD Lima 2026 regresa por tercer año consecutivo como el evento cloud native más importante del Perú, congregando a desarrolladores, ingenieros DevOps, ingenieros de plataforma y entusiastas de la tecnología de todo el país y la región. Nuestra misión es fomentar el aprendizaje, la colaboración y la innovación dentro de la comunidad cloud native peruana.",
+        date: "2026-07-18",
+        time: "08:30",
+        location: "UTEC – Universidad de Ingeniería y Tecnología, Barranco",
+        city: "Lima",
+        type: "Presencial",
+        image_url: "https://storage.googleapis.com/gpt-engineer-file-uploads/VOFLJxSywsS5CXz01ZMquZ7rmcG2/social-images/social-1770621879396-KCD_Lima_2026_-_Prospecto_de_Patrocinio.png",
+        registration_url: "https://kcdlima.pe/",
+        tags: ["Kubernetes", "Cloud Native", "DevOps", "Open Source"],
+        organizer: "KCD Lima"
     }
 ];
