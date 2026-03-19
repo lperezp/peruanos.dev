@@ -345,5 +345,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://kcdlima.pe/",
         tags: ["Kubernetes", "Cloud Native", "DevOps", "Open Source"],
         organizer: "KCD Lima"
+    },
+    {
+        title: "International Women’s Day 2026: Break the Pattern",
+        description: "¡Save the date! 💜📅 El próximo 25 de abril nos reuniremos en UTEC para celebrar el International Women’s Day 2026 ✨ Será un espacio para compartir ideas 💡, visibilizar voces 🎤 y seguir construyendo más oportunidades para las mujeres en tecnología 👩‍💻 con el tema de este año: “Break the Pattern” ⚡ Pronto compartiremos más novedades 🚀",
+        date: "2026-04-25",
+        time: "Por confirmar",
+        location: "UTEC",
+        city: "Lima",
+        type: "Presencial",
+        image_url: "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/651538837_18338342785246265_586282826447382561_n.jpg?stp=c270.0.810.810a_dst-jpg_e35_s640x640_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMiJ9&_nc_ohc=PXMuUtdf9J4Q7kNvwFAIbCA&_nc_oc=Ado2OBh-DorUjG2SxbhRdglNaVTAQXiiZjdK4Lv4UceXWy8f7XHJf2zisqvTPg7I9tI&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_gid=iO_CHTjxcFZKR_ILohTfdg&_nc_ss=8&oh=00_AfzLZm6w1ipULmvPPFXmgica9tvV2M9xVmv7OqgpkuQvew&oe=69C142C6",
+        registration_url: "https://www.instagram.com/p/DV1TL4pEa_B/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        tags: ["WTM", "IWD2026", "Break The Pattern", "Women In Tech"],
+        organizer: "WTM Lima"
     }
 ];
