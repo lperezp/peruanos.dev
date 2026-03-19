@@ -345,5 +345,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://kcdlima.pe/",
         tags: ["Kubernetes", "Cloud Native", "DevOps", "Open Source"],
         organizer: "KCD Lima"
+    },
+    {
+        title: "Spotlight - Concurso de Diseño Gráfico",
+        description: "El reto es que rediseñes la portada de tu artista favorito con una nueva mirada y un concepto que impacte desde el primer segundo. Participa desde el 26 de febrero hasta el 23 de marzo y compite por una MacBook o iPad.",
+        date: "2026-03-23",
+        time: "23:59",
+        location: "Virtual",
+        city: "Virtual",
+        type: "Virtual",
+        image_url: "https://ucal.edu.pe/carreras-universitarias/wp-content/uploads/2026/03/spotlight-concurso-de-diseno-grafico-mobile-v1.webp",
+        registration_url: "https://ucal.edu.pe/carreras-universitarias/spotlight-concurso-de-diseno-2026",
+        tags: ["Diseño", "Concurso", "Creatividad"],
+        organizer: "UCAL"
     }
 ];
