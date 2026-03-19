@@ -358,5 +358,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://www.instagram.com/p/DV1TL4pEa_B/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         tags: ["WTM", "IWD2026", "Break The Pattern", "Women In Tech"],
         organizer: "WTM Lima"
+    },
+    {
+        title: "N8N Fest PUCP",
+        description: "⚙️ ¡Te invitamos al N8N Fest, el evento principal de automatización! 🚀\nDespués de prepararnos y conocer las bases, es momento de llevar la automatización y la creación de agentes inteligentes al siguiente nivel. El N8N Fest es el espacio ideal para descubrir cómo esta poderosa herramienta Open Source está transformando el desarrollo de software, permitiendo integrar sistemas y optimizar el trabajo de forma increíble.\n¿Qué vivirás en este evento?\n- 🎙️ Casos de uso reales: Charlas impartidas por expertos de la industria que te mostrarán cómo aplican n8n en su día a día para resolver problemas complejos y ahorrar tiempo.\n- ⚡ Dinámicas prácticas: Actividades interactivas donde veremos la tecnología y los agentes de IA en acción, para que consolides tus conocimientos.\n- 🤝 Networking de valor: Conecta con otros desarrolladores, entusiastas de la tecnología y profesionales del ecosistema para compartir ideas y crear sinergias.\nEste gran encuentro es organizado en conjunto por DataHackers, GDG Open Lima y Nucleo Lab.\nDetalles del evento: 📍 Lugar: PUCP (Pontificia Universidad Católica del Perú) ⏰ Hora: 09:00 a.m. – 4:00 p.m.\n📲 ¡Únete a la comunidad! No te pierdas ningún detalle, el anuncio oficial de nuestros speakers y sorpresas exclusivas. Ingresa a nuestro grupo de WhatsApp para estar al tanto de toda la agenda: 👉 https://chat.whatsapp.com/E8Vk3v0lSLgCYytO1VRshe",
+        date: "2026-03-28",
+        time: "09:00",
+        location: "PUCP (Pontificia Universidad Católica del Perú)",
+        city: "San Miguel",
+        type: "Presencial",
+        image_url: "https://images.lumacdn.com/event-covers/9o/f08df832-ccea-453b-9632-9bd16507eb15.png",
+        registration_url: "https://luma.com/x88jct4f",
+        tags: ["n8n", "AI", "Open Source"],
+        organizer: "DataHackers, GDG Open Lima y Nucleo Lab"
     }
 ];
