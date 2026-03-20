@@ -384,5 +384,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://luma.com/t3frjktx",
         tags: ["IA", "OpenClaw", "AI Agents", "Workshop"],
         organizer: "Juan Camilo Lema, Gonzalo Villaran"
+    },
+    {
+        title: "International Women's Day Lima 2026",
+        description: "El próximo 25 de abril en UTEC nos reuniremos para celebrar el International Women’s Day 2026 con el tema de este año: “Break the Pattern.”\nEste año la invitación es a cuestionar las normas que damos por sentadas en la industria tecnológica, traer nuevas perspectivas a la conversación y reflexionar sobre cómo podemos transformar los espacios donde se construye tecnología.\nDurante el evento tendremos charlas, talleres y paneles sobre áreas como IA, cloud, desarrollo de software, UX/UI, datos, ciberseguridad, DevOps y producto, junto con historias y experiencias que muestran cómo se pueden desafiar los patrones tradicionales de la industria.\nSerá una oportunidad para aprender, conectar con la comunidad y pensar juntos cómo podemos construir un ecosistema tecnológico más abierto y diverso.",
+        date: "2026-04-25",
+        time: "09:00",
+        location: "University of Engineering and Technology",
+        city: "Barranco",
+        type: "Presencial",
+        image_url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,anim=false,background=white,quality=75,width=500,height=500/event-covers/a4/91186406-2f8b-4f4f-8d35-173b0eb771fe.jpg",
+        registration_url: "https://luma.com/ud0ch33f",
+        tags: ["International Women's Day", "Break the Pattern"],
+        organizer: "Julissa Rodriguez, Katherine Chauca, Kattya Cuevas"
     }
 ];
