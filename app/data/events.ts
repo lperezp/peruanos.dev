@@ -384,4 +384,20 @@ export const EVENTS: IEvent[] = [
         tags: ["AI", "Tech", "Wellness", "Women in Tech", "WTM"],
         organizer: "WTM Lima"
     }
+,
+
+  {
+    title: 'Desplegando Agentes IA con Google Cloud Tools',
+    description: 'Objetivo: Demostrar la agilidad y facilidad de desplegar aplicaciones de Inteligencia Artificial escalables utilizando un flujo de trabajo continuo impulsado enteramente por los servicios en la nube de Google. En esta sesión técnica, exploraremos cómo llevar un agente conversacional de Inteligencia Artificial desde el código fuente hasta producción mediante una arquitectura moderna, desacoplada y escalable. Aprenderemos a integrar el poder de los modelos generativos de Google (Gemini 3.0 Flash) utilizando herramientas nativas para la automatización de la infraestructura.',
+    date: '2026-03-28',
+    time: '09:00 AM',
+    location: 'Cámara de Comercio y Producción de Piura, A-2 Fortunato Chirichigno',
+    city: 'Piura',
+    type: 'Presencial',
+    image_url: 'https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/event_banners/GDG_Bevy_DefaultEventThumbnail_2_vaeskpB.png',
+    registration_url: 'https://gdg.community.dev/events/details/google-gdg-piura-presents-desplegando-agentes-ia-con-google-cloud-tools-1/',
+    tags: ['AI', 'Build with AI', 'Google Cloud', 'Workshop'],
+    organizer: 'GDG Piura'
+  }
+
 ];
