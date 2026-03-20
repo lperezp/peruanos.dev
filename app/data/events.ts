@@ -345,21 +345,7 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://kcdlima.pe/",
         tags: ["Kubernetes", "Cloud Native", "DevOps", "Open Source"],
         organizer: "KCD Lima"
-    },
-    {
-        title: "International Women’s Day 2026: Break the Pattern",
-        description: "¡Save the date! 💜📅 El próximo 25 de abril nos reuniremos en UTEC para celebrar el International Women’s Day 2026 ✨ Será un espacio para compartir ideas 💡, visibilizar voces 🎤 y seguir construyendo más oportunidades para las mujeres en tecnología 👩‍💻 con el tema de este año: “Break the Pattern” ⚡ Pronto compartiremos más novedades 🚀",
-        date: "2026-04-25",
-        time: "Por confirmar",
-        location: "UTEC",
-        city: "Lima",
-        type: "Presencial",
-        image_url: "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/651538837_18338342785246265_586282826447382561_n.jpg?stp=c270.0.810.810a_dst-jpg_e35_s640x640_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMiJ9&_nc_ohc=PXMuUtdf9J4Q7kNvwFAIbCA&_nc_oc=Ado2OBh-DorUjG2SxbhRdglNaVTAQXiiZjdK4Lv4UceXWy8f7XHJf2zisqvTPg7I9tI&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_gid=iO_CHTjxcFZKR_ILohTfdg&_nc_ss=8&oh=00_AfzLZm6w1ipULmvPPFXmgica9tvV2M9xVmv7OqgpkuQvew&oe=69C142C6",
-        registration_url: "https://www.instagram.com/p/DV1TL4pEa_B/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-        tags: ["WTM", "IWD2026", "Break The Pattern", "Women In Tech"],
-        organizer: "WTM Lima"
-    },
-    {
+    },    {
         title: "N8N Fest PUCP",
         description: "⚙️ ¡Te invitamos al N8N Fest, el evento principal de automatización! 🚀\nDespués de prepararnos y conocer las bases, es momento de llevar la automatización y la creación de agentes inteligentes al siguiente nivel. El N8N Fest es el espacio ideal para descubrir cómo esta poderosa herramienta Open Source está transformando el desarrollo de software, permitiendo integrar sistemas y optimizar el trabajo de forma increíble.\n¿Qué vivirás en este evento?\n- 🎙️ Casos de uso reales: Charlas impartidas por expertos de la industria que te mostrarán cómo aplican n8n en su día a día para resolver problemas complejos y ahorrar tiempo.\n- ⚡ Dinámicas prácticas: Actividades interactivas donde veremos la tecnología y los agentes de IA en acción, para que consolides tus conocimientos.\n- 🤝 Networking de valor: Conecta con otros desarrolladores, entusiastas de la tecnología y profesionales del ecosistema para compartir ideas y crear sinergias.\nEste gran encuentro es organizado en conjunto por DataHackers, GDG Open Lima y Nucleo Lab.\nDetalles del evento: 📍 Lugar: PUCP (Pontificia Universidad Católica del Perú) ⏰ Hora: 09:00 a.m. – 4:00 p.m.\n📲 ¡Únete a la comunidad! No te pierdas ningún detalle, el anuncio oficial de nuestros speakers y sorpresas exclusivas. Ingresa a nuestro grupo de WhatsApp para estar al tanto de toda la agenda: 👉 https://chat.whatsapp.com/E8Vk3v0lSLgCYytO1VRshe",
         date: "2026-03-28",
@@ -384,5 +370,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://luma.com/t3frjktx",
         tags: ["IA", "OpenClaw", "AI Agents", "Workshop"],
         organizer: "Juan Camilo Lema, Gonzalo Villaran"
+    },
+    {
+        title: "International Women's Day Lima 2026",
+        description: "El próximo 25 de abril en UTEC nos reuniremos para celebrar el International Women's Day 2026 con el tema de este año: \"Break the Pattern.\"\n\nEste año la invitación es a cuestionar las normas que damos por sentadas en la industria tecnológica, traer nuevas perspectivas a la conversación y reflexionar sobre cómo podemos transformar los espacios donde se construye tecnología.\n\nDurante el evento tendremos charlas, talleres y paneles sobre áreas como IA, cloud, desarrollo de software, UX/UI, datos, ciberseguridad, DevOps y producto, junto con historias y experiencias que muestran cómo se pueden desafiar los patrones tradicionales de la industria.\n\nSerá una oportunidad para aprender, conectar con la comunidad y pensar juntos cómo podemos construir un ecosistema tecnológico más abierto y diverso.",
+        date: "2026-04-25",
+        time: "09:00",
+        location: "Universidad de Ingeniería y Tecnología - UTEC, Jr. Medrano Silva 165, Barranco 15063, Perú",
+        city: "Barranco",
+        type: "Presencial",
+        image_url: "https://images.lumacdn.com/event-covers/a4/91186406-2f8b-4f4f-8d35-173b0eb771fe.jpg",
+        registration_url: "https://luma.com/ud0ch33f",
+        tags: ["AI", "Tech", "Wellness", "Women in Tech", "WTM"],
+        organizer: "WTM Lima"
     }
 ];
