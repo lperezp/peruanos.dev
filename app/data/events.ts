@@ -383,6 +383,31 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://luma.com/ud0ch33f",
         tags: ["AI", "Tech", "Wellness", "Women in Tech", "WTM"],
         organizer: "WTM Lima"
+    },
+    {
+        title: "Road to Build with AI Tacna 2026",
+        description: "🚩 Road to Build with AI Tacna 2026\n\nGoogle tiene un ecosistema completo de herramientas de desarrollo potenciadas por inteligencia artificial, y muchos desarrolladores aún no saben cuál usar ni cuándo. En este evento preparatorio de GDG Tacna, te explicaremos cada una de ellas para que llegues listo al Build with AI.\n\n¿Qué aprenderás?\n\n🔹 Google AI Studio – El playground para experimentar con los modelos Gemini. Desde prototipado rápido de prompts hasta la creación de apps completas con el modo Build usando \"vibe coding\".\n\n🔹 Gemini CLI – La herramienta de línea de comandos para interactuar con Gemini directamente desde tu terminal. Ideal para workflows agentes, automatización y ejecución headless.\n\n🔹 Google Antigravity – El nuevo IDE agéntico de Google, diseñado para que actúes como arquitecto mientras agentes autónomos trabajan en el editor, la terminal y el navegador simultáneamente.\n\n🔹 Firebase Studio – Entorno de desarrollo full-stack en la nube con +60 templates. Prototipa apps con lenguaje natural, imágenes o capturas de pantalla, y deplóyalas directamente en Firebase.\n\n🔹 Genkit – Framework open-source de Firebase para construir flujos de IA en el servidor, con soporte para RAG, tool calling, MCP y orquestación multi-modelo.\n\n🔹 Gemini Code Assist – Extensión de IDE con modo agente para desarrollo asistido por IA en tu editor favorito (VS Code, IntelliJ, Android Studio).\n\n🔹 Agent Development Kit (ADK) – Framework open-source para construir, testear y desplegar agentes de IA con integraciones a servicios como GitHub, Asana, Stripe y más.\n\nEste evento es tu guía para navegar el ecosistema de dev tools de Google y saber exactamente cuál herramienta usar según tu caso de uso, ya seas principiante o desarrollador experimentado.",
+        date: "2026-03-28",
+        time: "09:00",
+        location: "Universidad Privada de Tacna- Facultad de Ingeniería",
+        city: "Tacna",
+        type: "Presencial",
+        image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_900,q_auto:good,w_1200/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_SocialSharingThumbnail_KFxxrrs.png",
+        registration_url: "https://gdg.community.dev/events/details/google-gdg-tacna-presents-road-to-build-with-ai-tacna-2026/",
+        tags: [],
+        organizer: "GDG Tacna"
+    },{
+        title: "Meetup #3 (AI Dev Peru)",
+        description: "¡Bievenidos al meetup #3 de la comunidad AI Dev Peru!\nSerá un espacio donde nos pondremos al día con las últimas novedades y aprenderemos nuevas formas de trabajar de la mano de la IA.\n🗓️ Agenda\n🎤 \" IA en las trincheras: mi día a día en un early-stage startup\". Gustavo Pajuelo - CTO @ Zentum\n🎤 \"CTO en Zentum\" . Joel Ibaceta - Former CTO @ Kwema Inc\nRecomendaciones:\n- Aforo limitado, entrada por orden de llegada.\n- El local no cuenta con estacionamiento, planifica tu viaje",
+        date: "2026-03-31",
+        time: "19:00",
+        location: "NTT DATA Bloom, Av. Javier Prado Oeste 2501, Magdalena del Mar",
+        city: "Magdalena del Mar",
+        type: "Presencial",
+        image_url: "https://images.lumacdn.com/event-covers/o9/e0d47141-3f78-4001-bdf0-c5055c0b6e70.png",
+        registration_url: "https://luma.com/hd4ecwgr",
+        tags: ["AI", "Meetup"],
+        organizer: "AI Dev Peru"
     }
 ,
 
