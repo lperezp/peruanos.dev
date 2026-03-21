@@ -383,5 +383,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://luma.com/ud0ch33f",
         tags: ["AI", "Tech", "Wellness", "Women in Tech", "WTM"],
         organizer: "WTM Lima"
+    },
+    {
+        title: "Meetup #3 (AI Dev Peru)",
+        description: "¡Bievenidos al meetup #3 de la comunidad AI Dev Peru!\nSerá un espacio donde nos pondremos al día con las últimas novedades y aprenderemos nuevas formas de trabajar de la mano de la IA.\n🗓️ Agenda\n🎤 \" IA en las trincheras: mi día a día en un early-stage startup\". Gustavo Pajuelo - CTO @ Zentum\n🎤 \"CTO en Zentum\" . Joel Ibaceta - Former CTO @ Kwema Inc\nRecomendaciones:\n- Aforo limitado, entrada por orden de llegada.\n- El local no cuenta con estacionamiento, planifica tu viaje",
+        date: "2026-03-31",
+        time: "19:00",
+        location: "NTT DATA Bloom, Av. Javier Prado Oeste 2501, Magdalena del Mar",
+        city: "Magdalena del Mar",
+        type: "Presencial",
+        image_url: "https://images.lumacdn.com/event-covers/o9/e0d47141-3f78-4001-bdf0-c5055c0b6e70.png",
+        registration_url: "https://luma.com/hd4ecwgr",
+        tags: ["AI", "Meetup"],
+        organizer: "AI Dev Peru"
     }
 ];
