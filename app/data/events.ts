@@ -425,4 +425,19 @@ export const EVENTS: IEvent[] = [
     organizer: 'GDG Piura'
   }
 
+,
+  {
+    title: 'Growth Hacking: la carrera que transforma negocios y vidas',
+    description: 'Growth Hacking surge como la disciplina definitiva para transformar negocios. Esta sesión explora cómo la combinación de análisis de datos, experimentación ágil y creatividad técnica permite identificar palancas de crecimiento donde otros solo ven obstáculos. Aprende a maximizar el valor de tu producto y a escalar resultados con eficiencia quirúrgica.',
+    date: '2026-03-30',
+    time: '07:00 PM',
+    location: 'Virtual',
+    city: 'Huancayo',
+    type: 'Virtual',
+    image_url: 'https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/GrowRedes-02.jpg_cYNX90p.jpeg',
+    registration_url: 'https://gdg.community.dev/events/details/google-gdg-huancayo-presents-growth-hacking-la-carrera-que-transforma-negocios-y-vidas/',
+    tags: ['Career Development', 'Community Building', 'Conference'],
+    organizer: 'GDG Huancayo'
+  }
+
 ];
