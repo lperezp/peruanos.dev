@@ -346,5 +346,31 @@ export const COMMUNITIES: ICommunity[] = [
                 "instagram": ""
             }
         }
+    },
+    {
+        "name": "AI Community LATAM",
+        "description": "Welcome to the AI Community Perú Meetup! We are a group of tech enthusiasts, developers, and engineers who share a passion for artificial intelligence and its applications in various industries. Our goal is to create a supportive and collaborative environment where members can learn from each other, share their knowledge and experiences, and explore the latest trends in AI technology. Whether you are a beginner or an expert in the field, join us to connect with like-minded individuals, attend workshops and discussions, and stay updated on the rapidly evolving world of AI. Let's shape the future together!",
+        "logo_url": "https://secure.meetupstatic.com/photos/event/b/b/1/1/highres_532487889.jpeg",
+        "city": "Lima",
+        "topics": [
+            "Artificial Intelligence",
+            "Machine Learning",
+            "Cloud Computing",
+            "Artificial Intelligence Applications",
+            "Innovation"
+        ],
+        "contact": {
+            "email": "",
+            "website": "https://www.meetup.com/ai-community-latam/",
+            "socialMedia": {
+                "github": "",
+                "twitter": "",
+                "linkedin": "https://www.linkedin.com/company/ai-community-latam/",
+                "discord": "",
+                "facebook": "",
+                "youtube": "",
+                "instagram": ""
+            }
+        }
     }
 ];
