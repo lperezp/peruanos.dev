@@ -423,6 +423,18 @@ export const EVENTS: IEvent[] = [
     registration_url: 'https://gdg.community.dev/events/details/google-gdg-piura-presents-desplegando-agentes-ia-con-google-cloud-tools-1/',
     tags: ['AI', 'Build with AI', 'Google Cloud', 'Workshop'],
     organizer: 'GDG Piura'
+  },
+  {
+    title: 'Global Azure 2026 Perú - #GlobalAzure',
+    description: '🌍 Únete al Global Azure 2026 en Lima 🌥️\n\n¿Listo para explorar las infinitas posibilidades de la nube? ¡Global Azure es el evento gratuito que no te puedes perder! Descubre el poder de Microsoft Azure junto a grupos de usuarios y comunidades de todo el mundo.\n\n📅 Cuándo: 18 de Abril\n📍 Dónde: TBD\n\n🎓 ¿Por qué asistir?\n\nAprende de los Mejores: Sumérgete en sesiones prácticas y aprende de expertos reconocidos en la industria.\nConecta con la Comunidad: Amplía tu red profesional y comparte ideas con otros entusiastas de la tecnología.\nMejora tus Habilidades: Tanto si eres nuevo en Azure como si deseas profundizar tu conocimiento, este evento es para ti.\n\n🔗 Regístrate ahora: TBD\n¡No te pierdas esta oportunidad de crecer y conectar en el mundo de Azure! 🚀',
+    date: '2026-04-18',
+    time: '08:00 AM',
+    location: 'TBD',
+    city: 'Lima',
+    type: 'Presencial',
+    image_url: 'https://secure.meetupstatic.com/photos/event/2/1/6/1/highres_527408545.jpeg',
+    registration_url: 'https://www.meetup.com/msperu/events/311968544/',
+    tags: ['Azure', 'Cloud Computing', 'Meetup'],
+    organizer: 'Microsoft User Group Perú'
   }
-
 ];
