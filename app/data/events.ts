@@ -425,6 +425,19 @@ export const EVENTS: IEvent[] = [
     organizer: 'GDG Piura'
   },
   {
+    title: 'Meetup #8 - AWS para Startups: aprende a aprovechar su potencial',
+    description: '☁️☁️🚀☁️☁️\nAWS para Startups: aprende a aprovechar su potencial\n\n📅 26 de marzo de 2025\n🕕 6:00 p.m. – 8:30 p.m.\n📍 Incubadora Kaman – Salaverry 301\n💻 También transmitiremos en vivo para quienes no puedan asistir presencialmente.\n\nContaremos con charlas de expertos, casos de éxito locales y mucho networking. Si estás emprendiendo o quieres optimizar los recursos de tu startup en la nube, ¡este evento es para ti!',
+    date: '2025-03-26',
+    time: '18:00',
+    location: 'Incubadora Kaman, Salaverry 301',
+    city: 'Arequipa',
+    type: 'Híbrido',
+    image_url: 'https://secure.meetupstatic.com/photos/event/d/e/c/6/highres_533277030.jpeg',
+    registration_url: 'https://www.meetup.com/aws-user-group-arequipa/events/313851125/',
+    tags: ['AWS', 'Startups', 'Cloud'],
+    organizer: 'AWS User Group Arequipa'
+  },
+  {
     title: 'Global Azure 2026 Perú - #GlobalAzure',
     description: '🌍 Únete al Global Azure 2026 en Lima 🌥️\n\n¿Listo para explorar las infinitas posibilidades de la nube? ¡Global Azure es el evento gratuito que no te puedes perder! Descubre el poder de Microsoft Azure junto a grupos de usuarios y comunidades de todo el mundo.\n\n📅 Cuándo: 18 de Abril\n📍 Dónde: TBD\n\n🎓 ¿Por qué asistir?\n\nAprende de los Mejores: Sumérgete en sesiones prácticas y aprende de expertos reconocidos en la industria.\nConecta con la Comunidad: Amplía tu red profesional y comparte ideas con otros entusiastas de la tecnología.\nMejora tus Habilidades: Tanto si eres nuevo en Azure como si deseas profundizar tu conocimiento, este evento es para ti.\n\n🔗 Regístrate ahora: TBD\n¡No te pierdas esta oportunidad de crecer y conectar en el mundo de Azure! 🚀',
     date: '2026-04-18',
