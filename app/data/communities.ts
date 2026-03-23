@@ -214,17 +214,15 @@ export const COMMUNITIES: ICommunity[] = [
     },
     {
         "name": "Cloud Experts Community",
-        "description": "Somos una comunidad orientada a aquellos que trabajan o se dedican a la tecnología, con un enfoque en el ecosistema Microsoft. A través de nuestros eventos, exploramos lo último en soluciones de desarrollo, infraestructura y productividad, conectando a expertos y profesionales para aprender y compartir experiencias.",
-        "logo_url": "https://secure.meetupstatic.com/photos/member/6/9/1/f/preview_287726911.webp",
+        "description": "**👨‍💻 Únete a nuestra comunidad de profesionales apasionados por las tecnologías Microsoft**\n\n💡Somos una comunidad orientada a aquellos que trabajan o se dedican a la tecnología, con un enfoque en el ecosistema Microsoft. A través de nuestros eventos, exploramos lo último en soluciones de desarrollo, infraestructura y productividad, conectando a expertos y profesionales para aprender y compartir experiencias. Desde charlas técnicas hasta talleres prácticos, ofrecemos un espacio donde el conocimiento fluye y se potencia el crecimiento profesional.\n\nEn el ámbito del **desarrollo**, nuestros eventos cubren desde tecnologías emergentes como **.NET Core**, **Azure DevOps** y **Power Platform**, hasta temas de vanguardia como la inteligencia artificial aplicada y el desarrollo de aplicaciones móviles con **Xamarin** y **Blazor**. Si estás buscando mejorar tus habilidades de programación y estar al día con las tendencias más actuales, nuestra comunidad te brindará las herramientas y conexiones necesarias para lograrlo.\n\nEn **infraestructura y productividad**, abordamos temas esenciales para optimizar y gestionar entornos de TI, como la automatización en Azure, la seguridad en la nube, y la implementación de soluciones Microsoft 365 para maximizar la eficiencia. Además, ofrecemos sesiones sobre mejores prácticas para gestionar entornos híbridos y potenciar la productividad organizacional con herramientas como **Microsoft Teams**, **SharePoint** y **Power BI**.\n\n📧 **Términos y Condiciones**\nAl unirte a nuestra comunidad, aceptas que podamos enviarte correos electrónicos con anuncios sobre nuestros próximos eventos, actualizaciones y otras noticias relevantes. Estos correos serán únicamente para informarte de actividades relacionadas con nuestro grupo y podrás darte de baja en cualquier momento a través de los enlaces proporcionados en cada correo.\n\n📜 **Código de Conducta**\nNos comprometemos a mantener un ambiente seguro, inclusivo y respetuoso para todos los participantes. Al asistir a nuestros eventos, ya sean presenciales o en línea, te pedimos que sigas estas pautas:\n\n1. Respeto mutuo: Tratar a todos los miembros con cortesía y profesionalismo.\n2. Inclusión: Este es un espacio libre de discriminación, acoso o comportamientos ofensivos.\n3. Participación constructiva: Aportar valor a las discusiones y contribuir a un ambiente colaborativo.\n4. Cumplimiento de las reglas del evento: Seguir las indicaciones proporcionadas por los organizadores para garantizar una experiencia fluida para todos.\n\n**Si vives la tecnología, este es tu lugar. ¡Te esperamos en nuestro próximo evento!**",
+        "logo_url": "https://secure.meetupstatic.com/photos/event/5/6/a/f/600_526582191.webp",
         "city": "Lima",
         "topics": [
-            "Software Development",
-            "SQL Server",
-            "Data Management",
-            "Cloud Computing",
-            "Microsoft Azure",
             "Microsoft",
-            "New Technology"
+            "Microsoft Azure",
+            "Cloud Computing",
+            "Software Development",
+            "SQL Server"
         ],
         "contact": {
             "email": "",
@@ -340,6 +338,32 @@ export const COMMUNITIES: ICommunity[] = [
                 "github": "https://github.com/GDGOpenLima",
                 "twitter": "",
                 "linkedin": "https://www.linkedin.com/company/gdg-open-lima/",
+                "discord": "",
+                "facebook": "",
+                "youtube": "",
+                "instagram": ""
+            }
+        }
+    },
+    {
+        "name": "AI Community LATAM",
+        "description": "Welcome to the AI Community Perú Meetup! We are a group of tech enthusiasts, developers, and engineers who share a passion for artificial intelligence and its applications in various industries. Our goal is to create a supportive and collaborative environment where members can learn from each other, share their knowledge and experiences, and explore the latest trends in AI technology. Whether you are a beginner or an expert in the field, join us to connect with like-minded individuals, attend workshops and discussions, and stay updated on the rapidly evolving world of AI. Let's shape the future together!",
+        "logo_url": "https://secure.meetupstatic.com/photos/event/b/b/1/1/highres_532487889.jpeg",
+        "city": "Lima",
+        "topics": [
+            "Artificial Intelligence",
+            "Machine Learning",
+            "Cloud Computing",
+            "Artificial Intelligence Applications",
+            "Innovation"
+        ],
+        "contact": {
+            "email": "",
+            "website": "https://www.meetup.com/ai-community-latam/",
+            "socialMedia": {
+                "github": "",
+                "twitter": "",
+                "linkedin": "https://www.linkedin.com/company/ai-community-latam/",
                 "discord": "",
                 "facebook": "",
                 "youtube": "",
