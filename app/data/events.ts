@@ -463,6 +463,19 @@ export const EVENTS: IEvent[] = [
     registration_url: 'https://gdg.community.dev/events/details/google-gdg-huancayo-presents-growth-hacking-la-carrera-que-transforma-negocios-y-vidas/',
     tags: ['Career Development', 'Community Building', 'Conference'],
     organizer: 'GDG Huancayo'
+  },
+  {
+    title: '🇵🇪 HUG Perú – Meetup Presencial',
+    description: '¡Nos vemos en persona, comunidad! 🙌\n\nEl **HashiCorp User Group Perú** llega con su **primer meetup presencial del año**, un espacio para compartir experiencias, aprender sobre el ecosistema HashiCorp y conocer a otros profesionales apasionados por la infraestructura, la automatización y DevOps.\nTendremos:\n\n🔹 Charlas técnicas sobre Terraform, Vault y Nomad\n🔹 Novedades sobre próximos eventos y bootcamps\n🔹 Networking con la comunidad\n\n📍 **Lugar:** Calle Alcanfores 142, Miraflores 15074 (Oficina Orion Perú)\n📅 **Fecha:** Miercoles 15 Abril\n🕕 **Hora:** 7:00 PM\n\nVen y forma parte del crecimiento de la comunidad HashiCorp en Perú. 🚀\n\n**PARA CONFIRMAR TU ASISTENCIA REGISTRATE AQUI:** https://forms.gle/sJT1r4BurqVsGpf57\n\n**#HUGPeru #HashiCorp #DevOps #Terraform #Vault #Nomad**',
+    date: '2025-04-15',
+    time: '07:00 PM',
+    location: 'Calle Alcanfores 142, Miraflores 15074 (Oficina Orion Perú)',
+    city: 'Lima',
+    type: 'Presencial',
+    image_url: 'https://secure.meetupstatic.com/photos/event/9/a/c/highres_531362476.jpeg',
+    registration_url: 'https://www.meetup.com/peru-hashicorp-user-group/events/312052887/',
+    tags: ['HashiCorp', 'DevOps', 'Terraform', 'Vault', 'Nomad'],
+    organizer: 'Perú HashiCorp User Group'
   }
 
 ];
