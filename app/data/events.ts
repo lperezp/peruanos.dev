@@ -489,6 +489,19 @@ export const EVENTS: IEvent[] = [
     registration_url: 'https://gdg.community.dev/events/details/google-gdg-callao-presents-build-with-ai-2026-first-prompt-context-engineering-con-gemini/',
     tags: ['AI', 'AI - Gemini', 'Build with AI', 'Web'],
     organizer: 'Google Developer Groups'
+  },
+  {
+    title: 'Arduino Days 2026',
+    description: '¡Celebra el Arduino Days 2026 con talleres, demostraciones y proyectos que inspiran creatividad e innovación!',
+    date: '2026-03-28',
+    time: '10:00',
+    location: 'Escuela de Administración de Negocios para Graduados (ESAN), 1652 Jirón Alonso de Molina, Santiago de Surco',
+    city: 'Lima',
+    type: 'Presencial',
+    image_url: 'https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179604928%2F2657249559791%2F1%2Foriginal.20260311-165417?crop=focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=64d5ad0eabc064714ea16de960d8b865',
+    registration_url: 'https://www.eventbrite.com.pe/e/arduino-days-2026-tickets-1984996735671',
+    organizer: 'ESAN University',
+    tags: []
   }
 
 ];
