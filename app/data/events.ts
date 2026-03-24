@@ -476,6 +476,19 @@ export const EVENTS: IEvent[] = [
     registration_url: 'https://www.meetup.com/peru-hashicorp-user-group/events/312052887/',
     tags: ['HashiCorp', 'DevOps', 'Terraform', 'Vault', 'Nomad'],
     organizer: 'Perú HashiCorp User Group'
+  },
+  {
+    title: 'Build with AI 2026: First Prompt - Context engineering con Gemini 🚀',
+    description: 'En esta sesión virtual junto a Joel Gómez, Google Developer Expert en Web Technologies hablaremos sobre qué es el Context engineering y cómo usamos ese conocimiento con Gemini CLI para administrar el contexto dentro de una sesión, qué herramientas necesitamos en nuestros proyectos (skills, comandos, mcps, hooks) y cómo funcionan las Gemini extensions 🤖✨Te esperamos!',
+    date: '2026-03-25',
+    time: '20:00',
+    location: 'Virtual',
+    city: 'Virtual',
+    type: 'Virtual',
+    image_url: 'https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_o2JmejT',
+    registration_url: 'https://gdg.community.dev/events/details/google-gdg-callao-presents-build-with-ai-2026-first-prompt-context-engineering-con-gemini/',
+    tags: ['AI', 'AI - Gemini', 'Build with AI', 'Web'],
+    organizer: 'Google Developer Groups'
   }
 
 ];
