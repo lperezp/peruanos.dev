@@ -502,6 +502,19 @@ export const EVENTS: IEvent[] = [
     registration_url: 'https://www.eventbrite.com.pe/e/arduino-days-2026-tickets-1984996735671',
     organizer: 'ESAN University',
     tags: []
+  },
+  {
+    title: 'Crea tu primera aplicación web con React',
+    description: 'Primer taller especializado de React en modalidad presencial en Nuevo Chimbote. Para developers que quieren aprender React entendiendo sus fundamentos (no solo copiando código) con un enfoque moderno y orientado a producto.',
+    date: '2026-04-25',
+    time: '19:00',
+    location: 'Oficinas de Aurora',
+    city: 'Nuevo Chimbote',
+    type: 'Presencial',
+    image_url: 'https://felixcastro.dev/images/espacio_de_trabajo_ligero.webp',
+    registration_url: 'https://felixcastro.dev/talleres/crea-tu-primera-aplicacion-web-con-react',
+    organizer: 'Felix Castro',
+    tags: []
   }
 
 ];
