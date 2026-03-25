@@ -7,11 +7,20 @@ import { useGitHubStars } from '../../hooks/useGitHubStars';
 import { useState } from 'react';
 import { Menu, X, Github, Star } from 'lucide-react';
 import { addUTMParams } from '../../lib/utm';
+import TrackedLink from '../ui/TrackedLink';
 
 export default function Header() {
     const { theme, toggleTheme, mounted } = useThemeContext();
     const { stars } = useGitHubStars('lperezp/peruanos.dev');
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const handleToggleTheme = () => {
+        const newTheme = theme === 'dark' ? 'light' : 'dark';
+        if (typeof window !== 'undefined' && 'gtag' in window && typeof window.gtag === 'function') {
+            window.gtag('event', 'toggle_theme', { new_theme: newTheme });
+        }
+        toggleTheme();
+    };
 
     return (
         <>
@@ -22,16 +31,16 @@ export default function Header() {
 
                 {/* Desktop Navigation */}
                 <nav className="hidden md:flex items-center gap-7 text-foreground">
-                    <Link className="hover:text-primary transition-colors" href="/events">Eventos</Link>
-                    <Link className="hover:text-primary transition-colors" href="/community">Comunidades</Link>
-                    <Link className="hover:text-primary transition-colors" href="/projects">Proyectos Open Source</Link>
+                    <TrackedLink className="hover:text-primary transition-colors" href="/events" eventName="navigate_menu" eventParams={{ destination: '/events' }}>Eventos</TrackedLink>
+                    <TrackedLink className="hover:text-primary transition-colors" href="/community" eventName="navigate_menu" eventParams={{ destination: '/community' }}>Comunidades</TrackedLink>
+                    <TrackedLink className="hover:text-primary transition-colors" href="/projects" eventName="navigate_menu" eventParams={{ destination: '/projects' }}>Proyectos Open Source</TrackedLink>
                 </nav>
 
                 {/* Desktop Actions */}
                 <div className="hidden md:flex items-center gap-3 text-foreground">
                     <button
                         className="h-10 px-3 flex justify-center items-center rounded bg-background cursor-pointer border-none hover:bg-hover"
-                        onClick={toggleTheme}
+                        onClick={handleToggleTheme}
                         aria-label={`Cambiar a tema ${theme === 'light' ? 'oscuro' : 'claro'}`}
                     >
                         {mounted ? (
@@ -76,32 +85,38 @@ export default function Header() {
             {isMenuOpen && (
                 <div className="md:hidden fixed inset-0 top-[72px] bg-background z-40 px-8 py-6 shadow-lg">
                     <nav className="flex flex-col gap-6">
-                        <Link
+                        <TrackedLink
                             className="text-lg hover:text-primary transition-colors"
                             href="/events"
                             onClick={() => setIsMenuOpen(false)}
+                            eventName="navigate_menu"
+                            eventParams={{ destination: '/events' }}
                         >
                             Eventos
-                        </Link>
-                        <Link
+                        </TrackedLink>
+                        <TrackedLink
                             className="text-lg hover:text-primary transition-colors"
                             href="/community"
                             onClick={() => setIsMenuOpen(false)}
+                            eventName="navigate_menu"
+                            eventParams={{ destination: '/community' }}
                         >
                             Comunidades
-                        </Link>
-                        <Link
+                        </TrackedLink>
+                        <TrackedLink
                             className="text-lg hover:text-primary transition-colors"
                             href="/projects"
                             onClick={() => setIsMenuOpen(false)}
+                            eventName="navigate_menu"
+                            eventParams={{ destination: '/projects' }}
                         >
                             Proyectos Open Source
-                        </Link>
+                        </TrackedLink>
 
                         <div className="flex items-center gap-3 mt-4 pt-6 border-t border-border">
                             <button
                                 className="h-10 px-3 flex justify-center items-center rounded bg-background cursor-pointer border border-border hover:bg-hover"
-                                onClick={toggleTheme}
+                                onClick={handleToggleTheme}
                                 aria-label={`Cambiar a tema ${theme === 'light' ? 'oscuro' : 'claro'}`}
                             >
                                 {mounted ? (
