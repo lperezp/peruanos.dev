@@ -13,6 +13,7 @@ import { IGitHubRepo } from './models/project.model';
 import { CircleCheck, Edit, GitFork, Github } from 'lucide-react';
 import { addUTMParams } from './lib/utm';
 import { eventSchema, itemListSchema, softwareSourceCodeSchema } from './lib/structured-data';
+import TrackedLink from './components/ui/TrackedLink';
 
 export const metadata: Metadata = {
   title: 'Inicio | Peruanos.dev',
@@ -92,9 +93,15 @@ export default async function Home() {
           <Link className="px-6 py-3 text-center bg-primary text-white rounded-full hover:bg-primary-hover transition" href='/events'>
             Ver próximos eventos
           </Link>
-          <Link className="px-6 py-3 text-center bg-background text-foreground rounded-full border border-accent hover:bg-hover transition" target='_blank' href={addUTMParams('https://github.com/lperezp/peruanos.dev/issues/new?template=event.yml')} rel="noopener noreferrer">
+          <TrackedLink
+            className="px-6 py-3 text-center bg-background text-foreground rounded-full border border-accent hover:bg-hover transition"
+            target='_blank'
+            href={addUTMParams('https://github.com/lperezp/peruanos.dev/issues/new?template=event.yml')}
+            rel="noopener noreferrer"
+            eventName="click_publish_event"
+          >
             Publicar un evento
-          </Link>
+          </TrackedLink>
         </div>
       </section>
       <section className="py-10 sm:py-15 px-5 w-full flex flex-col items-center">
@@ -193,14 +200,15 @@ export default async function Home() {
             </li>
           </ul>
           <div className="flex justify-center">
-            <Link
+            <TrackedLink
               className="px-6 py-3 bg-primary text-white rounded-full hover:bg-primary-hover transition"
               href={addUTMParams('https://github.com/lperezp/peruanos.dev')}
               target='_blank'
               rel="noopener noreferrer"
+              eventName="click_contribute_repo"
             >
               Ir al repositorio
-            </Link>
+            </TrackedLink>
           </div>
         </div>
       </section>

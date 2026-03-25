@@ -2,6 +2,7 @@
 import { ExternalLink } from 'lucide-react';
 import { ICommunity } from '@/app/models/community.model';
 import Badge from '../ui/Badge';
+import TrackedLink from '../ui/TrackedLink';
 import { addUTMParams } from '../../lib/utm';
 
 export default function CardCommunity({ community }: { community: ICommunity }) {
@@ -37,10 +38,17 @@ export default function CardCommunity({ community }: { community: ICommunity }) 
                         ))}
                     </div>
                 </div>
-                <a href={addUTMParams(community.contact.website)} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 font-medium text-primary-text">
+                <TrackedLink
+                    href={addUTMParams(community.contact.website)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 font-medium text-primary-text"
+                    eventName="click_visit_community"
+                    eventParams={{ community_name: community.name, community_city: community.city }}
+                >
                     <span>Visitar sitio web</span>
                     <ExternalLink size={16} />
-                </a>
+                </TrackedLink>
             </div>
         </div>
     );

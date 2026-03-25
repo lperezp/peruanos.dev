@@ -2,7 +2,7 @@
 import { ExternalLink, MapPin } from 'lucide-react';
 import { IEvent } from '../../models/event.model';
 import Badge from '../ui/Badge';
-import Link from 'next/link';
+import TrackedLink from '../ui/TrackedLink';
 import { addUTMParams } from '../../lib/utm';
 
 interface Props {
@@ -49,10 +49,17 @@ export default function CardEvent({ event }: Props) {
                     <MapPin size={16} />
                     <span>{event.location}</span>
                 </div>
-                <Link href={addUTMParams(event.registration_url)} target="_blank" rel="noopener noreferrer" className="flex items-center mt-4 gap-2 font-medium text-primary font-semibold">
+                <TrackedLink
+                    href={addUTMParams(event.registration_url)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center mt-4 gap-2 font-medium text-primary font-semibold"
+                    eventName="click_register_event"
+                    eventParams={{ event_title: event.title, event_type: event.type }}
+                >
                     Registrarse
                     <ExternalLink size={16} />
-                </Link>
+                </TrackedLink>
             </div>
         </div>
     );
