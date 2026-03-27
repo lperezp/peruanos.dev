@@ -515,6 +515,19 @@ export const EVENTS: IEvent[] = [
     registration_url: 'https://felixcastro.dev/talleres/crea-tu-primera-aplicacion-web-con-react',
     organizer: 'Felix Castro',
     tags: []
+  },
+  {
+    title: 'Crea un Agente de WhatsApp con Open Claw',
+    description: 'Crea tu Agente en WhatsApp con IA Taller en vivo · Gratis · 1.5 horas\n​¿Quieres automatizar conversaciones en WhatsApp sin escribir código complejo? En este taller aprenderás a construir un agente de IA funcional desde cero usando Open Claw.\n​Lo que vas a aprender:\n​Qué es un agente de IA y cómo funciona en WhatsApp\n​Cómo conectar Open Claw con la API de WhatsApp\n​Cómo diseñar flujos de conversación con memoria y contexto\n​Cómo dejarlo corriendo en producción\n​Al terminar el taller tendrás un agente funcionando. No teoría sin uso.\n​💬 Únete a la comunidad de IA MBA en WhatsApp: https://chat.whatsapp.com/ENcncqwA6yO38ZiDA1o4NV\n​🗓 Sábado 28 de marzo\n​⏱ 1.5 horas\n​🌎 Horario Perú / Colombia\n​💸 Gratis.\n​Instructor: Jonathan Nolasco — AI Engineer especializado en automatización con inteligencia artificial.',
+    date: '2026-03-28',
+    time: '10:00',
+    location: 'Virtual',
+    city: 'Virtual',
+    type: 'Virtual',
+    image_url: 'https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/rz/95a0d055-4a69-48d4-9e15-cb55600e7e33.png',
+    registration_url: 'https://luma.com/y9cltguq',
+    tags: ['openclaw', 'whatsapp'],
+    organizer: 'IA MBA'
   }
 
 ];
