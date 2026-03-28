@@ -528,6 +528,19 @@ export const EVENTS: IEvent[] = [
     registration_url: 'https://luma.com/y9cltguq',
     tags: ['openclaw', 'whatsapp'],
     organizer: 'IA MBA'
+  },
+  {
+    title: 'AI Salon Lima - Future of Work',
+    description: 'AI Salon, la comunidad global que está juntando a fundadores, corporativos y expertos en IA para conectar, colaborar y transformar, vuelve con una nueva edición en Lima, Perú. En un mundo donde la inteligencia artificial está redefiniendo cómo trabajamos, aprendemos y creamos valor, Latinoamérica tiene una oportunidad única para reinventar su talento y su forma de colaborar. Future of Work by AISalon Lima es un espacio para explorar cómo la IA está transformando el empleo, las organizaciones y las habilidades que definirán la próxima década.',
+    date: '2026-04-09',
+    time: '18:00',
+    location: 'Barranco, Peru',
+    city: 'Lima',
+    type: 'Presencial',
+    image_url: 'https://images.lumacdn.com/event-covers/xz/0241f366-a0c8-4ea7-a398-093bf26ebe93.png',
+    registration_url: 'https://lu.ma/AI-Salon-Lima-FutureOfWork26',
+    organizer: 'AI Salon Lima',
+    tags: []
   }
 
 ];
