@@ -541,6 +541,19 @@ export const EVENTS: IEvent[] = [
     registration_url: 'https://lu.ma/AI-Salon-Lima-FutureOfWork26',
     organizer: 'AI Salon Lima',
     tags: []
+  },
+  {
+    title: 'Build with AI Tacna 2026',
+    description: '🤖 Build with AI Tacna 2026\n\n¡Obtén experiencia práctica con los modelos y herramientas de inteligencia artificial más recientes de Google!\n\nBuild with AI es una iniciativa global impulsada por Google a través de los Google Developer Groups (GDG), presente en más de 100 países, que busca capacitar a desarrolladores y entusiastas de la tecnología en el uso práctico de herramientas de IA.\n\nEn este evento aprenderás a:\n\n🔹 Construir aplicaciones potenciadas por IA utilizando Gemini, Gemma, Vertex AI y más\n\n🔹 Implementar sistemas de RAG para dispositivos móviles y la web\n\n🔹 Realizar tu primera llamada a la API hasta lograr una aplicación funcional\n\n🔹 Ajustar modelos de Gemini y Gemma para aplicaciones específicas\n\n📅 Fecha: Sábado 11 de abril de 2026\n\n🕘 Horario: 9:00 a.m. - 6:00 p.m.\n\n📍 Lugar: Facultad de Ingeniería de la Universidad Privada de Tacna\n\nDesde talleres prácticos hasta charlas técnicas, este evento está diseñado para que desarrolladores de todos los niveles —desde principiantes hasta avanzados— puedan conectarse, aprender y crecer junto a su comunidad local.\n\nOrganizado por GDG Tacna con el respaldo oficial de Google.\n\n#BwAI #BuildWithAI #GDGTacna #AI #Gemini',
+    date: '2026-04-11',
+    time: '09:00',
+    location: 'Facultad de Ingeniería de la Universidad Privada de Tacna',
+    city: 'Tacna',
+    type: 'Presencial',
+    image_url: 'https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/event_banners/blob_L64zkL4',
+    registration_url: 'https://gdg.community.dev/events/details/google-gdg-tacna-presents-build-with-ai-tacna-2026/',
+    tags: ['AI', 'Gemini', 'GDG', 'Google'],
+    organizer: 'GDG Tacna'
   }
 
 ];
