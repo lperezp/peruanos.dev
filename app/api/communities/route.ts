@@ -1,23 +1,16 @@
 import { NextResponse } from 'next/server';
 import { COMMUNITIES } from '@/app/data/communities';
+import { API_HEADERS } from '@/app/lib/api-utils';
 
-export async function GET() {
+export function GET() {
     return NextResponse.json(COMMUNITIES, {
-        headers: {
-            'Access-Control-Allow-Origin': '*',
-            'Access-Control-Allow-Methods': 'GET, OPTIONS',
-            'Access-Control-Allow-Headers': 'Content-Type, Authorization',
-        },
+        headers: API_HEADERS,
     });
 }
 
-export async function OPTIONS() {
+export function OPTIONS() {
     return new NextResponse(null, {
         status: 204,
-        headers: {
-            'Access-Control-Allow-Origin': '*',
-            'Access-Control-Allow-Methods': 'GET, OPTIONS',
-            'Access-Control-Allow-Headers': 'Content-Type, Authorization',
-        },
+        headers: API_HEADERS,
     });
 }
