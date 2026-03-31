@@ -554,6 +554,19 @@ export const EVENTS: IEvent[] = [
     registration_url: 'https://gdg.community.dev/events/details/google-gdg-tacna-presents-build-with-ai-tacna-2026/',
     tags: ['AI', 'Gemini', 'GDG', 'Google'],
     organizer: 'GDG Tacna'
+  },
+  {
+    title: 'CloudTalks #1 - Nefi Arroyo (Virtual)',
+    description: '🎉 ¡ÚNETE A NUESTRO PRIMER MEETUP VIRTUAL Y CONOCE NUESTRA COMUNIDAD! ☁️✨\n\nNos complace anunciar a Nefi Arroyo, Tech Owner of AWS availability, como speaker.\n\nEn su charla "Capítulo 1: Únete a la nube. AWS, comunidad y tu camino en Tech desde cero".\n\n¿Qué vas a descubrir?\n🌐 Por qué AWS es la habilidad más demandada del mercado tech ahora mismo\n🤝 Cómo nuestra comunidad puede acelerar tu crecimiento profesional\n🗺️ El camino exacto para entrar al mundo cloud, aunque partas desde cero\n🎯 Recursos y oportunidades exclusivas solo para miembros\n👥 Conocerás en vivo al Core Team del AWS Cloud Club UNTELS, las mentes detrás de la comunidad que está revolucionando el tech en Lima Sur\n\n💡 No importa si estudias ingeniería, sistemas, administración o cualquier otra carrera. La nube no tiene límites y nosotros tampoco.\n\n📅 Sábado 11 de abril | 🕙 11:00 am – 12:30 pm | 🌍 GMT-5 (Lima, Perú)',
+    date: '2026-04-11',
+    time: '11:00',
+    location: 'Virtual',
+    city: 'Lima',
+    type: 'Virtual',
+    image_url: 'https://secure.meetupstatic.com/photos/event/5/1/b/7/highres_533480919.jpeg',
+    registration_url: 'https://www.meetup.com/aws-cloud-club-at-untels/events/314040227/',
+    tags: ['AWS', 'Cloud', 'Community'],
+    organizer: 'AWS Cloud Club at UNTELS'
   }
 
 ];
