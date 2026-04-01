@@ -569,15 +569,15 @@ export const EVENTS: IEvent[] = [
     organizer: 'AWS Cloud Club at UNTELS'
   },
   {
-    title: 'Habilidades fundamentales para desarrollar productos con IA',
-    description: '¿Usas IA… o sabes construir con ella? Aprende las habilidades técnicas clave que hoy necesita un desarrollador para trabajar con inteligencia artificial en productos de software.\n\n✦ Fundamentos de IA\n✦ Herramientas clave para integrar modelos de IA\n✦ Aplicación en productos',
+    title: 'De usuarias a AI BUILDERS 🧠👩🏽‍💻',
+    description: 'Durante años nos hicieron creer que la IA era solo para ingenieras. Hoy rompemos ese patrón. Explora caminos como el no-code, código, diseño conversacional y automatizaciones, y entiende cómo tú también puedes ser parte de quienes están construyendo el presente y el futuro.\n\nLa IA ya está aquí. La pregunta es: ¿serás usuaria… o una BUILDER (creadora)?\n[VIRTUAL] Viernes 18/04 a las 10:00 AM Perú (GTM-5) para el mundo + becas 🎁',
     date: '2026-04-18',
     time: '10:00',
     location: 'Virtual',
     city: 'Virtual',
     type: 'Virtual',
-    image_url: 'https://scontent-ord5-3.cdninstagram.com/v/t51.82787-15/656585884_18043733669587184_3679437748795933756_n.jpg?stp=c216.0.648.648a_dst-jpg_e35_s640x640_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6lE_3NBToFIQ7kNvwFFT7Ka&_nc_oc=AdrVpzEgAikGFUxFyE_YZl4feVMRreViza90ja4wtGdDlj579lmv3WL-3gq3QfTKXPA&_nc_zt=23&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_gid=vFxTdxZNjFQplmdR05LxaA&_nc_ss=7a389&oh=00_Af3PkrU5FF5BjFtIXbRb0Turm4dkki1LUvsnjWqEe8RAtA&oe=69D33EA3',
-    registration_url: 'https://www.instagram.com/p/DWl33EIirB7/',
+    image_url: 'https://storage.tally.so/efda77b8-b074-4eed-812b-ba48b7bd0ab2/LinkedIn_Header-3-.png',
+    registration_url: 'https://tally.so/r/0QLMkZ',
     tags: ['AI', 'Tech', 'Women in Tech'],
     organizer: 'Juntas Comunidad'
   }
