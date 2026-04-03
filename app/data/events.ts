@@ -580,6 +580,19 @@ export const EVENTS: IEvent[] = [
     registration_url: 'https://tally.so/r/0QLMkZ',
     tags: ['AI', 'Tech', 'Women in Tech'],
     organizer: 'Juntas Comunidad'
+  },
+  {
+    title: "Explora Tech Lima 2026",
+    description: "La tecnología no solo se aprende. Se comparte. Se construye. Se vive.",
+    date: "2026-05-30",
+    time: "09:00",
+    location: "Universidad Científica del Sur, 19 Antigua Panamericana Sur, Villa EL Salvador, Provincia de Lima 15067",
+    city: "Villa EL Salvador",
+    type: "Presencial",
+    image_url: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178139955%2F2992965206602%2F1%2Foriginal.20260222-155536?w=480&auto=format%2Ccompress&q=75&sharp=10&rect=49%2C0%2C656%2C328&s=0ae11e09ddac403a88a9044d52b857af",
+    registration_url: "https://www.eventbrite.com.pe/e/explora-tech-lima-2026-tickets-1983718128322",
+    tags: [],
+    organizer: "Techspira"
   }
 
 ];
