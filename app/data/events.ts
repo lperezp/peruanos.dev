@@ -593,6 +593,18 @@ export const EVENTS: IEvent[] = [
     registration_url: "https://www.eventbrite.com.pe/e/explora-tech-lima-2026-tickets-1983718128322",
     tags: [],
     organizer: "Techspira"
+  },
+  {
+    title: "FLISoL UTP - 2026",
+    description: "Festival Latinoamericano de Instalación de Software Libre (FLISoL) en la UTP. Un día lleno de aprendizaje, tecnología y cultura open source con charlas de Linux, Ciberseguridad, IA, Hardware Abierto y más.",
+    date: "2026-04-25",
+    time: "09:00",
+    location: "UTP - Torre Arequipa",
+    city: "Lima",
+    type: "Presencial",
+    image_url: "https://images.lumacdn.com/event-covers/mc/1947c2c8-7c21-4477-aca8-c8cc1ce353c0.png",
+    registration_url: "https://luma.com/0h6u3mp6",
+    organizer: "LEAD UTP",
+    tags: ["Linux", "Open Source", "Ciberseguridad", "IA"]
   }
-
 ];
