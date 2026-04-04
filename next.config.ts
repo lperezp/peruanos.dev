@@ -11,6 +11,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'storage.tally.so',
       },
+      {
+        protocol: 'https',
+        hostname: 'images.lumacdn.com',
+      },
     ],
   },
 };
