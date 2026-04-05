@@ -370,5 +370,34 @@ export const COMMUNITIES: ICommunity[] = [
                 "instagram": ""
             }
         }
+    },
+    {
+        "name": "LEAD UTP",
+        "description": "Somos una comunidad tecnológica enfocada en formar líderes y potenciar el crecimiento profesional de estudiantes mediante eventos, aprendizaje colaborativo y networking con la industria. Promovemos el desarrollo de habilidades técnicas y blandas para impulsar el talento joven en el ecosistema tech del Perú.",
+        "logo_url": "https://raw.githubusercontent.com/LeadUTPDev/leadutp-hub/acd6d23ae92c2c4ef18e312463898460b19e781f/public/images/Logo%20oficial%20-%20Banner.png",
+        "city": "Lima",
+        "topics": [
+            "Cloud Computing",
+            "Software Development",
+            "Web Development",
+            "EdTech",
+            "Startups",
+            "AI",
+            "Innovation",
+            "Women in Tech"
+        ],
+        "contact": {
+            "email": "leadutp@gmail.com",
+            "website": "https://www.instagram.com/lead_utp/",
+            "socialMedia": {
+                "github": "",
+                "twitter": "",
+                "linkedin": "",
+                "discord": "https://discord.com/invite/EYXFUfYHbF",
+                "facebook": "",
+                "youtube": "",
+                "instagram": "https://www.instagram.com/lead_utp/"
+            }
+        }
     }
 ];
