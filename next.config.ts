@@ -18,7 +18,11 @@ const nextConfig: NextConfig = {
        {
         protocol: 'https',
         hostname: 'images.lumacdn.com',
-       },
+      },
+      {
+        protocol: 'https',
+        hostname: 'lh3.googleusercontent.com',
+      },
     ],
   },
 };
