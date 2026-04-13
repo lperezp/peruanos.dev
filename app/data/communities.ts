@@ -373,26 +373,58 @@ export const COMMUNITIES: ICommunity[] = [
     },
     {
         "name": "Game Devs UTP",
-        "description": "Comunidad estudiantil de la Universidad Tecnológica del Perú (UTP) enfocada en impulsar el desarrollo de videojuegos y e-sports. Un espacio para aprender, compartir y crear en el mundo del gaming.",
-        "logo_url": "https://images.lumacdn.com/calendars/xk/d9cd92be-dd4f-431b-9f0f-2d44c216c1fd.jpg",
+        "description": "Game Devs UTP es una comunidad estudiantil de la Universidad Tecnológica del Perú (UTP) que impulsa el desarrollo de videojuegos y e-sports. Fomentamos la creatividad, el aprendizaje y la colaboración entre estudiantes de diversas carreras como programadores, artistas, diseñadores, músicos y entusiastas del gaming, integrando sus talentos para transformar ideas en experiencias interactivas y competitivas.",
+        "logo_url": "https://lh3.googleusercontent.com/d/1eAGS2eLUJDJzlOy6pvY85rOvkS3_CJCS",
         "city": "Lima",
         "topics": [
-            "Game Development",
             "Videojuegos",
-            "E-sports",
-            "Student Community"
+            "TI",
+            "Programación",
+            "Arte",
+            "Diseño de juego",
+            "Audio",
+            "E-sports"
         ],
         "contact": {
-            "email": "",
-            "website": "https://luma.com/calendar/cal-9tTLFpVPAWli1qo",
+            "email": "gamedevsutp@gmail.com",
+            "website": "https://linktr.ee/GameDevsUTP",
             "socialMedia": {
                 "github": "",
                 "twitter": "",
-                "linkedin": "https://linkedin.com/company/gamedevsutp",
-                "discord": "",
+                "linkedin": "https://www.linkedin.com/company/gamedevsutp/",
+                "discord": "https://discord.com/invite/7f3hKn7MxM",
                 "facebook": "",
                 "youtube": "",
-                "instagram": "https://instagram.com/gamedevsutp"
+                "instagram": "https://www.instagram.com/gamedevsutp"
+            }
+        }
+    },
+    {
+        "name": "LEAD UTP",
+        "description": "Somos una comunidad tecnológica enfocada en formar líderes y potenciar el crecimiento profesional de estudiantes mediante eventos, aprendizaje colaborativo y networking con la industria. Promovemos el desarrollo de habilidades técnicas y blandas para impulsar el talento joven en el ecosistema tech del Perú.",
+        "logo_url": "https://raw.githubusercontent.com/LeadUTPDev/leadutp-hub/acd6d23ae92c2c4ef18e312463898460b19e781f/public/images/Logo%20oficial%20-%20Banner.png",
+        "city": "Lima",
+        "topics": [
+            "Cloud Computing",
+            "Software Development",
+            "Web Development",
+            "EdTech",
+            "Startups",
+            "AI",
+            "Innovation",
+            "Women in Tech"
+        ],
+        "contact": {
+            "email": "leadutp@gmail.com",
+            "website": "https://www.instagram.com/lead_utp/",
+            "socialMedia": {
+                "github": "",
+                "twitter": "",
+                "linkedin": "",
+                "discord": "https://discord.com/invite/EYXFUfYHbF",
+                "facebook": "",
+                "youtube": "",
+                "instagram": "https://www.instagram.com/lead_utp/"
             }
         }
     }
