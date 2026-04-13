@@ -606,5 +606,18 @@ export const EVENTS: IEvent[] = [
     registration_url: "https://luma.com/0h6u3mp6",
     organizer: "LEAD UTP",
     tags: ["Linux", "Open Source", "Ciberseguridad", "IA"]
-  }
+    },
+    {
+        title: "De Jugador a Protector: Introducción a la Ciberseguridad para Gamers",
+        description: "​¿Te gustan los videojuegos y quieres entender cómo se pueden hackear… y proteger? 🎮🔐 Esta ponencia te mostrará el lado oculto de la ciberseguridad en el mundo gamer. 🔥 Lo que aprenderás: Conocerás los fundamentos de la ciberseguridad y cómo iniciar en este campo, aplicados a videojuegos. Además, verás un caso real: la vulnerabilidad Log4J en Minecraft y cómo puede usarse para ejecutar comandos en una máquina víctima. 👾 ¿Para quién es? ¡Para gamers, estudiantes y curiosos! No necesitas experiencia previa en ciberseguridad, solo interés por entender cómo proteger sistemas y descubrir el lado oculto de los videojuegos.",
+        date: "2026-04-11",
+        time: "15:00",
+        location: "Virtual",
+        city: "Lima",
+        type: "Virtual",
+        image_url: "https://images.lumacdn.com/event-covers/i6/511268fa-846c-4de5-ac7e-b9622d6d7cad.jpg",
+        registration_url: "https://luma.com/qtp6suw8",
+        tags: ["Ciberseguridad", "Gaming", "Videojuegos"],
+        organizer: "Game Devs UTP"
+    }
 ];

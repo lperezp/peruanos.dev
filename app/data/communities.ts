@@ -370,5 +370,30 @@ export const COMMUNITIES: ICommunity[] = [
                 "instagram": ""
             }
         }
+    },
+    {
+        "name": "Game Devs UTP",
+        "description": "Comunidad estudiantil de la Universidad Tecnológica del Perú (UTP) enfocada en impulsar el desarrollo de videojuegos y e-sports. Un espacio para aprender, compartir y crear en el mundo del gaming.",
+        "logo_url": "https://images.lumacdn.com/calendars/xk/d9cd92be-dd4f-431b-9f0f-2d44c216c1fd.jpg",
+        "city": "Lima",
+        "topics": [
+            "Game Development",
+            "Videojuegos",
+            "E-sports",
+            "Student Community"
+        ],
+        "contact": {
+            "email": "",
+            "website": "https://luma.com/calendar/cal-9tTLFpVPAWli1qo",
+            "socialMedia": {
+                "github": "",
+                "twitter": "",
+                "linkedin": "https://linkedin.com/company/gamedevsutp",
+                "discord": "",
+                "facebook": "",
+                "youtube": "",
+                "instagram": "https://instagram.com/gamedevsutp"
+            }
+        }
     }
 ];
