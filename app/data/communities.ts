@@ -370,5 +370,33 @@ export const COMMUNITIES: ICommunity[] = [
                 "instagram": ""
             }
         }
+    },
+    {
+        "name": "Game Devs UTP",
+        "description": "Game Devs UTP es una comunidad estudiantil de la Universidad Tecnológica del Perú (UTP) que impulsa el desarrollo de videojuegos y e-sports. Fomentamos la creatividad, el aprendizaje y la colaboración entre estudiantes de diversas carreras como programadores, artistas, diseñadores, músicos y entusiastas del gaming, integrando sus talentos para transformar ideas en experiencias interactivas y competitivas.",
+        "logo_url": "https://lh3.googleusercontent.com/d/1eAGS2eLUJDJzlOy6pvY85rOvkS3_CJCS",
+        "city": "Lima",
+        "topics": [
+            "Videojuegos",
+            "TI",
+            "Programación",
+            "Arte",
+            "Diseño de juego",
+            "Audio",
+            "E-sports"
+        ],
+        "contact": {
+            "email": "gamedevsutp@gmail.com",
+            "website": "https://linktr.ee/GameDevsUTP",
+            "socialMedia": {
+                "github": "",
+                "twitter": "",
+                "linkedin": "https://www.linkedin.com/company/gamedevsutp/",
+                "discord": "https://discord.com/invite/7f3hKn7MxM",
+                "facebook": "",
+                "youtube": "",
+                "instagram": "https://www.instagram.com/gamedevsutp"
+            }
+        }
     }
 ];
