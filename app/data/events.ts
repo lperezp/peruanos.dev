@@ -619,5 +619,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://luma.com/qtp6suw8",
         tags: ["Ciberseguridad", "Gaming", "Videojuegos"],
         organizer: "Game Devs UTP"
+    },
+    {
+        title: "Pixel art 101 para game devs",
+        description: "¿Alguna vez te preguntaste cómo se hacen los sprites de tus juegos favoritos? En este taller organizado por Game Dev UTP vamos a ver exactamente eso: cómo crear assets digitales para videojuegos 2D desde cero, con Aseprite, la herramienta que usan cientos de desarrolladores indie en todo el mundo. 🖼️✨\n\nSin experiencia previa requerida. Solo conéctate desde donde estés 💻, que el ponente se encarga de compartir pantalla con el software y los assets en vivo. 🙌 Vamos a ver paletas de color, animaciones básicas y el flujo de trabajo real de un artista de videojuegos, todo en vivo y en directo.",
+        date: "2026-04-18",
+        time: "14:00",
+        location: "Virtual",
+        city: "Virtual",
+        type: "Virtual",
+        image_url: "https://images.lumacdn.com/event-covers/56/5a73da6d-1139-4dd9-9aa8-f86dcdcab5ff.jpg",
+        registration_url: "https://luma.com/z3vlgap4",
+        tags: [],
+        organizer: "Game Devs UTP"
     }
 ];
