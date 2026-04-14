@@ -1,16 +1,15 @@
 import { NextResponse } from 'next/server';
 import { PROJECTS } from '@/app/data/projects';
-import { API_HEADERS } from '@/app/lib/api-utils';
 
-export function GET() {
-    return NextResponse.json(PROJECTS, {
-        headers: API_HEADERS,
-    });
-}
+export const revalidate = 3600;
 
-export function OPTIONS() {
-    return new NextResponse(null, {
-        status: 204,
-        headers: API_HEADERS,
-    });
+export async function GET() {
+  try {
+    return NextResponse.json(PROJECTS, { status: 200 });
+  } catch (error) {
+    return NextResponse.json(
+      { error: "Error al obtener los proyectos" },
+      { status: 500 }
+    );
+  }
 }
