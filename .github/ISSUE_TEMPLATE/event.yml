@@ -10,94 +10,13 @@ body:
         Por favor completa la siguiente información.
 
   - type: input
-    id: title
+    id: event_url
     attributes:
-      label: Título del evento
-      description: Nombre completo del evento
-      placeholder: 'ej. Tech Talk: Introducción a React'
+      label: Link del evento o registro
+      description: URL del evento o del formulario de registro
+      placeholder: 'ej. https://eventbrite.com/... o https://meetup.com/...'
     validations:
       required: true
-
-  - type: textarea
-    id: description
-    attributes:
-      label: Descripción
-      description: Describe brevemente el evento (qué se tratará, quién lo organiza, etc.)
-      placeholder: |
-        En este evento aprenderás...
-    validations:
-      required: true
-
-  - type: input
-    id: date
-    attributes:
-      label: Fecha
-      description: Fecha del evento
-      placeholder: 'YYYY-MM-DD (ej. 2026-02-15)'
-    validations:
-      required: true
-
-  - type: input
-    id: time
-    attributes:
-      label: Hora
-      description: Hora de inicio del evento
-      placeholder: 'HH:MM (ej. 19:00)'
-    validations:
-      required: true
-
-  - type: input
-    id: location
-    attributes:
-      label: Ubicación
-      description: Dirección del evento o plataforma virtual
-      placeholder: 'ej. Av. Larco 1234, Miraflores o https://zoom.us/...'
-    validations:
-      required: true
-
-  - type: input
-    id: city
-    attributes:
-      label: Ciudad
-      description: Ciudad donde se realiza el evento
-      placeholder: 'ej. Lima'
-    validations:
-      required: true
-
-  - type: dropdown
-    id: type
-    attributes:
-      label: Tipo de evento
-      description: Modalidad del evento
-      options:
-        - Presencial
-        - Virtual
-        - Híbrido
-    validations:
-      required: true
-
-  - type: input
-    id: image_url
-    attributes:
-      label: URL de la imagen
-      description: (Opcional) Link a una imagen del evento
-      placeholder: 'https://ejemplo.com/imagen.jpg'
-
-  - type: input
-    id: registration_url
-    attributes:
-      label: URL de registro
-      description: Link donde los usuarios pueden registrarse
-      placeholder: 'https://eventbrite.com/...'
-    validations:
-      required: true
-
-  - type: input
-    id: tags
-    attributes:
-      label: Tags
-      description: Etiquetas separadas por comas (temas relacionados)
-      placeholder: 'javascript, react, frontend'
     validations:
       required: true
 

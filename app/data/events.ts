@@ -541,6 +541,83 @@ export const EVENTS: IEvent[] = [
     registration_url: 'https://lu.ma/AI-Salon-Lima-FutureOfWork26',
     organizer: 'AI Salon Lima',
     tags: []
-  }
-
+  },
+  {
+    title: 'Build with AI Tacna 2026',
+    description: '🤖 Build with AI Tacna 2026\n\n¡Obtén experiencia práctica con los modelos y herramientas de inteligencia artificial más recientes de Google!\n\nBuild with AI es una iniciativa global impulsada por Google a través de los Google Developer Groups (GDG), presente en más de 100 países, que busca capacitar a desarrolladores y entusiastas de la tecnología en el uso práctico de herramientas de IA.\n\nEn este evento aprenderás a:\n\n🔹 Construir aplicaciones potenciadas por IA utilizando Gemini, Gemma, Vertex AI y más\n\n🔹 Implementar sistemas de RAG para dispositivos móviles y la web\n\n🔹 Realizar tu primera llamada a la API hasta lograr una aplicación funcional\n\n🔹 Ajustar modelos de Gemini y Gemma para aplicaciones específicas\n\n📅 Fecha: Sábado 11 de abril de 2026\n\n🕘 Horario: 9:00 a.m. - 6:00 p.m.\n\n📍 Lugar: Facultad de Ingeniería de la Universidad Privada de Tacna\n\nDesde talleres prácticos hasta charlas técnicas, este evento está diseñado para que desarrolladores de todos los niveles —desde principiantes hasta avanzados— puedan conectarse, aprender y crecer junto a su comunidad local.\n\nOrganizado por GDG Tacna con el respaldo oficial de Google.\n\n#BwAI #BuildWithAI #GDGTacna #AI #Gemini',
+    date: '2026-04-11',
+    time: '09:00',
+    location: 'Facultad de Ingeniería de la Universidad Privada de Tacna',
+    city: 'Tacna',
+    type: 'Presencial',
+    image_url: 'https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/event_banners/blob_L64zkL4',
+    registration_url: 'https://gdg.community.dev/events/details/google-gdg-tacna-presents-build-with-ai-tacna-2026/',
+    tags: ['AI', 'Gemini', 'GDG', 'Google'],
+    organizer: 'GDG Tacna'
+  },
+  {
+    title: 'CloudTalks #1 - Nefi Arroyo (Virtual)',
+    description: '🎉 ¡ÚNETE A NUESTRO PRIMER MEETUP VIRTUAL Y CONOCE NUESTRA COMUNIDAD! ☁️✨\n\nNos complace anunciar a Nefi Arroyo, Tech Owner of AWS availability, como speaker.\n\nEn su charla "Capítulo 1: Únete a la nube. AWS, comunidad y tu camino en Tech desde cero".\n\n¿Qué vas a descubrir?\n🌐 Por qué AWS es la habilidad más demandada del mercado tech ahora mismo\n🤝 Cómo nuestra comunidad puede acelerar tu crecimiento profesional\n🗺️ El camino exacto para entrar al mundo cloud, aunque partas desde cero\n🎯 Recursos y oportunidades exclusivas solo para miembros\n👥 Conocerás en vivo al Core Team del AWS Cloud Club UNTELS, las mentes detrás de la comunidad que está revolucionando el tech en Lima Sur\n\n💡 No importa si estudias ingeniería, sistemas, administración o cualquier otra carrera. La nube no tiene límites y nosotros tampoco.\n\n📅 Sábado 11 de abril | 🕙 11:00 am – 12:30 pm | 🌍 GMT-5 (Lima, Perú)',
+    date: '2026-04-11',
+    time: '11:00',
+    location: 'Virtual',
+    city: 'Lima',
+    type: 'Virtual',
+    image_url: 'https://secure.meetupstatic.com/photos/event/5/1/b/7/highres_533480919.jpeg',
+    registration_url: 'https://www.meetup.com/aws-cloud-club-at-untels/events/314040227/',
+    tags: ['AWS', 'Cloud', 'Community'],
+    organizer: 'AWS Cloud Club at UNTELS'
+  },
+  {
+    title: 'De usuarias a AI BUILDERS 🧠👩🏽‍💻',
+    description: 'Durante años nos hicieron creer que la IA era solo para ingenieras. Hoy rompemos ese patrón. Explora caminos como el no-code, código, diseño conversacional y automatizaciones, y entiende cómo tú también puedes ser parte de quienes están construyendo el presente y el futuro.\n\nLa IA ya está aquí. La pregunta es: ¿serás usuaria… o una BUILDER (creadora)?\n[VIRTUAL] Viernes 18/04 a las 10:00 AM Perú (GTM-5) para el mundo + becas 🎁',
+    date: '2026-04-18',
+    time: '10:00',
+    location: 'Virtual',
+    city: 'Virtual',
+    type: 'Virtual',
+    image_url: 'https://storage.tally.so/efda77b8-b074-4eed-812b-ba48b7bd0ab2/LinkedIn_Header-3-.png',
+    registration_url: 'https://tally.so/r/0QLMkZ',
+    tags: ['AI', 'Tech', 'Women in Tech'],
+    organizer: 'Juntas Comunidad'
+  },
+  {
+    title: "Explora Tech Lima 2026",
+    description: "La tecnología no solo se aprende. Se comparte. Se construye. Se vive.",
+    date: "2026-05-30",
+    time: "09:00",
+    location: "Universidad Científica del Sur, 19 Antigua Panamericana Sur, Villa EL Salvador, Provincia de Lima 15067",
+    city: "Villa EL Salvador",
+    type: "Presencial",
+    image_url: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178139955%2F2992965206602%2F1%2Foriginal.20260222-155536?w=480&auto=format%2Ccompress&q=75&sharp=10&rect=49%2C0%2C656%2C328&s=0ae11e09ddac403a88a9044d52b857af",
+    registration_url: "https://www.eventbrite.com.pe/e/explora-tech-lima-2026-tickets-1983718128322",
+    tags: [],
+    organizer: "Techspira"
+  },
+  {
+    title: "FLISoL UTP - 2026",
+    description: "Festival Latinoamericano de Instalación de Software Libre (FLISoL) en la UTP. Un día lleno de aprendizaje, tecnología y cultura open source con charlas de Linux, Ciberseguridad, IA, Hardware Abierto y más.",
+    date: "2026-04-25",
+    time: "09:00",
+    location: "UTP - Torre Arequipa",
+    city: "Lima",
+    type: "Presencial",
+    image_url: "https://images.lumacdn.com/event-covers/mc/1947c2c8-7c21-4477-aca8-c8cc1ce353c0.png",
+    registration_url: "https://luma.com/0h6u3mp6",
+    organizer: "LEAD UTP",
+    tags: ["Linux", "Open Source", "Ciberseguridad", "IA"]
+    },
+    {
+        title: "De Jugador a Protector: Introducción a la Ciberseguridad para Gamers",
+        description: "​¿Te gustan los videojuegos y quieres entender cómo se pueden hackear… y proteger? 🎮🔐 Esta ponencia te mostrará el lado oculto de la ciberseguridad en el mundo gamer. 🔥 Lo que aprenderás: Conocerás los fundamentos de la ciberseguridad y cómo iniciar en este campo, aplicados a videojuegos. Además, verás un caso real: la vulnerabilidad Log4J en Minecraft y cómo puede usarse para ejecutar comandos en una máquina víctima. 👾 ¿Para quién es? ¡Para gamers, estudiantes y curiosos! No necesitas experiencia previa en ciberseguridad, solo interés por entender cómo proteger sistemas y descubrir el lado oculto de los videojuegos.",
+        date: "2026-04-11",
+        time: "15:00",
+        location: "Virtual",
+        city: "Lima",
+        type: "Virtual",
+        image_url: "https://images.lumacdn.com/event-covers/i6/511268fa-846c-4de5-ac7e-b9622d6d7cad.jpg",
+        registration_url: "https://luma.com/qtp6suw8",
+        tags: ["Ciberseguridad", "Gaming", "Videojuegos"],
+        organizer: "Game Devs UTP"
+    }
 ];
