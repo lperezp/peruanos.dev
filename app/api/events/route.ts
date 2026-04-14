@@ -7,7 +7,9 @@ export const revalidate = 3600;
 
 export async function GET() {
   try {
-    return NextResponse.json(EVENTS, { status: 200 });
+    const today = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Lima' });
+    const activeEvents = EVENTS.filter(event => event.date >= today);
+    return NextResponse.json(activeEvents, { status: 200 });
   } catch (error) {
     return NextResponse.json(
       { error: "Error al obtener los eventos" },
