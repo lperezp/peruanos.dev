@@ -1,13 +1,29 @@
 import { NextResponse } from 'next/server';
 import { EVENTS } from '@/app/data/events';
 
-// Puedes configurar la caché estática para que la respuesta dure, por ejemplo, 1 hora (3600 segundos).
-// Esto sirve como tu "Escudo de Caché" contra miles de peticiones.
 export const revalidate = 3600;
 
-export async function GET() {
+export async function GET(request: Request) {
   try {
-    return NextResponse.json(EVENTS, { status: 200 });
+    const { searchParams } = new URL(request.url);
+    const city = searchParams.get('city')?.toLowerCase();
+    const type = searchParams.get('type')?.toLowerCase();
+
+    let filteredEvents = EVENTS;
+
+    if (city) {
+      filteredEvents = filteredEvents.filter(
+        (event) => event.city?.toLowerCase() === city
+      );
+    }
+
+    if (type) {
+      filteredEvents = filteredEvents.filter(
+        (event) => event.type?.toLowerCase() === type
+      );
+    }
+
+    return NextResponse.json(filteredEvents, { status: 200 });
   } catch (error) {
     return NextResponse.json(
       { error: "Error al obtener los eventos" },

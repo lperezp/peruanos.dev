@@ -34,7 +34,7 @@ export default function Header() {
                     <TrackedLink className="hover:text-primary transition-colors" href="/events" eventName="navigate_menu" eventParams={{ destination: '/events' }}>Eventos</TrackedLink>
                     <TrackedLink className="hover:text-primary transition-colors" href="/community" eventName="navigate_menu" eventParams={{ destination: '/community' }}>Comunidades</TrackedLink>
                     <TrackedLink className="hover:text-primary transition-colors" href="/projects" eventName="navigate_menu" eventParams={{ destination: '/projects' }}>Proyectos Open Source</TrackedLink>
-                    <TrackedLink className="hover:text-primary transition-colors" href="/apis" eventName="navigate_menu" eventParams={{ destination: '/apis' }}>APIs</TrackedLink>
+                    <TrackedLink className="hover:text-primary transition-colors" href="/apis" eventName="navigate_menu" eventParams={{ destination: '/apis' }}>API</TrackedLink>
                 </nav>
 
                 {/* Desktop Actions */}
@@ -120,7 +120,7 @@ export default function Header() {
                             eventName="navigate_menu"
                             eventParams={{ destination: '/apis' }}
                         >
-                            APIs
+                            API
                         </TrackedLink>
 
                         <div className="flex items-center gap-3 mt-4 pt-6 border-t border-border">
