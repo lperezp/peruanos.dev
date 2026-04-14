@@ -82,9 +82,9 @@ export default function APIs() {
                 </div>
 
                 <div className="mt-12 bg-hover border border-border rounded-lg p-6 sm:p-8 w-full">
-                    <h3 className="font-bold text-xl mb-3 text-primary-text">Rate Limiting & Caché</h3>
+                    <h3 className="font-bold text-xl mb-3 text-primary-text">Uso responsable</h3>
                     <p className="mb-0 text-foreground/80">
-                        Nuestras APIs están configuradas con una caché estática. Las respuestas se revalidan cada hora (3600 segundos) para garantizar un buen rendimiento y servir como protección frente a múltiples peticiones simultáneas. Por favor, usa estos endpoints de manera responsable.
+                        Agradecemos un uso responsable de estos endpoints para asegurar la disponibilidad y un buen rendimiento del servicio para toda la comunidad.
                     </p>
                 </div>
             </section>
