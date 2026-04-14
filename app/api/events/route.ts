@@ -26,7 +26,7 @@ export async function GET(request: Request) {
 
     const activeEvents = filteredEvents.filter(event => event.date >= today);
 
-    return NextResponse.json(filteredEvents, { status: 200 });
+    return NextResponse.json(activeEvents, { status: 200 });
   } catch (error) {
     return NextResponse.json(
       { error: "Error al obtener los eventos" },
