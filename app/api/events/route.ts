@@ -8,6 +8,7 @@ export async function GET(request: Request) {
     const { searchParams } = new URL(request.url);
     const city = searchParams.get('city')?.toLowerCase();
     const type = searchParams.get('type')?.toLowerCase();
+    const today = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Lima' });
 
     let filteredEvents = EVENTS;
 
@@ -22,6 +23,8 @@ export async function GET(request: Request) {
         (event) => event.type?.toLowerCase() === type
       );
     }
+
+    const activeEvents = filteredEvents.filter(event => event.date >= today);
 
     return NextResponse.json(filteredEvents, { status: 200 });
   } catch (error) {
