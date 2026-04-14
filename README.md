@@ -20,7 +20,20 @@ peruanos.dev es una plataforma que reúne información sobre:
 - Diseño responsive
 - Sitemap y structured data
 
+## APIs Públicas
+
+peruanos.dev expone diferentes endpoints públicos (solo de lectura) para que puedas consumir la información en tus propios proyectos:
+
+- `GET /api/events` - Obtiene la lista de eventos.
+- `GET /api/communities` - Obtiene el directorio de comunidades.
+- `GET /api/projects` - Obtiene los proyectos open source.
+
+
 ## Comenzar
+
+**Requisitos previos:**
+- Node.js 20 o superior
+- npm o pnpm
 
 Instala las dependencias:
 
@@ -62,17 +75,23 @@ Lee la [guía de contribución](CONTRIBUTING.md) completa para más detalles.
 
 ## Estructura del Proyecto
 
-```
-app/
-├── components/         # Componentes React
-├── context/           # Context API (Theme)
-├── data/              # Datos de eventos, comunidades, proyectos
-├── hooks/             # Custom hooks
-├── lib/               # Utilidades
-├── models/            # Interfaces TypeScript
-├── community/         # Página de comunidades
-├── events/            # Página de eventos
-└── projects/          # Página de proyectos
+```text
+peruanos.dev/
+├── app/               # Código principal (Next.js App Router)
+│   ├── api/           # Endpoints públicos de la API
+│   ├── community/     # Página de comunidades
+│   ├── components/    # Componentes React
+│   ├── context/       # Contextos globales (Theme)
+│   ├── data/          # Datos estáticos de eventos, comunidades y proyectos
+│   ├── events/        # Página de eventos
+│   ├── hooks/         # Custom hooks de React
+│   ├── lib/           # Funciones de utilidad
+│   ├── models/        # Interfaces y tipos de TypeScript
+│   └── projects/      # Página de proyectos
+├── public/            # Archivos estáticos (imágenes, iconos, etc.)
+├── .github/           # Plantillas de contribución (Issues/PRs)
+├── CONTRIBUTING.md    # Guía detallada para contribuir
+└── next.config.ts     # Configuración de Next.js
 ```
 
 ## Comandos Disponibles
