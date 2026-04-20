@@ -162,5 +162,21 @@ export const EVENTS: IEvent[] = [
         "registration_url": "https://luma.com/z3vlgap4",
         "tags": [],
         "organizer": "Game Devs UTP"
+    },
+    {
+        "title": "Productividad al límite: Notion + AI",
+        "description": "🚀 Productividad: Lleva tu equipo al máximo con Notion y Agentes de AI 🤖✨. ¿Tu equipo busca trabajar de forma más inteligente y no más duro? Te invitamos a un evento que va a transformar la manera en que operan 💪. En este evento, podrás descubrir cómo la inteligencia artificial y los Agentes de AI en Notion están revolucionando la productividad, permitiendo que los sistemas trabajen de manera autónoma mientras tu equipo se enfoca en lo que realmente importa 🎯. Este evento es para quienes están listos para dar el salto: equipos que quieren dejar atrás los procesos manuales y construir sistemas que trabajan por ellos.",
+        "date": "2026-05-02",
+        "time": "18:00",
+        "location": "San Isidro, Provincia de Lima",
+        "city": "San Isidro",
+        "type": "Presencial",
+        "image_url": "https://images.lumacdn.com/event-covers/ti/9cfb1392-dc4d-4b3a-a861-15bf35c547d2.png",
+        "registration_url": "https://luma.com/1k8lsruf",
+        "organizer": "Notion Perú",
+        "tags": [
+            "AI",
+            "Notion"
+        ]
     }
 ];
