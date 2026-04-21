@@ -230,5 +230,25 @@ export const EVENTS: IEvent[] = [
             "No-Code"
         ],
         "organizer": "GDG Open"
+    },
+    {
+        "title": "AI Developer Day: Design Edition 🎨",
+        "description": "AI Developer Day: Build with AI Design Edition es un evento para diseñadores, desarrolladores, estudiantes y profesionales tech que quieren aprender, experimentar y construir con IA usando el ecosistema de Google. Exploraremos herramientas como Gemini, Stitch, Figma y Google AI Studio, a través de charlas y workshops sobre agentes inteligentes, modelos generativos y cómo llevar soluciones de IA del prototipo a producción.",
+        "date": "2026-04-25",
+        "time": "09:30",
+        "location": "Universidad Tecnológica del Perú",
+        "city": "Lima",
+        "type": "Híbrido",
+        "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_hlu8I7n",
+        "registration_url": "https://gdg.community.dev/events/details/google-gdg-callao-presents-ai-developer-day-design-edition/",
+        "tags": [
+            "AI",
+            "Gemini",
+            "Design",
+            "UX",
+            "UI",
+            "Workshop"
+        ],
+        "organizer": "GDG Callao"
     }
 ];
