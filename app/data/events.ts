@@ -178,5 +178,23 @@ export const EVENTS: IEvent[] = [
             "AI",
             "Notion"
         ]
+    },
+    {
+        "title": "FLISoL UNI 2026",
+        "description": "🚀 ¡Llega el evento de software libre más grande de Latinoamérica! Sé parte del FLISOL Perú 2026 🇵🇪 en la UNI, un espacio donde la tecnología, la innovación y la comunidad se unen para compartir conocimiento sin límites. Aprende sobre software libre, inteligencia artificial, desarrollo, cultura open source y mucho más. Disfruta de charlas, talleres y conecta con personas apasionadas por la tecnología.",
+        "date": "2026-04-25",
+        "time": "TBD",
+        "location": "Auditorio FIEE - UNI",
+        "city": "Lima",
+        "type": "Presencial",
+        "image_url": "https://media.licdn.com/dms/image/v2/D4D22AQFIMGlGhJGB8w/feedshare-shrink_800/B4DZ2XnJzTG4Ac-/0/1776365117283?e=2147483647&v=beta&t=UIL9JKDejS6jqUtfqwJAujMkenYadPmXKAqSx0QdHyg",
+        "registration_url": "https://forms.gle/3KFbnGhQeBv7X5vz8",
+        "organizer": "DSC UNI",
+        "tags": [
+            "Open Source",
+            "Software Libre",
+            "AI",
+            "Tech"
+        ]
     }
 ];
