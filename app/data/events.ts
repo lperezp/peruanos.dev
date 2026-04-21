@@ -212,5 +212,23 @@ export const EVENTS: IEvent[] = [
             "Networking"
         ],
         "organizer": "Takernal Community"
+    },
+    {
+        "title": "Build With AI: PUCP - AppSheet & AI Basics",
+        "description": "Aprende a construir aplicaciones reales paso a paso usando herramientas de Google, combinando AppSheet + Inteligencia Artificial en una sesión práctica donde pasarás de la idea a una app funcional. En esta sesión podrás crear apps sin código, entender cómo aplicar IA en proyectos reales y trabajar con herramientas del ecosistema Google.",
+        "date": "2026-04-23",
+        "time": "12:00",
+        "location": "PUCP (Pontificia Universidad Católica del Perú)",
+        "city": "Lima",
+        "type": "Presencial",
+        "image_url": "/images/build-with-ai-pucp.jpg",
+        "registration_url": "https://gdg.community.dev/events/details/google-gdg-open-presents-build-with-ai-pucp-appsheet-amp-ai-basics/",
+        "tags": [
+            "AI",
+            "AppSheet",
+            "Google",
+            "No-Code"
+        ],
+        "organizer": "GDG Open"
     }
 ];
