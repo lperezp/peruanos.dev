@@ -196,5 +196,21 @@ export const EVENTS: IEvent[] = [
             "AI",
             "Tech"
         ]
+    },
+    {
+        "title": "Nexo GameDev Perú!",
+        "description": "IEEE CS UPC & Takernal Community te invitan a un evento que reúne al sector de videojuegos del país. Podrás escuchar charlas de asociaciones y círculos de videojuegos, conectar con desarrolladores, conocer proyectos en showcase y hacer networking con la comunidad.",
+        "date": "2026-04-25",
+        "time": "13:50",
+        "location": "Auditorio – UPC, Sede San Miguel (Av. de la Marina 2810, San Miguel)",
+        "city": "Lima",
+        "type": "Presencial",
+        "image_url": "/images/nexo-gamedev.webp",
+        "registration_url": "https://forms.fillout.com/t/eUpouHX8B5us",
+        "tags": [
+            "GameDev",
+            "Networking"
+        ],
+        "organizer": "Takernal Community"
     }
 ];
