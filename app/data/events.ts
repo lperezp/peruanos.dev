@@ -250,5 +250,24 @@ export const EVENTS: IEvent[] = [
             "Workshop"
         ],
         "organizer": "GDG Callao"
+    },
+    {
+        "title": "From APK to API: Reverse Engineering Android to Uncover & Exploit Web Backends",
+        "description": "La seguridad de las aplicaciones móviles a menudo es solo la punta del iceberg. Las verdaderas vulnerabilidades suelen ocultarse en su comunicación con los servidores. Este webinar explora cómo la ingeniería inversa de aplicaciones Android puede revelar y explotar debilidades en los web backends, llevando la auditoría de seguridad al siguiente nivel.",
+        "date": "2026-04-26",
+        "time": "16:00",
+        "location": "Google Meet",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "https://images.lumacdn.com/event-covers/el/55518480-3db5-49c0-97f4-7702cd9641c8.png",
+        "registration_url": "https://luma.com/wkspf21z",
+        "organizer": "Threat Hunters UTP",
+        "tags": [
+            "Android",
+            "Reverse Engineering",
+            "Security",
+            "Web Backend",
+            "Cybersecurity"
+        ]
     }
 ];
