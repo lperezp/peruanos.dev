@@ -269,5 +269,18 @@ export const EVENTS: IEvent[] = [
             "Web Backend",
             "Cybersecurity"
         ]
+    },
+    {
+        "title": "GitHub Community Day Perú",
+        "description": "¡Llega el GitHub Community Day Perú! La comunidad de GitHub llega a la UTP para un evento único que reunirá a estudiantes, developers y apasionados por la tecnología en una experiencia diseñada para potenciar tu forma de crear y colaborar en proyectos.\n\n✨ ¿Qué vivirás en este evento?\n🔹Aprender a integrar GitHub, VS Code y GitHub Copilot en flujos reales de desarrollo\n🔹Descubrir cómo usar GitHub para colaborar en proyectos y construir en comunidad\n🔹Conectar con otros developers y expandir tu red de contactos\n\n🎁 Sorteos, swag, actividades interactivas y muchas sorpresas más.",
+        "date": "2026-06-06",
+        "time": "09:00",
+        "location": "Universidad Tecnológica del Perú (UTP) – Torre Arequipa",
+        "city": "Lima",
+        "type": "Presencial",
+        "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183302667%2F1114540439223%2F1%2Foriginal.20260429-061843?crop=focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.066&fp-y=0.432&s=e54f23800225df5dd2ee38a8198135bf",
+        "registration_url": "https://www.eventbrite.com/e/github-community-day-peru-tickets-1988461462763",
+        "organizer": "Developer Student Clubs - UTP",
+        "tags": ["GitHub", "Copilot", "Open Source"]
     }
 ];
