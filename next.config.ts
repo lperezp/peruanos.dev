@@ -35,6 +35,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'img.evbuc.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'cdn-assets-cloud.frontify.com',
+      },
     ],
   },
 };
