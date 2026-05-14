@@ -95,5 +95,24 @@ export const EVENTS: IEvent[] = [
             "registration_url": "https://www.meetup.com/msperu/events/314745293/",
             "organizer": "Microsoft User Group Perú",
             "tags": []
+    },
+    {
+        "title": "Meetup Presencial",
+        "description": "¡Regresamos con un nuevo meetup presencial de AWS User Group Perú!\nTe invitamos a una noche de aprendizaje, networking y comunidad donde exploraremos temas de AWS, desarrollo, DevOps e inteligencia artificial junto a speakers de la comunidad.\n\n🕖 7:00 PM – Tu primer paso al cloud: AWS Cloud Practitioner\n🕢 7:45 PM – Tu primer código en AWS para Developers\n🕣 8:30 PM – DevOps Assistant: Kiro + AWS Amplify en acción\n🤝 9:15 PM – Networking y Sorteos\n🎉 9:45 PM – Cierre del Evento\n\nEste meetup está dirigido a estudiantes, desarrolladores, profesionales de tecnología y cualquier persona interesada en AWS, Cloud Computing, DevOps e Inteligencia Artificial.",
+        "date": "2026-05-14",
+        "time": "19:00",
+        "location": "Universidad ESAN",
+        "city": "Lima",
+        "type": "Presencial",
+        "image_url": "https://secure.meetupstatic.com/photos/event/2/4/7/0/highres_534129328.jpeg",
+        "registration_url": "https://www.meetup.com/awsperu/events/314693526/",
+        "organizer": "AWS User Group Perú",
+        "tags": [
+            "AWS",
+            "AWSUserGroupPeru",
+            "CloudComputing",
+            "DevOps",
+            "AWSCommunity"
+        ]
     }
 ];
