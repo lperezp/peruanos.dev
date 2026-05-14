@@ -69,7 +69,7 @@ export const EVENTS: IEvent[] = [
     {
         "title": "Game Design y Pitch para videojuegos",
         "description": "​🎮✨ ¿Te apasiona crear videojuegos? Únete a este taller con Renzo Guido Evans (coordinador Académico en Toulouse Lautrec) para aprender sobre Game Design (Acción, Contexto, Objetivo, Personaje) y cómo desarrollar un Pitch efectivo para presentar tus proyectos de forma clara y estratégica.",
-        "date": "2026-05-15",
+        "date": "2026-05-16",
         "time": "15:00",
         "location": "Virtual",
         "city": "Virtual",
