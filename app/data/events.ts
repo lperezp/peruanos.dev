@@ -95,5 +95,22 @@ export const EVENTS: IEvent[] = [
             "registration_url": "https://www.meetup.com/msperu/events/314745293/",
             "organizer": "Microsoft User Group Perú",
             "tags": []
+    },
+    {
+            "title": "Ekogroups Lima 2026",
+            "description": "Este sábado 23, desde Threat Hunters UTP y junto a Ekogroups Lima, comunidad local de Ekoparty, nos reuniremos para compartir lo que más nos apasiona: ciberseguridad, hacking ético y comunidad.\n\nTendremos charlas, intercambio de experiencias y la oportunidad de conectar con estudiantes, profesionales y entusiastas del sector en Lima.\n\nAdemás, realizaremos un sorteo especial de entradas para SecOps Days Lima 2026.",
+            "date": "2026-05-23",
+            "time": "09:30",
+            "location": "UTP Sede Centro (Torre Arequipa), Lima",
+            "city": "Lima",
+            "type": "Presencial",
+            "image_url": "/images/ekogroups_lima.jpg",
+            "registration_url": "https://lnkd.in/eHrXyhXP",
+            "organizer": "Threat Hunters UTP & Ekogroups Lima",
+            "tags": [
+                "Ciberseguridad",
+                "Hacking Ético",
+                "Ekoparty"
+            ]
     }
 ];
