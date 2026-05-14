@@ -282,5 +282,22 @@ export const EVENTS: IEvent[] = [
         "registration_url": "https://www.eventbrite.com/e/github-community-day-peru-tickets-1988461462763",
         "organizer": "Developer Student Clubs - UTP",
         "tags": ["GitHub", "Copilot", "Open Source"]
+    },
+    {
+        "title": "Game Design y Pitch para videojuegos",
+        "description": "​🎮✨ ¿Te apasiona crear videojuegos? Únete a este taller con Renzo Guido Evans (coordinador Académico en Toulouse Lautrec) para aprender sobre Game Design (Acción, Contexto, Objetivo, Personaje) y cómo desarrollar un Pitch efectivo para presentar tus proyectos de forma clara y estratégica.",
+        "date": "2026-05-15",
+        "time": "15:00",
+        "location": "Virtual",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "https://images.lumacdn.com/uploads/dq/8cb96b3b-ba29-46ea-90f4-5eb6d31a7e4b.png",
+        "registration_url": "https://luma.com/pkhyxjvw",
+        "organizer": "Game Devs UTP",
+        "tags": [
+            "Game Design",
+            "Pitch",
+            "GameDev"
+        ]
     }
 ];
