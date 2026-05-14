@@ -94,7 +94,7 @@ export const EVENTS: IEvent[] = [
             "image_url": "https://secure.meetupstatic.com/photos/event/2/2/5/3/highres_534188787.jpeg",
             "registration_url": "https://www.meetup.com/msperu/events/314745293/",
             "organizer": "Microsoft User Group Perú",
-            "tags": []
+            "tags": ["Microsoft", "Azure", "AI", "GitHub Copilot"]
     },
     {
         "title": "Meetup Presencial",
