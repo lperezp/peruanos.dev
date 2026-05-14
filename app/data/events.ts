@@ -82,5 +82,18 @@ export const EVENTS: IEvent[] = [
             "Pitch",
             "GameDev"
         ]
+    },
+    {
+            "title": "Microsoft Build 2026",
+            "description": "¡Llevamos la energía de Microsoft Build a nuestra comunidad local! Acompáñanos en este evento presencial diseñado para desarrolladores, ingenieros de datos y entusiastas de la tecnología que quieran profundizar en los anuncios más recientes de la conferencia anual de Microsoft.\nExploraremos cómo diseñar e implementar soluciones de IA generativa utilizando herramientas como Azure AI Foundry, GitHub Copilot y los nuevos agentes de IA presentados en San Francisco.\n¿Qué puedes esperar?\n\n* Resumen de anuncios clave: Un repaso por lo más impactante de Build 2026\n* Sesiones técnicas y demos: Análisis profundo de casos de uso reales de IA y despliegue en la nube.\n* Networking: Conecta con otros desarrolladores locales para compartir experiencias y mejores prácticas.",
+            "date": "2026-06-20",
+            "time": "08:30",
+            "location": "Microsoft Perú, Lima 27",
+            "city": "Lima",
+            "type": "Presencial",
+            "image_url": "https://secure.meetupstatic.com/photos/event/2/2/5/3/highres_534188787.jpeg",
+            "registration_url": "https://www.meetup.com/msperu/events/314745293/",
+            "organizer": "Microsoft User Group Perú",
+            "tags": []
     }
 ];

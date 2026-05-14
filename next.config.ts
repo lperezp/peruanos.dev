@@ -39,6 +39,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'cdn-assets-cloud.frontify.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'secure.meetupstatic.com',
+      },
     ],
   },
 };
