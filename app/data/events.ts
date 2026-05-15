@@ -112,5 +112,51 @@ export const EVENTS: IEvent[] = [
                 "Hacking Ético",
                 "Ekoparty"
             ]
+            "tags": ["Microsoft", "Azure", "AI", "GitHub Copilot"]
+    },
+    {
+        "title": "Meetup Presencial",
+        "description": "¡Regresamos con un nuevo meetup presencial de AWS User Group Perú!\nTe invitamos a una noche de aprendizaje, networking y comunidad donde exploraremos temas de AWS, desarrollo, DevOps e inteligencia artificial junto a speakers de la comunidad.\n\n🕖 7:00 PM – Tu primer paso al cloud: AWS Cloud Practitioner\n🕢 7:45 PM – Tu primer código en AWS para Developers\n🕣 8:30 PM – DevOps Assistant: Kiro + AWS Amplify en acción\n🤝 9:15 PM – Networking y Sorteos\n🎉 9:45 PM – Cierre del Evento\n\nEste meetup está dirigido a estudiantes, desarrolladores, profesionales de tecnología y cualquier persona interesada en AWS, Cloud Computing, DevOps e Inteligencia Artificial.",
+        "date": "2026-05-14",
+        "time": "19:00",
+        "location": "Universidad ESAN",
+        "city": "Lima",
+        "type": "Presencial",
+        "image_url": "https://secure.meetupstatic.com/photos/event/2/4/7/0/highres_534129328.jpeg",
+        "registration_url": "https://www.meetup.com/awsperu/events/314693526/",
+        "organizer": "AWS User Group Perú",
+        "tags": [
+            "AWS",
+            "AWSUserGroupPeru",
+            "CloudComputing",
+            "DevOps",
+            "AWSCommunity"
+        ]
+    },
+    {
+        "title": "Lima Tech: Agentes de IA en acción para Managers",
+        "description": "## **Crea tu primer Agente Autónomo con OpenClaw**\n\n**¿Sientes que la Inteligencia Artificial avanza más rápido que tu capacidad para implementarla en el trabajo?**\n\nLa mayoría de los directivos y profesionales administrativos ven a los \"Agentes de IA\" como algo sacado de una película de ciencia ficción o un tema exclusivo para ingenieros. La realidad es que, hoy en día, las herramientas han evolucionado tanto que **tú puedes diseñar tu propio asistente digital** para que ejecute tareas por ti, sin escribir una sola línea de código.\nEn este Meetup práctico en Lima, bajaremos la IA de la nube a la tierra. No vamos a filosofar sobre el futuro; vamos a construirlo.\n\n### **¿Qué aprenderás?**\n\n* **Conceptos Claros:** Qué es un agente y en qué se diferencia de un simple chat (como ChatGPT).\n* **Casos de Uso Real:** Cómo un manager puede usar agentes para análisis de reportes, gestión de agendas o prospección de clientes.\n* **Taller \"Zero Code\":** Configuraremos en vivo un agente funcional que podrás empezar a usar de inmediato.\n* **Networking:** Conecta con otros líderes y profesionales de Lima que están transformando sus industrias con tecnología.\n\n### **¿Para quién es este evento?**\n\n* Gerentes, Directores y Senior Managers que buscan optimizar sus unidades de negocio.\n* Profesionales administrativos que quieren automatizar tareas repetitivas.\n* Emprendedores y curiosos no técnicos que quieran dominar la IA aplicada.\n\n***\n\n### **Detalles del Evento:**\n\n* 📅 **Fecha:** Jueves, 16 de abril\n* 🕕 **Hora:** 6:00 PM\n* 📍 **Ubicación:** Por definir (Miraflores / San Isidro / Barranco)\n* 💻 **Requisito:** Traer laptop y muchas ganas de experimentar.\n\n**Cupos limitados para garantizar el aprendizaje práctico.** ¡Asegura tu lugar y deja que la IA trabaje por ti!\n\n###",
+        "date": "2026-05-14",
+        "time": "18:00",
+        "location": "Por definir",
+        "city": "Lima",
+        "type": "Presencial",
+        "image_url": "https://secure.meetupstatic.com/images/classic-events/533396252/highres.jpg",
+        "registration_url": "https://www.meetup.com/meetup-group-mgwbhedi/events/313969021/",
+        "organizer": "Lima Tech",
+        "tags": []
+    },
+    {
+        "title": "Meetup Virtual AWS User Group Chaclacayo",
+        "description": "## **¡Meetup Virtual AWS User Group Chaclacayo!**\n\nTe invitamos a ser parte del **segundo meetup virtual de AWS User Group Chaclacayo**, con el objetivo de acercar el aprendizaje de **cloud computing y AWS** a más personas, sin importar su nivel de experiencia.\nEste encuentro será un espacio **abierto, amigable y participativo**, ideal para conocer la comunidad y dar tus **primeros pasos en el mundo cloud**.\n\n**Agenda del Meetup**\n\npróximamente...\n\n**Cierre y próximos pasos**\n\n* Próximos eventos y charlas de la comunidad\n* Cómo participar activamente en el AWS User Group Chaclacayo\n* Espacio breve para preguntas\n\n**Sorteo**\nAl finalizar el evento, se **sortearán créditos de AWS** para que puedas practicar y explorar la consola de AWS.\n\n**Detalles del evento**\n\n* 📅 **21 de mayo**\n* ⏰ **6:00 p. m.**\n* **Dirigido a:** Personas interesadas en la nube y AWS\n* **Requisitos:** Ninguno, solo ganas de aprender ☁️",
+        "date": "2026-05-21",
+        "time": "18:00",
+        "location": "Virtual",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "https://secure.meetupstatic.com/images/classic-events/534203096/highres.jpg",
+        "registration_url": "https://www.meetup.com/aws-user-group-chaclacayo/events/314761524/",
+        "organizer": "AWS User Group: Chaclacayo",
+        "tags": []
     }
 ];
