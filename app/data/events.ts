@@ -104,7 +104,7 @@ export const EVENTS: IEvent[] = [
             "location": "UTP Sede Centro (Torre Arequipa), Lima",
             "city": "Lima",
             "type": "Presencial",
-            "image_url": "/images/ekogroups_lima.jpg",
+            "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQGqsQgMd6XDbQ/feedshare-shrink_1280/B4EZ4kRuDlIwAM-/0/1778725085706?e=2147483647&v=beta&t=EL9CN2bObZxvfh9ILY2m6sn3zHxWy2IzuuHqK1SJAgk",
             "registration_url": "https://lnkd.in/eHrXyhXP",
             "organizer": "Threat Hunters UTP & Ekogroups Lima",
             "tags": [
