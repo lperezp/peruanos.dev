@@ -97,6 +97,23 @@ export const EVENTS: IEvent[] = [
             "tags": ["Microsoft", "Azure", "AI", "GitHub Copilot"]
     },
     {
+            "title": "Ekogroups Lima 2026",
+            "description": "Este sábado 23, desde Threat Hunters UTP y junto a Ekogroups Lima, comunidad local de Ekoparty, nos reuniremos para compartir lo que más nos apasiona: ciberseguridad, hacking ético y comunidad.\n\nTendremos charlas, intercambio de experiencias y la oportunidad de conectar con estudiantes, profesionales y entusiastas del sector en Lima.\n\nAdemás, realizaremos un sorteo especial de entradas para SecOps Days Lima 2026.",
+            "date": "2026-05-23",
+            "time": "09:30",
+            "location": "UTP Sede Centro (Torre Arequipa), Lima",
+            "city": "Lima",
+            "type": "Presencial",
+            "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQGqsQgMd6XDbQ/feedshare-shrink_1280/B4EZ4kRuDlIwAM-/0/1778725085706?e=2147483647&v=beta&t=EL9CN2bObZxvfh9ILY2m6sn3zHxWy2IzuuHqK1SJAgk",
+            "registration_url": "https://lnkd.in/eHrXyhXP",
+            "organizer": "Threat Hunters UTP & Ekogroups Lima",
+            "tags": [
+                "Ciberseguridad",
+                "Hacking Ético",
+                "Ekoparty"
+            ]
+    },
+    {
         "title": "Meetup Presencial",
         "description": "¡Regresamos con un nuevo meetup presencial de AWS User Group Perú!\nTe invitamos a una noche de aprendizaje, networking y comunidad donde exploraremos temas de AWS, desarrollo, DevOps e inteligencia artificial junto a speakers de la comunidad.\n\n🕖 7:00 PM – Tu primer paso al cloud: AWS Cloud Practitioner\n🕢 7:45 PM – Tu primer código en AWS para Developers\n🕣 8:30 PM – DevOps Assistant: Kiro + AWS Amplify en acción\n🤝 9:15 PM – Networking y Sorteos\n🎉 9:45 PM – Cierre del Evento\n\nEste meetup está dirigido a estudiantes, desarrolladores, profesionales de tecnología y cualquier persona interesada en AWS, Cloud Computing, DevOps e Inteligencia Artificial.",
         "date": "2026-05-14",
