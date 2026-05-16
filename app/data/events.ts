@@ -157,5 +157,18 @@ export const EVENTS: IEvent[] = [
         "registration_url": "https://www.meetup.com/aws-user-group-chaclacayo/events/314761524/",
         "organizer": "AWS User Group: Chaclacayo",
         "tags": []
+    },
+    {
+        "title": "Inicio AWS @ UNI: Student Builder Group + regreso de AWS Academy",
+        "description": "Estamos iniciando una nueva etapa enfocada en algo claro: **construir en AWS, no solo aprender teoría**.\nEn esta sesión vas a:\n\n* Conocer qué es el Student Builder Group y cómo formar parte\n* Entender qué tipo de workshops, proyectos y oportunidades se vienen\n* Descubrir el regreso de AWS Academy y cómo puedes aprovecharlo desde el inicio\n\nAdemás, tendremos **sorteos 🎁** durante la sesión para los participantes.\nEste no es solo un evento introductorio.\nEs el punto de partida para empezar a involucrarte en cloud de forma práctica y con dirección.\nSi te interesa desarrollar habilidades reales en AWS y formar parte de una comunidad que construye, este es tu momento.\n**Te esperamos.**",
+        "date": "2026-05-16",
+        "time": "18:00",
+        "location": "Virtual",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "https://secure.meetupstatic.com/photos/event/3/1/f/4/highres_534012788.jpeg",
+        "registration_url": "https://www.meetup.com/aws-sbg-at-national-university-of-engineering/events/314594714/",
+        "organizer": "AWS Cloud Club at National University of Engineering",
+        "tags": []
     }
 ];
