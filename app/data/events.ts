@@ -170,5 +170,18 @@ export const EVENTS: IEvent[] = [
         "registration_url": "https://www.meetup.com/aws-sbg-at-national-university-of-engineering/events/314594714/",
         "organizer": "AWS Cloud Club at National University of Engineering",
         "tags": []
+    },
+    {
+        "title": "Meetup #01: Explorando Angular",
+        "description": "Únete a nosotros para el primer meetup de la comunidad de Angular Perú. Este evento será una excelente oportunidad para conocer a otros entusiastas de Angular, compartir experiencias y aprender juntos sobre las últimas tendencias y mejores prácticas en desarrollo con Angular. Estés comenzando con Angular o seas un desarrollador experimentado, este meetup es para todos. Al final de las charlas, habrá una sesión de preguntas y respuestas y una oportunidad para networking. ¡No te pierdas la oportunidad de ser parte de la comunidad Angular en Perú! Regístrate ahora y asegura tu lugar en este emocionante evento de networking y aprendizaje. ",
+        "date": "2026-05-22",
+        "time": "20:00",
+        "location": "Oficina KPMG, 444 Avenida Javier Prado Este, San Isidro",
+        "city": "Lima",
+        "type": "Presencial",
+        "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/event_banners/blob_1N9622V",
+        "registration_url": "https://gdg.community.dev/events/details/google-gdg-callao-presents-meetup-01-explorando-angular/",
+        "organizer": "Angular Perú",
+        "tags": ["AI", "Angular", "Build with AI", "Firebase", "Networking", "Web", "Workshop / hands-on session"]
     }
 ];
