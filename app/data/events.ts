@@ -183,5 +183,22 @@ export const EVENTS: IEvent[] = [
         "registration_url": "https://gdg.community.dev/events/details/google-gdg-callao-presents-meetup-01-explorando-angular/",
         "organizer": "Angular Perú",
         "tags": ["AI", "Angular", "Build with AI", "Firebase", "Networking", "Web", "Workshop / hands-on session"]
+    },
+    {
+        "title": "Road to GitHub Community Day Sesión 2",
+        "description": "​🚀 ¿Te imaginas crear una aplicación web completa usando Inteligencia Artificial como copiloto, desde la idea inicial hasta verla funcionando en producción?\n\n​En esta sesión aprenderás cómo transformar una idea en un producto real, aplicando metodologías de desarrollo modernas y aprovechando el potencial de la IA para acelerar cada etapa del proceso. Desde definir requerimientos y restricciones, hasta diseñar la arquitectura y desplegar tu app, vivirás una experiencia práctica para entender cómo hoy se construye software inteligente. 🤖💻\n\n​✅ Aprende a estructurar una idea de producto real\n✅ Usa IA para diseñar y optimizar sistemas\n✅ Descubre flujos modernos de desarrollo y despliegue\n✅ Conoce cómo llevar una app de cero a producción\n\n​🎤 Speaker Internacional: Gera Meraki 🇲🇽 – México",
+        "date": "2026-05-23",
+        "time": "21:00",
+        "location": "Virtual",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "https://images.lumacdn.com/uploads/fz/230d5ab6-dafe-4f73-9f28-845cf4fe67f8.png",
+        "registration_url": "https://luma.com/v95vhxtr",
+        "organizer": "Developer Student Clubs - UTP",
+        "tags": [
+            "AI",
+            "GitHub",
+            "Web"
+        ]
     }
 ];
