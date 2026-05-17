@@ -68,7 +68,7 @@ export const EVENTS: IEvent[] = [
     },
     {
         "title": "Game Design y Pitch para videojuegos",
-        "description": "​🎮✨ ¿Te apasiona crear videojuegos? Únete a este taller con Renzo Guido Evans (coordinador Académico en Toulouse Lautrec) para aprender sobre Game Design (Acción, Contexto, Objetivo, Personaje) y cómo desarrollar un Pitch efectivo para presentar tus proyectos de forma clara y estratégica.",
+        "description": "🎮✨ ¿Te apasiona crear videojuegos? Únete a este taller con Renzo Guido Evans (coordinador Académico en Toulouse Lautrec) para aprender sobre Game Design (Acción, Contexto, Objetivo, Personaje) y cómo desarrollar un Pitch efectivo para presentar tus proyectos de forma clara y estratégica.",
         "date": "2026-05-16",
         "time": "15:00",
         "location": "Virtual",
@@ -183,5 +183,22 @@ export const EVENTS: IEvent[] = [
         "registration_url": "https://gdg.community.dev/events/details/google-gdg-callao-presents-meetup-01-explorando-angular/",
         "organizer": "Angular Perú",
         "tags": ["AI", "Angular", "Build with AI", "Firebase", "Networking", "Web", "Workshop / hands-on session"]
+    },
+    {
+        "title": "Road to GitHub Community Day Sesión 1",
+        "description": "🚀 ¿Te imaginas aprender Git de forma tan simple que podrías explicárselo a alguien de 10 años?\n\nEn esta sesión exploraremos Git desde cero usando ejemplos cotidianos y una dinámica inspirada en bloques tipo LEGO, para entender cómo funciona el control de versiones de manera visual, práctica y sin complicaciones. Una charla ideal para quienes quieren dar sus primeros pasos o reforzar conceptos clave en desarrollo colaborativo. 🧩✨\n\n✅ Comprende Git con ejemplos sencillos y cercanos\n✅ Aprende conceptos introductorios e intermedios sin tecnicismos\n✅ Descubre cómo organizar cambios y versiones en tus proyectos\n✅ Entiende el trabajo colaborativo usando Git en escenarios reales\n\n🎤 Speaker Internacional: Maureen Barahona 🇭🇳 – Honduras",
+        "date": "2025-05-20",
+        "time": "18:00",
+        "location": "Virtual",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "https://images.lumacdn.com/uploads/ca/c6d073af-ffa7-4d54-9513-28f9d30febdf.png",
+        "registration_url": "https://luma.com/iatk9i5b",
+        "organizer": "Developer Student Clubs - UTP",
+        "tags": [
+            "Git",
+            "GitHub",
+            "Open Source"
+        ]
     }
 ];
