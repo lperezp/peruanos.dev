@@ -183,5 +183,24 @@ export const EVENTS: IEvent[] = [
         "registration_url": "https://gdg.community.dev/events/details/google-gdg-callao-presents-meetup-01-explorando-angular/",
         "organizer": "Angular Perú",
         "tags": ["AI", "Angular", "Build with AI", "Firebase", "Networking", "Web", "Workshop / hands-on session"]
+    },
+    {
+        "title": "Integración de IA en Apps Móviles con GitHub y Firebase",
+        "description": "🚀 ¿Te imaginas integrar Inteligencia Artificial en apps móviles usando herramientas modernas del ecosistema GitHub y Firebase?\nEn esta sesión descubrirás cómo automatizar workflows con GitHub Actions, crear backends serverless con Firebase y potenciar aplicaciones con Gemini AI. Además, realizaremos una demo en vivo construyendo una funcionalidad AI para una app mobile. 📱✨\n\n✅ Automatiza procesos con GitHub Actions\n✅ Integra AI en aplicaciones móviles\n✅ Aprende sobre Firebase y despliegues modernos\n✅ Descubre flujos reales usados en iOS y Android",
+        "date": "2026-05-26",
+        "time": "19:00",
+        "location": "Virtual",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "/images/event-dsc-utp-ai.jpg",
+        "registration_url": "https://lu.ma/kgr18hp1",
+        "organizer": "Developer Student Clubs - UTP",
+        "tags": [
+            "AI",
+            "GitHub Actions",
+            "Firebase",
+            "Mobile",
+            "Gemini AI"
+        ]
     }
 ];
