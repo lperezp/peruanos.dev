@@ -183,5 +183,22 @@ export const EVENTS: IEvent[] = [
         "registration_url": "https://gdg.community.dev/events/details/google-gdg-callao-presents-meetup-01-explorando-angular/",
         "organizer": "Angular Perú",
         "tags": ["AI", "Angular", "Build with AI", "Firebase", "Networking", "Web", "Workshop / hands-on session"]
+    },
+    {
+        "title": "Orientación profesional: Derribando mitos y superando el síndrome del impostor en STEM",
+        "description": "¡Hola a todos! Nos hace muy feliz anunciar la primera charla de DEVGIRLS. En esta oportunidad abordaremos temas relacionados con STEM, el síndrome del impostor y la orientación profesional, junto a nuestra invitada y ponente Stefany Cruzado. Durante la charla conoceremos más sobre los desafíos, experiencias y oportunidades que forman parte del crecimiento profesional dentro del mundo STEM. Además, será una gran oportunidad para aprender y motivarnos a seguir construyendo nuestro camino en tecnología.",
+        "date": "2026-05-22",
+        "time": "18:00",
+        "location": "Virtual - Google Meet",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "https://images.lumacdn.com/uploads/sc/dc4f42f4-10de-410b-ac0c-116dde6f2306.png",
+        "registration_url": "https://luma.com/q2ojp2ki",
+        "organizer": "DevGirls UTP",
+        "tags": [
+            "STEM",
+            "Women in Tech",
+            "Career"
+        ]
     }
 ];
