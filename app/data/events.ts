@@ -183,5 +183,22 @@ export const EVENTS: IEvent[] = [
         "registration_url": "https://gdg.community.dev/events/details/google-gdg-callao-presents-meetup-01-explorando-angular/",
         "organizer": "Angular Perú",
         "tags": ["AI", "Angular", "Build with AI", "Firebase", "Networking", "Web", "Workshop / hands-on session"]
+    },
+    {
+        "title": "Oportunidades Internacionales y Comunidades Tech",
+        "description": "🚀 ¿Quieres descubrir cómo las comunidades tecnológicas pueden abrirte puertas a oportunidades internacionales y potenciar tu crecimiento como estudiante?\nEn esta sesión conocerás cómo participar en programas estudiantiles, comunidades tech y alianzas globales que pueden ayudarte a fortalecer tu perfil, acceder a formación complementaria y conectar con personas que comparten tus mismos intereses. 🌍✨\n\n✅ Descubre comunidades y programas para estudiantes tech\n✅ Conoce oportunidades de formación y networking\n✅ Aprende cómo dar tus primeros pasos en ecosistemas internacionales\n✅ Inspírate para impulsar tu desarrollo profesional desde la universidad\n\n🎤 Speaker Internacional: Santiago Martinez Serna 🇨🇴 - Colombia",
+        "date": "2024-05-29",
+        "time": "20:00",
+        "location": "Virtual",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "/images/dsc-utp-internacional.jpg",
+        "registration_url": "https://lu.ma/mchpypul",
+        "organizer": "Developer Student Clubs - UTP",
+        "tags": [
+            "Estudiantes",
+            "Comunidades",
+            "Networking"
+        ]
     }
 ];
