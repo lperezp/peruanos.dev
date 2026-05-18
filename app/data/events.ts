@@ -84,34 +84,34 @@ export const EVENTS: IEvent[] = [
         ]
     },
     {
-            "title": "Microsoft Build 2026",
-            "description": "¡Llevamos la energía de Microsoft Build a nuestra comunidad local! Acompáñanos en este evento presencial diseñado para desarrolladores, ingenieros de datos y entusiastas de la tecnología que quieran profundizar en los anuncios más recientes de la conferencia anual de Microsoft.\nExploraremos cómo diseñar e implementar soluciones de IA generativa utilizando herramientas como Azure AI Foundry, GitHub Copilot y los nuevos agentes de IA presentados en San Francisco.\n¿Qué puedes esperar?\n\n* Resumen de anuncios clave: Un repaso por lo más impactante de Build 2026\n* Sesiones técnicas y demos: Análisis profundo de casos de uso reales de IA y despliegue en la nube.\n* Networking: Conecta con otros desarrolladores locales para compartir experiencias y mejores prácticas.",
-            "date": "2026-06-20",
-            "time": "08:30",
-            "location": "Microsoft Perú, Lima 27",
-            "city": "Lima",
-            "type": "Presencial",
-            "image_url": "https://secure.meetupstatic.com/photos/event/2/2/5/3/highres_534188787.jpeg",
-            "registration_url": "https://www.meetup.com/msperu/events/314745293/",
-            "organizer": "Microsoft User Group Perú",
-            "tags": ["Microsoft", "Azure", "AI", "GitHub Copilot"]
+        "title": "Microsoft Build 2026",
+        "description": "¡Llevamos la energía de Microsoft Build a nuestra comunidad local! Acompáñanos en este evento presencial diseñado para desarrolladores, ingenieros de datos y entusiastas de la tecnología que quieran profundizar en los anuncios más recientes de la conferencia anual de Microsoft.\nExploraremos cómo diseñar e implementar soluciones de IA generativa utilizando herramientas como Azure AI Foundry, GitHub Copilot y los nuevos agentes de IA presentados en San Francisco.\n¿Qué puedes esperar?\n\n* Resumen de anuncios clave: Un repaso por lo más impactante de Build 2026\n* Sesiones técnicas y demos: Análisis profundo de casos de uso reales de IA y despliegue en la nube.\n* Networking: Conecta con otros desarrolladores locales para compartir experiencias y mejores prácticas.",
+        "date": "2026-06-20",
+        "time": "08:30",
+        "location": "Microsoft Perú, Lima 27",
+        "city": "Lima",
+        "type": "Presencial",
+        "image_url": "https://secure.meetupstatic.com/photos/event/2/2/5/3/highres_534188787.jpeg",
+        "registration_url": "https://www.meetup.com/msperu/events/314745293/",
+        "organizer": "Microsoft User Group Perú",
+        "tags": ["Microsoft", "Azure", "AI", "GitHub Copilot"]
     },
     {
-            "title": "Ekogroups Lima 2026",
-            "description": "Este sábado 23, desde Threat Hunters UTP y junto a Ekogroups Lima, comunidad local de Ekoparty, nos reuniremos para compartir lo que más nos apasiona: ciberseguridad, hacking ético y comunidad.\n\nTendremos charlas, intercambio de experiencias y la oportunidad de conectar con estudiantes, profesionales y entusiastas del sector en Lima.\n\nAdemás, realizaremos un sorteo especial de entradas para SecOps Days Lima 2026.",
-            "date": "2026-05-23",
-            "time": "09:30",
-            "location": "UTP Sede Centro (Torre Arequipa), Lima",
-            "city": "Lima",
-            "type": "Presencial",
-            "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQGqsQgMd6XDbQ/feedshare-shrink_1280/B4EZ4kRuDlIwAM-/0/1778725085706?e=2147483647&v=beta&t=EL9CN2bObZxvfh9ILY2m6sn3zHxWy2IzuuHqK1SJAgk",
-            "registration_url": "https://lnkd.in/eHrXyhXP",
-            "organizer": "Threat Hunters UTP & Ekogroups Lima",
-            "tags": [
-                "Ciberseguridad",
-                "Hacking Ético",
-                "Ekoparty"
-            ]
+        "title": "Ekogroups Lima 2026",
+        "description": "Este sábado 23, desde Threat Hunters UTP y junto a Ekogroups Lima, comunidad local de Ekoparty, nos reuniremos para compartir lo que más nos apasiona: ciberseguridad, hacking ético y comunidad.\n\nTendremos charlas, intercambio de experiencias y la oportunidad de conectar con estudiantes, profesionales y entusiastas del sector en Lima.\n\nAdemás, realizaremos un sorteo especial de entradas para SecOps Days Lima 2026.",
+        "date": "2026-05-23",
+        "time": "09:30",
+        "location": "UTP Sede Centro (Torre Arequipa), Lima",
+        "city": "Lima",
+        "type": "Presencial",
+        "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQGqsQgMd6XDbQ/feedshare-shrink_1280/B4EZ4kRuDlIwAM-/0/1778725085706?e=2147483647&v=beta&t=EL9CN2bObZxvfh9ILY2m6sn3zHxWy2IzuuHqK1SJAgk",
+        "registration_url": "https://lnkd.in/eHrXyhXP",
+        "organizer": "Threat Hunters UTP & Ekogroups Lima",
+        "tags": [
+            "Ciberseguridad",
+            "Hacking Ético",
+            "Ekoparty"
+        ]
     },
     {
         "title": "Meetup Presencial",
@@ -185,6 +185,23 @@ export const EVENTS: IEvent[] = [
         "tags": ["AI", "Angular", "Build with AI", "Firebase", "Networking", "Web", "Workshop / hands-on session"]
     },
     {
+        "title": "Road to GitHub Community Day Sesión 2",
+        "description": "​🚀 ¿Te imaginas crear una aplicación web completa usando Inteligencia Artificial como copiloto, desde la idea inicial hasta verla funcionando en producción?\n\n​En esta sesión aprenderás cómo transformar una idea en un producto real, aplicando metodologías de desarrollo modernas y aprovechando el potencial de la IA para acelerar cada etapa del proceso. Desde definir requerimientos y restricciones, hasta diseñar la arquitectura y desplegar tu app, vivirás una experiencia práctica para entender cómo hoy se construye software inteligente. 🤖💻\n\n​✅ Aprende a estructurar una idea de producto real\n✅ Usa IA para diseñar y optimizar sistemas\n✅ Descubre flujos modernos de desarrollo y despliegue\n✅ Conoce cómo llevar una app de cero a producción\n\n​🎤 Speaker Internacional: Gera Meraki 🇲🇽 – México",
+        "date": "2026-05-23",
+        "time": "21:00",
+        "location": "Virtual",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "https://images.lumacdn.com/uploads/fz/230d5ab6-dafe-4f73-9f28-845cf4fe67f8.png",
+        "registration_url": "https://luma.com/v95vhxtr",
+        "organizer": "Developer Student Clubs - UTP",
+        "tags": [
+            "AI",
+            "GitHub",
+            "Web"
+        ]
+    },
+    {
         "title": "Orientación profesional: Derribando mitos y superando el síndrome del impostor en STEM",
         "description": "¡Hola a todos! Nos hace muy feliz anunciar la primera charla de DEVGIRLS. En esta oportunidad abordaremos temas relacionados con STEM, el síndrome del impostor y la orientación profesional, junto a nuestra invitada y ponente Stefany Cruzado. Durante la charla conoceremos más sobre los desafíos, experiencias y oportunidades que forman parte del crecimiento profesional dentro del mundo STEM. Además, será una gran oportunidad para aprender y motivarnos a seguir construyendo nuestro camino en tecnología.",
         "date": "2026-05-22",
@@ -200,5 +217,71 @@ export const EVENTS: IEvent[] = [
             "Women in Tech",
             "Career"
         ]
+    },
+     {
+        "title": "Road to GitHub Community Day Sesión 1",
+        "description": "🚀 ¿Te imaginas aprender Git de forma tan simple que podrías explicárselo a alguien de 10 años?\n\nEn esta sesión exploraremos Git desde cero usando ejemplos cotidianos y una dinámica inspirada en bloques tipo LEGO, para entender cómo funciona el control de versiones de manera visual, práctica y sin complicaciones. Una charla ideal para quienes quieren dar sus primeros pasos o reforzar conceptos clave en desarrollo colaborativo. 🧩✨\n\n✅ Comprende Git con ejemplos sencillos y cercanos\n✅ Aprende conceptos introductorios e intermedios sin tecnicismos\n✅ Descubre cómo organizar cambios y versiones en tus proyectos\n✅ Entiende el trabajo colaborativo usando Git en escenarios reales\n\n🎤 Speaker Internacional: Maureen Barahona 🇭🇳 – Honduras",
+        "date": "2025-05-20",
+        "time": "18:00",
+        "location": "Virtual",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "https://images.lumacdn.com/uploads/ca/c6d073af-ffa7-4d54-9513-28f9d30febdf.png",
+        "registration_url": "https://luma.com/iatk9i5b",
+        "organizer": "Developer Student Clubs - UTP",
+        "tags": [
+            "Git",
+            "GitHub",
+            "Open Source"
+        ]
+    },
+     {
+        "title": "Oportunidades Internacionales y Comunidades Tech",
+        "description": "🚀 ¿Quieres descubrir cómo las comunidades tecnológicas pueden abrirte puertas a oportunidades internacionales y potenciar tu crecimiento como estudiante?\nEn esta sesión conocerás cómo participar en programas estudiantiles, comunidades tech y alianzas globales que pueden ayudarte a fortalecer tu perfil, acceder a formación complementaria y conectar con personas que comparten tus mismos intereses. 🌍✨\n\n✅ Descubre comunidades y programas para estudiantes tech\n✅ Conoce oportunidades de formación y networking\n✅ Aprende cómo dar tus primeros pasos en ecosistemas internacionales\n✅ Inspírate para impulsar tu desarrollo profesional desde la universidad\n\n🎤 Speaker Internacional: Santiago Martinez Serna 🇨🇴 - Colombia",
+        "date": "2024-05-29",
+        "time": "20:00",
+        "location": "Virtual",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,background=white,quality=75,width=400,height=400/uploads/t1/9de159d7-4960-4ad0-9f34-3521ef64d31f.png",
+        "registration_url": "https://lu.ma/mchpypul",
+        "organizer": "Developer Student Clubs - UTP",
+        "tags": [
+            "Estudiantes",
+            "Comunidades",
+            "Networking"
+        ]
+    },
+      {
+        "title": "Integración de IA en Apps Móviles con GitHub y Firebase",
+        "description": "🚀 ¿Te imaginas integrar Inteligencia Artificial en apps móviles usando herramientas modernas del ecosistema GitHub y Firebase?\nEn esta sesión descubrirás cómo automatizar workflows con GitHub Actions, crear backends serverless con Firebase y potenciar aplicaciones con Gemini AI. Además, realizaremos una demo en vivo construyendo una funcionalidad AI para una app mobile. 📱✨\n\n✅ Automatiza procesos con GitHub Actions\n✅ Integra AI en aplicaciones móviles\n✅ Aprende sobre Firebase y despliegues modernos\n✅ Descubre flujos reales usados en iOS y Android",
+        "date": "2026-05-26",
+        "time": "19:00",
+        "location": "Virtual",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,background=white,quality=75,width=400,height=400/uploads/5v/7beeb5d9-dcee-4d96-8a9f-3ac549274f41.png",
+        "registration_url": "https://lu.ma/kgr18hp1",
+        "organizer": "Developer Student Clubs - UTP",
+        "tags": [
+            "AI",
+            "GitHub Actions",
+            "Firebase",
+            "Mobile",
+            "Gemini AI"
+        ]
+    },
+        {
+        "title": "Descubre SAP. Gestión, Procesos y Tecnología empresarial",
+        "description": "🚀 ¡SAP in Action: Working with SAP! ¿Quieres conocer cómo SAP ayuda a las empresas a gestionar sus procesos de manera más eficiente? En esta charla introductoria y práctica aprenderás los conceptos principales de SAP, su uso en entornos empresariales y una introducción al módulo SAP PM, enfocado en la gestión del mantenimiento. Además, tendrás un espacio práctico para conectar la teoría con casos reales y entender mejor cómo esta herramienta se aplica en el mundo profesional. Una oportunidad ideal para estudiantes y futuros profesionales que desean dar sus primeros pasos en el ecosistema SAP.",
+        "date": "2026-05-22",
+        "time": "19:00",
+        "location": "Virtual por Microsoft Teams",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "https://images.lumacdn.com/uploads/1m/bb27b1fc-0d33-4a6a-a1e0-25eaef862faa.png",
+        "registration_url": "https://lu.ma/vuaieube",
+        "organizer": "Developer Student Clubs - UTP",
+        "tags": ["SAP"]
     }
 ];
