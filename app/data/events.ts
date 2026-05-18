@@ -84,34 +84,34 @@ export const EVENTS: IEvent[] = [
         ]
     },
     {
-            "title": "Microsoft Build 2026",
-            "description": "¡Llevamos la energía de Microsoft Build a nuestra comunidad local! Acompáñanos en este evento presencial diseñado para desarrolladores, ingenieros de datos y entusiastas de la tecnología que quieran profundizar en los anuncios más recientes de la conferencia anual de Microsoft.\nExploraremos cómo diseñar e implementar soluciones de IA generativa utilizando herramientas como Azure AI Foundry, GitHub Copilot y los nuevos agentes de IA presentados en San Francisco.\n¿Qué puedes esperar?\n\n* Resumen de anuncios clave: Un repaso por lo más impactante de Build 2026\n* Sesiones técnicas y demos: Análisis profundo de casos de uso reales de IA y despliegue en la nube.\n* Networking: Conecta con otros desarrolladores locales para compartir experiencias y mejores prácticas.",
-            "date": "2026-06-20",
-            "time": "08:30",
-            "location": "Microsoft Perú, Lima 27",
-            "city": "Lima",
-            "type": "Presencial",
-            "image_url": "https://secure.meetupstatic.com/photos/event/2/2/5/3/highres_534188787.jpeg",
-            "registration_url": "https://www.meetup.com/msperu/events/314745293/",
-            "organizer": "Microsoft User Group Perú",
-            "tags": ["Microsoft", "Azure", "AI", "GitHub Copilot"]
+        "title": "Microsoft Build 2026",
+        "description": "¡Llevamos la energía de Microsoft Build a nuestra comunidad local! Acompáñanos en este evento presencial diseñado para desarrolladores, ingenieros de datos y entusiastas de la tecnología que quieran profundizar en los anuncios más recientes de la conferencia anual de Microsoft.\nExploraremos cómo diseñar e implementar soluciones de IA generativa utilizando herramientas como Azure AI Foundry, GitHub Copilot y los nuevos agentes de IA presentados en San Francisco.\n¿Qué puedes esperar?\n\n* Resumen de anuncios clave: Un repaso por lo más impactante de Build 2026\n* Sesiones técnicas y demos: Análisis profundo de casos de uso reales de IA y despliegue en la nube.\n* Networking: Conecta con otros desarrolladores locales para compartir experiencias y mejores prácticas.",
+        "date": "2026-06-20",
+        "time": "08:30",
+        "location": "Microsoft Perú, Lima 27",
+        "city": "Lima",
+        "type": "Presencial",
+        "image_url": "https://secure.meetupstatic.com/photos/event/2/2/5/3/highres_534188787.jpeg",
+        "registration_url": "https://www.meetup.com/msperu/events/314745293/",
+        "organizer": "Microsoft User Group Perú",
+        "tags": ["Microsoft", "Azure", "AI", "GitHub Copilot"]
     },
     {
-            "title": "Ekogroups Lima 2026",
-            "description": "Este sábado 23, desde Threat Hunters UTP y junto a Ekogroups Lima, comunidad local de Ekoparty, nos reuniremos para compartir lo que más nos apasiona: ciberseguridad, hacking ético y comunidad.\n\nTendremos charlas, intercambio de experiencias y la oportunidad de conectar con estudiantes, profesionales y entusiastas del sector en Lima.\n\nAdemás, realizaremos un sorteo especial de entradas para SecOps Days Lima 2026.",
-            "date": "2026-05-23",
-            "time": "09:30",
-            "location": "UTP Sede Centro (Torre Arequipa), Lima",
-            "city": "Lima",
-            "type": "Presencial",
-            "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQGqsQgMd6XDbQ/feedshare-shrink_1280/B4EZ4kRuDlIwAM-/0/1778725085706?e=2147483647&v=beta&t=EL9CN2bObZxvfh9ILY2m6sn3zHxWy2IzuuHqK1SJAgk",
-            "registration_url": "https://lnkd.in/eHrXyhXP",
-            "organizer": "Threat Hunters UTP & Ekogroups Lima",
-            "tags": [
-                "Ciberseguridad",
-                "Hacking Ético",
-                "Ekoparty"
-            ]
+        "title": "Ekogroups Lima 2026",
+        "description": "Este sábado 23, desde Threat Hunters UTP y junto a Ekogroups Lima, comunidad local de Ekoparty, nos reuniremos para compartir lo que más nos apasiona: ciberseguridad, hacking ético y comunidad.\n\nTendremos charlas, intercambio de experiencias y la oportunidad de conectar con estudiantes, profesionales y entusiastas del sector en Lima.\n\nAdemás, realizaremos un sorteo especial de entradas para SecOps Days Lima 2026.",
+        "date": "2026-05-23",
+        "time": "09:30",
+        "location": "UTP Sede Centro (Torre Arequipa), Lima",
+        "city": "Lima",
+        "type": "Presencial",
+        "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQGqsQgMd6XDbQ/feedshare-shrink_1280/B4EZ4kRuDlIwAM-/0/1778725085706?e=2147483647&v=beta&t=EL9CN2bObZxvfh9ILY2m6sn3zHxWy2IzuuHqK1SJAgk",
+        "registration_url": "https://lnkd.in/eHrXyhXP",
+        "organizer": "Threat Hunters UTP & Ekogroups Lima",
+        "tags": [
+            "Ciberseguridad",
+            "Hacking Ético",
+            "Ekoparty"
+        ]
     },
     {
         "title": "Meetup Presencial",
@@ -199,7 +199,8 @@ export const EVENTS: IEvent[] = [
             "AI",
             "GitHub",
             "Web"
-          },
+        ]
+    },
     {
         "title": "Orientación profesional: Derribando mitos y superando el síndrome del impostor en STEM",
         "description": "¡Hola a todos! Nos hace muy feliz anunciar la primera charla de DEVGIRLS. En esta oportunidad abordaremos temas relacionados con STEM, el síndrome del impostor y la orientación profesional, junto a nuestra invitada y ponente Stefany Cruzado. Durante la charla conoceremos más sobre los desafíos, experiencias y oportunidades que forman parte del crecimiento profesional dentro del mundo STEM. Además, será una gran oportunidad para aprender y motivarnos a seguir construyendo nuestro camino en tecnología.",
