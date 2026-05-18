@@ -243,7 +243,7 @@ export const EVENTS: IEvent[] = [
         "location": "Virtual",
         "city": "Virtual",
         "type": "Virtual",
-        "image_url": "/images/dsc-utp-internacional.jpg",
+        "image_url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,background=white,quality=75,width=400,height=400/uploads/t1/9de159d7-4960-4ad0-9f34-3521ef64d31f.png",
         "registration_url": "https://lu.ma/mchpypul",
         "organizer": "Developer Student Clubs - UTP",
         "tags": [
@@ -260,7 +260,7 @@ export const EVENTS: IEvent[] = [
         "location": "Virtual",
         "city": "Virtual",
         "type": "Virtual",
-        "image_url": "/images/event-dsc-utp-ai.jpg",
+        "image_url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,background=white,quality=75,width=400,height=400/uploads/5v/7beeb5d9-dcee-4d96-8a9f-3ac549274f41.png",
         "registration_url": "https://lu.ma/kgr18hp1",
         "organizer": "Developer Student Clubs - UTP",
         "tags": [
