@@ -217,5 +217,71 @@ export const EVENTS: IEvent[] = [
             "Women in Tech",
             "Career"
         ]
+    },
+     {
+        "title": "Road to GitHub Community Day Sesión 1",
+        "description": "🚀 ¿Te imaginas aprender Git de forma tan simple que podrías explicárselo a alguien de 10 años?\n\nEn esta sesión exploraremos Git desde cero usando ejemplos cotidianos y una dinámica inspirada en bloques tipo LEGO, para entender cómo funciona el control de versiones de manera visual, práctica y sin complicaciones. Una charla ideal para quienes quieren dar sus primeros pasos o reforzar conceptos clave en desarrollo colaborativo. 🧩✨\n\n✅ Comprende Git con ejemplos sencillos y cercanos\n✅ Aprende conceptos introductorios e intermedios sin tecnicismos\n✅ Descubre cómo organizar cambios y versiones en tus proyectos\n✅ Entiende el trabajo colaborativo usando Git en escenarios reales\n\n🎤 Speaker Internacional: Maureen Barahona 🇭🇳 – Honduras",
+        "date": "2025-05-20",
+        "time": "18:00",
+        "location": "Virtual",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "https://images.lumacdn.com/uploads/ca/c6d073af-ffa7-4d54-9513-28f9d30febdf.png",
+        "registration_url": "https://luma.com/iatk9i5b",
+        "organizer": "Developer Student Clubs - UTP",
+        "tags": [
+            "Git",
+            "GitHub",
+            "Open Source"
+        ]
+    },
+     {
+        "title": "Oportunidades Internacionales y Comunidades Tech",
+        "description": "🚀 ¿Quieres descubrir cómo las comunidades tecnológicas pueden abrirte puertas a oportunidades internacionales y potenciar tu crecimiento como estudiante?\nEn esta sesión conocerás cómo participar en programas estudiantiles, comunidades tech y alianzas globales que pueden ayudarte a fortalecer tu perfil, acceder a formación complementaria y conectar con personas que comparten tus mismos intereses. 🌍✨\n\n✅ Descubre comunidades y programas para estudiantes tech\n✅ Conoce oportunidades de formación y networking\n✅ Aprende cómo dar tus primeros pasos en ecosistemas internacionales\n✅ Inspírate para impulsar tu desarrollo profesional desde la universidad\n\n🎤 Speaker Internacional: Santiago Martinez Serna 🇨🇴 - Colombia",
+        "date": "2024-05-29",
+        "time": "20:00",
+        "location": "Virtual",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "/images/dsc-utp-internacional.jpg",
+        "registration_url": "https://lu.ma/mchpypul",
+        "organizer": "Developer Student Clubs - UTP",
+        "tags": [
+            "Estudiantes",
+            "Comunidades",
+            "Networking"
+        ]
+    },
+      {
+        "title": "Integración de IA en Apps Móviles con GitHub y Firebase",
+        "description": "🚀 ¿Te imaginas integrar Inteligencia Artificial en apps móviles usando herramientas modernas del ecosistema GitHub y Firebase?\nEn esta sesión descubrirás cómo automatizar workflows con GitHub Actions, crear backends serverless con Firebase y potenciar aplicaciones con Gemini AI. Además, realizaremos una demo en vivo construyendo una funcionalidad AI para una app mobile. 📱✨\n\n✅ Automatiza procesos con GitHub Actions\n✅ Integra AI en aplicaciones móviles\n✅ Aprende sobre Firebase y despliegues modernos\n✅ Descubre flujos reales usados en iOS y Android",
+        "date": "2026-05-26",
+        "time": "19:00",
+        "location": "Virtual",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "/images/event-dsc-utp-ai.jpg",
+        "registration_url": "https://lu.ma/kgr18hp1",
+        "organizer": "Developer Student Clubs - UTP",
+        "tags": [
+            "AI",
+            "GitHub Actions",
+            "Firebase",
+            "Mobile",
+            "Gemini AI"
+        ]
+    },
+        {
+        "title": "Descubre SAP. Gestión, Procesos y Tecnología empresarial",
+        "description": "🚀 ¡SAP in Action: Working with SAP! ¿Quieres conocer cómo SAP ayuda a las empresas a gestionar sus procesos de manera más eficiente? En esta charla introductoria y práctica aprenderás los conceptos principales de SAP, su uso en entornos empresariales y una introducción al módulo SAP PM, enfocado en la gestión del mantenimiento. Además, tendrás un espacio práctico para conectar la teoría con casos reales y entender mejor cómo esta herramienta se aplica en el mundo profesional. Una oportunidad ideal para estudiantes y futuros profesionales que desean dar sus primeros pasos en el ecosistema SAP.",
+        "date": "2026-05-22",
+        "time": "19:00",
+        "location": "Virtual por Microsoft Teams",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "https://images.lumacdn.com/uploads/1m/bb27b1fc-0d33-4a6a-a1e0-25eaef862faa.png",
+        "registration_url": "https://lu.ma/vuaieube",
+        "organizer": "Developer Student Clubs - UTP",
+        "tags": ["SAP"]
     }
 ];
