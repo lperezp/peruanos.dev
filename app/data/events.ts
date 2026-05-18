@@ -283,5 +283,22 @@ export const EVENTS: IEvent[] = [
         "registration_url": "https://lu.ma/vuaieube",
         "organizer": "Developer Student Clubs - UTP",
         "tags": ["SAP"]
+    },
+    {
+        "title": "Audio en videojuegos: Desarrollo e integración para no músicos",
+        "description": "🎮 ¿Te gustaría crear sonidos, música y efectos para videojuegos pero aun no sabes sobre los principios de la música y creación de sonido?\nEn esta ponencia aprenderás una introducción práctica al desarrollo e integración de audio para videojuegos, enfocada especialmente en principiantes y personas sin experiencia previa en música o producción sonora.\n\nExploraremos cómo se crean efectos de sonido, ambientes y música interactiva utilizando herramientas profesionales accesibles y gratuitas. Además, veremos cómo integrar audio dinámico dentro de un videojuego para mejorar la inmersión y la experiencia del jugador.\n\n🔥 Herramientas que utilizaremos:\n• REAPER v7 — edición y producción de efectos de sonido\n• Vital v1.5.5 — síntesis y diseño de sonidos desde cero\n• FMOD Studio v2.03 — integración de audio interactivo en videojuegos.\n\nNo necesitas conocimientos previos de música ni experiencia en audio. La ponencia está diseñada para desarrolladores, artistas y curiosos que quieran dar sus primeros pasos en el mundo del sonido para videojuegos.",
+        "date": "2026-05-24",
+        "time": "15:00",
+        "location": "Virtual",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "https://images.lumacdn.com/uploads/ar/09babb1a-0923-405d-931b-0a7311f878d3.jpg",
+        "registration_url": "https://lu.ma/frj7t6w9",
+        "organizer": "Game Devs UTP",
+        "tags": [
+            "Audio",
+            "GameDev",
+            "Videojuegos"
+        ]
     }
 ];
