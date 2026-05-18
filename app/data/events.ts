@@ -183,5 +183,18 @@ export const EVENTS: IEvent[] = [
         "registration_url": "https://gdg.community.dev/events/details/google-gdg-callao-presents-meetup-01-explorando-angular/",
         "organizer": "Angular Perú",
         "tags": ["AI", "Angular", "Build with AI", "Firebase", "Networking", "Web", "Workshop / hands-on session"]
+    },
+    {
+        "title": "Descubre SAP. Gestión, Procesos y Tecnología empresarial",
+        "description": "🚀 ¡SAP in Action: Working with SAP! ¿Quieres conocer cómo SAP ayuda a las empresas a gestionar sus procesos de manera más eficiente? En esta charla introductoria y práctica aprenderás los conceptos principales de SAP, su uso en entornos empresariales y una introducción al módulo SAP PM, enfocado en la gestión del mantenimiento. Además, tendrás un espacio práctico para conectar la teoría con casos reales y entender mejor cómo esta herramienta se aplica en el mundo profesional. Una oportunidad ideal para estudiantes y futuros profesionales que desean dar sus primeros pasos en el ecosistema SAP.",
+        "date": "2026-05-22",
+        "time": "19:00",
+        "location": "Virtual por Microsoft Teams",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "https://images.lumacdn.com/uploads/1m/bb27b1fc-0d33-4a6a-a1e0-25eaef862faa.png",
+        "registration_url": "https://lu.ma/vuaieube",
+        "organizer": "Developer Student Clubs - UTP",
+        "tags": ["SAP"]
     }
 ];
