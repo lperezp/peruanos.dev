@@ -318,5 +318,22 @@ export const EVENTS: IEvent[] = [
             "Mecatrónica",
             "Negocios"
         ]
+    },
+    {
+        "title": "n8n Lima Community Meetup",
+        "description": "Welcome to the first official n8n meetup in Peru 🇵🇪\nA morning to share what we\'re building, learn from case studies and grow the n8n community in Peru.\nn8n is the open-source automation platform with native AI capabilities, connect apps, automate repetitive tasks and build AI agents.",
+        "date": "2026-06-06",
+        "time": "10:00",
+        "location": "USIL, Campus Fernando Belaunde Terry, Av. La Fontana 750, La Molina",
+        "city": "Lima",
+        "type": "Presencial",
+        "image_url": "https://images.lumacdn.com/uploads/r5/7f446e63-35db-4b26-aead-210c9801ff14.png",
+        "registration_url": "https://lu.ma/n8n-lima-meetup",
+        "organizer": "n8n",
+        "tags": [
+            "AI",
+            "Automation",
+            "n8n"
+        ]
     }
 ];
