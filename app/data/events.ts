@@ -300,5 +300,23 @@ export const EVENTS: IEvent[] = [
             "GameDev",
             "Videojuegos"
         ]
+    },
+    {
+        "title": "Tech Leaders",
+        "description": "Tech Leaders 2026 es la evolución de Data Leaders, iniciativa de LEAD UTEC que, tras dos ediciones en 2025, expande su enfoque para reunir en un solo evento a las comunidades de Software, Data, Mecatrónica y Negocios. Busca ayudar a estudiantes y jóvenes profesionales a reducir la incertidumbre sobre su futuro profesional, explorando distintas especializaciones, áreas de trabajo y experiencias reales de la industria de la mano de quienes hoy lideran esos espacios.",
+        "date": "2026-06-05",
+        "time": "16:00",
+        "location": "University of Engineering and Technology (UTEC), Jr. Medrano Silva 165, Barranco",
+        "city": "Lima",
+        "type": "Presencial",
+        "image_url": "https://images.lumacdn.com/uploads/ea/0309d89f-f927-4caa-9a68-00575bdfc1c3.jpg",
+        "registration_url": "https://lu.ma/xs1ra3xm",
+        "organizer": "Lead UTEC",
+        "tags": [
+            "Software",
+            "Data",
+            "Mecatrónica",
+            "Negocios"
+        ]
     }
 ];
