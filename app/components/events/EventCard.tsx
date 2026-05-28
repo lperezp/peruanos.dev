@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from 'next/image';
 import { ExternalLink, MapPin } from 'lucide-react';
 import { IEvent } from '../../models/event.model';
 import Badge from '../ui/Badge';
@@ -20,10 +20,11 @@ export default function CardEvent({ event }: Props) {
         <div className="bg-background border border-accent rounded-lg overflow-hidden flex flex-col sm:flex-row sm:h-[300px]">
             <div className="relative w-full sm:w-[300px] h-64 sm:h-full flex-shrink-0">
                 {event.image_url ? (
-                    <img
+                    <Image
                         src={event.image_url}
                         alt={event.title}
-                        className="w-full h-full object-cover"
+                        fill
+                        className="object-cover"
                     />
                 ) : (
                     <div className="w-full h-full bg-gradient-to-br from-blue-400 via-purple-400 to-pink-400" />

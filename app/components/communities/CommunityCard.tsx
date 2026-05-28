@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from 'next/image';
 import { ExternalLink } from 'lucide-react';
 import { ICommunity } from '@/app/models/community.model';
 import Badge from '../ui/Badge';
@@ -11,16 +11,18 @@ export default function CardCommunity({ community }: { community: ICommunity }) 
             <div className="relative w-full sm:w-[250px] h-48 sm:h-full flex-shrink-0 p-10 flex items-center justify-center bg-background overflow-hidden">
                 {community.logo_url ? (
                     <>
-                        <img
+                        <Image
                             src={community.logo_url}
                             alt=""
-                            className="absolute inset-0 w-full h-full object-contain blur-2xl opacity-60 scale-75"
+                            fill
+                            className="object-contain blur-2xl opacity-60 scale-75"
                             aria-hidden="true"
                         />
-                        <img
+                        <Image
                             src={community.logo_url}
                             alt={community.name}
-                            className="relative w-full h-full object-contain drop-shadow-lg z-10"
+                            fill
+                            className="object-contain drop-shadow-lg z-10"
                         />
                     </>
                 ) : (
