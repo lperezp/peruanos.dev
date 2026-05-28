@@ -75,6 +75,26 @@ export const eventSchema = (event: {
     ...(event.url && { url: event.url }),
 });
 
+export const communitySchema = (community: {
+    name: string;
+    description: string;
+    url?: string;
+    logo?: string;
+    location: string;
+}) => ({
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: community.name,
+    description: community.description,
+    ...(community.url && { url: community.url }),
+    ...(community.logo && { logo: community.logo }),
+    address: {
+        '@type': 'PostalAddress',
+        addressLocality: community.location,
+        addressCountry: 'PE',
+    },
+});
+
 export const softwareSourceCodeSchema = (project: {
     name: string;
     description: string;

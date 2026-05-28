@@ -2,6 +2,8 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import CommunityClient from '../components/communities/CommunityClient';
 import { addUTMParams } from '../lib/utm';
+import { COMMUNITIES } from '../data/communities';
+import { communitySchema, itemListSchema } from '../lib/structured-data';
 
 export const metadata: Metadata = {
     title: 'Comunidades tecnológicas en Perú | Peruanos.dev',
@@ -23,8 +25,20 @@ export const metadata: Metadata = {
 };
 
 export default function Community() {
+    const jsonLdCommunities = itemListSchema(COMMUNITIES.map(community => communitySchema({
+        name: community.name,
+        description: community.description,
+        url: community.contact?.website || '',
+        logo: community.logo_url || '',
+        location: community.city || 'Perú',
+    })));
+
     return (
         <main className="flex w-full max-w-7xl flex-col items-center bg-background mx-auto">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdCommunities) }}
+            />
             <section className="py-20 flex flex-col items-start w-full px-8 sm:px-10">
                 <h1 className="text-4xl sm:text-6xl text-left font-bold mb-4 leading-[1.4] w-full">Comunidades</h1>
                 <p className="text-left mb-4 w-full sm:text-[20px]">
