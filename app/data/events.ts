@@ -337,6 +337,23 @@ export const EVENTS: IEvent[] = [
         ]
     },
     {
+        "title": "Construye tu máquina de contenido con Notion & GenAI",
+        "description": "La mayoría crea contenido sin sistema: ideas dispersas, herramientas desconectadas y demasiado tiempo perdido.\n\nEn este webinar en vivo aprenderás cómo usar Notion junto a herramientas de GenAI como Runway y Google VEO para construir un flujo de contenido más rápido, organizado y escalable.\n\n¿Qué aprenderás?\n\n* Cómo convertir Notion en el centro operativo de tu contenido.\n\n* Cómo usar IA para idear, estructurar y producir contenido visual.\n\n* Cómo construir un sistema replicable para publicar de forma consistente.\n\n¿Para quién es?\n\nCreadores de contenido, founders, marketers, builders y cualquier persona que quiera crear contenido usando IA sin depender de procesos manuales.\n\nSpeakers:\n\nJhon Miranda & Mayckol Cruzado\n(Co-founders IA Labs & Notion Ambassadors",
+        "date": "2026-06-04",
+        "time": "18:00",
+        "location": "Virtual",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "https://images.lumacdn.com/uploads/ow/a267cce9-d71a-411c-bae7-534445f9a851.jpg",
+        "registration_url": "https://lu.ma/bbesl0ju",
+        "organizer": "IA Labs",
+        "tags": [
+            "AI",
+            "Notion",
+            "GenAI"
+        ]
+    },
+    {
         "title": "Del diseño al prototipo con Google Stitch + Antigravity",
         "description": "Del diseño al prototipo en un solo flujo 🚀\n\nDescubre cómo acelerar la creación de productos digitales usando Google Stitch + Antigravity en un workflow moderno potenciado por IA.\n\nEn esta sesión en vivo, Daniel Ibañez (Software Engineer en Danjersoft) mostrará cómo conectar diseño, prototipado y velocidad de ejecución para construir MVPs más rápido y con menos fricción.\n\nLo que aprenderás:\n• Cómo pasar de idea → diseño → prototipo funcional en un solo flujo\n• Cómo usar Google Stitch + Antigravity para acelerar workflows de producto\n• Mejores prácticas para validar ideas y construir MVPs más rápido\n\n¿Para quién es?\nBuilders, founders, makers, diseñadores, developers y personas interesadas en IA, NoCode y creación de productos digitales.",
         "date": "2026-06-02",
