@@ -335,5 +335,23 @@ export const EVENTS: IEvent[] = [
             "Automation",
             "n8n"
         ]
+    },
+    {
+        "title": "Del diseño al prototipo con Google Stitch + Antigravity",
+        "description": "Del diseño al prototipo en un solo flujo 🚀\n\nDescubre cómo acelerar la creación de productos digitales usando Google Stitch + Antigravity en un workflow moderno potenciado por IA.\n\nEn esta sesión en vivo, Daniel Ibañez (Software Engineer en Danjersoft) mostrará cómo conectar diseño, prototipado y velocidad de ejecución para construir MVPs más rápido y con menos fricción.\n\nLo que aprenderás:\n• Cómo pasar de idea → diseño → prototipo funcional en un solo flujo\n• Cómo usar Google Stitch + Antigravity para acelerar workflows de producto\n• Mejores prácticas para validar ideas y construir MVPs más rápido\n\n¿Para quién es?\nBuilders, founders, makers, diseñadores, developers y personas interesadas en IA, NoCode y creación de productos digitales.",
+        "date": "2026-06-02",
+        "time": "19:00",
+        "location": "Virtual",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "https://images.lumacdn.com/uploads/6u/f43ee63a-f1d8-4717-ac75-cd36edd985f0.png",
+        "registration_url": "https://lu.ma/k8wb7m52",
+        "organizer": "AI First Founders",
+        "tags": [
+            "AI",
+            "Google",
+            "Design",
+            "Prototyping"
+        ]
     }
 ];
