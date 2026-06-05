@@ -336,4 +336,22 @@ export const EVENTS: IEvent[] = [
             "n8n"
         ]
     }
+,
+    {
+        "title": "Meetup #1 (Virtual) - Presentación del AWS User Group Piura",
+        "description": "🚀 Presentación del AWS User Group Piura 🚀 📅 Fecha: Jueves 18 de junio de 2026 🕖 Hora: 7:00 PM – 9:00 PM 📍 Evento Virtual – YouTube Live 🎟️ Evento gratuito ☀️ Sobre este evento ¡Te damos la bienvenida al primer meetup oficial de AWS User Group Piura! Este evento marca el inicio de una comunidad creada para conectar a estudiantes, profesionales y entusiastas de cloud computing y Amazon Web Services (AWS) en Piura y todo el Perú. Durante esta primera edición virtual conoceremos la visión de la comunidad, próximos objetivos y oportunidades para aprender, compartir experiencias y crecer juntos dentro del ecosistema AWS. Además, contaremos con dos charlas introductorias de nivel 100 orientadas a personas que están comenzando su camino en cloud computing y tecnologías AWS. 🗓️ Agenda: 🕖 Hora: 7:00 PM – 7:20 PM ☁️ Bienvenida y presentación de la comunidad Conoce el propósito de AWS User Group Piura, las iniciativas de la comunidad y cómo podrás participar en próximos eventos, actividades y espacios de aprendizaje. 🕖 Hora: 7:20 PM – 8:00 PM ☁️ Tema: [Título de la charla pendiente] 🎤 Speaker: Carolina Herrera [Descripción pendiente] 🕖 Hora: 8:00 PM – 8:40 PM ☁️ Tema: [Título de la charla pendiente] 🎤 Speaker: Josset Gutierrez [Descripción pendiente] 🕖 Hora: 8:40 PM – 9:00 PM 🎁 Kahoot! interactivo y cierre del evento Al finalizar el meetup realizaremos un Kahoot! interactivo donde los asistentes podrán participar respondiendo preguntas relacionadas con AWS y cloud computing para tener la oportunidad de ganar créditos de AWS. 🙌 ¿Por qué asistir? * Conoce la nueva comunidad AWS User Group Piura * Aprende conceptos introductorios de AWS y cloud computing * Conecta con personas interesadas en tecnología y nube * Participa en futuros eventos, charlas y actividades de comunidad * Gana créditos de AWS para comenzar a practicar 📌 Dirigido a * Estudiantes * Personas interesadas en cloud computing * Profesionales de tecnología * Personas que desean iniciar en AWS No se requiere experiencia previa. 🙏 ¡Te esperamos para iniciar juntos esta nueva comunidad cloud en Piura!",
+        "date": "2026-06-18",
+        "time": "19:00",
+        "location": "Evento Virtual – YouTube Live",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "https://secure.meetupstatic.com/photos/event/9/5/e/highres_534482398.jpeg",
+        "registration_url": "https://www.meetup.com/aws-user-group-piura/events/314935448/",
+        "organizer": "AWS User Group Piura",
+        "tags": [
+            "AWS",
+            "Cloud Computing",
+            "AWS User Group Piura"
+        ]
+    }
 ];
