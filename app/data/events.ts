@@ -335,5 +335,22 @@ export const EVENTS: IEvent[] = [
             "Automation",
             "n8n"
         ]
+    },
+    {
+        "title": "Construye tu máquina de contenido con Notion & GenAI",
+        "description": "La mayoría crea contenido sin sistema: ideas dispersas, herramientas desconectadas y demasiado tiempo perdido.\n\nEn este webinar en vivo aprenderás cómo usar Notion junto a herramientas de GenAI como Runway y Google VEO para construir un flujo de contenido más rápido, organizado y escalable.\n\n¿Qué aprenderás?\n\n* Cómo convertir Notion en el centro operativo de tu contenido.\n\n* Cómo usar IA para idear, estructurar y producir contenido visual.\n\n* Cómo construir un sistema replicable para publicar de forma consistente.\n\n¿Para quién es?\n\nCreadores de contenido, founders, marketers, builders y cualquier persona que quiera crear contenido usando IA sin depender de procesos manuales.\n\nSpeakers:\n\nJhon Miranda & Mayckol Cruzado\n(Co-founders IA Labs & Notion Ambassadors",
+        "date": "2026-06-04",
+        "time": "18:00",
+        "location": "Virtual",
+        "city": "Virtual",
+        "type": "Virtual",
+        "image_url": "https://images.lumacdn.com/uploads/ow/a267cce9-d71a-411c-bae7-534445f9a851.jpg",
+        "registration_url": "https://lu.ma/bbesl0ju",
+        "organizer": "IA Labs",
+        "tags": [
+            "AI",
+            "Notion",
+            "GenAI"
+        ]
     }
 ];
