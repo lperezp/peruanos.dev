@@ -388,5 +388,23 @@ export const EVENTS: IEvent[] = [
             "Cloud Computing",
             "AWS User Group Piura"
         ]
+    },
+    {
+        "title": "Build with AI: The Final Prompt",
+        "description": "Únete a nosotros para un encuentro único en GDG Callao. ¡Cerramos la temporada Build with AI junto a grandes ponentes, Google Developer Experts y la comunidad! Donde la inteligencia artificial será la protagonista. Exploraremos las últimas tendencias en IA. ¡Ven a compartir tus ideas, aprender de los Expertos y prepárate para espacios de Networking!",
+        "date": "2026-06-27",
+        "time": "09:30",
+        "location": "Universidad Tecnológica del Perú, Avenida Petit Thouars 116",
+        "city": "Lima",
+        "type": "Presencial",
+        "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/events/blob_UdIdMuy",
+        "registration_url": "https://gdg.community.dev/events/details/google-gdg-callao-presents-build-with-ai-the-final-prompt/",
+        "organizer": "GDG Callao",
+        "tags": [
+            "AI",
+            "GDG",
+            "Google",
+            "Build with AI"
+        ]
     }
 ];
