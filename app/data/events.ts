@@ -539,4 +539,22 @@ export const EVENTS: IEvent[] = [
     tags: ["Meet & Greet", "Women in Tech", "Networking"],
     organizer: "Women Engineers Committee"
   }
+,
+  {
+    "title": "SecOps Days Lima 2026",
+    "description": "SecOps Days Lima es la cumbre de ciberseguridad más importante de Latinoamérica. Un evento presencial de un día completo con conferencias de expertos internacionales, talleres prácticos hands-on y el CTF más grande del Perú.",
+    "date": "2026-06-25",
+    "time": "08:30",
+    "location": "Centro de Convenciones ESAN",
+    "city": "Lima",
+    "type": "Presencial",
+    "image_url": "/images/secops_days_lima.svg",
+    "registration_url": "https://secopsdays.org/registro",
+    "tags": [
+      "Ciberseguridad",
+      "SecOps",
+      "CTF"
+    ],
+    "organizer": "SecOps Days Lima"
+  }
 ];
