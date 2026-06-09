@@ -5,6 +5,23 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
+        hostname: 'cdn.aiskillsnavigator.microsoft.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'developer.apple.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'axet.nttdata.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'ocgroups.dev',
+      },
+
+      {
+        protocol: 'https',
         hostname: 'storage.googleapis.com',
       },
       {
