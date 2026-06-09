@@ -397,7 +397,7 @@ export const EVENTS: IEvent[] = [
         "location": "Universidad Tecnológica del Perú, 116 Avenida Petit Thouars, Lima",
         "city": "Lima",
         "type": "Presencial",
-        "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_DefaultEventThumbnail_2_va1kAS9.png",
+        "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_face,h_400,q_auto:good,w_400/v1/gcs/platform-data-goog/events/blob_jgv58j4",
         "registration_url": "https://gdg.community.dev/events/details/google-gdg-callao-presents-build-with-ai-the-final-prompt/",
         "organizer": "GDG Callao",
         "tags": [
