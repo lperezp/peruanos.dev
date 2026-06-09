@@ -551,5 +551,20 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://lnkd.in/eHuZmNbT",
         tags: ["Ciberseguridad", "Networking", "SecOpsDays2026"],
         organizer: "SecOps Days Lima & Interbank"
+    },
+    {
+        title: "Lima Config Watch Party 2026",
+        description: "Únete a nosotros el 24 de junio desde las 9:00 a. m. para el 'Config Watch Party Lima 2026', un evento único donde la comunidad se reunirá para explorar todas las sorprendentes actualizaciones que Figma ha preparado este año. Este encuentro es una oportunidad para que profesionales de diferentes industrias de Perú conecten, compartan ideas y descubran las últimas tendencias junto a la comunidad local. Además, hemos preparado muchas sorpresas, premios y dinámicas interesantes con el apoyo de diversas marcas que se suman para hacer de este evento una experiencia memorable. Mientras disfrutas de la transmisión de la Watch Party, podrás trabajar y disfrutar de snacks, comidas y un ambiente diseñado para el aprendizaje y la conexión. Los lugares son limitados y el registro es esencial. No te lo pierdas, inscríbete cuanto antes y espera nuestra confirmación para asegurar tu lugar. ¡Esperamos verte allí!",
+        date: "2026-06-24",
+        time: "09:00",
+        location: "Lima",
+        city: "Lima",
+        type: "Presencial",
+        image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-figma/events/blob_qR8uT9S",
+        registration_url: "https://friends.figma.com/events/details/figma-lima-presents-lima-config-watch-party-2026/cohost-lima/",
+        tags: [
+            "Config"
+        ],
+        organizer: "Figma Lima"
     }
-];
+]
