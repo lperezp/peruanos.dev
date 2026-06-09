@@ -404,10 +404,8 @@ export const EVENTS: IEvent[] = [
             "AI",
             "Vertex AI",
             "Build with AI",
-            "Community Building",
             "Conference",
             "Networking",
-            "Web",
             "Workshop / hands-on session"
         ]
     }
