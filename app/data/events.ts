@@ -547,7 +547,7 @@ export const EVENTS: IEvent[] = [
         location: "Av. Carlos Villarán N° 140, Urb. Santa Catalina, La Victoria (Torre Interbank)",
         city: "Lima",
         type: "Presencial",
-        image_url: "/images/openday_security_interbank.jpg",
+        image_url: "https://media.licdn.com/dms/image/v2/D4E22AQFgPChIIVBzLA/feedshare-image-high-res/B4EZ6ssNAlHwAY-/0/1781013729572?e=2147483647&v=beta&t=PtubMJ1ODHbUlSaB_AT2FxT7mg9YVzKfOIO-8-BsrtU",
         registration_url: "https://lnkd.in/eHuZmNbT",
         tags: ["Ciberseguridad", "Networking", "SecOpsDays2026"],
         organizer: "SecOps Days Lima & Interbank"
