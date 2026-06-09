@@ -552,6 +552,19 @@ export const EVENTS: IEvent[] = [
         tags: ["Ciberseguridad", "Networking", "SecOpsDays2026"],
         organizer: "SecOps Days Lima & Interbank"
     },
+  {
+    title: "NEXIA 2026 — Build with AI · Hackathon",
+    description: "El primer hackathon universitario presencial de Arequipa 100% enfocado en el uso de Inteligencia Artificial para transformar la educación. Un día intensivo en el que 50 estudiantes seleccionados de las principales universidades de la región se organizan en 10 equipos interdisciplinarios para construir prototipos funcionales con impacto educativo real.",
+    date: "2026-06-26",
+    time: "08:00",
+    location: "Arequipa",
+    city: "Arequipa",
+    type: "Presencial",
+    image_url: "/images/nexia.jpg",
+    registration_url: "https://www.buildwithainexia.imbinstitute.com/",
+    tags: ["Hackathon", "IA", "Educación", "Build with AI"],
+    organizer: "IMB Institute & GDG Arequipa"
+  },
     {
         title: "Lima Config Watch Party 2026",
         description: "Únete a nosotros el 24 de junio desde las 9:00 a. m. para el 'Config Watch Party Lima 2026', un evento único donde la comunidad se reunirá para explorar todas las sorprendentes actualizaciones que Figma ha preparado este año. Este encuentro es una oportunidad para que profesionales de diferentes industrias de Perú conecten, compartan ideas y descubran las últimas tendencias junto a la comunidad local. Además, hemos preparado muchas sorpresas, premios y dinámicas interesantes con el apoyo de diversas marcas que se suman para hacer de este evento una experiencia memorable. Mientras disfrutas de la transmisión de la Watch Party, podrás trabajar y disfrutar de snacks, comidas y un ambiente diseñado para el aprendizaje y la conexión. Los lugares son limitados y el registro es esencial. No te lo pierdas, inscríbete cuanto antes y espera nuestra confirmación para asegurar tu lugar. ¡Esperamos verte allí!",
