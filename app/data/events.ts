@@ -551,5 +551,18 @@ export const EVENTS: IEvent[] = [
         registration_url: "https://lnkd.in/eHuZmNbT",
         tags: ["Ciberseguridad", "Networking", "SecOpsDays2026"],
         organizer: "SecOps Days Lima & Interbank"
-    }
+    },
+  {
+    title: "NEXIA 2026 — Build with AI · Hackathon",
+    description: "El primer hackathon universitario presencial de Arequipa 100% enfocado en el uso de Inteligencia Artificial para transformar la educación. Un día intensivo en el que 50 estudiantes seleccionados de las principales universidades de la región se organizan en 10 equipos interdisciplinarios para construir prototipos funcionales con impacto educativo real.",
+    date: "2026-06-26",
+    time: "08:00",
+    location: "Arequipa",
+    city: "Arequipa",
+    type: "Presencial",
+    image_url: "/images/nexia.jpg",
+    registration_url: "https://www.buildwithainexia.imbinstitute.com/",
+    tags: ["Hackathon", "IA", "Educación", "Build with AI"],
+    organizer: "IMB Institute & GDG Arequipa"
+  }
 ];
