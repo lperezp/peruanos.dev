@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from 'react';
 import CardProject from './ProjectCard';
-import { PROJECTS } from '../../data/projects';
 import { IGitHubRepo } from '../../models/project.model';
 
 export default function ProjectsClient() {
@@ -12,19 +11,10 @@ export default function ProjectsClient() {
     useEffect(() => {
         const fetchProjects = async () => {
             try {
-                const projectsData: IGitHubRepo[] = await Promise.all(
-                    PROJECTS.map(async (project) => {
-                        try {
-                            const response = await fetch(`https://api.github.com/repos/${project.owner}/${project.repo}`);
-                            if (!response.ok) throw new Error('Failed to fetch');
-                            return await response.json();
-                        } catch (error) {
-                            console.error(`Error fetching ${project.owner}/${project.repo}:`, error);
-                            return null;
-                        }
-                    })
-                );
-                setProjects(projectsData.filter(Boolean));
+                const response = await fetch('/api/projects');
+                if (!response.ok) throw new Error('Failed to fetch from API');
+                const projectsData = await response.json();
+                setProjects(projectsData);
             } catch (error) {
                 console.error('Error fetching projects:', error);
             } finally {
