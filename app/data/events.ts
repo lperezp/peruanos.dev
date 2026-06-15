@@ -556,5 +556,22 @@ export const EVENTS: IEvent[] = [
       "CTF"
     ],
     "organizer": "SecOps Days Lima"
+  },
+  {
+    "title": "Formación de un estudio de juegos en Perú",
+    "description": "🎮✨ ¿Te interesa conocer cómo se ha gestado la creación de un estudio de videojuegos desde Perú y qué aprendizajes se pueden extraer de esa experiencia? 🛠️ Entonces esta ponencia es para ti. Únete a nosotros en una sesión especial junto a Luis Wong, fundador de Leap Game Studios, ingeniero industrial PUCP con maestría en producción de juegos en Francia y amplia experiencia en compañías internacionales de videojuegos. 🚀 En esta charla exploraremos la formación de un estudio de juegos en Perú, tomando como referencia el camino recorrido por Leap Game Studios, desde sus inicios hasta convertirse en un referente en la industria nacional e internacional. 🌿 En esta ponencia aprenderás: • Retos y oportunidades de crear un estudio de videojuegos en Perú. • Cómo estructurar un equipo y definir roles clave. • Estrategias de gestión y producción aplicadas a proyectos interactivos. • Experiencias prácticas de Leap Game Studios en el mercado nacional e internacional. • Consejos para sostener un estudio en un entorno competitivo. 🎤 Será una ponencia teórica, ideal para quienes buscan comprender el proceso de creación y consolidación de un estudio de videojuegos desde una perspectiva profesional y realista. 🎯 ¿El objetivo? Que termines la sesión con una visión clara sobre cómo iniciar y sostener un estudio de videojuegos en Perú, entendiendo tanto los desafíos como las oportunidades que ofrece la industria. 📅 Fecha: 20 de junio de 2026 🕒 Hora: 8:00 PM 💻 Modalidad: Discord 🔥 ¡No pierdas esta oportunidad de aprender directamente de la experiencia de Leap Game Studios y dar el siguiente paso en tu camino profesional!",
+    "date": "2026-06-20",
+    "time": "20:00",
+    "location": "Virtual - Discord",
+    "city": "Virtual",
+    "type": "Virtual",
+    "image_url": "https://images.lumacdn.com/uploads/ji/e77cf574-32bb-4eef-8d1d-eb2c3fd5f844.jpg",
+    "registration_url": "https://lu.ma/soi6gyv7",
+    "tags": [
+      "GameDev",
+      "Videojuegos",
+      "Emprendimiento"
+    ],
+    "organizer": "Game Devs UTP"
   }
 ];
