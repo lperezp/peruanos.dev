@@ -573,5 +573,24 @@ export const EVENTS: IEvent[] = [
       "Emprendimiento"
     ],
     "organizer": "Game Devs UTP"
+  },
+  {
+    "title": "Vibe Code Fest 2026",
+    "description": "Si tienes una idea, hoy puedes convertirla en producto más rápido que nunca. Llega Vibe Code Fest, el punto de encuentro para quienes quieren aprender, crear y conectar con la nueva generación de builders del Perú. Vive un día presencial en UTEC con más de 30 charlas, 3 ambientes simultáneos y una agenda enfocada en inteligencia artificial, automatización, product design, vibe coding, agentes IA, no-code y herramientas para construir productos digitales más rápido. Conoce toda la agenda y speakers aquí: https://vibecodeperu.com/ Únete al grupo de WhatsApp para no perderte nada: https://chat.whatsapp.com/Jp3K8Utt74JLd2nnUPMs6W?mode=gi_t Porque la IA no reemplaza tus ideas, las convierte en productos.",
+    "date": "2026-06-20",
+    "time": "08:30",
+    "location": "Universidad de Ingeniería y Tecnología - UTEC, Jr. Medrano Silva 165, Barranco",
+    "city": "Lima",
+    "type": "Presencial",
+    "image_url": "https://images.lumacdn.com/uploads/gl/51f7f2b1-4645-40ef-9c35-d151aabd4379.jpg",
+    "registration_url": "https://luma.com/71j27cvx?tk=2vWyIF",
+    "tags": [
+      "AI",
+      "Automation",
+      "Product Design",
+      "Vibe Coding",
+      "No-code"
+    ],
+    "organizer": "Vibe Code Peru"
   }
 ];
