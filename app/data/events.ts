@@ -592,5 +592,23 @@ export const EVENTS: IEvent[] = [
       "No-code"
     ],
     "organizer": "Vibe Code Peru"
+  },
+  {
+      "title": "Code, Cloud & Deploy!",
+      "description": "El **Student Builder Group de la UNI** está de vuelta con su segundo evento, y esta vez vamos con todo: **desarrollo web moderno + inteligencia artificial en la nube con AWS**. Si estás aprendiendo a construir, desplegar o escalar aplicaciones, este es tu espacio. 🗓 **Sábado 20 de junio** 🕑 **2:00 PM – 6:00 PM** 📍 **Auditorio de Telecomunicaciones — UNI (FIEE)** **¿Qué vas a encontrar?** * Charlas prácticas sobre Web + IA con servicios AWS * Ambiente para conectar con otros estudiantes y builders * 🍕 Pizza y soda para hacer networking en vivo * 🎁 Sorteos durante el evento La entrada es **gratuita**, pero los cupos son limitados. Regístrate aquí y asegura tu lugar 👇 *Organizado por el Student Builder Group UNI — comunidad estudiantil de AWS en la Universidad Nacional de Ingeniería.*",
+      "date": "2026-06-20",
+      "time": "14:00",
+      "location": "Lab. de Telecomunicaciones FIEE UNI, Facultad de Ingeniería Eléctrica y Electrónica, Lima",
+      "city": "Lima",
+      "type": "Presencial",
+      "image_url": "https://secure.meetupstatic.com/images/classic-events/534812413/HIGHRES",
+      "registration_url": "https://www.meetup.com/aws-sbg-at-national-university-of-engineering/events/315219724/",
+      "tags": [
+          "AWS",
+          "Web Development",
+          "AI",
+          "Cloud"
+      ],
+      "organizer": "AWS SBG at National University of Engineering"
   }
 ];
