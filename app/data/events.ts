@@ -627,5 +627,18 @@ export const EVENTS: IEvent[] = [
       "Supply Chain",
       "Industria 4.0"
     ]
+  },
+  {
+    "title": "Indie Checkpoint Peru 2026",
+    "description": "¡Bienvenido a Indie Checkpoint! Prepárate para una jornada inolvidable donde la creatividad y la innovación de los videojuegos independientes toman el escenario. Indie Checkpoint es tu punto de encuentro para explorar nuevos mundos, conocer a los talentos detrás de los títulos indies peruanos más prometedores y sumergirte en la vibrante comunidad de desarrolladores de videojuegos. ¿Qué te espera? Juegos Indie en Exhibición: Sé uno de los primeros en probar demos exclusivas y descubrir tu próximo juego favorito. Charlas y Aprendizaje: Amplía tus conocimientos con charlas inspiradoras y paneles de discusión a cargo de expertos del sector. Aprende sobre el desarrollo de videojuegos, las últimas tendencias y cómo la industria indie está redefiniendo el futuro del entretenimiento interactivo. Actividades Interactivas: Participa en dinámicas y actividades que te permitirán conectar con otros entusiastas, desarrolladores y profesionales Detalles del Evento: Fecha: 4 de Julio Horario: de 9AM a 7PM Lugar: Biblioteca Nacional Sede San Borja (Av. De la Poesía 160, San Borja) Costo: ¡La entrada es completamente gratuita! No te pierdas esta oportunidad única de celebrar la pasión por los videojuegos y conectar con la comunidad indie. ¡Regístrate ahora y asegura tu lugar en Indie Checkpoint!  Nota: Una vez que te anotes aqui en lista puedes asistir libremente al evento, tu nombre estará en la lista automáticamente",
+    "date": "2026-07-04",
+    "time": "09:00",
+    "location": "Biblioteca Nacional Sede San Borja (Av. De la Poesía 160, San Borja)",
+    "city": "Lima",
+    "type": "Presencial",
+    "image_url": "https://lh3.googleusercontent.com/9adPFLwaNpLsQfyryh1eRNezka25I48xAfYcZf7x1bhtiD7_uVQZfnaGwy2x0o-JJsgl48MoNyaoaeQ=w1200-h630-p",
+    "registration_url": "https://docs.google.com/forms/d/e/1FAIpQLSdfZrHtDPLrJipzYh7Xl6_yVG5Rqmy0fTT2pFkAZxT2C7bR2g/viewform",
+    "tags": [],
+    "organizer": "Indie Checkpoint"
   }
 ];
