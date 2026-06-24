@@ -610,5 +610,22 @@ export const EVENTS: IEvent[] = [
           "Cloud"
       ],
       "organizer": "AWS SBG at National University of Engineering"
+  },
+  {
+    "title": "CONFERENCIA: CADENA INTELIGENTE",
+    "description": "El mundo empresarial está cambiando más rápido que nunca. La Inteligencia Artificial, el Supply Chain, la analítica de datos y la Industria 4.0 ya no son tendencias del futuro: son las herramientas que hoy definen quién lidera el mercado y quién se queda atrás. Por eso, desde el Centro de Especialización Ejecutiva (CEE-FIIS-UNI) creamos Cadena Inteligente: un espacio donde profesionales, egresados y estudiantes pueden aprender directamente de ejecutivos y gerentes que están liderando esta transformación en empresas de primer nivel. Organiza: Centro de Especialización Ejecutiva — CEE-FIIS-UNI",
+    "date": "2026-07-01",
+    "time": "15:00",
+    "location": "Auditorio FIIS UNI — Av. Túpac Amaru 210, Rímac",
+    "city": "Lima",
+    "type": "Presencial",
+    "image_url": "https://images.lumacdn.com/uploads/9d/a865a470-2e9a-4c2c-9f53-d793c79e90fa.jpg",
+    "registration_url": "https://luma.com/h6nwj2r9",
+    "organizer": "CENTRO DE ESPECIALIZACIÓN EJECUTIVA FIIS-UNI",
+    "tags": [
+      "AI",
+      "Supply Chain",
+      "Industria 4.0"
+    ]
   }
 ];
