@@ -18,8 +18,6 @@ export async function GET(request: Request) {
       );
     }
 
-    console.log(filteredCommunities);
-
     return NextResponse.json(filteredCommunities, { status: 200 });
   } catch (error) {
     return NextResponse.json(
