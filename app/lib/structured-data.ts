@@ -13,8 +13,7 @@ export const organizationSchema = {
     },
     sameAs: [
         'https://github.com/lperezp/peruanos.dev',
-        'https://twitter.com/peruanosdev',
-        'https://linkedin.com/company/peruanos-dev',
+        'https://peruanos.dev',
     ],
 };
 

@@ -8,11 +8,17 @@ import { eventSchema, itemListSchema } from '../lib/structured-data';
 export const metadata: Metadata = {
     title: 'Eventos tecnológicos en Perú',
     description: 'Descubre meetups, conferencias, workshops y hackathons organizados por la comunidad tech en Perú. Conecta con desarrolladores y aprende nuevas tecnologías.',
-    keywords: ['eventos','tech', 'meetups', 'conferencias', 'tecnología', 'workshops','desarrollo', 'hackathons','peru', 'comunidad','desarrolladores'],
+    keywords: ['eventos', 'tech', 'meetups', 'conferencias', 'tecnología', 'workshops', 'desarrollo', 'hackathons', 'peru', 'comunidad', 'desarrolladores'],
+    authors: [{ name: 'Luis Eduardo', url: 'https://lperezp.dev' }],
     openGraph: {
         title: 'Eventos tecnológicos en Perú',
         description: 'Descubre meetups, conferencias, workshops y hackathons organizados por la comunidad tech en Perú.',
         url: 'https://peruanos.dev/events',
+           images: [
+      {
+        url: 'https://peruanos.dev/images/og-image.png',
+      }
+    ],
         siteName: 'Peruanos.dev',
         locale: 'es_PE',
         type: 'website',
@@ -21,6 +27,8 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Eventos tecnológicos en Perú',
         description: 'Descubre meetups, conferencias, workshops y hackathons organizados por la comunidad tech en Perú.',
+        images: 'https://peruanos.dev/images/og-image.png',
+        creator: '@lperezp_pe',
     },
 };
 

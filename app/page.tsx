@@ -18,10 +18,16 @@ import TrackedLink from './components/ui/TrackedLink';
 export const metadata: Metadata = {
   title: 'Peruanos.dev | Conecta con la comunidad tech en el Perú.',
   description: 'Conecta con la comunidad tech en el Perú. Descubre eventos, únete a comunidades y contribuye a proyectos de código abierto realizados por peruanos.',
-  keywords: ['eventos','tech', 'meetups', 'conferencias', 'tecnología', 'workshops','desarrollo', 'hackathons','peru', 'comunidad','desarrolladores'],
+  keywords: ['eventos', 'tech', 'meetups', 'conferencias', 'tecnología', 'workshops', 'desarrollo', 'hackathons', 'peru', 'comunidad', 'desarrolladores'],
+  authors: [{ name: 'Luis Eduardo', url: 'https://lperezp.dev' }],
   openGraph: {
     title: 'Peruanos.dev | Conecta con la comunidad tech en el Perú.',
     description: 'Conecta con la comunidad tech en el Perú. Descubre eventos, únete a comunidades y contribuye a proyectos de código abierto.',
+    images: [
+      {
+        url: 'https://peruanos.dev/images/og-image.png',
+      }
+    ],
      url: 'https://peruanos.dev/',
         siteName: 'Peruanos.dev',
         locale: 'es_PE',
@@ -31,6 +37,8 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Peruanos.dev | Conecta con la comunidad tech en el Perú.',
         description: 'Conecta con la comunidad tech en el Perú. Descubre eventos, únete a comunidades y contribuye a proyectos de código abierto.',
+      images: 'https://peruanos.dev/images/og-image.png',
+        creator: '@lperezp_pe',
     },
 };
 

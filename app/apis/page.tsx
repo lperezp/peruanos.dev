@@ -5,9 +5,15 @@ export const metadata: Metadata = {
     title: 'Documentación de la API',
     description: 'Documentación de las APIs públicas de Peruanos.dev para acceder a eventos, comunidades y proyectos de código abierto.',
     keywords: ['api peru', 'api eventos', 'api comunidades', 'api tech peru'],
+    authors: [{ name: 'Luis Eduardo', url: 'https://lperezp.dev' }],
     openGraph: {
         title: 'Documentación de la API | Peruanos.dev',
         description: 'Documentación de las APIs públicas de Peruanos.dev.',
+         images: [
+      {
+        url: 'https://peruanos.dev/images/og-image.png',
+      }
+    ],
         url: 'https://peruanos.dev/apis',
         siteName: 'Peruanos.dev',
         locale: 'es_PE',
@@ -17,6 +23,8 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'APIs Públicas | Peruanos.dev',
         description: 'Documentación de las APIs públicas de Peruanos.dev.',
+        images: 'https://peruanos.dev/images/og-image.png',
+        creator: '@lperezp_pe',
     },
 };
 

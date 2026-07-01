@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   },
   description: "Conecta con la comunidad tech en el Perú. Descubre eventos, únete a comunidades y contribuye a proyectos de código abierto realizados por peruanos.",
   keywords: ['comunidad tech Perú', 'eventos tecnología Perú', 'desarrolladores peruanos', 'comunidades tecnológicas', 'meetups Perú', 'código abierto Perú', 'tech Peru'],
-  authors: [{ name: 'Peruanos.dev' }],
+  authors: [{ name: 'Luis Eduardo', url: 'https://lperezp.dev' }],
   creator: 'Peruanos.dev',
   publisher: 'Peruanos.dev',
   openGraph: {
@@ -28,8 +28,6 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://peruanos.dev/images/og-image.png',
-        width: 1200,
-        height: 630,
         alt: 'Peruanos.dev',
       },
     ],
@@ -39,7 +37,7 @@ export const metadata: Metadata = {
     title: 'Peruanos.dev',
     description: 'Conecta con la comunidad tech en el Perú. Descubre eventos, únete a comunidades y contribuye a proyectos de código abierto.',
     images: ['https://peruanos.dev/images/twitter-image.png'],
-    creator: '@peruanosdev',
+    creator: '@lperezp_pe',
   },
   robots: {
     index: true,
