@@ -6,11 +6,11 @@ import { COMMUNITIES } from '../data/communities';
 import { communitySchema, itemListSchema } from '../lib/structured-data';
 
 export const metadata: Metadata = {
-    title: 'Comunidades tecnológicas en Perú | Peruanos.dev',
+    title: 'Comunidades tecnológicas en Perú',
     description: 'Únete a comunidades de desarrolladores, grupos de usuarios y espacios de aprendizaje tech en Perú. Descubre Angular Perú, GDG, Python Perú y más.',
     keywords: ['comunidades tech peru', 'grupos desarrolladores peru', 'comunidad programadores', 'user groups peru', 'tech communities lima'],
     openGraph: {
-        title: 'Comunidades tecnológicas en Perú | Peruanos.dev',
+        title: 'Comunidades tecnológicas en Perú',
         description: 'Únete a comunidades de desarrolladores, grupos de usuarios y espacios de aprendizaje tech en Perú.',
         url: 'https://peruanos.dev/community',
         siteName: 'Peruanos.dev',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Comunidades tecnológicas en Perú | Peruanos.dev',
+        title: 'Comunidades tecnológicas en Perú',
         description: 'Únete a comunidades de desarrolladores, grupos de usuarios y espacios de aprendizaje tech en Perú.',
     },
 };

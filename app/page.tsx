@@ -16,12 +16,22 @@ import { eventSchema, itemListSchema, softwareSourceCodeSchema } from './lib/str
 import TrackedLink from './components/ui/TrackedLink';
 
 export const metadata: Metadata = {
-  title: 'Inicio | Peruanos.dev',
+  title: 'Peruanos.dev | Conecta con la comunidad tech en el Perú.',
   description: 'Conecta con la comunidad tech en el Perú. Descubre eventos, únete a comunidades y contribuye a proyectos de código abierto realizados por peruanos.',
+  keywords: ['eventos','tech', 'meetups', 'conferencias', 'tecnología', 'workshops','desarrollo', 'hackathons','peru', 'comunidad','desarrolladores'],
   openGraph: {
-    title: 'Peruanos.dev',
+    title: 'Peruanos.dev | Conecta con la comunidad tech en el Perú.',
     description: 'Conecta con la comunidad tech en el Perú. Descubre eventos, únete a comunidades y contribuye a proyectos de código abierto.',
+     url: 'https://peruanos.dev/community',
+        siteName: 'Peruanos.dev',
+        locale: 'es_PE',
+        type: 'website',
   },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Peruanos.dev | Conecta con la comunidad tech en el Perú.',
+        description: 'Conecta con la comunidad tech en el Perú. Descubre eventos, únete a comunidades y contribuye a proyectos de código abierto.',
+    },
 };
 
 export const dynamic = 'force-dynamic';
