@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Peruanos.dev | Conecta con la comunidad tech en el Perú.',
     description: 'Conecta con la comunidad tech en el Perú. Descubre eventos, únete a comunidades y contribuye a proyectos de código abierto.',
-     url: 'https://peruanos.dev/community',
+     url: 'https://peruanos.dev/',
         siteName: 'Peruanos.dev',
         locale: 'es_PE',
         type: 'website',
