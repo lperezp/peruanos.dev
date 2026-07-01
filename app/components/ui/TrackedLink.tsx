@@ -19,8 +19,10 @@ export default function TrackedLink({ children, eventName, eventParams, onClick,
         }
     };
 
+    console.log('TrackedLink rendered with eventName:', props);
+
     return (
-        <Link {...props} onClick={handleClick}>
+        <Link {...props} title={props.href?.toString()} onClick={handleClick}>
             {children}
         </Link>
     );

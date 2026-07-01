@@ -25,7 +25,7 @@ export default function Header() {
     return (
         <>
             <header className="flex justify-between items-center h-[72px] bg-background px-8 shadow-[0_2px_10px_rgba(0,0,0,0.25)] z-[50] relative">
-                <Link href="/" aria-label="Ir al inicio">
+                <Link href="/" aria-label="Ir al inicio" title="Ir al inicio">
                     <Image src={theme === 'light' ? './svg/logo-peruanos-dev-dark.svg' : './svg/logo-peruanos-dev.svg'} alt="Logo" width={31} height={44} />
                 </Link>
 
