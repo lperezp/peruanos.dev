@@ -636,7 +636,7 @@ export const EVENTS: IEvent[] = [
     "location": "Biblioteca Nacional Sede San Borja (Av. De la Poesía 160, San Borja)",
     "city": "Lima",
     "type": "Presencial",
-    "image_url": "https://lh3.googleusercontent.com/9adPFLwaNpLsQfyryh1eRNezka25I48xAfYcZf7x1bhtiD7_uVQZfnaGwy2x0o-JJsgl48MoNyaoaeQ=w1200-h630-p",
+    "image_url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD24IPqXGEuB7GsM4xuvtxV6idUZOx-X-rC4fdXb9IxPnfVJZI09bG4xiJSKVeP2AiVarHnN2G_B4DfWRKiDtGTelCbo5JI-bcU787oFjfZ9yWg8MOL5L4zH_2Kd81d6lBQRfq9QZrePrbqyL39XA9uqin2LvJR445w4xV089C8DxRmXU1M_9cbPBAyxsqOrg5LIsL5jr0YGOGBJwyq7w=w2556?key=WMwJEKtxHXy3D69xg7wm0Q",
     "registration_url": "https://docs.google.com/forms/d/e/1FAIpQLSdfZrHtDPLrJipzYh7Xl6_yVG5Rqmy0fTT2pFkAZxT2C7bR2g/viewform",
     "tags": [],
     "organizer": "Indie Checkpoint"

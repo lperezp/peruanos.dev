@@ -48,6 +48,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'lh3.googleusercontent.com',
       },
+       {
+        protocol: 'https',
+        hostname: 'lh7-rt.googleusercontent.com',
+      },
       {
         protocol: 'https',
         hostname: 'media.licdn.com',
