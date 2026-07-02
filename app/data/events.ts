@@ -653,5 +653,34 @@ export const EVENTS: IEvent[] = [
     "registration_url": "https://luma.com/j17k56nt",
     "tags": [],
     "organizer": "DSC UTP"
+  },
+  {
+    "title": "TechDay: AI & Security Edition",
+    "description": "¡Descubre lo último en seguridad y IA en TECH DAY, un evento presencial lleno de innovación y tech!",
+    "date": "2026-08-15",
+    "time": "08:00",
+    "location": "UPC Campus San Miguel, 2810 Avenida de la Marina, San Miguel, Provincia de Lima 15087",
+    "city": "Lima",
+    "type": "Presencial",
+    "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186266812%2F3004409241990%2F1%2Foriginal.20260605-190613?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=eb815ccd87bbf0e19d8881327111744d",
+    "registration_url": "https://www.techday.pe/",
+    "organizer": "TECH DAY",
+    "tags": []
+  },
+  {
+    "title": "¿Cómo no morir en el intento al usar Lovable?",
+    "description": "🚀 ¿Has escuchado de Lovable y quieres aprender a crear aplicaciones con IA sin perderte en el intento? En esta sesión descubrirás cómo aprovechar Lovable para desarrollar proyectos de manera más rápida, evitando los errores más comunes que enfrentan quienes recién comienzan. Conocerás buenas prácticas, consejos basados en experiencia real y un flujo de trabajo que te permitirá sacar el máximo provecho a esta herramienta. 🤖✨ ✅ Aprende cómo empezar correctamente con Lovable ✅ Evita los errores más comunes al crear tus primeros proyectos ✅ Descubre buenas prácticas para trabajar con IA de forma eficiente 🎤 Speaker: Jaime Fernández – Lovable Ambassador",
+    "date": "2026-07-08",
+    "time": "19:00",
+    "location": "Virtual",
+    "city": "Virtual",
+    "type": "Virtual",
+    "image_url": "https://images.lumacdn.com/uploads/9b/15d02f66-4a4b-4e12-a8ab-18cf49f12396.png",
+    "registration_url": "https://luma.com/ps6yecwc",
+    "organizer": "Developer Student Clubs - UTP",
+    "tags": [
+      "AI",
+      "Lovable"
+    ]
   }
 ];
