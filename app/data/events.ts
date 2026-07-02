@@ -640,5 +640,22 @@ export const EVENTS: IEvent[] = [
     "registration_url": "https://docs.google.com/forms/d/e/1FAIpQLSdfZrHtDPLrJipzYh7Xl6_yVG5Rqmy0fTT2pFkAZxT2C7bR2g/viewform",
     "tags": [],
     "organizer": "Indie Checkpoint"
-  }
+  },
+    {
+        "title": "Evento presencial: IA y Comunidad",
+        "description": "🚀 ¡Atención comunidad de Machine Learning e IA en Latam! 🚀 El impacto de la Inteligencia Artificial ya no es una promesa a futuro, es el presente que estamos construyendo juntos. Por eso, desde AWS UG ML Latam, queremos invitarte a nuestro próximo evento presencial: \"IA y comunidad\". Un espacio diseñado para conectar, compartir conocimientos y debatir sobre las últimas tendencias en IA y Machine Learning, mientras fortalecemos los lazos de nuestra comunidad técnica en la región. Si te apasiona la tecnología, buscas inspirarte o simplemente quieres compartir con otros profesionales del área, ¡este evento es para ti! 📅 Cuándo: 2 de julio 📍 Dónde: Moventi | Javier Prado Este 444, Piso 1 👥 Para quién: Entusiastas, estudiantes, profesionales y expertos de IA/ML ¡No te quedes por fuera de este encuentro! Ven, aprende y se parte de la comunidad. 🌐💡 #IA #MachineLearning #AWS #AWSUG #ComunidadTech #Latam",
+        "date": "2026-07-02",
+        "time": "19:00",
+        "location": "Javier Prado Este 444, Piso 1",
+        "city": "Lima",
+        "type": "Presencial",
+        "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQECh5lZKj9htg/feedshare-shrink_800/B4EZ8e0g3eHAAc-/0/1782928510738?e=2147483647&v=beta&t=YoL4lYNg2kkzqn4NdGks3oLHSPS2kP3jVhlSctygx04",
+        "registration_url": "https://www.meetup.com/aws-ug-machine-learning-latam/events/315229928/",
+        "tags": [
+            "AWS",
+            "MachineLearning",
+            "IA"
+        ],
+        "organizer": "AWS UG Machine Learning Latam"
+    }
 ];
