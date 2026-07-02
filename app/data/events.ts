@@ -640,5 +640,18 @@ export const EVENTS: IEvent[] = [
     "registration_url": "https://docs.google.com/forms/d/e/1FAIpQLSdfZrHtDPLrJipzYh7Xl6_yVG5Rqmy0fTT2pFkAZxT2C7bR2g/viewform",
     "tags": [],
     "organizer": "Indie Checkpoint"
+  },
+  {
+    "title": "TechDay: AI & Security Edition",
+    "description": "¡Descubre lo último en seguridad y IA en TECH DAY, un evento presencial lleno de innovación y tech!",
+    "date": "2026-08-15",
+    "time": "08:00",
+    "location": "UPC Campus San Miguel, 2810 Avenida de la Marina, San Miguel, Provincia de Lima 15087",
+    "city": "Lima",
+    "type": "Presencial",
+    "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186266812%2F3004409241990%2F1%2Foriginal.20260605-190613?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=eb815ccd87bbf0e19d8881327111744d",
+    "registration_url": "https://www.techday.pe/",
+    "organizer": "TECH DAY",
+    "tags": []
   }
 ];
