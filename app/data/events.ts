@@ -642,6 +642,65 @@ export const EVENTS: IEvent[] = [
     "organizer": "Indie Checkpoint"
   },
   {
+    "title": "Del diseño al repositorio: las nuevas capacidades de Figma Make",
+    "description": "¿Te imaginas pasar del diseño al repositorio en menos tiempo y con un flujo mucho más inteligente? En esta sesión descubrirás las nuevas capacidades de Figma Make y cómo están transformando la manera en que diseñadores y developers colaboran para llevar ideas a productos reales. 🚀Exploraremos cómo convertir prototipos en experiencias más accionables, optimizar el handoff y entender mejor el puente entre diseño, construcción y producto. ✅ Descubre qué es Figma Make y por qué está dando de qué hablar✅ Explora cómo conectar mejor el diseño con el desarrollo✅ Conoce nuevas formas de prototipar, iterar y construir más rápido✅ Aprende cómo estas capacidades pueden mejorar tu flujo de trabajo en equipo 🎤 Speaker: Lucía Cruz Sancho – Friends of Figma Leader📅 Fecha: 21 de julio🕗 Hora: 08:00 p.m.💻 Modalidad: Sesión Virtual",
+    "date": "2026-07-21",
+    "time": "20:00",
+    "location": "Virtual",
+    "city": "Virtual",
+    "type": "Virtual",
+    "image_url": "https://images.lumacdn.com/uploads/t8/8f8a1dc8-b40a-4266-952b-231b093fe129.png",
+    "registration_url": "https://luma.com/j17k56nt",
+    "tags": [],
+    "organizer": "DSC UTP"
+  },
+  {
+    "title": "TechDay: AI & Security Edition",
+    "description": "¡Descubre lo último en seguridad y IA en TECH DAY, un evento presencial lleno de innovación y tech!",
+    "date": "2026-08-15",
+    "time": "08:00",
+    "location": "UPC Campus San Miguel, 2810 Avenida de la Marina, San Miguel, Provincia de Lima 15087",
+    "city": "Lima",
+    "type": "Presencial",
+    "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186266812%2F3004409241990%2F1%2Foriginal.20260605-190613?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=eb815ccd87bbf0e19d8881327111744d",
+    "registration_url": "https://www.techday.pe/",
+    "organizer": "TECH DAY",
+    "tags": []
+  },
+  {
+    "title": "¿Cómo no morir en el intento al usar Lovable?",
+    "description": "🚀 ¿Has escuchado de Lovable y quieres aprender a crear aplicaciones con IA sin perderte en el intento? En esta sesión descubrirás cómo aprovechar Lovable para desarrollar proyectos de manera más rápida, evitando los errores más comunes que enfrentan quienes recién comienzan. Conocerás buenas prácticas, consejos basados en experiencia real y un flujo de trabajo que te permitirá sacar el máximo provecho a esta herramienta. 🤖✨ ✅ Aprende cómo empezar correctamente con Lovable ✅ Evita los errores más comunes al crear tus primeros proyectos ✅ Descubre buenas prácticas para trabajar con IA de forma eficiente 🎤 Speaker: Jaime Fernández – Lovable Ambassador",
+    "date": "2026-07-08",
+    "time": "19:00",
+    "location": "Virtual",
+    "city": "Virtual",
+    "type": "Virtual",
+    "image_url": "https://images.lumacdn.com/uploads/9b/15d02f66-4a4b-4e12-a8ab-18cf49f12396.png",
+    "registration_url": "https://luma.com/ps6yecwc",
+    "organizer": "Developer Student Clubs - UTP",
+    "tags": [
+      "AI",
+      "Lovable"
+    ]
+  },
+    {
+        "title": "Evento presencial: IA y Comunidad",
+        "description": "🚀 ¡Atención comunidad de Machine Learning e IA en Latam! 🚀 El impacto de la Inteligencia Artificial ya no es una promesa a futuro, es el presente que estamos construyendo juntos. Por eso, desde AWS UG ML Latam, queremos invitarte a nuestro próximo evento presencial: \"IA y comunidad\". Un espacio diseñado para conectar, compartir conocimientos y debatir sobre las últimas tendencias en IA y Machine Learning, mientras fortalecemos los lazos de nuestra comunidad técnica en la región. Si te apasiona la tecnología, buscas inspirarte o simplemente quieres compartir con otros profesionales del área, ¡este evento es para ti! 📅 Cuándo: 2 de julio 📍 Dónde: Moventi | Javier Prado Este 444, Piso 1 👥 Para quién: Entusiastas, estudiantes, profesionales y expertos de IA/ML ¡No te quedes por fuera de este encuentro! Ven, aprende y se parte de la comunidad. 🌐💡 #IA #MachineLearning #AWS #AWSUG #ComunidadTech #Latam",
+        "date": "2026-07-02",
+        "time": "19:00",
+        "location": "Javier Prado Este 444, Piso 1",
+        "city": "Lima",
+        "type": "Presencial",
+        "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQECh5lZKj9htg/feedshare-shrink_800/B4EZ8e0g3eHAAc-/0/1782928510738?e=2147483647&v=beta&t=YoL4lYNg2kkzqn4NdGks3oLHSPS2kP3jVhlSctygx04",
+        "registration_url": "https://www.meetup.com/aws-ug-machine-learning-latam/events/315229928/",
+        "tags": [
+            "AWS",
+            "MachineLearning",
+            "IA"
+        ],
+        "organizer": "AWS UG Machine Learning Latam"
+  },
+  {
     "title": "Taller de Loop Engineering",
     "description": "Los agentes de IA no son magia. Son un loop. Un modelo que observa, decide, actúa, mira el resultado y vuelve a empezar — hasta cumplir el objetivo. Ese ciclo es lo que separa un chatbot que responde de un agente que de verdad hace el trabajo.",
     "date": "2026-07-02",
