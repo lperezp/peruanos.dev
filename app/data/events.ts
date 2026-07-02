@@ -640,5 +640,21 @@ export const EVENTS: IEvent[] = [
     "registration_url": "https://docs.google.com/forms/d/e/1FAIpQLSdfZrHtDPLrJipzYh7Xl6_yVG5Rqmy0fTT2pFkAZxT2C7bR2g/viewform",
     "tags": [],
     "organizer": "Indie Checkpoint"
+  },
+  {
+    "title": "Taller de Loop Engineering",
+    "description": "Los agentes de IA no son magia. Son un loop. Un modelo que observa, decide, actúa, mira el resultado y vuelve a empezar — hasta cumplir el objetivo. Ese ciclo es lo que separa un chatbot que responde de un agente que de verdad hace el trabajo.",
+    "date": "2026-07-02",
+    "time": "20:00",
+    "location": "Zoom",
+    "city": "Virtual",
+    "type": "Virtual",
+    "image_url": "https://images.lumacdn.com/uploads/d7/723d17b1-e82b-41d8-b2e0-bb9c0ccb4a1b.png",
+    "registration_url": "https://luma.com/5u4la9sb",
+    "tags": [
+      "AI",
+      "Workshop"
+    ],
+    "organizer": "IA MBA"
   }
 ];
