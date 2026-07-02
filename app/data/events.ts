@@ -682,7 +682,6 @@ export const EVENTS: IEvent[] = [
       "AI",
       "Lovable"
     ]
-  }
   },
     {
         "title": "Evento presencial: IA y Comunidad",
