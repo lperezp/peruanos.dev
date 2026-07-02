@@ -653,5 +653,21 @@ export const EVENTS: IEvent[] = [
     "registration_url": "https://www.techday.pe/",
     "organizer": "TECH DAY",
     "tags": []
+  },
+  {
+    "title": "¿Cómo no morir en el intento al usar Lovable?",
+    "description": "🚀 ¿Has escuchado de Lovable y quieres aprender a crear aplicaciones con IA sin perderte en el intento? En esta sesión descubrirás cómo aprovechar Lovable para desarrollar proyectos de manera más rápida, evitando los errores más comunes que enfrentan quienes recién comienzan. Conocerás buenas prácticas, consejos basados en experiencia real y un flujo de trabajo que te permitirá sacar el máximo provecho a esta herramienta. 🤖✨ ✅ Aprende cómo empezar correctamente con Lovable ✅ Evita los errores más comunes al crear tus primeros proyectos ✅ Descubre buenas prácticas para trabajar con IA de forma eficiente 🎤 Speaker: Jaime Fernández – Lovable Ambassador",
+    "date": "2026-07-08",
+    "time": "19:00",
+    "location": "Virtual",
+    "city": "Virtual",
+    "type": "Virtual",
+    "image_url": "https://images.lumacdn.com/uploads/9b/15d02f66-4a4b-4e12-a8ab-18cf49f12396.png",
+    "registration_url": "https://luma.com/ps6yecwc",
+    "organizer": "Developer Student Clubs - UTP",
+    "tags": [
+      "AI",
+      "Lovable"
+    ]
   }
 ];
