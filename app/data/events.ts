@@ -640,5 +640,18 @@ export const EVENTS: IEvent[] = [
     "registration_url": "https://docs.google.com/forms/d/e/1FAIpQLSdfZrHtDPLrJipzYh7Xl6_yVG5Rqmy0fTT2pFkAZxT2C7bR2g/viewform",
     "tags": [],
     "organizer": "Indie Checkpoint"
+  },
+  {
+    "title": "Del diseño al repositorio: las nuevas capacidades de Figma Make",
+    "description": "¿Te imaginas pasar del diseño al repositorio en menos tiempo y con un flujo mucho más inteligente? En esta sesión descubrirás las nuevas capacidades de Figma Make y cómo están transformando la manera en que diseñadores y developers colaboran para llevar ideas a productos reales. 🚀Exploraremos cómo convertir prototipos en experiencias más accionables, optimizar el handoff y entender mejor el puente entre diseño, construcción y producto. ✅ Descubre qué es Figma Make y por qué está dando de qué hablar✅ Explora cómo conectar mejor el diseño con el desarrollo✅ Conoce nuevas formas de prototipar, iterar y construir más rápido✅ Aprende cómo estas capacidades pueden mejorar tu flujo de trabajo en equipo 🎤 Speaker: Lucía Cruz Sancho – Friends of Figma Leader📅 Fecha: 21 de julio🕗 Hora: 08:00 p.m.💻 Modalidad: Sesión Virtual",
+    "date": "2026-07-21",
+    "time": "20:00",
+    "location": "Virtual",
+    "city": "Virtual",
+    "type": "Virtual",
+    "image_url": "https://images.lumacdn.com/uploads/t8/8f8a1dc8-b40a-4266-952b-231b093fe129.png",
+    "registration_url": "https://luma.com/j17k56nt",
+    "tags": [],
+    "organizer": "DSC UTP"
   }
 ];
