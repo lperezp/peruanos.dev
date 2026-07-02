@@ -803,5 +803,23 @@ export const EVENTS: IEvent[] = [
       "Vibe Coding",
       "Prototyping"
     ]
+  },
+  {
+    "title": "Meetup Cloud Native Ayacucho – Julio 2026",
+    "description": "Este evento está diseñado para estudiantes, desarrolladores, DevOps Engineers y entusiastas de la tecnología que quieran aprender de experiencias reales y conectar con la comunidad tecnológica de la región. 📅 Fecha: Sábado 11 de julio de 2026 🕘 Hora: 9:00 AM – 1:00 PM 📍 Lugar: Colegio de Ingenieros del Perú (CIP) – Ayacucho 🎟️ Modalidad: Presencial – Entrada gratuita (Previa inscripción)",
+    "date": "2026-07-11",
+    "time": "09:00",
+    "location": "Colegio de Ingenieros del Perú - Ayacucho, Ayacucho",
+    "city": "Ayacucho",
+    "type": "Presencial",
+    "image_url": "https://ocgroups.dev/images/ee59e4342d18a6fb1b13949c87658c0ef53b21c77be511bb732908ce394725fa.png",
+    "registration_url": "https://ocgroups.dev/cncf/group/ncz2zfb/event/wbnbz6e",
+    "organizer": "Cloud Native Ayacucho",
+    "tags": [
+      "Kubernetes",
+      "Prometheus",
+      "Base de datos",
+      "Cloud Native"
+    ]
   }
 ];
