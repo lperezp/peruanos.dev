@@ -715,5 +715,93 @@ export const EVENTS: IEvent[] = [
       "Workshop"
     ],
     "organizer": "IA MBA"
+  },
+  {
+    "title": "[Coffee Lab] Crea con Replit + Notion",
+    "description": "Los Coffee Labs son espacios personalizados y prácticos donde dejamos la teoría de lado y nos enfocamos en construir en vivo. Saldrás del laboratorio con integraciones reales funcionando entre tu workspace de Notion y otras herramientas. Descripción: La mayoría de ideas no fallan por falta de potencial, sino porque nunca llegan a convertirse en productos reales. Se quedan en Notion como planes, pero no en ejecución. En este webinar en vivo vas a aprender cómo cerrar esa brecha entre idea y producto usando una combinación poderosa: Notion para estructurar y diseñar sistemas + Replit para construir prototipos funcionales rápidamente. Con un enfoque práctico, verás cómo pasar de conceptos a algo que realmente funciona. Lo que vas a aprender: Cómo estructurar una idea en Notion como si fuera un producto real Cómo usar Replit para construir un MVP funcional sin complejidad técnica Cómo conectar organización, datos y ejecución en un flujo simple y replicable ¿Para quién es este webinar? Para creators, emprendedores digitales, makers y profesionales que quieren dejar de solo planear ideas y empezar a construir productos, automatizaciones o herramientas reales. Speakers Jhon Miranda y Mayckol Cruzado(Co-founders de IA Labs & Replit Ambassador) Josecarlos De Lima(Co-founder de DALA & Replit Ambassador) Únete Grupo de whatsapp: ingresa aquí",
+    "date": "2026-07-03",
+    "time": "16:00",
+    "location": "Lima, Peru",
+    "city": "Lima",
+    "type": "Presencial",
+    "image_url": "https://images.lumacdn.com/uploads/hb/d2d7f1e2-f662-4767-89c4-f5e87961e112.jpg",
+    "registration_url": "https://luma.com/qbvnddh8",
+    "organizer": "IA Labs - Sessions",
+    "tags": [
+      "AI",
+      "Notion",
+      "Replit",
+      "Workshop"
+    ]
+  },
+  {
+    "title": "Women Tech Impact 2026: Inspirar y liderar con propósito y ética",
+    "description": "El Grupo de Afinidad IEEE Women in Engineering - WIE Perú, los invita a participar de un encuentro para aprender, inspirarse y conectar con quienes están liderando el cambio en tecnología. Las actividades de este año se desarrollan bajo el lema “Tecnología con propósito: innovar con responsabilidad, inspirar a nivel global, liderar con integridad”, por lo que los ejes temáticos seleccionados para nuestras celebraciones en Perú son: Liderazgo y empoderamiento en ciencia, tecnología, ingeniería y matemáticas (STEM) Tecnología responsable y ética Innovación y Emprendimiento con sostenibilidad Inclusión digital e impacto comunitario INGRESO LIBRE - Público en General Los esperamos 💜",
+    "date": "2026-07-04",
+    "time": "10:00",
+    "location": "National Major University of San Marcos, Lima 15081, Peru",
+    "city": "Lima",
+    "type": "Presencial",
+    "image_url": "https://images.lumacdn.com/uploads/qf/7aa30e82-6e36-49e7-bd56-ce04c4b5df91.png",
+    "registration_url": "https://luma.com/it7dtaqd",
+    "organizer": "IEEE Women in Engineering - WIE Perú",
+    "tags": [
+      "STEM",
+      "Women in Tech",
+      "Networking",
+      "Liderazgo"
+    ]
+  },
+  {
+    "title": "Meet UP Comunidad 4 🇵🇪 InspiraTech",
+    "description": "Nos volvemos a encontrar! Te invitamos a este encuentro presencial de la comunidad peruana del Programa 4 de InspiraTech, un espacio para conectar, compartir experiencias, fortalecer relaciones y seguir construyendo juntos el futuro de la tecnología en nuestra región. Durante este meet up tendremos la oportunidad de conocernos mejor, intercambiar aprendizajes, conversar sobre nuestros proyectos y explorar nuevas oportunidades de colaboración dentro de la comunidad. ✨ ¿Qué puedes esperar? Networking con participantes del Programa 4. Conversaciones sobre tecnología, innovación e impacto. Intercambio de experiencias y aprendizajes. Espacios para generar conexiones y futuras colaboraciones. Si formas parte de la comunidad InspiraTech Perú, este encuentro es para ti. Ven con ganas de compartir, aprender y conectar con personas que están impulsando el cambio desde la tecnología. ¡Nos vemos pronto! 🚀",
+    "date": "2026-07-04",
+    "time": "15:00",
+    "location": "Av. Gregorio Escobedo 684, Jesús María 15072, Peru",
+    "city": "Jesús María",
+    "type": "Presencial",
+    "image_url": "https://images.lumacdn.com/gallery-images/6n/63fec81d-4939-46b0-89dc-dee963a97b5b.png",
+    "registration_url": "https://luma.com/coyby2ah",
+    "organizer": "InspiraTech",
+    "tags": [
+      "InspiraTech",
+      "Networking",
+      "Comunidad"
+    ]
+  },
+  {
+    "title": "Charla gratuita: Conoce sobre Emprende en Tiktok",
+    "description": "Te invitamos a participar en la charla gratuita, donde aprenderás cómo TikTok puede ayudarte a dar mayor visibilidad a tu emprendimiento, conectar con nuevas audiencias y generar oportunidades de crecimiento. Además, conocerás el proceso de postulación a Emprende TikTok y resolverás tus dudas. ¡Te esperamos para dar el siguiente paso en la transformación digital de tu emprendimiento! 🚀",
+    "date": "2026-07-09",
+    "time": "18:00",
+    "location": "Pacific University Cultural Center, Jirón Luis Sánchez Cerro 2121, Jesús María 15072, Peru",
+    "city": "Jesús María",
+    "type": "Presencial",
+    "image_url": "https://images.lumacdn.com/uploads/5w/56781442-fc1f-4471-80eb-efdf8dbd98e6.jpg",
+    "registration_url": "https://luma.com/gvqv3ipd",
+    "organizer": "Emprende TikTok",
+    "tags": [
+      "TikTok",
+      "Emprendimiento",
+      "Marketing"
+    ]
+  },
+  {
+    "title": "Primeros pasos con Replit: de la idea al prototipo",
+    "description": "🚀 ¿Te gustaría crear aplicaciones con Inteligencia Artificial sin empezar desde cero? Descubre cómo Replit puede ayudarte a transformar una idea en un prototipo funcional en cuestión de minutos. En esta charla conocerás el potencial del desarrollo asistido por IA, aprenderás las mejores prácticas para construir aplicaciones con prompts efectivos y verás una demostración en vivo del proceso completo. 💡🤖 Ya seas estudiante, desarrollador o simplemente tengas curiosidad por el mundo del vibe coding, esta sesión te mostrará cómo acelerar el desarrollo de software utilizando herramientas impulsadas por IA. ✅ Conoce qué es Replit y cómo funciona ✅ Aprende a convertir una idea en un prototipo funcional ✅ Descubre buenas prácticas para crear aplicaciones con IA ✅ Observa una demo en vivo desarrollando una aplicación desde cero 🎤 Speaker: Mayckol Cruzado – Replit Ambassador 📅 Fecha: 13 de julio 🕕 Hora: 6:00 p.m. 💻 Modalidad: Sesión Virtual",
+    "date": "2026-07-13",
+    "time": "18:00",
+    "location": "Virtual",
+    "city": "Virtual",
+    "type": "Virtual",
+    "image_url": "https://images.lumacdn.com/uploads/ce/e60020ea-291d-40d8-9fa9-8332abb2c4d0.png",
+    "registration_url": "https://luma.com/87mg1qrq",
+    "organizer": "DSC UTP",
+    "tags": [
+      "AI",
+      "Replit",
+      "Vibe Coding",
+      "Prototyping"
+    ]
   }
 ];
