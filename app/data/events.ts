@@ -821,5 +821,23 @@ export const EVENTS: IEvent[] = [
       "Base de datos",
       "Cloud Native"
     ]
+  },
+  {
+    "title": "DevOpsDays Lima 2026",
+    "description": "Este 27 y 28 de agosto del 2026, por 2do año consecutivo, el Centro de Convenciones Lima se convierte en el punto de encuentro de quienes están transformando la forma en que se construye, despliega y opera software en la región. Acceso a charlas, talleres y networking con toda la comunidad DevOps. Ideal para quienes vienen a aprender, conectar y descubrir lo último en plataforma, IA, seguridad y cultura de ingeniería.",
+    "date": "2026-08-27",
+    "time": "09:00",
+    "location": "Centro de Convenciones Lima, Av. de la Arqueología 206, San Borja",
+    "city": "Lima",
+    "type": "Presencial",
+    "image_url": "https://tickets.devopsdays.pe/web/image/1012-b4d5f027/Evento%20%27DevOpsDays%20Lima%202026%27%20cover%20image.webp",
+    "registration_url": "http://entradas.devopsdays.pe/",
+    "tags": [
+      "DevOps",
+      "IA",
+      "Seguridad",
+      "Cultura de ingeniería"
+    ],
+    "organizer": "DevOpsDays Lima"
   }
 ];
