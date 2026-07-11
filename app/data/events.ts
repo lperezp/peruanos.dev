@@ -839,5 +839,21 @@ export const EVENTS: IEvent[] = [
       "Cultura de ingeniería"
     ],
     "organizer": "DevOpsDays Lima"
+  },
+  {
+    "title": "Flutter Cusco #2: \"Inteligencia Artificial en Flutter\"",
+    "description": "¡Volvemos con todo para el segundo encuentro de Flutter Cusco! Tras el increíble arranque de nuestra comunidad, este Sábado 11 de Julio dejamos atrás lo básico para sumergirnos en cómo la Inteligencia Artificial está redefiniendo por completo las reglas del juego en el desarrollo móvil en 2026. No vamos a hablar de simples llamadas a una API de chat. Vamos a ver cómo construir arquitecturas móviles inteligentes, dinámicas y auto-correctivas al nivel de las startups más avanzadas de Silicon Valley. Contaremos con dos ponencias brutales: Generative UI: Interfaces con IA — Por Jesús Aguilar (Flutter Developer) Descubre cómo romper con los layouts estáticos. Aprenderás el concepto de GenUI: cómo estructurar tu app en Flutter para que la interfaz se dibuje y transforme mágicamente en tiempo real, adaptándose al microsegundo según el contexto y las necesidades exactas del usuario. Loop Engineering: Arquitecturas auto-correctivas — Por Enrique Pinedo (CEO at Jumper AI Lab & AI Automation Specialist) Llevamos el desarrollo móvil al siguiente nivel con Agentic Loop Engineering. Veremos cómo coordinar agentes de IA que automatizan el ciclo de desarrollo: generación de código, compilación y auto-corrección de errores mediante bucles autónomos de retroalimentación.",
+    "date": "2026-07-11",
+    "time": "10:00",
+    "location": "Virtual",
+    "city": "Virtual",
+    "type": "Virtual",
+    "image_url": "https://secure.meetupstatic.com/photos/event/2/b/2/0/highres_535091040.jpeg",
+    "registration_url": "https://www.meetup.com/es-es/flutter-cusco/events/315572950/?slug=flutter-cusco&eventId=315572950",
+    "tags": [
+      "Flutter",
+      "IA"
+    ],
+    "organizer": "Flutter Cusco"
   }
 ];
