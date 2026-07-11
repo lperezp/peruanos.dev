@@ -856,4 +856,23 @@ export const EVENTS: IEvent[] = [
     ],
     "organizer": "Flutter Cusco"
   }
+,
+  {
+    "title": "Hackathon Build with Gemma: GDG Callao",
+    "description": "¡Bienvenidos al hackathon Build with Gemma: GDG Callao! ¡Únete a nosotros para una jornada intensa de innovación y creación! Esta es tu oportunidad para dar vida a ideas creativas, herramientas multimodales o sistemas agentes utilizando los modelos abiertos Gemma de Google DeepMind.Únete a la comunidad del GDG Callao para transformar ideas en soluciones reales utilizando la potencia de Gemma 4, la familia de modelos abiertos más capaz de Google DeepMind.¿Cuál es tu misión? Tu objetivo es desarrollar una solución basada en IA que aborde desafíos alineados con los Objetivos de Desarrollo Sostenible (ODS). Ya sea educación, salud, sostenibilidad urbana o inclusión económica, buscamos proyectos que cuenten una historia poderosa y resuelvan problemas reales de nuestra comunidad.Lo que necesitas saber:Fecha y hora: 25 de julio de 2026.Formato: Hackathon presencial.Lugar: Sede por confirmar (se notificará por correo a los equipos registrados).Requisito técnico: Implementación de Gemma 4.¿Por qué participar? Además de vivir una experiencia intensa de desarrollo, competiremos por una bolsa de premios de USD 2,000 para el podio principal y Certificados de Excelencia Técnica para los proyectos más destacados en Edge/On-Device, IA Multimodal y Agentes Autónomos.Premios:🥇 Primer lugar: USD 1,000🥈 Segundo lugar: USD 600🥉 Tercer lugar: USD 400(La entrega de premios está sujeta al cumplimiento de las reglas oficiales y términos de la plataforma).¿Estás listo para el reto? No importa si eres un desarrollador frontend, full-stack o entusiasta de la IA, este es el espacio para colaborar, aprender y crear impacto junto a otros expertos y entusiastas de la tecnología.Tu camino al hackathon! Para participar, por favor completa los siguientes pasos:Registro oficial: 👉 https://forms.gle/yFqjNPSNWdQtijdJ6Kaggle: ⚙️ https://www.kaggle.com/competitions/build-with-gemma-gdg-callaoNota: Es obligatorio estar registrado en ambos enlaces para ser elegible para participar.¡Regístrate ahora y prepárate para construir el futuro con Gemma 4!",
+    "date": "2026-07-25",
+    "time": "08:30",
+    "location": "Por confirmar",
+    "city": "Lima",
+    "type": "Presencial",
+    "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_7JfIb67",
+    "registration_url": "https://gdg.community.dev/events/details/google-gdg-callao-presents-hackathon-build-with-gemma-gdg-callao/",
+    "tags": [
+      "IA",
+      "Gemma",
+      "Hackathon",
+      "Web"
+    ],
+    "organizer": "GDG Callao"
+  }
 ];
