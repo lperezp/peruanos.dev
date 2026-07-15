@@ -874,5 +874,23 @@ export const EVENTS: IEvent[] = [
       "Web"
     ],
     "organizer": "GDG Callao"
+  },
+  {
+    "title": "Dragon Sphere Origins: Cyber Security Conference 🐉",
+    "description": "Dragon Sphere Origins: Cyber Conference es un CTF para principiantes. Resuelve retos reales de ciberseguridad, captura flags y escala el scoreboard. El evento presencial es el sábado 25 de julio en la PUCP, con charlas magistrales, networking y premiación a los ganadores del CTF.",
+    "date": "2026-07-25",
+    "time": "09:30",
+    "location": "Auditorio de la Facultad de Ciencias e Ingeniería – PUCP",
+    "city": "San Miguel",
+    "type": "Presencial",
+    "image_url": "https://images.lumacdn.com/uploads/0k/04c17b61-e899-4926-af93-26d8537202a9.jpg",
+    "registration_url": "https://www.dragon-sphere.com/",
+    "tags": [
+      "Ciberseguridad",
+      "CTF",
+      "Hacking Ético",
+      "PUCP"
+    ],
+    "organizer": "IEEE COMSOC PUCP & IEEE CS PUCP"
   }
 ];
