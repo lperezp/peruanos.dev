@@ -1,6 +1,23 @@
 import { IEvent } from "../models/event.model";
 
 export const EVENTS: IEvent[] = [
+  {
+        "title": "F13: Code Summit",
+        "description": "En F13 buscamos de crear una conferencia hecha por y para programadores, sin importar tu stack tecnológico o especialidad. Como la tecla F13 que no existe en tu teclado, buscamos llenar ese vacío que falta en el ecosistema tech peruano.",
+        "date": "2026-09-12",
+        "time": "09:00",
+        "location": "UTEC",
+        "city": "Lima",
+        "type": "Presencial",
+        "registration_url": "https://www.f13.pe/",
+        "tags": [
+            "AI",
+            "DevOps",
+            "Data",
+            "Tech"
+        ],
+        "organizer": "F13"
+  },
     {
         "title": "Build with AI 2026 - GDG Open",
         "description": "Build with AI 2026 en Lima es un evento dirigido a desarrolladores de todos los niveles que buscan aprender a crear, prototipar e implementar aplicaciones con inteligencia artificial utilizando las tecnologías más recientes de Google. A través de charlas y talleres prácticos, los asistentes podrán trabajar con herramientas y modelos como Gemini, Vertex AI, AI Studio y Antigravity , además de conectar con otros profesionales de la comunidad, compartir experiencias y llevarse conocimientos aplicables a proyectos reales.",
