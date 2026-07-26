@@ -892,5 +892,24 @@ export const EVENTS: IEvent[] = [
       "PUCP"
     ],
     "organizer": "IEEE COMSOC PUCP & IEEE CS PUCP"
+  },
+  {
+    "title": "Meetup #3 (Presencial) - Tu primer despliegue en AWS Cloud",
+    "description": "**☁️ Tu primer despliegue en AWS Cloud ☁️** 📅 **Fecha:** Sábado 8 de agosto de 2026 🕑 **Hora:** 2:00 PM – 6:00 PM 📍 **Evento Presencial:** INNOSPACE CAMCO – Cámara de Comercio de Piura **☀️ Sobre este evento** ¡Seguimos creciendo con la comunidad del AWS User Group Piura! En nuestro tercer meetup presencial, cambiaremos el formato tradicional de charlas por una experiencia mucho más práctica: un workshop diseñado para que puedas aprender haciendo y realizar tu primer despliegue en AWS Cloud. Durante este espacio trabajaremos con AWS y Flutter para que puedas acercarte al desarrollo y despliegue de aplicaciones en la nube de una forma guiada, dinámica y aplicada. La idea es que no solo escuches conceptos, sino que puedas ponerlos en práctica directamente desde tu laptop, resolver dudas y vivir una experiencia técnica junto a la comunidad. Además del workshop, tendremos un Kahoot! interactivo con concurso por créditos AWS, sorteos, bocaditos, networking y espacios para conectar con estudiantes, profesionales, desarrolladores y entusiastas de la tecnología en Piura. **⚠️ Importante 💻** Este será un workshop práctico, por lo que debes traer tu laptop para poder participar activamente en la sesión y seguir los ejercicios durante el evento.",
+    "date": "2026-08-08",
+    "time": "14:00",
+    "location": "INNOSPACE CAMCO – Cámara de Comercio de Piura, Av. Fortunato Chirichigno A-2, Urb. San Eduardo, Piura",
+    "city": "Piura",
+    "type": "Presencial",
+    "image_url": "https://secure.meetupstatic.com/photos/event/7/d/e/8/highres_535292232.jpeg",
+    "registration_url": "https://www.meetup.com/aws-user-group-piura/events/315600351/",
+    "tags": [
+      "Amazon Web Services",
+      "Cloud Computing",
+      "Cloud Services",
+      "Flutter",
+      "Software Development"
+    ],
+    "organizer": "AWS USER GROUP PIURA"
   }
 ];
