@@ -911,5 +911,23 @@ export const EVENTS: IEvent[] = [
       "Software Development"
     ],
     "organizer": "AWS USER GROUP PIURA"
+  },
+  {
+    "title": "Agentic AI Optimization: Headroom Series",
+    "description": "2da Conferencia Mensual: Agentic AI Optimization - Headroom Series\n\n¿Por qué tu agente IA desperdicia el 70% de su contexto? Entre información repetida y ruido, estás perdiendo eficiencia. Únete a nuestra segunda conferencia mensual y descubre cómo ahorrar entre un 40% y 50% en tokens sin sacrificar precisión.\n\n🗓️ Detalles del Evento\n  * Fecha: 1 de Agosto de 2026\n  * Hora: 8:00 PM\n  * Modalidad: Virtual (Zoom)\n  * Organizan: IEEE Computer Society PUCP & Claude Perú Science\n\n🎓 Certificación Oficial\n\nPara ser acreedor al certificado oficial emitido por la IEEE, es un requisito obligatorio registrar una asistencia mínima de 1 hora y 30 minutos durante la sesión en vivo.\n\n📝 Sobre la Conferencia\n\nEn esta sesión teórica y práctica, aprenderás cómo optimizar agentes de Inteligencia Artificial para reducir drásticamente los costos de API.\n\nExploraremos a fondo la arquitectura detrás de Headroom, una innovadora herramienta open-source creada por Netflix diseñada para reducir hasta un 70% de los tokens en contextos innecesarios. Llevaremos la teoría académica directamente a la implementación práctica utilizando Claude Code.\n\n🧠 Qué Aprenderás\n  * Fundamentos: Compresión reversible de contexto.\n  * SmartCrusher: Técnicas de compresión inteligente de JSON.\n  * CacheAligner: Cómo mejorar drásticamente los cache hits (pasando del 5% al 80%).\n  * RollingWindow: Gestión dinámica del presupuesto de tokens.\n  * Práctica: Setup e instalación paso a paso en Claude Code.\n\n🎯 Detalles Técnicos\n  * Formato: Teórico-práctico\n  * Duración: 2 horas\n  * Nivel: Básico/Intermedio (Se requiere familiaridad previa con Claude Code o herramientas similares).\n\n🎤 Ponente\n  * Daniel Mamani - President of IEEE Computer Society PUCP, AI Engineer PUCP Student.\n\n👥 A Quién Va Dirigido\n\nEstudiantes, desarrolladores, ingenieros de software, emprendedores, startup founders y cualquier profesional interesado en maximizar la eficiencia y reducir los costos de API al trabajar con agentes de IA.\n\n📚 Referencias Académicas\n\nLa conferencia tendrá relación con los siguientes papers de investigación:\n  * Base de SmartCrusher: Compress the Context, Keep the Commitments: A Formal Framework for Verifiable LLM Context Compression (2025) - ArXiv: 2605.17304\n  * Base de CacheAligner: Don't Break the Cache: An Evaluation of Prompt Caching for Long-Horizon Agentic Tasks (2025) - ArXiv: 2601.06007\n  * Base de RollingWindow: ContextBudget: Budget-Aware Context Management for Long-Horizon Search Agents (2024) - ArXiv: 2604.01664\n\nÚnete al canal de difusión: https://whatsapp.com/channel/0029Vb1FIHT4yltW1qOjZr1V",
+    "date": "2026-08-01",
+    "time": "20:00",
+    "location": "Zoom",
+    "city": "Virtual",
+    "type": "Virtual",
+    "image_url": "https://images.lumacdn.com/uploads/f2/444fd47a-8c66-465c-a62a-30f201b6f60e.png",
+    "registration_url": "https://luma.com/o4ua1jwh",
+    "tags": [
+      "AI",
+      "Agentic AI",
+      "Claude Code",
+      "Optimization"
+    ],
+    "organizer": "IEEE Computer Society PUCP"
   }
 ];
