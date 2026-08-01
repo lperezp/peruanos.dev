@@ -61,7 +61,13 @@ export default function EventSideModal({ event, isOpen, onClose }: EventSideModa
                     )}
                 </div>
 
-                <div className="flex flex-col gap-3 bg-hover/50 p-4 rounded-lg border border-border">
+                <div>
+                    <h3 className="text-lg font-semibold text-foreground mb-2">Acerca de este evento</h3>
+                    <p className="text-accent whitespace-pre-wrap leading-relaxed break-words">
+                        {event.description.replace(/\*\*/g, '')}
+                    </p>
+                </div>
+                <div className="flex flex-col gap-3">
                     <div className="flex items-center gap-3 text-foreground">
                         <Calendar size={20} className="text-primary shrink-0" />
                         <span className="capitalize break-words">{formattedDate}</span>
@@ -77,13 +83,8 @@ export default function EventSideModal({ event, isOpen, onClose }: EventSideModa
                         <span className="flex-1 break-words">{event.location} - {event.city}</span>
                     </div>
                 </div>
-
-                <div>
-                    <h3 className="text-lg font-semibold text-foreground mb-2">Acerca de este evento</h3>
-                    <p className="text-accent whitespace-pre-wrap leading-relaxed break-words">
-                        {event.description.replace(/\*\*/g, '')}
-                    </p>
-                </div>
+                
+                {/* Agregar mapa */}
 
                 <div className="fixed bottom-0 right-0 w-full max-w-md md:max-w-lg lg:max-w-xl bg-background border-t border-border p-4 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)]">
                     <TrackedLink
