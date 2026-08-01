@@ -6,6 +6,7 @@ import SideModal from '../ui/SideModal';
 import Badge from '../ui/Badge';
 import TrackedLink from '../ui/TrackedLink';
 import { addUTMParams } from '@/app/lib/utm';
+import { trackEvent } from '@/app/lib/analytics';
 
 interface EventSideModalProps {
     event: IEvent;
@@ -15,24 +16,8 @@ interface EventSideModalProps {
 
 export default function EventSideModal({ event, isOpen, onClose }: EventSideModalProps) {
     useEffect(() => {
-        if (isOpen) {
-            if (typeof window !== 'undefined' && 'gtag' in window && typeof window.gtag === 'function') {
-                window.gtag('event', 'view_event', {
-                    event_title: event.title,
-                    event_type: event.type
-                });
-            }
-
-            const slug = encodeURIComponent(event.title.toLowerCase().replace(/ /g, '-'));
-            window.history.pushState(null, '', `?event=${slug}`);
-        } else {
-            // Restore URL if closed, ensuring we only do this if it was previously set by us
-            const url = new URL(window.location.href);
-            if (url.searchParams.has('event')) {
-                url.searchParams.delete('event');
-                window.history.pushState(null, '', url.pathname + url.search);
-            }
-        }
+        if (!isOpen) return;
+        trackEvent('view_event', { event_title: event.title, event_type: event.type });
     }, [isOpen, event.title, event.type]);
 
     const dateObj = new Date(event.date);
@@ -96,7 +81,7 @@ export default function EventSideModal({ event, isOpen, onClose }: EventSideModa
                 <div>
                     <h3 className="text-lg font-semibold text-foreground mb-2">Acerca de este evento</h3>
                     <p className="text-accent whitespace-pre-wrap leading-relaxed break-words">
-                        {event.description}
+                        {event.description.replace(/\*\*/g, '')}
                     </p>
                 </div>
 

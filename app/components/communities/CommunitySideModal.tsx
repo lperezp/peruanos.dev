@@ -6,6 +6,7 @@ import SideModal from '../ui/SideModal';
 import Badge from '../ui/Badge';
 import TrackedLink from '../ui/TrackedLink';
 import { addUTMParams } from '@/app/lib/utm';
+import { trackEvent } from '@/app/lib/analytics';
 
 interface CommunitySideModalProps {
     community: ICommunity;
@@ -16,12 +17,7 @@ interface CommunitySideModalProps {
 export default function CommunitySideModal({ community, isOpen, onClose }: CommunitySideModalProps) {
     useEffect(() => {
         if (isOpen) {
-            if (typeof window !== 'undefined' && 'gtag' in window && typeof window.gtag === 'function') {
-                window.gtag('event', 'view_community', {
-                    community_name: community.name,
-                    community_city: community.city
-                });
-            }
+            trackEvent('view_community', { community_name: community.name, community_city: community.city });
 
             const slug = encodeURIComponent(community.name.toLowerCase().replace(/ /g, '-'));
             window.history.pushState(null, '', `?community=${slug}`);

@@ -31,7 +31,7 @@ export default function CardEvent({ event }: Props) {
     return (
         <>
         <div
-            className="bg-background border border-accent rounded-lg overflow-hidden flex flex-col sm:flex-row sm:h-[300px] cursor-pointer transition-all duration-300 hover:shadow-md hover:border-primary/50"
+            className="bg-background border border-accent rounded-lg overflow-hidden flex flex-col sm:flex-row sm:h-[300px] cursor-pointer transition-all duration-300"
             onClick={handleCardClick}
         >
             <div className="relative w-full sm:w-[300px] h-64 sm:h-full flex-shrink-0">
@@ -61,13 +61,13 @@ export default function CardEvent({ event }: Props) {
                 </div>
                 <p className="text-[20px] text-foreground font-bold mb-1">{event.title}</p>
                 <p className="font-medium text-accent">{event.organizer}</p>
-                <p className="font-medium my-4 text-accent line-clamp-2">{event.description}</p>
+                <p className="font-medium my-4 text-accent line-clamp-2">{event.description.replace(/\*\*/g, '')}</p>
                 <div className="flex items-center gap-2 font-medium text-accent">
                     <MapPin size={16} />
                     <span>{event.location}</span>
                 </div>
                 <span
-                    className="flex items-center mt-4 gap-2 font-medium text-primary font-semibold"
+                    className="flex items-center mt-4 gap-2 font-medium text-primary"
                 >
                     Ver detalles
                 </span>

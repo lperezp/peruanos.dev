@@ -1,6 +1,7 @@
 import { useState, useMemo, useCallback, useEffect } from 'react';
 import { EVENTS } from '../data/events';
 import { useDebounce } from './useDebounce';
+import { trackEvent } from '../lib/analytics';
 
 export function useEventFilters() {
     const [searchQuery, setSearchQuery] = useState('');
@@ -76,9 +77,7 @@ export function useEventFilters() {
 
     // Toggle functions
     const toggleCity = useCallback((city: string) => {
-        if (typeof window !== 'undefined' && 'gtag' in window && typeof window.gtag === 'function') {
-            window.gtag('event', 'filter_events', { filter_type: 'city', value: city });
-        }
+        trackEvent('filter_events', { filter_type: 'city', value: city });
         setSelectedCities(prev =>
             prev.includes(city)
                 ? prev.filter(c => c !== city)
@@ -87,9 +86,7 @@ export function useEventFilters() {
     }, []);
 
     const toggleTopic = useCallback((topic: string) => {
-        if (typeof window !== 'undefined' && 'gtag' in window && typeof window.gtag === 'function') {
-            window.gtag('event', 'filter_events', { filter_type: 'topic', value: topic });
-        }
+        trackEvent('filter_events', { filter_type: 'topic', value: topic });
         setSelectedTopics(prev =>
             prev.includes(topic)
                 ? prev.filter(t => t !== topic)
@@ -98,9 +95,7 @@ export function useEventFilters() {
     }, []);
 
     const toggleType = useCallback((type: string) => {
-        if (typeof window !== 'undefined' && 'gtag' in window && typeof window.gtag === 'function') {
-            window.gtag('event', 'filter_events', { filter_type: 'type', value: type });
-        }
+        trackEvent('filter_events', { filter_type: 'type', value: type });
         setSelectedTypes(prev =>
             prev.includes(type)
                 ? prev.filter(t => t !== type)
@@ -111,9 +106,7 @@ export function useEventFilters() {
     const debouncedSearchQuery = useDebounce(searchQuery, 500);
 
     useEffect(() => {
-        if (debouncedSearchQuery && typeof window !== 'undefined' && 'gtag' in window && typeof window.gtag === 'function') {
-            window.gtag('event', 'filter_events', { filter_type: 'search', value: debouncedSearchQuery });
-        }
+        if (debouncedSearchQuery) trackEvent('filter_events', { filter_type: 'search', value: debouncedSearchQuery });
     }, [debouncedSearchQuery]);
 
     return {
