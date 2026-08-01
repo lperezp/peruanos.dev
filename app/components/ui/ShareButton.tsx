@@ -7,9 +7,11 @@ interface ShareButtonProps {
     title: string;
     text?: string;
     url?: string;
+    eventName?: string;
+    eventParams?: Record<string, unknown>;
 }
 
-export default function ShareButton({ title, text, url }: ShareButtonProps) {
+export default function ShareButton({ title, text, url, eventName, eventParams }: ShareButtonProps) {
     const [isSharing, setIsSharing] = useState(false);
     const [hasCopied, setHasCopied] = useState(false);
 
@@ -21,6 +23,11 @@ export default function ShareButton({ title, text, url }: ShareButtonProps) {
 
     const handleShare = async () => {
         setIsSharing(true);
+
+        if (eventName && typeof window !== 'undefined' && 'gtag' in window && typeof window.gtag === 'function') {
+            window.gtag('event', eventName, eventParams);
+        }
+
         try {
             if (navigator.share) {
                 await navigator.share(shareData);
