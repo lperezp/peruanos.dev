@@ -5,6 +5,7 @@ import { IEvent } from '@/app/models/event.model';
 import SideModal from '../ui/SideModal';
 import Badge from '../ui/Badge';
 import TrackedLink from '../ui/TrackedLink';
+import ShareButton from '../ui/ShareButton';
 import { addUTMParams } from '@/app/lib/utm';
 import { trackEvent } from '@/app/lib/analytics';
 
@@ -46,11 +47,20 @@ export default function EventSideModal({ event, isOpen, onClose }: EventSideModa
                 </div>
 
                 <div>
-                    <div className="flex flex-wrap gap-2 mb-3">
-                        <Badge>{event.type}</Badge>
-                        {event.tags.map((tag) => (
-                            <Badge key={tag} variant="outline">{tag}</Badge>
-                        ))}
+                    <div className="flex items-start justify-between gap-3 mb-3">
+                        <div className="flex flex-wrap gap-2">
+                            <Badge>{event.type}</Badge>
+                            {event.tags.map((tag) => (
+                                <Badge key={tag} variant="outline">{tag}</Badge>
+                            ))}
+                        </div>
+                        <ShareButton
+                            title={event.title}
+                            text={`¡Mira este evento en peruanos.dev! ${event.title}`}
+                            url={event.registration_url}
+                            eventName="click_share_event"
+                            eventParams={{ event_name: event.title, event_link: event.registration_url, section: 'EventModal' }}
+                        />
                     </div>
                     <h1 className="text-2xl font-bold text-foreground mb-2 break-words">{event.title}</h1>
                     {event.organizer && (

@@ -38,7 +38,9 @@ export default function ShareButton({ title, text, url, eventName, eventParams }
                 setTimeout(() => setHasCopied(false), 2000);
             }
         } catch (error) {
-            console.error('Error sharing:', error);
+            if (error instanceof Error && error.name !== 'AbortError') {
+                console.error('Error sharing:', error);
+            }
         } finally {
             setIsSharing(false);
         }
