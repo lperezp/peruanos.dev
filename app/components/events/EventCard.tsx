@@ -1,23 +1,41 @@
+'use client';
+
+import { useState } from 'react';
 import Image from 'next/image';
 import { ExternalLink, MapPin } from 'lucide-react';
 import { IEvent } from '../../models/event.model';
 import Badge from '../ui/Badge';
 import TrackedLink from '../ui/TrackedLink';
 import { addUTMParams } from '../../lib/utm';
+import EventSideModal from './EventSideModal';
 
 interface Props {
     event: IEvent;
 }
 
 export default function CardEvent({ event }: Props) {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
     // Formatear la fecha para el badge
     const dateObj = new Date(event.date);
     const month = dateObj.toLocaleString('es-PE', { month: 'short', timeZone: 'UTC' }).toUpperCase();
     const day = dateObj.getUTCDate();
     const year = dateObj.getUTCFullYear();
 
+    const handleCardClick = (e: React.MouseEvent) => {
+        // Prevent opening modal if clicking on a link
+        if ((e.target as HTMLElement).closest('a')) {
+            return;
+        }
+        setIsModalOpen(true);
+    };
+
     return (
-        <div className="bg-background border border-accent rounded-lg overflow-hidden flex flex-col sm:flex-row sm:h-[300px]">
+        <>
+        <div
+            className="bg-background border border-accent rounded-lg overflow-hidden flex flex-col sm:flex-row sm:h-[300px] cursor-pointer transition-all duration-300 hover:shadow-md hover:border-primary/50"
+            onClick={handleCardClick}
+        >
             <div className="relative w-full sm:w-[300px] h-64 sm:h-full flex-shrink-0">
                 {event.image_url ? (
                     <Image
@@ -63,5 +81,11 @@ export default function CardEvent({ event }: Props) {
                 </TrackedLink>
             </div>
         </div>
+        <EventSideModal
+            event={event}
+            isOpen={isModalOpen}
+            onClose={() => setIsModalOpen(false)}
+        />
+        </>
     );
 }

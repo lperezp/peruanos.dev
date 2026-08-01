@@ -1,15 +1,32 @@
+'use client';
+
+import { useState } from 'react';
 import { Calendar, ExternalLink, MapPin } from 'lucide-react';
 import { IEvent } from '../../models/event.model';
 import TrackedLink from '../ui/TrackedLink';
 import { addUTMParams } from '../../lib/utm';
+import EventSideModal from './EventSideModal';
 
 interface Props {
     event: IEvent;
 }
 
 export default function CardEventHome({ event }: Props) {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const handleCardClick = (e: React.MouseEvent) => {
+        if ((e.target as HTMLElement).closest('a')) {
+            return;
+        }
+        setIsModalOpen(true);
+    };
+
     return (
-        <div className="card-event-home p-6 bg-background border border-accent rounded-lg flex-1 max-w-sm transition-all duration-300 hover:scale-[1.02] hover:shadow-md hover:border-primary/50">
+        <>
+        <div
+            className="card-event-home p-6 bg-background border border-accent rounded-lg flex-1 max-w-sm transition-all duration-300 hover:scale-[1.02] hover:shadow-md hover:border-primary/50 cursor-pointer"
+            onClick={handleCardClick}
+        >
             <p className="text-[20px] text-foreground font-bold mb-1 line-clamp-1">{event.title}</p>
             <p className="font-medium text-accent">{event.organizer}</p>
             <p className="font-medium my-4 text-accent line-clamp-4 min-h-[6rem]">{event.description}</p>
@@ -33,5 +50,11 @@ export default function CardEventHome({ event }: Props) {
                 <ExternalLink size={16} />
             </TrackedLink>
         </div>
+        <EventSideModal
+            event={event}
+            isOpen={isModalOpen}
+            onClose={() => setIsModalOpen(false)}
+        />
+        </>
     );
 }
