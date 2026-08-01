@@ -22,8 +22,8 @@ export default function CardEventHome({ event }: Props) {
     return (
         <>
         <div
-            className="card-event-home p-6 bg-background border border-accent rounded-lg flex-1 max-w-sm transition-all duration-300 hover:scale-[1.02] hover:shadow-md hover:border-primary/50 cursor-pointer"
-            onClick={handleCardClick}
+            className="card-event-home p-6 bg-background border border-accent rounded-lg flex-1 max-w-sm transition-all duration-300"
+
         >
             <p className="text-[20px] text-foreground font-bold mb-1 line-clamp-1">{event.title}</p>
             <p className="font-medium text-accent">{event.organizer}</p>
@@ -36,11 +36,12 @@ export default function CardEventHome({ event }: Props) {
                 <MapPin size={16} className="shrink-0" />
                 <span className="truncate">{event.location}</span>
             </div>
-            <span
-                className="flex items-center mt-4 gap-2 font-medium text-primary font-semibold"
+            <button
+                className="flex items-center mt-4 gap-2 font-medium text-primary cursor-pointer"
+                onClick={handleCardClick}
             >
                 Ver detalles
-            </span>
+            </button>
         </div>
         <EventSideModal
             event={event}

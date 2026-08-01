@@ -61,12 +61,6 @@ export default function EventSideModal({ event, isOpen, onClose }: EventSideModa
                     )}
                 </div>
 
-                <div>
-                    <h3 className="text-lg font-semibold text-foreground mb-2">Acerca de este evento</h3>
-                    <p className="text-accent whitespace-pre-wrap leading-relaxed break-words">
-                        {event.description.replace(/\*\*/g, '')}
-                    </p>
-                </div>
                 <div className="flex flex-col gap-3">
                     <div className="flex items-center gap-3 text-foreground">
                         <Calendar size={20} className="text-primary shrink-0" />
@@ -82,6 +76,13 @@ export default function EventSideModal({ event, isOpen, onClose }: EventSideModa
                         <MapPin size={20} className="text-primary shrink-0 mt-1" />
                         <span className="flex-1 break-words">{event.location} - {event.city}</span>
                     </div>
+                </div>
+
+                <div>
+                    <h3 className="text-lg font-semibold text-foreground mb-2">Acerca de este evento</h3>
+                    <p className="text-accent whitespace-pre-wrap leading-relaxed break-words">
+                        {event.description.replace(/\*\*/g, '')}
+                    </p>
                 </div>
                 
                 {/* Agregar mapa */}

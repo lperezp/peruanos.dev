@@ -31,8 +31,7 @@ export default function CardEvent({ event }: Props) {
     return (
         <>
         <div
-            className="bg-background border border-accent rounded-lg overflow-hidden flex flex-col sm:flex-row sm:h-[300px] cursor-pointer transition-all duration-300"
-            onClick={handleCardClick}
+            className="bg-background border border-accent rounded-lg overflow-hidden flex flex-col sm:flex-row sm:h-[300px] transition-all duration-300"
         >
             <div className="relative w-full sm:w-[300px] h-64 sm:h-full flex-shrink-0">
                 {event.image_url ? (
@@ -66,11 +65,12 @@ export default function CardEvent({ event }: Props) {
                     <MapPin size={16} />
                     <span>{event.location}</span>
                 </div>
-                <span
-                    className="flex items-center mt-4 gap-2 font-medium text-primary"
+                <button
+                        className="flex items-center mt-4 gap-2 font-medium text-primary cursor-pointer"
+                        onClick={handleCardClick}
                 >
                     Ver detalles
-                </span>
+                </button>
             </div>
         </div>
         <EventSideModal
