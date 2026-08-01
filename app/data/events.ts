@@ -942,5 +942,18 @@ export const EVENTS: IEvent[] = [
       "Optimization"
     ],
     "organizer": "IEEE Computer Society PUCP"
+  },
+  {
+    "title": "¿RAG ha muerto? Larga vida al Agentic RAG",
+    "description": "Aunque el RAG tradicional se convirtió en el estándar de oro para conectar modelos de lenguaje con datos corporativos, su dependencia de la simple búsqueda vectorial está chocando contra un muro en casos de uso que requieren razonamiento profundo o múltiples pasos lógicos. En esta charla, desmentiremos el mito de la \"muerte del RAG\" y exploraremos su evolución natural: el Agentic RAG. Acompáñame a descubrir cómo pasar de un sistema de recuperación pasivo a un ecosistema inteligente donde agentes autónomos planifican, usan herramientas, evalúan y sintetizan información, analizando desde la arquitectura necesaria para implementar este razonamiento dinámico hasta casos de uso reales donde el enfoque agéntico marca la diferencia entre una alucinación y una respuesta perfecta.",
+    "date": "2026-08-01",
+    "time": "18:00",
+    "location": "Online event",
+    "city": "Virtual",
+    "type": "Virtual",
+    "image_url": "https://secure.meetupstatic.com/images/classic-events/535336916/676x380.webp",
+    "registration_url": "https://www.meetup.com/my-agents-latam/events/315785374/",
+    "tags": [],
+    "organizer": "My Agents LATAM"
   }
 ];
