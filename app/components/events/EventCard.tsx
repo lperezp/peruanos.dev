@@ -1,23 +1,38 @@
+'use client';
+
+import { useState } from 'react';
 import Image from 'next/image';
-import { ExternalLink, MapPin } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 import { IEvent } from '../../models/event.model';
 import Badge from '../ui/Badge';
-import TrackedLink from '../ui/TrackedLink';
-import { addUTMParams } from '../../lib/utm';
+import EventSideModal from './EventSideModal';
 
 interface Props {
     event: IEvent;
 }
 
 export default function CardEvent({ event }: Props) {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
     // Formatear la fecha para el badge
     const dateObj = new Date(event.date);
     const month = dateObj.toLocaleString('es-PE', { month: 'short', timeZone: 'UTC' }).toUpperCase();
     const day = dateObj.getUTCDate();
     const year = dateObj.getUTCFullYear();
 
+    const handleCardClick = (e: React.MouseEvent) => {
+        // Prevent opening modal if clicking on a link
+        if ((e.target as HTMLElement).closest('a')) {
+            return;
+        }
+        setIsModalOpen(true);
+    };
+
     return (
-        <div className="bg-background border border-accent rounded-lg overflow-hidden flex flex-col sm:flex-row sm:h-[300px]">
+        <>
+        <div
+            className="bg-background border border-accent rounded-lg overflow-hidden flex flex-col sm:flex-row sm:h-[300px] transition-all duration-300"
+        >
             <div className="relative w-full sm:w-[300px] h-64 sm:h-full flex-shrink-0">
                 {event.image_url ? (
                     <Image
@@ -45,23 +60,24 @@ export default function CardEvent({ event }: Props) {
                 </div>
                 <p className="text-[20px] text-foreground font-bold mb-1">{event.title}</p>
                 <p className="font-medium text-accent">{event.organizer}</p>
-                <p className="font-medium my-4 text-accent line-clamp-2">{event.description}</p>
+                <p className="font-medium my-4 text-accent line-clamp-2">{event.description.replace(/\*\*/g, '')}</p>
                 <div className="flex items-center gap-2 font-medium text-accent">
                     <MapPin size={16} />
                     <span>{event.location}</span>
                 </div>
-                <TrackedLink
-                    href={addUTMParams(event.registration_url)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center mt-4 gap-2 font-medium text-primary font-semibold"
-                    eventName="click_register_event"
-                    eventParams={{ event_title: event.title, event_type: event.type }}
+                <button
+                        className="flex items-center mt-4 gap-2 font-medium text-primary cursor-pointer"
+                        onClick={handleCardClick}
                 >
-                    Registrarse
-                    <ExternalLink size={16} />
-                </TrackedLink>
+                    Ver detalles
+                </button>
             </div>
         </div>
+        <EventSideModal
+            event={event}
+            isOpen={isModalOpen}
+            onClose={() => setIsModalOpen(false)}
+        />
+        </>
     );
 }
