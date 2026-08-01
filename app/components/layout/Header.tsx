@@ -8,6 +8,7 @@ import { useState } from 'react';
 import { Menu, X, Github, Star } from 'lucide-react';
 import { addUTMParams } from '../../lib/utm';
 import TrackedLink from '../ui/TrackedLink';
+import { trackEvent } from '../../lib/analytics';
 
 export default function Header() {
     const { theme, toggleTheme, mounted } = useThemeContext();
@@ -16,9 +17,7 @@ export default function Header() {
 
     const handleToggleTheme = () => {
         const newTheme = theme === 'dark' ? 'light' : 'dark';
-        if (typeof window !== 'undefined' && 'gtag' in window && typeof window.gtag === 'function') {
-            window.gtag('event', 'toggle_theme', { new_theme: newTheme });
-        }
+        trackEvent('toggle_theme', { new_theme: newTheme });
         toggleTheme();
     };
 

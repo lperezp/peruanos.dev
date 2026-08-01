@@ -19,6 +19,19 @@ export const EVENTS: IEvent[] = [
         "organizer": "F13"
   },
     {
+        "title": "Historias que generan valor",
+        "description": "En esta edición profundizamos en la fricción como motor de mejores decisiones. En el mundo corporativo, salir rápido casi siempre le gana a salir bien: las decisiones se toman con lo que hay, los procesos se acortan y la innovación termina siendo más intención que realidad. Nos preguntamos: ¿qué pasa cuando dos áreas distintas chocan, negocian, y logran algo que ninguna hubiera conseguido por su cuenta? Conversaremos con:\n- Alejandra Vizquerra – Gerente Comercial en RIMAC Seguros, convencida de que la colaboración es el camino para generar valor.\n- Jupio Ishiyama – Gerente de Brand Innovation en Alicorp y Fundador de Wandertaku.\n- Tony Arévalo – Gerente General de SHIFT, con una historia real de cómo una notificación legal se convirtió en un proyecto de inclusión.\n- César Castañeda – Diseñador estratégico y Cofundador de Reboot, con una dinámica sobre diversidad de pensamiento creativo.\nReflexionaremos sobre la fricción no como un obstáculo a evitar, sino como el ingrediente que, bien gestionado, produce las mejores decisiones. Únete, conecta y sé parte de una comunidad que no busca la historia perfecta — busca la que de verdad pasó. 📅 20 de agosto ⚡",
+        "date": "2026-08-20",
+        "time": "18:30",
+        "location": "Av. las Begonias 650",
+        "city": "San Isidro",
+        "type": "Presencial",
+        "image_url": "https://images.lumacdn.com/uploads/2u/d6d0ccc6-3499-4723-b2a6-4d66ec419c96.jpg",
+        "registration_url": "https://luma.com/v65uy72v",
+        "tags": [],
+        "organizer": "Rimac Design"
+    },
+    {
         "title": "Build with AI 2026 - GDG Open",
         "description": "Build with AI 2026 en Lima es un evento dirigido a desarrolladores de todos los niveles que buscan aprender a crear, prototipar e implementar aplicaciones con inteligencia artificial utilizando las tecnologías más recientes de Google. A través de charlas y talleres prácticos, los asistentes podrán trabajar con herramientas y modelos como Gemini, Vertex AI, AI Studio y Antigravity , además de conectar con otros profesionales de la comunidad, compartir experiencias y llevarse conocimientos aplicables a proyectos reales.",
         "date": "2026-05-30",
@@ -909,5 +922,55 @@ export const EVENTS: IEvent[] = [
       "PUCP"
     ],
     "organizer": "IEEE COMSOC PUCP & IEEE CS PUCP"
+  },
+  {
+    "title": "Meetup #3 (Presencial) - Tu primer despliegue en AWS Cloud",
+    "description": "¡Seguimos creciendo con la comunidad del AWS User Group Piura! En nuestro tercer meetup presencial, cambiaremos el formato tradicional de charlas por una experiencia mucho más práctica: un workshop diseñado para que puedas aprender haciendo y realizar tu primer despliegue en AWS Cloud. Durante este espacio trabajaremos con AWS y Flutter para que puedas acercarte al desarrollo y despliegue de aplicaciones en la nube de una forma guiada, dinámica y aplicada. La idea es que no solo escuches conceptos, sino que puedas ponerlos en práctica directamente desde tu laptop, resolver dudas y vivir una experiencia técnica junto a la comunidad. Además del workshop, tendremos un Kahoot! interactivo con concurso por créditos AWS, sorteos, bocaditos, networking y espacios para conectar con estudiantes, profesionales, desarrolladores y entusiastas de la tecnología en Piura. **⚠️ Importante 💻** Este será un workshop práctico, por lo que debes traer tu laptop para poder participar activamente en la sesión y seguir los ejercicios durante el evento.",
+    "date": "2026-08-08",
+    "time": "14:00",
+    "location": "INNOSPACE CAMCO – Cámara de Comercio de Piura, Av. Fortunato Chirichigno A-2, Urb. San Eduardo, Piura",
+    "city": "Piura",
+    "type": "Presencial",
+    "image_url": "https://secure.meetupstatic.com/photos/event/7/d/e/8/highres_535292232.jpeg",
+    "registration_url": "https://www.meetup.com/aws-user-group-piura/events/315600351/",
+    "tags": [
+      "Amazon Web Services",
+      "Cloud Computing",
+      "Cloud Services",
+      "Flutter",
+      "Software Development"
+    ],
+    "organizer": "AWS USER GROUP PIURA"
+  },
+  {
+    "title": "Agentic AI Optimization: Headroom Series",
+    "description": "2da Conferencia Mensual: Agentic AI Optimization - Headroom Series\n\n¿Por qué tu agente IA desperdicia el 70% de su contexto? Entre información repetida y ruido, estás perdiendo eficiencia. Únete a nuestra segunda conferencia mensual y descubre cómo ahorrar entre un 40% y 50% en tokens sin sacrificar precisión.\n\n🗓️ Detalles del Evento\n  * Fecha: 1 de Agosto de 2026\n  * Hora: 8:00 PM\n  * Modalidad: Virtual (Zoom)\n  * Organizan: IEEE Computer Society PUCP & Claude Perú Science\n\n🎓 Certificación Oficial\n\nPara ser acreedor al certificado oficial emitido por la IEEE, es un requisito obligatorio registrar una asistencia mínima de 1 hora y 30 minutos durante la sesión en vivo.\n\n📝 Sobre la Conferencia\n\nEn esta sesión teórica y práctica, aprenderás cómo optimizar agentes de Inteligencia Artificial para reducir drásticamente los costos de API.\n\nExploraremos a fondo la arquitectura detrás de Headroom, una innovadora herramienta open-source creada por Netflix diseñada para reducir hasta un 70% de los tokens en contextos innecesarios. Llevaremos la teoría académica directamente a la implementación práctica utilizando Claude Code.\n\n🧠 Qué Aprenderás\n  * Fundamentos: Compresión reversible de contexto.\n  * SmartCrusher: Técnicas de compresión inteligente de JSON.\n  * CacheAligner: Cómo mejorar drásticamente los cache hits (pasando del 5% al 80%).\n  * RollingWindow: Gestión dinámica del presupuesto de tokens.\n  * Práctica: Setup e instalación paso a paso en Claude Code.\n\n🎯 Detalles Técnicos\n  * Formato: Teórico-práctico\n  * Duración: 2 horas\n  * Nivel: Básico/Intermedio (Se requiere familiaridad previa con Claude Code o herramientas similares).\n\n🎤 Ponente\n  * Daniel Mamani - President of IEEE Computer Society PUCP, AI Engineer PUCP Student.\n\n👥 A Quién Va Dirigido\n\nEstudiantes, desarrolladores, ingenieros de software, emprendedores, startup founders y cualquier profesional interesado en maximizar la eficiencia y reducir los costos de API al trabajar con agentes de IA.\n\n📚 Referencias Académicas\n\nLa conferencia tendrá relación con los siguientes papers de investigación:\n  * Base de SmartCrusher: Compress the Context, Keep the Commitments: A Formal Framework for Verifiable LLM Context Compression (2025) - ArXiv: 2605.17304\n  * Base de CacheAligner: Don't Break the Cache: An Evaluation of Prompt Caching for Long-Horizon Agentic Tasks (2025) - ArXiv: 2601.06007\n  * Base de RollingWindow: ContextBudget: Budget-Aware Context Management for Long-Horizon Search Agents (2024) - ArXiv: 2604.01664\n\nÚnete al canal de difusión: https://whatsapp.com/channel/0029Vb1FIHT4yltW1qOjZr1V",
+    "date": "2026-08-01",
+    "time": "20:00",
+    "location": "Zoom",
+    "city": "Virtual",
+    "type": "Virtual",
+    "image_url": "https://images.lumacdn.com/uploads/f2/444fd47a-8c66-465c-a62a-30f201b6f60e.png",
+    "registration_url": "https://luma.com/o4ua1jwh",
+    "tags": [
+      "AI",
+      "Agentic AI",
+      "Claude Code",
+      "Optimization"
+    ],
+    "organizer": "IEEE Computer Society PUCP"
+  },
+  {
+    "title": "¿RAG ha muerto? Larga vida al Agentic RAG",
+    "description": "Aunque el RAG tradicional se convirtió en el estándar de oro para conectar modelos de lenguaje con datos corporativos, su dependencia de la simple búsqueda vectorial está chocando contra un muro en casos de uso que requieren razonamiento profundo o múltiples pasos lógicos. En esta charla, desmentiremos el mito de la \"muerte del RAG\" y exploraremos su evolución natural: el Agentic RAG. Acompáñame a descubrir cómo pasar de un sistema de recuperación pasivo a un ecosistema inteligente donde agentes autónomos planifican, usan herramientas, evalúan y sintetizan información, analizando desde la arquitectura necesaria para implementar este razonamiento dinámico hasta casos de uso reales donde el enfoque agéntico marca la diferencia entre una alucinación y una respuesta perfecta.",
+    "date": "2026-08-01",
+    "time": "18:00",
+    "location": "Online event",
+    "city": "Virtual",
+    "type": "Virtual",
+    "image_url": "https://secure.meetupstatic.com/images/classic-events/535336916/676x380.webp",
+    "registration_url": "https://www.meetup.com/my-agents-latam/events/315785374/",
+    "tags": [],
+    "organizer": "My Agents LATAM"
   }
 ];
