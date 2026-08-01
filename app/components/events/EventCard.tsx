@@ -3,6 +3,8 @@ import { ExternalLink, MapPin } from 'lucide-react';
 import { IEvent } from '../../models/event.model';
 import Badge from '../ui/Badge';
 import TrackedLink from '../ui/TrackedLink';
+import AddToCalendarDropdown from './AddToCalendarDropdown';
+
 import { addUTMParams } from '../../lib/utm';
 
 interface Props {
@@ -17,8 +19,8 @@ export default function CardEvent({ event }: Props) {
     const year = dateObj.getUTCFullYear();
 
     return (
-        <div className="bg-background border border-accent rounded-lg overflow-hidden flex flex-col sm:flex-row sm:h-[300px]">
-            <div className="relative w-full sm:w-[300px] h-64 sm:h-full flex-shrink-0">
+        <div className="bg-background border border-accent rounded-lg flex flex-col sm:flex-row sm:h-[300px]">
+            <div className="relative w-full sm:w-[300px] h-64 sm:h-full flex-shrink-0 overflow-hidden rounded-t-lg sm:rounded-none sm:rounded-l-lg">
                 {event.image_url ? (
                     <Image
                         src={event.image_url}
@@ -50,17 +52,22 @@ export default function CardEvent({ event }: Props) {
                     <MapPin size={16} />
                     <span>{event.location}</span>
                 </div>
-                <TrackedLink
-                    href={addUTMParams(event.registration_url)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center mt-4 gap-2 font-medium text-primary font-semibold"
-                    eventName="click_register_event"
-                    eventParams={{ event_title: event.title, event_type: event.type }}
-                >
-                    Registrarse
-                    <ExternalLink size={16} />
-                </TrackedLink>
+
+                <div className="flex items-center gap-4">
+                    <TrackedLink
+                        href={addUTMParams(event.registration_url)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center mt-4 gap-2 font-medium text-primary font-semibold"
+                        eventName="click_register_event"
+                        eventParams={{ event_title: event.title, event_type: event.type }}
+                    >
+                        Registrarse
+                        <ExternalLink size={16} />
+                    </TrackedLink>
+                    <AddToCalendarDropdown event={event} />
+                </div>
+
             </div>
         </div>
     );

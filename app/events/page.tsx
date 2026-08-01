@@ -1,6 +1,10 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import EventsClient from '../components/events/EventsClient';
+
+import { Download } from 'lucide-react';
+import TrackedLink from '../components/ui/TrackedLink';
+
 import { addUTMParams } from '../lib/utm';
 import { EVENTS } from '../data/events';
 import { eventSchema, itemListSchema } from '../lib/structured-data';
@@ -55,14 +59,26 @@ export default function Events() {
                 <p className="text-left mb-4 w-full sm:text-[20px]">
                     Conecta con la comunidad tech peruana en eventos, meetups y conferencias. ¿Organizas un evento? ¡Agrégalo a la lista!
                 </p>
-                <Link
-                    className="px-6 py-3 text-center bg-primary text-white rounded-full hover:bg-primary-hover transition"
-                    href={addUTMParams('https://github.com/lperezp/peruanos.dev/issues/new?template=event.yml')}
-                    target='_blank'
-                    rel="noopener noreferrer"
-                >
-                    Publicar un evento
-                </Link>
+
+                <div className="flex flex-col sm:flex-row gap-4 mt-6">
+                    <Link
+                        className="px-6 py-3 text-center bg-primary text-white rounded-full hover:bg-primary-hover transition"
+                        href={addUTMParams('https://github.com/lperezp/peruanos.dev/issues/new?template=event.yml')}
+                        target='_blank'
+                        rel="noopener noreferrer"
+                    >
+                        Publicar un evento
+                    </Link>
+                    <TrackedLink
+                        href="/api/events/calendar"
+                        className="flex justify-center items-center gap-2 px-6 py-3 text-center bg-secondary text-secondary-foreground rounded-full hover:bg-secondary-hover transition"
+                        eventName="download_calendar_all_events"
+                    >
+                        <Download size={20} />
+                        Suscribirse al calendario
+                    </TrackedLink>
+                </div>
+
 
                 <EventsClient />
             </section>
