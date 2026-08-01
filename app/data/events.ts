@@ -2,6 +2,19 @@ import { IEvent } from "../models/event.model";
 
 export const EVENTS: IEvent[] = [
     {
+        "title": "Historias que generan valor",
+        "description": "En esta edición profundizamos en la fricción como motor de mejores decisiones. En el mundo corporativo, salir rápido casi siempre le gana a salir bien: las decisiones se toman con lo que hay, los procesos se acortan y la innovación termina siendo más intención que realidad. Nos preguntamos: ¿qué pasa cuando dos áreas distintas chocan, negocian, y logran algo que ninguna hubiera conseguido por su cuenta? Conversaremos con:\n- Alejandra Vizquerra – Gerente Comercial en RIMAC Seguros, convencida de que la colaboración es el camino para generar valor.\n- Jupio Ishiyama – Gerente de Brand Innovation en Alicorp y Fundador de Wandertaku.\n- Tony Arévalo – Gerente General de SHIFT, con una historia real de cómo una notificación legal se convirtió en un proyecto de inclusión.\n- César Castañeda – Diseñador estratégico y Cofundador de Reboot, con una dinámica sobre diversidad de pensamiento creativo.\nReflexionaremos sobre la fricción no como un obstáculo a evitar, sino como el ingrediente que, bien gestionado, produce las mejores decisiones. Únete, conecta y sé parte de una comunidad que no busca la historia perfecta — busca la que de verdad pasó. 📅 20 de agosto ⚡",
+        "date": "2026-08-20",
+        "time": "18:30",
+        "location": "Av. las Begonias 650",
+        "city": "San Isidro",
+        "type": "Presencial",
+        "image_url": "https://images.lumacdn.com/uploads/2u/d6d0ccc6-3499-4723-b2a6-4d66ec419c96.jpg",
+        "registration_url": "https://luma.com/v65uy72v",
+        "tags": [],
+        "organizer": "Rimac Design"
+    },
+    {
         "title": "Build with AI 2026 - GDG Open",
         "description": "Build with AI 2026 en Lima es un evento dirigido a desarrolladores de todos los niveles que buscan aprender a crear, prototipar e implementar aplicaciones con inteligencia artificial utilizando las tecnologías más recientes de Google. A través de charlas y talleres prácticos, los asistentes podrán trabajar con herramientas y modelos como Gemini, Vertex AI, AI Studio y Antigravity , además de conectar con otros profesionales de la comunidad, compartir experiencias y llevarse conocimientos aplicables a proyectos reales.",
         "date": "2026-05-30",
