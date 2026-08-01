@@ -76,7 +76,7 @@ export default function CardEvent({ event }: Props) {
                         text={`¡Mira este evento en peruanos.dev! ${event.title}`}
                         url={event.registration_url}
                         eventName="click_share_event"
-                        eventParams={{ event_title: event.title, event_type: event.type }}
+                        eventParams={{ event_name: event.title, event_link: event.registration_url, section: 'Events' }}
                     />
             </div>
         </div>

@@ -17,7 +17,7 @@ interface EventSideModalProps {
 export default function EventSideModal({ event, isOpen, onClose }: EventSideModalProps) {
     useEffect(() => {
         if (!isOpen) return;
-        trackEvent('view_event', { event_title: event.title, event_type: event.type });
+        trackEvent('view_event', { event_name: event.title, section: 'Events' });
     }, [isOpen, event.title, event.type]);
 
     const dateObj = new Date(event.date);
@@ -94,7 +94,7 @@ export default function EventSideModal({ event, isOpen, onClose }: EventSideModa
                         rel="noopener noreferrer"
                         className="flex items-center justify-center gap-2 w-full py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-hover transition-colors"
                         eventName="click_register_event"
-                        eventParams={{ event_title: event.title, event_type: event.type }}
+                        eventParams={{ event_name: event.title, event_link: event.registration_url, section: 'Events' }}
                     >
                         Página del evento
                         <ExternalLink size={18} />

@@ -77,7 +77,7 @@ export function useEventFilters() {
 
     // Toggle functions
     const toggleCity = useCallback((city: string) => {
-        trackEvent('filter_events', { filter_type: 'city', value: city });
+        trackEvent('filter_events', { event_name: city, filter_type: 'city', section: 'Events' });
         setSelectedCities(prev =>
             prev.includes(city)
                 ? prev.filter(c => c !== city)
@@ -86,7 +86,7 @@ export function useEventFilters() {
     }, []);
 
     const toggleTopic = useCallback((topic: string) => {
-        trackEvent('filter_events', { filter_type: 'topic', value: topic });
+        trackEvent('filter_events', { event_name: topic, filter_type: 'topic', section: 'Events' });
         setSelectedTopics(prev =>
             prev.includes(topic)
                 ? prev.filter(t => t !== topic)
@@ -95,7 +95,7 @@ export function useEventFilters() {
     }, []);
 
     const toggleType = useCallback((type: string) => {
-        trackEvent('filter_events', { filter_type: 'type', value: type });
+        trackEvent('filter_events', { event_name: type, filter_type: 'type', section: 'Events' });
         setSelectedTypes(prev =>
             prev.includes(type)
                 ? prev.filter(t => t !== type)
@@ -106,7 +106,7 @@ export function useEventFilters() {
     const debouncedSearchQuery = useDebounce(searchQuery, 500);
 
     useEffect(() => {
-        if (debouncedSearchQuery) trackEvent('filter_events', { filter_type: 'search', value: debouncedSearchQuery });
+        if (debouncedSearchQuery) trackEvent('filter_events', { event_name: debouncedSearchQuery, filter_type: 'search', section: 'Events' });
     }, [debouncedSearchQuery]);
 
     return {

@@ -32,7 +32,7 @@ export default function CardCommunityHome({ community }: { community: ICommunity
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 font-medium text-primary-text mb-1"
                 eventName="click_visit_community"
-                eventParams={{ community_name: community.name, community_city: community.city }}
+                eventParams={{ event_name: community.name, event_link: community.contact.website, section: 'Home' }}
             >
                 <span>Visitar sitio web</span>
                 <ExternalLink size={16} />

@@ -39,7 +39,7 @@ export default function CardProject({ project }: Props) {
                 target="_blank" rel="noopener noreferrer"
                 className="flex items-center gap-2 font-medium text-primary-text"
                 eventName="click_view_project"
-                eventParams={{ project_name: project.name, project_language: project.language }}
+                eventParams={{ event_name: project.name, event_link: project.html_url, section: 'Projects' }}
             >
                 <span>Ver en GitHub</span>
                 <ExternalLink size={16} />

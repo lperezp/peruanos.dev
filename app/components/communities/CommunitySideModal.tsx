@@ -17,7 +17,7 @@ interface CommunitySideModalProps {
 export default function CommunitySideModal({ community, isOpen, onClose }: CommunitySideModalProps) {
     useEffect(() => {
         if (isOpen) {
-            trackEvent('view_community', { community_name: community.name, community_city: community.city });
+            trackEvent('view_community', { event_name: community.name, section: 'Community' });
 
             const slug = encodeURIComponent(community.name.toLowerCase().replace(/ /g, '-'));
             window.history.pushState(null, '', `?community=${slug}`);
@@ -89,7 +89,7 @@ export default function CommunitySideModal({ community, isOpen, onClose }: Commu
                                     rel="noopener noreferrer"
                                     className="p-3 bg-hover rounded-full hover:bg-primary hover:text-white transition-colors text-accent flex items-center justify-center"
                                     eventName="click_community_social"
-                                    eventParams={{ community_name: community.name, social_network: key }}
+                                    eventParams={{ event_name: community.name, event_link: url, section: 'Community' }}
                                     aria-label={`Visitar ${key} de ${community.name}`}
                                 >
                                     <Icon size={20} />
@@ -100,7 +100,7 @@ export default function CommunitySideModal({ community, isOpen, onClose }: Commu
                                     href={`mailto:${community.contact.email}`}
                                     className="p-3 bg-hover rounded-full hover:bg-primary hover:text-white transition-colors text-accent flex items-center justify-center"
                                     eventName="click_community_email"
-                                    eventParams={{ community_name: community.name }}
+                                    eventParams={{ event_name: community.name, event_link: `mailto:${community.contact.email}`, section: 'Community' }}
                                     aria-label={`Enviar correo a ${community.name}`}
                                 >
                                     <Mail size={20} />
@@ -117,7 +117,7 @@ export default function CommunitySideModal({ community, isOpen, onClose }: Commu
                         rel="noopener noreferrer"
                         className="flex items-center justify-center gap-2 w-full py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-hover transition-colors"
                         eventName="click_visit_community"
-                        eventParams={{ community_name: community.name, community_city: community.city }}
+                        eventParams={{ event_name: community.name, event_link: community.contact.website, section: 'Community' }}
                     >
                         Página de la comunidad
                         <Globe size={18} />
