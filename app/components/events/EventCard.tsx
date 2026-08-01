@@ -19,8 +19,8 @@ export default function CardEvent({ event }: Props) {
     const year = dateObj.getUTCFullYear();
 
     return (
-        <div className="bg-background border border-accent rounded-lg overflow-hidden flex flex-col sm:flex-row sm:h-[300px]">
-            <div className="relative w-full sm:w-[300px] h-64 sm:h-full flex-shrink-0">
+        <div className="bg-background border border-accent rounded-lg flex flex-col sm:flex-row sm:h-[300px]">
+            <div className="relative w-full sm:w-[300px] h-64 sm:h-full flex-shrink-0 overflow-hidden rounded-t-lg sm:rounded-none sm:rounded-l-lg">
                 {event.image_url ? (
                     <Image
                         src={event.image_url}

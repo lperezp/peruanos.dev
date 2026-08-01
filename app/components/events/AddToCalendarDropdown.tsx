@@ -34,7 +34,7 @@ export default function AddToCalendarDropdown({ event }: Props) {
             <button
                 type="button"
                 onClick={toggleDropdown}
-                className="flex items-center mt-4 gap-2 font-semibold text-secondary hover:text-secondary-foreground transition-colors"
+                className="flex items-center mt-4 gap-2 font-semibold text-foreground hover:text-accent transition-colors"
             >
                 Agregar al calendario
                 <CalendarPlus size={16} />
@@ -47,7 +47,7 @@ export default function AddToCalendarDropdown({ event }: Props) {
                             href={googleCalendarUrl}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex items-center px-4 py-2 text-sm text-foreground hover:bg-accent hover:text-accent-foreground"
+                            className="flex items-center px-4 py-2 text-sm text-foreground hover:bg-hover hover:text-foreground"
                             role="menuitem"
                             eventName="add_to_google_calendar"
                             eventParams={{ event_title: event.title }}
@@ -59,7 +59,7 @@ export default function AddToCalendarDropdown({ event }: Props) {
                         <TrackedLink
                             href={icsDataUrl}
                             download={`${event.title.replace(/[^a-z0-9]/gi, '_').toLowerCase()}.ics`}
-                            className="flex items-center px-4 py-2 text-sm text-foreground hover:bg-accent hover:text-accent-foreground"
+                            className="flex items-center px-4 py-2 text-sm text-foreground hover:bg-hover hover:text-foreground"
                             role="menuitem"
                             eventName="download_ics_calendar"
                             eventParams={{ event_title: event.title }}

@@ -71,7 +71,7 @@ export default function Events() {
                     </Link>
                     <TrackedLink
                         href="/api/events/calendar"
-                        className="flex justify-center items-center gap-2 px-6 py-3 text-center bg-secondary text-white rounded-full hover:bg-secondary-hover transition"
+                        className="flex justify-center items-center gap-2 px-6 py-3 text-center bg-secondary text-secondary-foreground rounded-full hover:bg-secondary-hover transition"
                         eventName="download_calendar_all_events"
                     >
                         <Download size={20} />
