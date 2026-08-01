@@ -1,10 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { Calendar, ExternalLink, MapPin } from 'lucide-react';
+import { Calendar, MapPin } from 'lucide-react';
 import { IEvent } from '../../models/event.model';
-import TrackedLink from '../ui/TrackedLink';
-import { addUTMParams } from '../../lib/utm';
 import EventSideModal from './EventSideModal';
 
 interface Props {
@@ -38,17 +36,11 @@ export default function CardEventHome({ event }: Props) {
                 <MapPin size={16} />
                 <span>{event.location}</span>
             </div>
-            <TrackedLink
-                href={addUTMParams(event.registration_url)}
-                target="_blank"
-                rel="noopener noreferrer"
+            <span
                 className="flex items-center mt-4 gap-2 font-medium text-primary font-semibold"
-                eventName="click_register_event"
-                eventParams={{ event_title: event.title, event_type: event.type }}
             >
-                Registrarse
-                <ExternalLink size={16} />
-            </TrackedLink>
+                Ver detalles
+            </span>
         </div>
         <EventSideModal
             event={event}

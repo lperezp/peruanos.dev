@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Image from 'next/image';
 import { ExternalLink, MapPin, Calendar, Clock, User } from 'lucide-react';
 import { IEvent } from '@/app/models/event.model';
@@ -13,6 +14,27 @@ interface EventSideModalProps {
 }
 
 export default function EventSideModal({ event, isOpen, onClose }: EventSideModalProps) {
+    useEffect(() => {
+        if (isOpen) {
+            if (typeof window !== 'undefined' && 'gtag' in window && typeof window.gtag === 'function') {
+                window.gtag('event', 'view_event', {
+                    event_title: event.title,
+                    event_type: event.type
+                });
+            }
+
+            const slug = encodeURIComponent(event.title.toLowerCase().replace(/ /g, '-'));
+            window.history.pushState(null, '', `?event=${slug}`);
+        } else {
+            // Restore URL if closed, ensuring we only do this if it was previously set by us
+            const url = new URL(window.location.href);
+            if (url.searchParams.has('event')) {
+                url.searchParams.delete('event');
+                window.history.pushState(null, '', url.pathname + url.search);
+            }
+        }
+    }, [isOpen, event.title, event.type]);
+
     const dateObj = new Date(event.date);
     const formattedDate = dateObj.toLocaleDateString('es-PE', {
         weekday: 'long',
@@ -25,7 +47,7 @@ export default function EventSideModal({ event, isOpen, onClose }: EventSideModa
     return (
         <SideModal isOpen={isOpen} onClose={onClose} title="Detalles del Evento">
             <div className="flex flex-col gap-6 pb-20">
-                <div className="relative w-full h-64 rounded-lg overflow-hidden shrink-0">
+                <div className="relative w-full aspect-square h-auto rounded-lg overflow-hidden shrink-0">
                     {event.image_url ? (
                         <Image
                             src={event.image_url}

@@ -1,5 +1,6 @@
+import { useEffect } from 'react';
 import Image from 'next/image';
-import { ExternalLink, MapPin, Globe, Github, Twitter, Linkedin, MessageSquare, Facebook, Youtube, Instagram, Mail } from 'lucide-react';
+import { MapPin, Globe, Github, Twitter, Linkedin, MessageSquare, Facebook, Youtube, Instagram, Mail } from 'lucide-react';
 import { ICommunity } from '@/app/models/community.model';
 import SideModal from '../ui/SideModal';
 import Badge from '../ui/Badge';
@@ -13,6 +14,27 @@ interface CommunitySideModalProps {
 }
 
 export default function CommunitySideModal({ community, isOpen, onClose }: CommunitySideModalProps) {
+    useEffect(() => {
+        if (isOpen) {
+            if (typeof window !== 'undefined' && 'gtag' in window && typeof window.gtag === 'function') {
+                window.gtag('event', 'view_community', {
+                    community_name: community.name,
+                    community_city: community.city
+                });
+            }
+
+            const slug = encodeURIComponent(community.name.toLowerCase().replace(/ /g, '-'));
+            window.history.pushState(null, '', `?community=${slug}`);
+        } else {
+            // Restore URL if closed, ensuring we only do this if it was previously set by us
+            const url = new URL(window.location.href);
+            if (url.searchParams.has('community')) {
+                url.searchParams.delete('community');
+                window.history.pushState(null, '', url.pathname + url.search);
+            }
+        }
+    }, [isOpen, community.name, community.city]);
+
     const socialLinks = [
         { key: 'github', icon: Github, url: community.contact.socialMedia.github },
         { key: 'twitter', icon: Twitter, url: community.contact.socialMedia.twitter },
@@ -26,7 +48,7 @@ export default function CommunitySideModal({ community, isOpen, onClose }: Commu
     return (
         <SideModal isOpen={isOpen} onClose={onClose} title="Detalles de la Comunidad">
             <div className="flex flex-col gap-6 pb-20">
-                <div className="relative w-full h-48 rounded-lg overflow-hidden shrink-0 flex items-center justify-center bg-hover/50 p-6 border border-border">
+                <div className="relative w-full aspect-square h-auto rounded-lg overflow-hidden shrink-0 flex items-center justify-center bg-hover/50 p-6 border border-border">
                     {community.logo_url ? (
                         <Image
                             src={community.logo_url}
