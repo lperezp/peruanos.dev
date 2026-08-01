@@ -1,6 +1,7 @@
 import { Calendar, ExternalLink, MapPin } from 'lucide-react';
 import { IEvent } from '../../models/event.model';
 import TrackedLink from '../ui/TrackedLink';
+import ShareButton from '../ui/ShareButton';
 import { addUTMParams } from '../../lib/utm';
 
 interface Props {
@@ -21,17 +22,24 @@ export default function CardEventHome({ event }: Props) {
                 <MapPin size={16} />
                 <span>{event.location}</span>
             </div>
-            <TrackedLink
-                href={addUTMParams(event.registration_url)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center mt-4 gap-2 font-medium text-primary font-semibold"
-                eventName="click_register_event"
-                eventParams={{ event_title: event.title, event_type: event.type }}
-            >
-                Registrarse
-                <ExternalLink size={16} />
-            </TrackedLink>
+            <div className="flex items-center gap-4 mt-4">
+                <TrackedLink
+                    href={addUTMParams(event.registration_url)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 font-medium text-primary font-semibold hover:text-primary/80 transition-colors"
+                    eventName="click_register_event"
+                    eventParams={{ event_title: event.title, event_type: event.type }}
+                >
+                    Registrarse
+                    <ExternalLink size={16} />
+                </TrackedLink>
+                <ShareButton
+                    title={event.title}
+                    text={`¡Mira este evento en peruanos.dev! ${event.title}`}
+                    url={event.registration_url}
+                />
+            </div>
         </div>
     );
 }
