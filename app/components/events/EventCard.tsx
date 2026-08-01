@@ -6,6 +6,7 @@ import { MapPin } from 'lucide-react';
 import { IEvent } from '../../models/event.model';
 import Badge from '../ui/Badge';
 import EventSideModal from './EventSideModal';
+import ShareButton from '../ui/ShareButton';
 
 interface Props {
     event: IEvent;
