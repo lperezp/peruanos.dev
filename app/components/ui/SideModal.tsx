@@ -36,7 +36,7 @@ export default function SideModal({ isOpen, onClose, children, title }: SideModa
     if (!isOpen) return null;
 
     return createPortal(
-        <div className="fixed inset-0 z-50 flex justify-end">
+        <div className="fixed inset-0 z-50 flex justify-end overflow-hidden">
             <div
                 className="fixed inset-0 bg-black/50 backdrop-blur-sm transition-opacity"
                 onClick={onClose}
@@ -53,7 +53,7 @@ export default function SideModal({ isOpen, onClose, children, title }: SideModa
                         <X size={24} />
                     </button>
                 </div>
-                <div className="flex-1 overflow-y-auto p-6 custom-scrollbar">
+                <div className="flex-1 overflow-y-auto overflow-x-hidden p-6 custom-scrollbar">
                     {children}
                 </div>
             </div>

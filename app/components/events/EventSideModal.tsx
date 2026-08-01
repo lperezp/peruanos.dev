@@ -67,35 +67,35 @@ export default function EventSideModal({ event, isOpen, onClose }: EventSideModa
                             <Badge key={tag} variant="outline">{tag}</Badge>
                         ))}
                     </div>
-                    <h1 className="text-2xl font-bold text-foreground mb-2">{event.title}</h1>
+                    <h1 className="text-2xl font-bold text-foreground mb-2 break-words">{event.title}</h1>
                     {event.organizer && (
                         <div className="flex items-center gap-2 text-accent mb-4">
                             <User size={18} />
-                            <span className="font-medium">{event.organizer}</span>
+                            <span className="font-medium break-words">{event.organizer}</span>
                         </div>
                     )}
                 </div>
 
                 <div className="flex flex-col gap-3 bg-hover/50 p-4 rounded-lg border border-border">
                     <div className="flex items-center gap-3 text-foreground">
-                        <Calendar size={20} className="text-primary" />
-                        <span className="capitalize">{formattedDate}</span>
+                        <Calendar size={20} className="text-primary shrink-0" />
+                        <span className="capitalize break-words">{formattedDate}</span>
                     </div>
                     {event.time && (
                         <div className="flex items-center gap-3 text-foreground">
-                            <Clock size={20} className="text-primary" />
-                            <span>{event.time}</span>
+                            <Clock size={20} className="text-primary shrink-0" />
+                            <span className="break-words">{event.time}</span>
                         </div>
                     )}
                     <div className="flex items-start gap-3 text-foreground">
                         <MapPin size={20} className="text-primary shrink-0 mt-1" />
-                        <span className="flex-1">{event.location} - {event.city}</span>
+                        <span className="flex-1 break-words">{event.location} - {event.city}</span>
                     </div>
                 </div>
 
                 <div>
                     <h3 className="text-lg font-semibold text-foreground mb-2">Acerca de este evento</h3>
-                    <p className="text-accent whitespace-pre-wrap leading-relaxed">
+                    <p className="text-accent whitespace-pre-wrap leading-relaxed break-words">
                         {event.description}
                     </p>
                 </div>

@@ -62,10 +62,10 @@ export default function CommunitySideModal({ community, isOpen, onClose }: Commu
                 </div>
 
                 <div>
-                    <h1 className="text-2xl font-bold text-foreground mb-2">{community.name}</h1>
-                    <div className="flex items-center gap-2 text-accent mb-4">
-                        <MapPin size={18} />
-                        <span className="font-medium">{community.city}</span>
+                    <h1 className="text-2xl font-bold text-foreground mb-2 break-words">{community.name}</h1>
+                    <div className="flex items-start gap-2 text-accent mb-4">
+                        <MapPin size={18} className="shrink-0 mt-1" />
+                        <span className="font-medium break-words">{community.city}</span>
                     </div>
                     <div className="flex flex-wrap gap-2 mb-4">
                         {community.topics.map((topic) => (
@@ -76,7 +76,7 @@ export default function CommunitySideModal({ community, isOpen, onClose }: Commu
 
                 <div>
                     <h3 className="text-lg font-semibold text-foreground mb-2">Acerca de nosotros</h3>
-                    <p className="text-accent whitespace-pre-wrap leading-relaxed">
+                    <p className="text-accent whitespace-pre-wrap leading-relaxed break-words">
                         {community.description}
                     </p>
                 </div>
