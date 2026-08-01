@@ -1,4 +1,4 @@
-﻿import { Metadata } from 'next';
+import { Metadata } from 'next';
 import { GoogleSans } from './fonts';
 import "./globals.css";
 import { ThemeProvider } from './context/ThemeContext';
@@ -6,6 +6,10 @@ import { Analytics } from "@vercel/analytics/next"
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import { organizationSchema, websiteSchema } from './lib/structured-data';
+import { Geist } from "next/font/google";
+import { cn } from "@/lib/utils";
+
+const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://peruanos.dev'),
@@ -67,7 +71,7 @@ export default function RootLayout({
 }>) {
 
   return (
-    <html lang="es" suppressHydrationWarning>
+    <html lang="es" suppressHydrationWarning className={cn("font-sans", geist.variable)}>
       <head>
         <script
           dangerouslySetInnerHTML={{
