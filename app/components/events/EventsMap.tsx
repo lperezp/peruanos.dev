@@ -46,7 +46,7 @@ export default function EventsMap({ events }: EventsMapProps) {
   const center: [number, number] = markers.length > 0 ? markers[0].coords : [-77.0428, -12.0464];
 
   return (
-    <div className="w-full h-[600px] border border-border rounded-lg overflow-hidden sticky top-24">
+    <div className="w-[300px] h-[300px] border border-border rounded-lg overflow-hidden sticky top-24">
       <Map center={center} zoom={10}>
         <MapControls />
         {markers.map(({ city, events, coords }) => (
@@ -58,9 +58,9 @@ export default function EventsMap({ events }: EventsMapProps) {
               <h3 className="font-bold text-lg mb-2 text-primary-text">{city}</h3>
               <div className="space-y-3 max-h-[250px] overflow-y-auto">
                 {events.map((event, idx) => (
-                  <div key={`${event.title}-${idx}`} className="text-sm border-b border-border pb-2 last:border-0 last:pb-0">
-                    <p className="font-semibold">{event.title}</p>
-                    <p className="text-xs text-accent mt-1">{event.date} • {event.time}</p>
+                  <div key={`${event.title}-${idx}`} className="text-sm border-b border-border pb-2 last:border-0 last:pb-0 group">
+                    <p className="font-semibold group-hover:text-primary transition-colors duration-200">{event.title}</p>
+                    <p className="text-xs text-accent mt-1 group-hover:text-primary-hover transition-colors duration-200">{event.date} • {event.time}</p>
                   </div>
                 ))}
               </div>
