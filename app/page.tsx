@@ -117,6 +117,7 @@ export default async function Home() {
             href={addUTMParams('https://github.com/lperezp/peruanos.dev/issues/new?template=event.yml')}
             rel="noopener noreferrer"
             eventName="click_publish_event"
+            eventParams={{ event_name: 'Publicar evento', event_link: 'https://github.com/lperezp/peruanos.dev/issues/new?template=event.yml', section: 'Home' }}
           >
             Publicar un evento
           </TrackedLink>
