@@ -2,11 +2,8 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import { ExternalLink } from 'lucide-react';
 import { ICommunity } from '@/app/models/community.model';
 import Badge from '../ui/Badge';
-import TrackedLink from '../ui/TrackedLink';
-import { addUTMParams } from '../../lib/utm';
 import CommunitySideModal from './CommunitySideModal';
 
 export default function CardCommunity({ community }: { community: ICommunity }) {
@@ -57,17 +54,12 @@ export default function CardCommunity({ community }: { community: ICommunity }) 
                         ))}
                     </div>
                 </div>
-                <TrackedLink
-                    href={addUTMParams(community.contact.website)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 font-medium text-primary-text"
-                    eventName="click_visit_community"
-                    eventParams={{ event_name: community.name, event_link: community.contact.website, section: 'Community' }}
+                <button
+                    className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors cursor-pointer"
+                    onClick={handleCardClick}
                 >
-                    <span>Visitar sitio web</span>
-                    <ExternalLink size={16} />
-                </TrackedLink>
+                    Ver detalles
+                </button>
             </div>
         </div>
         <CommunitySideModal

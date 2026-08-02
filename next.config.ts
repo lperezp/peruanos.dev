@@ -87,6 +87,26 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'tickets.devopsdays.pe',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.f13.pe',
+      },
+      {
+        protocol: 'https',
+        hostname: 'devopsdays.pe',
+      },
+      {
+        protocol: 'https',
+        hostname: 'gdgcallao.vercel.app',
+      },
+      {
+        protocol: 'https',
+        hostname: 'ngconf-peru.web.app',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.techday.pe',
       }
     ],
   },
