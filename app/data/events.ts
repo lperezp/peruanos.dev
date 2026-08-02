@@ -1,959 +1,119 @@
 import { IEvent } from "../models/event.model";
 
 export const EVENTS: IEvent[] = [
-    {
-        "title": "Historias que generan valor",
-        "description": "En esta edición profundizamos en la fricción como motor de mejores decisiones. En el mundo corporativo, salir rápido casi siempre le gana a salir bien: las decisiones se toman con lo que hay, los procesos se acortan y la innovación termina siendo más intención que realidad. Nos preguntamos: ¿qué pasa cuando dos áreas distintas chocan, negocian, y logran algo que ninguna hubiera conseguido por su cuenta? Conversaremos con:\n- Alejandra Vizquerra – Gerente Comercial en RIMAC Seguros, convencida de que la colaboración es el camino para generar valor.\n- Jupio Ishiyama – Gerente de Brand Innovation en Alicorp y Fundador de Wandertaku.\n- Tony Arévalo – Gerente General de SHIFT, con una historia real de cómo una notificación legal se convirtió en un proyecto de inclusión.\n- César Castañeda – Diseñador estratégico y Cofundador de Reboot, con una dinámica sobre diversidad de pensamiento creativo.\nReflexionaremos sobre la fricción no como un obstáculo a evitar, sino como el ingrediente que, bien gestionado, produce las mejores decisiones. Únete, conecta y sé parte de una comunidad que no busca la historia perfecta — busca la que de verdad pasó. 📅 20 de agosto ⚡",
-        "date": "2026-08-20",
-        "time": "18:30",
-        "location": "Av. las Begonias 650",
-        "city": "San Isidro",
-        "type": "Presencial",
-        "image_url": "https://images.lumacdn.com/uploads/2u/d6d0ccc6-3499-4723-b2a6-4d66ec419c96.jpg",
-        "registration_url": "https://luma.com/v65uy72v",
-        "tags": [],
-        "organizer": "Rimac Design"
-    },
-    {
-        "title": "Build with AI 2026 - GDG Open",
-        "description": "Build with AI 2026 en Lima es un evento dirigido a desarrolladores de todos los niveles que buscan aprender a crear, prototipar e implementar aplicaciones con inteligencia artificial utilizando las tecnologías más recientes de Google. A través de charlas y talleres prácticos, los asistentes podrán trabajar con herramientas y modelos como Gemini, Vertex AI, AI Studio y Antigravity , además de conectar con otros profesionales de la comunidad, compartir experiencias y llevarse conocimientos aplicables a proyectos reales.",
-        "date": "2026-05-30",
-        "time": "09:00",
-        "location": "Universidad Peruana de Ciencias Aplicadas",
-        "city": "San Isidro",
-        "type": "Presencial",
-        "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/events/blob_UdIdMuy",
-        "registration_url": "https://gdg.community.dev/events/details/google-gdg-open-presents-build-with-ai-2026-gdg-open/",
-        "tags": [
-            "AI",
-            "GDG",
-            "Google"
-        ],
-        "organizer": "GDG Open"
-    },
-    {
-        "title": "Kubernetes Community Days Lima 2026",
-        "description": "Kubernetes Community Days (KCD) son eventos organizados por la comunidad que reúnen a todo el ecosistema open source, tecnología y cloud native para impulsar la educación, colaboración y networking. KCD Lima 2026 regresa por tercer año consecutivo como el evento cloud native más importante del Perú, congregando a desarrolladores, ingenieros DevOps, ingenieros de plataforma y entusiastas de la tecnología de todo el país y la región. Nuestra misión es fomentar el aprendizaje, la colaboración y la innovación dentro de la comunidad cloud native peruana.",
-        "date": "2026-07-18",
-        "time": "08:30",
-        "location": "UTEC – Universidad de Ingeniería y Tecnología, Barranco",
-        "city": "Lima",
-        "type": "Presencial",
-        "image_url": "https://storage.googleapis.com/gpt-engineer-file-uploads/VOFLJxSywsS5CXz01ZMquZ7rmcG2/social-images/social-1770621879396-KCD_Lima_2026_-_Prospecto_de_Patrocinio.png",
-        "registration_url": "https://kcdlima.pe/",
-        "tags": [
-            "Kubernetes",
-            "Cloud Native",
-            "DevOps",
-            "Open Source"
-        ],
-        "organizer": "KCD Lima"
-    },
-    {
-        "title": "Explora Tech Lima 2026",
-        "description": "La tecnología no solo se aprende. Se comparte. Se construye. Se vive.",
-        "date": "2026-05-30",
-        "time": "09:00",
-        "location": "Universidad Científica del Sur, 19 Antigua Panamericana Sur, Villa EL Salvador, Provincia de Lima 15067",
-        "city": "Villa EL Salvador",
-        "type": "Presencial",
-        "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178139955%2F2992965206602%2F1%2Foriginal.20260222-155536?w=480&auto=format%2Ccompress&q=75&sharp=10&rect=49%2C0%2C656%2C328&s=0ae11e09ddac403a88a9044d52b857af",
-        "registration_url": "https://www.eventbrite.com.pe/e/explora-tech-lima-2026-tickets-1983718128322",
-        "tags": [],
-        "organizer": "Techspira"
-    },
-    {
-        "title": "GitHub Community Day Perú",
-        "description": "¡Llega el GitHub Community Day Perú! La comunidad de GitHub llega a la UTP para un evento único que reunirá a estudiantes, developers y apasionados por la tecnología en una experiencia diseñada para potenciar tu forma de crear y colaborar en proyectos.\n\n✨ ¿Qué vivirás en este evento?\n🔹Aprender a integrar GitHub, VS Code y GitHub Copilot en flujos reales de desarrollo\n🔹Descubrir cómo usar GitHub para colaborar en proyectos y construir en comunidad\n🔹Conectar con otros developers y expandir tu red de contactos\n\n🎁 Sorteos, swag, actividades interactivas y muchas sorpresas más.",
-        "date": "2026-06-06",
-        "time": "09:00",
-        "location": "Universidad Tecnológica del Perú (UTP) – Torre Arequipa",
-        "city": "Lima",
-        "type": "Presencial",
-        "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183302667%2F1114540439223%2F1%2Foriginal.20260429-061843?crop=focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.066&fp-y=0.432&s=e54f23800225df5dd2ee38a8198135bf",
-        "registration_url": "https://www.eventbrite.com/e/github-community-day-peru-tickets-1988461462763",
-        "organizer": "Developer Student Clubs - UTP",
-        "tags": [
-            "GitHub",
-            "Copilot",
-            "Open Source"
-        ]
-    },
-    {
-        "title": "Game Design y Pitch para videojuegos",
-        "description": "​🎮✨ ¿Te apasiona crear videojuegos? Únete a este taller con Renzo Guido Evans (coordinador Académico en Toulouse Lautrec) para aprender sobre Game Design (Acción, Contexto, Objetivo, Personaje) y cómo desarrollar un Pitch efectivo para presentar tus proyectos de forma clara y estratégica.",
-        "date": "2026-05-16",
-        "time": "15:00",
-        "location": "Virtual",
-        "city": "Virtual",
-        "type": "Virtual",
-        "image_url": "https://images.lumacdn.com/uploads/dq/8cb96b3b-ba29-46ea-90f4-5eb6d31a7e4b.png",
-        "registration_url": "https://luma.com/pkhyxjvw",
-        "organizer": "Game Devs UTP",
-        "tags": [
-            "Game Design",
-            "Pitch",
-            "GameDev"
-        ]
-    },
-    {
-        "title": "Microsoft Build 2026",
-        "description": "¡Llevamos la energía de Microsoft Build a nuestra comunidad local! Acompáñanos en este evento presencial diseñado para desarrolladores, ingenieros de datos y entusiastas de la tecnología que quieran profundizar en los anuncios más recientes de la conferencia anual de Microsoft.\nExploraremos cómo diseñar e implementar soluciones de IA generativa utilizando herramientas como Azure AI Foundry, GitHub Copilot y los nuevos agentes de IA presentados en San Francisco.\n¿Qué puedes esperar?\n\n* Resumen de anuncios clave: Un repaso por lo más impactante de Build 2026\n* Sesiones técnicas y demos: Análisis profundo de casos de uso reales de IA y despliegue en la nube.\n* Networking: Conecta con otros desarrolladores locales para compartir experiencias y mejores prácticas.",
-        "date": "2026-06-20",
-        "time": "08:30",
-        "location": "Microsoft Perú, Lima 27",
-        "city": "Lima",
-        "type": "Presencial",
-        "image_url": "https://secure.meetupstatic.com/photos/event/2/2/5/3/highres_534188787.jpeg",
-        "registration_url": "https://www.meetup.com/msperu/events/314745293/",
-        "organizer": "Microsoft User Group Perú",
-        "tags": ["Microsoft", "Azure", "AI", "GitHub Copilot"]
-    },
-    {
-        "title": "Ekogroups Lima 2026",
-        "description": "Este sábado 23, desde Threat Hunters UTP y junto a Ekogroups Lima, comunidad local de Ekoparty, nos reuniremos para compartir lo que más nos apasiona: ciberseguridad, hacking ético y comunidad.\n\nTendremos charlas, intercambio de experiencias y la oportunidad de conectar con estudiantes, profesionales y entusiastas del sector en Lima.\n\nAdemás, realizaremos un sorteo especial de entradas para SecOps Days Lima 2026.",
-        "date": "2026-05-23",
-        "time": "09:30",
-        "location": "UTP Sede Centro (Torre Arequipa), Lima",
-        "city": "Lima",
-        "type": "Presencial",
-        "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQGqsQgMd6XDbQ/feedshare-shrink_1280/B4EZ4kRuDlIwAM-/0/1778725085706?e=2147483647&v=beta&t=EL9CN2bObZxvfh9ILY2m6sn3zHxWy2IzuuHqK1SJAgk",
-        "registration_url": "https://lnkd.in/eHrXyhXP",
-        "organizer": "Threat Hunters UTP & Ekogroups Lima",
-        "tags": [
-            "Ciberseguridad",
-            "Hacking Ético",
-            "Ekoparty"
-        ]
-    },
-    {
-        "title": "Meetup Presencial",
-        "description": "¡Regresamos con un nuevo meetup presencial de AWS User Group Perú!\nTe invitamos a una noche de aprendizaje, networking y comunidad donde exploraremos temas de AWS, desarrollo, DevOps e inteligencia artificial junto a speakers de la comunidad.\n\n🕖 7:00 PM – Tu primer paso al cloud: AWS Cloud Practitioner\n🕢 7:45 PM – Tu primer código en AWS para Developers\n🕣 8:30 PM – DevOps Assistant: Kiro + AWS Amplify en acción\n🤝 9:15 PM – Networking y Sorteos\n🎉 9:45 PM – Cierre del Evento\n\nEste meetup está dirigido a estudiantes, desarrolladores, profesionales de tecnología y cualquier persona interesada en AWS, Cloud Computing, DevOps e Inteligencia Artificial.",
-        "date": "2026-05-14",
-        "time": "19:00",
-        "location": "Universidad ESAN",
-        "city": "Lima",
-        "type": "Presencial",
-        "image_url": "https://secure.meetupstatic.com/photos/event/2/4/7/0/highres_534129328.jpeg",
-        "registration_url": "https://www.meetup.com/awsperu/events/314693526/",
-        "organizer": "AWS User Group Perú",
-        "tags": [
-            "AWS",
-            "AWSUserGroupPeru",
-            "CloudComputing",
-            "DevOps",
-            "AWSCommunity"
-        ]
-    },
-    {
-        "title": "Lima Tech: Agentes de IA en acción para Managers",
-        "description": "## **Crea tu primer Agente Autónomo con OpenClaw**\n\n**¿Sientes que la Inteligencia Artificial avanza más rápido que tu capacidad para implementarla en el trabajo?**\n\nLa mayoría de los directivos y profesionales administrativos ven a los \"Agentes de IA\" como algo sacado de una película de ciencia ficción o un tema exclusivo para ingenieros. La realidad es que, hoy en día, las herramientas han evolucionado tanto que **tú puedes diseñar tu propio asistente digital** para que ejecute tareas por ti, sin escribir una sola línea de código.\nEn este Meetup práctico en Lima, bajaremos la IA de la nube a la tierra. No vamos a filosofar sobre el futuro; vamos a construirlo.\n\n### **¿Qué aprenderás?**\n\n* **Conceptos Claros:** Qué es un agente y en qué se diferencia de un simple chat (como ChatGPT).\n* **Casos de Uso Real:** Cómo un manager puede usar agentes para análisis de reportes, gestión de agendas o prospección de clientes.\n* **Taller \"Zero Code\":** Configuraremos en vivo un agente funcional que podrás empezar a usar de inmediato.\n* **Networking:** Conecta con otros líderes y profesionales de Lima que están transformando sus industrias con tecnología.\n\n### **¿Para quién es este evento?**\n\n* Gerentes, Directores y Senior Managers que buscan optimizar sus unidades de negocio.\n* Profesionales administrativos que quieren automatizar tareas repetitivas.\n* Emprendedores y curiosos no técnicos que quieran dominar la IA aplicada.\n\n***\n\n### **Detalles del Evento:**\n\n* 📅 **Fecha:** Jueves, 16 de abril\n* 🕕 **Hora:** 6:00 PM\n* 📍 **Ubicación:** Por definir (Miraflores / San Isidro / Barranco)\n* 💻 **Requisito:** Traer laptop y muchas ganas de experimentar.\n\n**Cupos limitados para garantizar el aprendizaje práctico.** ¡Asegura tu lugar y deja que la IA trabaje por ti!\n\n###",
-        "date": "2026-05-14",
-        "time": "18:00",
-        "location": "Por definir",
-        "city": "Lima",
-        "type": "Presencial",
-        "image_url": "https://secure.meetupstatic.com/images/classic-events/533396252/highres.jpg",
-        "registration_url": "https://www.meetup.com/meetup-group-mgwbhedi/events/313969021/",
-        "organizer": "Lima Tech",
-        "tags": []
-    },
-    {
-        "title": "Meetup Virtual AWS User Group Chaclacayo",
-        "description": "## **¡Meetup Virtual AWS User Group Chaclacayo!**\n\nTe invitamos a ser parte del **segundo meetup virtual de AWS User Group Chaclacayo**, con el objetivo de acercar el aprendizaje de **cloud computing y AWS** a más personas, sin importar su nivel de experiencia.\nEste encuentro será un espacio **abierto, amigable y participativo**, ideal para conocer la comunidad y dar tus **primeros pasos en el mundo cloud**.\n\n**Agenda del Meetup**\n\npróximamente...\n\n**Cierre y próximos pasos**\n\n* Próximos eventos y charlas de la comunidad\n* Cómo participar activamente en el AWS User Group Chaclacayo\n* Espacio breve para preguntas\n\n**Sorteo**\nAl finalizar el evento, se **sortearán créditos de AWS** para que puedas practicar y explorar la consola de AWS.\n\n**Detalles del evento**\n\n* 📅 **21 de mayo**\n* ⏰ **6:00 p. m.**\n* **Dirigido a:** Personas interesadas en la nube y AWS\n* **Requisitos:** Ninguno, solo ganas de aprender ☁️",
-        "date": "2026-05-21",
-        "time": "18:00",
-        "location": "Virtual",
-        "city": "Virtual",
-        "type": "Virtual",
-        "image_url": "https://secure.meetupstatic.com/images/classic-events/534203096/highres.jpg",
-        "registration_url": "https://www.meetup.com/aws-user-group-chaclacayo/events/314761524/",
-        "organizer": "AWS User Group: Chaclacayo",
-        "tags": []
-    },
-    {
-        "title": "Inicio AWS @ UNI: Student Builder Group + regreso de AWS Academy",
-        "description": "Estamos iniciando una nueva etapa enfocada en algo claro: **construir en AWS, no solo aprender teoría**.\nEn esta sesión vas a:\n\n* Conocer qué es el Student Builder Group y cómo formar parte\n* Entender qué tipo de workshops, proyectos y oportunidades se vienen\n* Descubrir el regreso de AWS Academy y cómo puedes aprovecharlo desde el inicio\n\nAdemás, tendremos **sorteos 🎁** durante la sesión para los participantes.\nEste no es solo un evento introductorio.\nEs el punto de partida para empezar a involucrarte en cloud de forma práctica y con dirección.\nSi te interesa desarrollar habilidades reales en AWS y formar parte de una comunidad que construye, este es tu momento.\n**Te esperamos.**",
-        "date": "2026-05-16",
-        "time": "18:00",
-        "location": "Virtual",
-        "city": "Virtual",
-        "type": "Virtual",
-        "image_url": "https://secure.meetupstatic.com/photos/event/3/1/f/4/highres_534012788.jpeg",
-        "registration_url": "https://www.meetup.com/aws-sbg-at-national-university-of-engineering/events/314594714/",
-        "organizer": "AWS Cloud Club at National University of Engineering",
-        "tags": []
-    },
-    {
-        "title": "Meetup #01: Explorando Angular",
-        "description": "Únete a nosotros para el primer meetup de la comunidad de Angular Perú. Este evento será una excelente oportunidad para conocer a otros entusiastas de Angular, compartir experiencias y aprender juntos sobre las últimas tendencias y mejores prácticas en desarrollo con Angular. Estés comenzando con Angular o seas un desarrollador experimentado, este meetup es para todos. Al final de las charlas, habrá una sesión de preguntas y respuestas y una oportunidad para networking. ¡No te pierdas la oportunidad de ser parte de la comunidad Angular en Perú! Regístrate ahora y asegura tu lugar en este emocionante evento de networking y aprendizaje. ",
-        "date": "2026-05-22",
-        "time": "20:00",
-        "location": "Oficina KPMG, 444 Avenida Javier Prado Este, San Isidro",
-        "city": "Lima",
-        "type": "Presencial",
-        "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_DEJ179A",
-        "registration_url": "https://gdg.community.dev/events/details/google-gdg-callao-presents-meetup-01-explorando-angular/",
-        "organizer": "Angular Perú",
-        "tags": ["AI", "Angular", "Build with AI", "Firebase", "Networking", "Web", "Workshop / hands-on session"]
-    },
-    {
-        "title": "Road to GitHub Community Day Sesión 2",
-        "description": "​🚀 ¿Te imaginas crear una aplicación web completa usando Inteligencia Artificial como copiloto, desde la idea inicial hasta verla funcionando en producción?\n\n​En esta sesión aprenderás cómo transformar una idea en un producto real, aplicando metodologías de desarrollo modernas y aprovechando el potencial de la IA para acelerar cada etapa del proceso. Desde definir requerimientos y restricciones, hasta diseñar la arquitectura y desplegar tu app, vivirás una experiencia práctica para entender cómo hoy se construye software inteligente. 🤖💻\n\n​✅ Aprende a estructurar una idea de producto real\n✅ Usa IA para diseñar y optimizar sistemas\n✅ Descubre flujos modernos de desarrollo y despliegue\n✅ Conoce cómo llevar una app de cero a producción\n\n​🎤 Speaker Internacional: Gera Meraki 🇲🇽 – México",
-        "date": "2026-05-23",
-        "time": "21:00",
-        "location": "Virtual",
-        "city": "Virtual",
-        "type": "Virtual",
-        "image_url": "https://images.lumacdn.com/uploads/fz/230d5ab6-dafe-4f73-9f28-845cf4fe67f8.png",
-        "registration_url": "https://luma.com/v95vhxtr",
-        "organizer": "Developer Student Clubs - UTP",
-        "tags": [
-            "AI",
-            "GitHub",
-            "Web"
-        ]
-    },
-    {
-        "title": "Orientación profesional: Derribando mitos y superando el síndrome del impostor en STEM",
-        "description": "¡Hola a todos! Nos hace muy feliz anunciar la primera charla de DEVGIRLS. En esta oportunidad abordaremos temas relacionados con STEM, el síndrome del impostor y la orientación profesional, junto a nuestra invitada y ponente Stefany Cruzado. Durante la charla conoceremos más sobre los desafíos, experiencias y oportunidades que forman parte del crecimiento profesional dentro del mundo STEM. Además, será una gran oportunidad para aprender y motivarnos a seguir construyendo nuestro camino en tecnología.",
-        "date": "2026-05-22",
-        "time": "18:00",
-        "location": "Virtual - Google Meet",
-        "city": "Virtual",
-        "type": "Virtual",
-        "image_url": "https://images.lumacdn.com/uploads/sc/dc4f42f4-10de-410b-ac0c-116dde6f2306.png",
-        "registration_url": "https://luma.com/q2ojp2ki",
-        "organizer": "DevGirls UTP",
-        "tags": [
-            "STEM",
-            "Women in Tech",
-            "Career"
-        ]
-    },
-     {
-        "title": "Road to GitHub Community Day Sesión 1",
-        "description": "🚀 ¿Te imaginas aprender Git de forma tan simple que podrías explicárselo a alguien de 10 años?\n\nEn esta sesión exploraremos Git desde cero usando ejemplos cotidianos y una dinámica inspirada en bloques tipo LEGO, para entender cómo funciona el control de versiones de manera visual, práctica y sin complicaciones. Una charla ideal para quienes quieren dar sus primeros pasos o reforzar conceptos clave en desarrollo colaborativo. 🧩✨\n\n✅ Comprende Git con ejemplos sencillos y cercanos\n✅ Aprende conceptos introductorios e intermedios sin tecnicismos\n✅ Descubre cómo organizar cambios y versiones en tus proyectos\n✅ Entiende el trabajo colaborativo usando Git en escenarios reales\n\n🎤 Speaker Internacional: Maureen Barahona 🇭🇳 – Honduras",
-        "date": "2025-05-20",
-        "time": "18:00",
-        "location": "Virtual",
-        "city": "Virtual",
-        "type": "Virtual",
-        "image_url": "https://images.lumacdn.com/uploads/ca/c6d073af-ffa7-4d54-9513-28f9d30febdf.png",
-        "registration_url": "https://luma.com/iatk9i5b",
-        "organizer": "Developer Student Clubs - UTP",
-        "tags": [
-            "Git",
-            "GitHub",
-            "Open Source"
-        ]
-    },
-     {
-        "title": "Oportunidades Internacionales y Comunidades Tech",
-        "description": "🚀 ¿Quieres descubrir cómo las comunidades tecnológicas pueden abrirte puertas a oportunidades internacionales y potenciar tu crecimiento como estudiante?\nEn esta sesión conocerás cómo participar en programas estudiantiles, comunidades tech y alianzas globales que pueden ayudarte a fortalecer tu perfil, acceder a formación complementaria y conectar con personas que comparten tus mismos intereses. 🌍✨\n\n✅ Descubre comunidades y programas para estudiantes tech\n✅ Conoce oportunidades de formación y networking\n✅ Aprende cómo dar tus primeros pasos en ecosistemas internacionales\n✅ Inspírate para impulsar tu desarrollo profesional desde la universidad\n\n🎤 Speaker Internacional: Santiago Martinez Serna 🇨🇴 - Colombia",
-        "date": "2024-05-29",
-        "time": "20:00",
-        "location": "Virtual",
-        "city": "Virtual",
-        "type": "Virtual",
-        "image_url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,background=white,quality=75,width=400,height=400/uploads/t1/9de159d7-4960-4ad0-9f34-3521ef64d31f.png",
-        "registration_url": "https://lu.ma/mchpypul",
-        "organizer": "Developer Student Clubs - UTP",
-        "tags": [
-            "Estudiantes",
-            "Comunidades",
-            "Networking"
-        ]
-    },
-      {
-        "title": "Integración de IA en Apps Móviles con GitHub y Firebase",
-        "description": "🚀 ¿Te imaginas integrar Inteligencia Artificial en apps móviles usando herramientas modernas del ecosistema GitHub y Firebase?\nEn esta sesión descubrirás cómo automatizar workflows con GitHub Actions, crear backends serverless con Firebase y potenciar aplicaciones con Gemini AI. Además, realizaremos una demo en vivo construyendo una funcionalidad AI para una app mobile. 📱✨\n\n✅ Automatiza procesos con GitHub Actions\n✅ Integra AI en aplicaciones móviles\n✅ Aprende sobre Firebase y despliegues modernos\n✅ Descubre flujos reales usados en iOS y Android",
-        "date": "2026-05-26",
-        "time": "19:00",
-        "location": "Virtual",
-        "city": "Virtual",
-        "type": "Virtual",
-        "image_url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,background=white,quality=75,width=400,height=400/uploads/5v/7beeb5d9-dcee-4d96-8a9f-3ac549274f41.png",
-        "registration_url": "https://lu.ma/kgr18hp1",
-        "organizer": "Developer Student Clubs - UTP",
-        "tags": [
-            "AI",
-            "GitHub Actions",
-            "Firebase",
-            "Mobile",
-            "Gemini AI"
-        ]
-    },
-        {
-        "title": "Descubre SAP. Gestión, Procesos y Tecnología empresarial",
-        "description": "🚀 ¡SAP in Action: Working with SAP! ¿Quieres conocer cómo SAP ayuda a las empresas a gestionar sus procesos de manera más eficiente? En esta charla introductoria y práctica aprenderás los conceptos principales de SAP, su uso en entornos empresariales y una introducción al módulo SAP PM, enfocado en la gestión del mantenimiento. Además, tendrás un espacio práctico para conectar la teoría con casos reales y entender mejor cómo esta herramienta se aplica en el mundo profesional. Una oportunidad ideal para estudiantes y futuros profesionales que desean dar sus primeros pasos en el ecosistema SAP.",
-        "date": "2026-05-22",
-        "time": "19:00",
-        "location": "Virtual por Microsoft Teams",
-        "city": "Virtual",
-        "type": "Virtual",
-        "image_url": "https://images.lumacdn.com/uploads/1m/bb27b1fc-0d33-4a6a-a1e0-25eaef862faa.png",
-        "registration_url": "https://lu.ma/vuaieube",
-        "organizer": "Developer Student Clubs - UTP",
-        "tags": ["SAP"]
-    },
-    {
-        "title": "Audio en videojuegos: Desarrollo e integración para no músicos",
-        "description": "🎮 ¿Te gustaría crear sonidos, música y efectos para videojuegos pero aun no sabes sobre los principios de la música y creación de sonido?\nEn esta ponencia aprenderás una introducción práctica al desarrollo e integración de audio para videojuegos, enfocada especialmente en principiantes y personas sin experiencia previa en música o producción sonora.\n\nExploraremos cómo se crean efectos de sonido, ambientes y música interactiva utilizando herramientas profesionales accesibles y gratuitas. Además, veremos cómo integrar audio dinámico dentro de un videojuego para mejorar la inmersión y la experiencia del jugador.\n\n🔥 Herramientas que utilizaremos:\n• REAPER v7 — edición y producción de efectos de sonido\n• Vital v1.5.5 — síntesis y diseño de sonidos desde cero\n• FMOD Studio v2.03 — integración de audio interactivo en videojuegos.\n\nNo necesitas conocimientos previos de música ni experiencia en audio. La ponencia está diseñada para desarrolladores, artistas y curiosos que quieran dar sus primeros pasos en el mundo del sonido para videojuegos.",
-        "date": "2026-05-24",
-        "time": "15:00",
-        "location": "Virtual",
-        "city": "Virtual",
-        "type": "Virtual",
-        "image_url": "https://images.lumacdn.com/uploads/ar/09babb1a-0923-405d-931b-0a7311f878d3.jpg",
-        "registration_url": "https://lu.ma/frj7t6w9",
-        "organizer": "Game Devs UTP",
-        "tags": [
-            "Audio",
-            "GameDev",
-            "Videojuegos"
-        ]
-    },
-    {
-        "title": "Tech Leaders",
-        "description": "Tech Leaders 2026 es la evolución de Data Leaders, iniciativa de LEAD UTEC que, tras dos ediciones en 2025, expande su enfoque para reunir en un solo evento a las comunidades de Software, Data, Mecatrónica y Negocios. Busca ayudar a estudiantes y jóvenes profesionales a reducir la incertidumbre sobre su futuro profesional, explorando distintas especializaciones, áreas de trabajo y experiencias reales de la industria de la mano de quienes hoy lideran esos espacios.",
-        "date": "2026-06-05",
-        "time": "16:00",
-        "location": "University of Engineering and Technology (UTEC), Jr. Medrano Silva 165, Barranco",
-        "city": "Lima",
-        "type": "Presencial",
-        "image_url": "https://images.lumacdn.com/uploads/ea/0309d89f-f927-4caa-9a68-00575bdfc1c3.jpg",
-        "registration_url": "https://lu.ma/xs1ra3xm",
-        "organizer": "Lead UTEC",
-        "tags": [
-            "Software",
-            "Data",
-            "Mecatrónica",
-            "Negocios"
-        ]
-    },
-    {
-        "title": "n8n Lima Community Meetup",
-        "description": "Welcome to the first official n8n meetup in Peru 🇵🇪\nA morning to share what we\'re building, learn from case studies and grow the n8n community in Peru.\nn8n is the open-source automation platform with native AI capabilities, connect apps, automate repetitive tasks and build AI agents.",
-        "date": "2026-06-06",
-        "time": "10:00",
-        "location": "USIL, Campus Fernando Belaunde Terry, Av. La Fontana 750, La Molina",
-        "city": "Lima",
-        "type": "Presencial",
-        "image_url": "https://images.lumacdn.com/uploads/r5/7f446e63-35db-4b26-aead-210c9801ff14.png",
-        "registration_url": "https://lu.ma/n8n-lima-meetup",
-        "organizer": "n8n",
-        "tags": [
-            "AI",
-            "Automation",
-            "n8n"
-        ]
-    },
-    {
-        "title": "Construye tu máquina de contenido con Notion & GenAI",
-        "description": "La mayoría crea contenido sin sistema: ideas dispersas, herramientas desconectadas y demasiado tiempo perdido.\n\nEn este webinar en vivo aprenderás cómo usar Notion junto a herramientas de GenAI como Runway y Google VEO para construir un flujo de contenido más rápido, organizado y escalable.\n\n¿Qué aprenderás?\n\n* Cómo convertir Notion en el centro operativo de tu contenido.\n\n* Cómo usar IA para idear, estructurar y producir contenido visual.\n\n* Cómo construir un sistema replicable para publicar de forma consistente.\n\n¿Para quién es?\n\nCreadores de contenido, founders, marketers, builders y cualquier persona que quiera crear contenido usando IA sin depender de procesos manuales.\n\nSpeakers:\n\nJhon Miranda & Mayckol Cruzado\n(Co-founders IA Labs & Notion Ambassadors",
-        "date": "2026-06-04",
-        "time": "18:00",
-        "location": "Virtual",
-        "city": "Virtual",
-        "type": "Virtual",
-        "image_url": "https://images.lumacdn.com/uploads/ow/a267cce9-d71a-411c-bae7-534445f9a851.jpg",
-        "registration_url": "https://lu.ma/bbesl0ju",
-        "organizer": "IA Labs",
-        "tags": [
-            "AI",
-            "Notion",
-            "GenAI"
-        ]
-    },
-    {
-        "title": "Del diseño al prototipo con Google Stitch + Antigravity",
-        "description": "Del diseño al prototipo en un solo flujo 🚀\n\nDescubre cómo acelerar la creación de productos digitales usando Google Stitch + Antigravity en un workflow moderno potenciado por IA.\n\nEn esta sesión en vivo, Daniel Ibañez (Software Engineer en Danjersoft) mostrará cómo conectar diseño, prototipado y velocidad de ejecución para construir MVPs más rápido y con menos fricción.\n\nLo que aprenderás:\n• Cómo pasar de idea → diseño → prototipo funcional en un solo flujo\n• Cómo usar Google Stitch + Antigravity para acelerar workflows de producto\n• Mejores prácticas para validar ideas y construir MVPs más rápido\n\n¿Para quién es?\nBuilders, founders, makers, diseñadores, developers y personas interesadas en IA, NoCode y creación de productos digitales.",
-        "date": "2026-06-02",
-        "time": "19:00",
-        "location": "Virtual",
-        "city": "Virtual",
-        "type": "Virtual",
-        "image_url": "https://images.lumacdn.com/uploads/6u/f43ee63a-f1d8-4717-ac75-cd36edd985f0.png",
-        "registration_url": "https://lu.ma/k8wb7m52",
-        "organizer": "AI First Founders",
-        "tags": [
-            "AI",
-            "Google",
-            "Design",
-            "Prototyping"
-        ]
-    }
-,
-    {
-        "title": "Meetup #1 (Virtual) - Presentación del AWS User Group Piura",
-        "description": "🚀 Presentación del AWS User Group Piura 🚀 📅 Fecha: Jueves 18 de junio de 2026 🕖 Hora: 7:00 PM – 9:00 PM 📍 Evento Virtual – YouTube Live 🎟️ Evento gratuito ☀️ Sobre este evento ¡Te damos la bienvenida al primer meetup oficial de AWS User Group Piura! Este evento marca el inicio de una comunidad creada para conectar a estudiantes, profesionales y entusiastas de cloud computing y Amazon Web Services (AWS) en Piura y todo el Perú. Durante esta primera edición virtual conoceremos la visión de la comunidad, próximos objetivos y oportunidades para aprender, compartir experiencias y crecer juntos dentro del ecosistema AWS. Además, contaremos con dos charlas introductorias de nivel 100 orientadas a personas que están comenzando su camino en cloud computing y tecnologías AWS. 🗓️ Agenda: 🕖 Hora: 7:00 PM – 7:20 PM ☁️ Bienvenida y presentación de la comunidad Conoce el propósito de AWS User Group Piura, las iniciativas de la comunidad y cómo podrás participar en próximos eventos, actividades y espacios de aprendizaje. 🕖 Hora: 7:20 PM – 8:00 PM ☁️ Tema: [Título de la charla pendiente] 🎤 Speaker: Carolina Herrera [Descripción pendiente] 🕖 Hora: 8:00 PM – 8:40 PM ☁️ Tema: [Título de la charla pendiente] 🎤 Speaker: Josset Gutierrez [Descripción pendiente] 🕖 Hora: 8:40 PM – 9:00 PM 🎁 Kahoot! interactivo y cierre del evento Al finalizar el meetup realizaremos un Kahoot! interactivo donde los asistentes podrán participar respondiendo preguntas relacionadas con AWS y cloud computing para tener la oportunidad de ganar créditos de AWS. 🙌 ¿Por qué asistir? * Conoce la nueva comunidad AWS User Group Piura * Aprende conceptos introductorios de AWS y cloud computing * Conecta con personas interesadas en tecnología y nube * Participa en futuros eventos, charlas y actividades de comunidad * Gana créditos de AWS para comenzar a practicar 📌 Dirigido a * Estudiantes * Personas interesadas en cloud computing * Profesionales de tecnología * Personas que desean iniciar en AWS No se requiere experiencia previa. 🙏 ¡Te esperamos para iniciar juntos esta nueva comunidad cloud en Piura!",
-        "date": "2026-06-18",
-        "time": "19:00",
-        "location": "Evento Virtual – YouTube Live",
-        "city": "Virtual",
-        "type": "Virtual",
-        "image_url": "https://secure.meetupstatic.com/photos/event/9/5/e/highres_534482398.jpeg",
-        "registration_url": "https://www.meetup.com/aws-user-group-piura/events/314935448/",
-        "organizer": "AWS User Group Piura",
-        "tags": [
-            "AWS",
-            "Cloud Computing",
-            "AWS User Group Piura"
-        ]
-    },
-    {
-        "title": "Build with AI: The Final Prompt",
-        "description": "Únete a nosotros 😉 ¡Cerramos la temporada Build with AI junto a grandes ponentes, Google Developer Experts y la comunidad! Donde la inteligencia artificial será la protagonista. 🚀✨ Nuestro evento está diseñado para conectar a desarrolladores, programadores y entusiastas de la tecnología con el mundo de la inteligencia artificial 🤖 Exploraremos las últimas tendencias en IA. ¡Ven a compartir tus ideas, aprender de los Expertos y prepárate para espacios de Networking! 😉",
-        "date": "2026-06-27",
-        "time": "09:30",
-        "location": "Universidad Tecnológica del Perú, 116 Avenida Petit Thouars, Lima",
-        "city": "Lima",
-        "type": "Presencial",
-        "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_face,h_400,q_auto:good,w_400/v1/gcs/platform-data-goog/events/blob_jgv58j4",
-        "registration_url": "https://gdg.community.dev/events/details/google-gdg-callao-presents-build-with-ai-the-final-prompt/",
-        "organizer": "GDG Callao",
-        "tags": [
-            "AI",
-            "Vertex AI",
-            "Build with AI",
-            "Conference",
-            "Networking",
-            "Workshop / hands-on session"
-        ]
-    }
-,
-    {
-        "title": "INCAHUB Open Day 🚀",
-        "description": "\ud83d\ude80 Llega el INCAHUB OPEN DAY Un espacio presencial para conectar con empresas, startups, agencias tecnol\u00f3gicas y actores del ecosistema de innovaci\u00f3n. Conoce tendencias en IA, automatizaci\u00f3n y tecnolog\u00eda aplicada a negocios, genera networking estrat\u00e9gico y descubre nuevas oportunidades de colaboraci\u00f3n. \ud83d\udd25 Adem\u00e1s, presentaremos los resultados del proyecto SUP11G de Proinn\u00f3vate y el MVP de INCAHUB. \ud83d\udcc5 Jueves 28 de mayo \ud83d\udd62 7:00 pm \ud83d\udccd Calle El\u00edas Aguirre 180, Miraflores (Auditorio 6to piso) Cupos limitados, ingreso de acuerdo al aforo. Nos vemos en una noche de innovaci\u00f3n, conexiones y oportunidades reales.",
-        "date": "2026-05-28",
-        "time": "19:00",
-        "location": "Calle Elías Aguirre 180, Miraflores",
-        "city": "Lima",
-        "type": "Presencial",
-        "image_url": "https://images.lumacdn.com/uploads/q8/3d00da74-6f20-4389-b023-8d11221fa39a.png",
-        "registration_url": "https://lu.ma/ek2nj50w",
-        "organizer": "INCAHUB TECH",
-        "tags": ["Innovaci\u00f3n", "IA", "Startups", "Networking"]
-    },
-    {
-        "title": "Microsoft Build 2026 Community Edition",
-        "description": "\ud83d\udd25 Microsoft Build 2026 \u2013 Edici\u00f3n Comunidad Donde las ideas se convierten en futuro Este 2026 no solo vienes a aprender\u2026 vienes a encender tu potencial. Prep\u00e1rate para una experiencia que impulsa tu creatividad, tu carrera y tu visi\u00f3n del ma\u00f1ana. Hablaremos de AI Agents, GitHub Copilot, Azure + IA, Fabric IQ y el nuevo poder del desarrollo moderno, pero sobre todo hablaremos de ti: de lo que puedes construir, transformar y liderar.",
-        "date": "2026-06-09",
-        "time": "18:00",
-        "location": "Universidad Norbert Wiener, Av. Arequipa 440",
-        "city": "Lima",
-        "type": "Presencial",
-        "image_url": "https://secure.meetupstatic.com/photos/event/7/5/8/6/event_459990086.jpeg",
-        "registration_url": "https://www.meetup.com/bi-expert/events/314602755/",
-        "organizer": "BI Expert",
-        "tags": ["Microsoft Build", "AI", "GitHub Copilot", "Azure"]
-    },
-    {
-        "title": "Microsoft AI Skills Fest",
-        "description": "Join us for a free, weeklong virtual experience to build practical AI skills. Whether you're deep in tech, leading teams, in a business role, or just getting started with AI, there's something here for you. Drop in, explore the lineup, and skill up alongside a global community. Watch the Mainstage, complete featured playlists, join live shows, or take part in the hackathon.",
-        "date": "2026-06-08",
-        "time": "09:00",
-        "location": "Virtual",
-        "city": "Virtual",
-        "type": "Virtual",
-        "image_url": "https://cdn.aiskillsnavigator.microsoft.com/events/AISF2026/preEvent/1/sectionimage/mainstage%203.png",
-        "registration_url": "https://aiskillsnavigator.microsoft.com/events/AISF2026",
-        "organizer": "Microsoft",
-        "tags": ["AI", "Microsoft", "Hackathon", "Virtual"]
-    },
-    {
-        "title": "WWDC26",
-        "description": "The Worldwide Developers Conference. Join us online for the biggest developer event of the year. Discover the latest software and technologies across Apple platforms. Over 100 sessions available. Meet Core AI, Xcode 27, iOS 27, macOS 27 and more.",
-        "date": "2026-06-08",
-        "time": "12:00",
-        "location": "Virtual",
-        "city": "Virtual",
-        "type": "Virtual",
-        "image_url": "https://developer.apple.com/news/images/og/apple-developer-og.png",
-        "registration_url": "https://developer.apple.com/wwdc/",
-        "organizer": "Apple",
-        "tags": ["WWDC", "Apple", "iOS", "macOS", "Swift"]
-    },
-    {
-        "title": "Data & Cloud Talent Day - Workshop Data y Cloud",
-        "description": "NTT DATA QUIERE CONOCERTE: WORKSHOP DATA Y CLOUD. Si cuentas con conocimientos b\u00e1sicos en programaci\u00f3n, bases de datos y quieres llevar tus habilidades al siguiente nivel con herramientas avanzadas como Azure Databricks y Azure Data Factory, \u00a1este workshop es para ti!",
-        "date": "2026-06-01",
-        "time": "18:00",
-        "location": "Virtual",
-        "city": "Virtual",
-        "type": "Virtual",
-        "image_url": "https://axet.nttdata.com/flows/cloud/nttdata-eventos-programas/assets/images/powered-by-axet-flows-light.png",
-        "registration_url": "https://axet.nttdata.com/flows/cloud/nttdata-eventos-programas/?form=Programas&nombrePrograma=24-WORKSHOP%20DATA%20Y%20CLOUD",
-        "organizer": "NTT DATA",
-        "tags": ["Data", "Cloud", "Azure", "Workshop"]
-    },
-    {
-        "title": "KUBEFEST: TECNOLOGÍAS CLOUD NATIVE QUE ESTÁN TRANSFORMANDO EL MUNDO",
-        "description": "Un espacio dise\u00f1ado para reunir a profesionales, estudiantes y entusiastas del ecosistema Cloud Native y Kubernetes, en una jornada enfocada en innovaci\u00f3n, seguridad, automatizaci\u00f3n y transformaci\u00f3n tecnol\u00f3gica. Este evento busca impulsar el intercambio de conocimientos y fortalecer la comunidad tecnol\u00f3gica a trav\u00e9s de charlas pr\u00e1cticas, networking y experiencias reales del sector IT.",
-        "date": "2026-06-13",
-        "time": "09:00",
-        "location": "Universidad Ricardo Palma, 5540 Avenida Alfredo Benavides",
-        "city": "Lima",
-        "type": "Presencial",
-        "image_url": "https://ocgroups.dev/images/24096413e4ca6e1422b83a50b47c05661091a018d4dc4e2ee32842d19303df0e.png",
-        "registration_url": "https://ocgroups.dev/cncf/group/nmmzkrs/event/tu52ja4",
-        "organizer": "Cloud Native Lima",
-        "tags": ["Cloud Native", "Kubernetes", "CNCF", "DevOps"]
-    },
-    {
-        "title": "Build //localhost: Lima",
-        "description": "Evento de replica Build, edici\u00f3n comunidad. Donde daremos resumenes del evento y sesiones en idioma local. Agenda: Keynote, GitHub Copilot, Multi-Agente, Azure AI Foundry, y m\u00e1s.",
-        "date": "2026-06-13",
-        "time": "09:00",
-        "location": "Universidad Norbert Wiener - Local 05, Av. Gral. Antonio Alvarez de Arenales 1555",
-        "city": "Lima",
-        "type": "Presencial",
-        "image_url": "https://images.lumacdn.com/event-covers/fo/07a77eae-3e92-433a-a4a4-5328cfec1f47.png",
-        "registration_url": "https://lu.ma/1zs8xcmz?tk=OCcdjW",
-        "organizer": "Global AI Community",
-        "tags": ["Microsoft Build", "AI", "GitHub Copilot", "Azure"]
-    },
   {
-    title: "Build with AI Chimbote 2026",
-    date: "2026-06-20",
-    time: "13:00",
-    tags: ["AI", "Gemini", "Android", "Google Cloud"],
-    description: "Únete a nosotros para un emocionante viaje al mundo de la Inteligencia Artificial con nuestro evento “Build with AI Chimbote 2026”. Esta es una oportunidad única para sumergirte en las tecnologías de IA y explorar sus aplicaciones prácticas en el mundo actual. Ya seas un/a desarrollador/a experimentado/a o estés comenzando, este evento está diseñado para ayudarte a mejorar tus habilidades y conectar con profesionales con intereses similares. Además, contaremos con conferencias, workshops prácticos y la participación de expertos y expertas de diferentes países, quienes compartirán sus conocimientos y experiencias en el campo de la IA. No pierdas la oportunidad de aprender de referentes internacionales y ampliar tu red de contactos. No pierdas la oportunidad de formar parte de una comunidad en crecimiento apasionada por la innovación en IA.",
-    location: "Colegio de Ingenieros del Perú, Avenida Pacífico, Nuevo Chimbote",
-    city: "Nuevo Chimbote",
+    title: "F13: Code Summit",
+    description:
+      "En F13 buscamos de crear una conferencia hecha por y para programadores, sin importar tu stack tecnológico o especialidad. Como la tecla F13 que no existe en tu teclado, buscamos llenar ese vacío que falta en el ecosistema tech peruano.",
+    date: "2026-09-12",
+    time: "09:00",
+    location: "UTEC",
+    city: "Lima",
     type: "Presencial",
-    organizer: "GDG Chimbote",
-    registration_url: "https://gdg.community.dev/events/details/google-gdg-chimbote-presents-build-with-ai-chimbote-2026/",
-    image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/events/blob_UnNSwHl"
+    image_url: "https://cdn.getcrowder.com/images/06069c65-8e6d-4cd0-beac-e745f4f76c64-banner-mob.jpg",
+    registration_url: "https://www.f13.pe/",
+    tags: ["AI", "DevOps", "Data", "Tech"],
+    organizer: "F13",
   },
   {
-    title: "Workshop: Build with IA",
-    date: "2026-06-13",
+    title: "Historias que generan valor",
+    description:
+      "En esta edición profundizamos en la fricción como motor de mejores decisiones. En el mundo corporativo, salir rápido casi siempre le gana a salir bien: las decisiones se toman con lo que hay, los procesos se acortan y la innovación termina siendo más intención que realidad.\n\nConversaremos con:\n- Alejandra Vizquerra – Gerente Comercial en RIMAC Seguros\n- Jupio Ishiyama – Gerente de Brand Innovation en Alicorp y Fundador de Wandertaku\n- Tony Arévalo – Gerente General de SHIFT\n- César Castañeda – Diseñador estratégico y Cofundador de Reboot",
+    date: "2026-08-20",
+    time: "18:30",
+    location: "Av. las Begonias 650",
+    city: "San Isidro",
+    type: "Presencial",
+    image_url:
+      "https://images.lumacdn.com/uploads/2u/d6d0ccc6-3499-4723-b2a6-4d66ec419c96.jpg",
+    registration_url: "https://luma.com/v65uy72v",
+    tags: [],
+    organizer: "Rimac Design",
+  },
+  {
+    title: "TechDay: AI & Security Edition",
+    description:
+      "¡Descubre lo último en seguridad y IA en TECH DAY, un evento presencial lleno de innovación y tech!",
+    date: "2026-08-15",
+    time: "08:00",
+    location:
+      "UPC Campus San Miguel, 2810 Avenida de la Marina, San Miguel, Provincia de Lima 15087",
+    city: "Lima",
+    type: "Presencial",
+    image_url:
+      "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186266812%2F3004409241990%2F1%2Foriginal.20260605-190613?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=eb815ccd87bbf0e19d8881327111744d",
+    registration_url: "https://www.techday.pe/",
+    tags: [],
+    organizer: "TECH DAY",
+  },
+  {
+    title: "DevOpsDays Lima 2026",
+    description:
+      "Este 27 y 28 de agosto del 2026, por 2do año consecutivo, el Centro de Convenciones Lima se convierte en el punto de encuentro de quienes están transformando la forma en que se construye, despliega y opera software en la región. Acceso a charlas, talleres y networking con toda la comunidad DevOps. Ideal para quienes vienen a aprender, conectar y descubrir lo último en plataforma, IA, seguridad y cultura de ingeniería.",
+    date: "2026-08-27",
+    time: "09:00",
+    location:
+      "Centro de Convenciones Lima, Av. de la Arqueología 206, San Borja",
+    city: "Lima",
+    type: "Presencial",
+    image_url:
+      "https://tickets.devopsdays.pe/web/image/1012-b4d5f027/Evento%20%27DevOpsDays%20Lima%202026%27%20cover%20image.webp",
+    registration_url: "http://entradas.devopsdays.pe/",
+    tags: ["DevOps", "IA", "Seguridad", "Cultura de ingeniería"],
+    organizer: "DevOpsDays Lima",
+  },
+  {
+    title: "Meetup #3 (Presencial) - Tu primer despliegue en AWS Cloud",
+    description:
+      "¡Seguimos creciendo con la comunidad del AWS User Group Piura! En nuestro tercer meetup presencial, cambiaremos el formato tradicional de charlas por una experiencia práctica: un workshop para realizar tu primer despliegue en AWS Cloud. Trabajaremos con AWS y Flutter de forma guiada. Además habrá Kahoot! con créditos AWS, sorteos, bocaditos y networking.\n\n⚠️ Importante: traer laptop para participar activamente.",
+    date: "2026-08-08",
     time: "14:00",
-    tags: ["AI", "Google Cloud", "Build with AI"],
-    description: "Únete a nosotros para un emocionante taller práctico donde exploraremos las posibilidades de crear soluciones innovadoras utilizando inteligencia artificial. Este evento está diseñado para apasionados de la tecnología que deseen aprender y aplicar conocimientos de IA. Esperen una experiencia colaborativa, donde no solo aprenderán, sino que también tendrán la oportunidad de construir herramientas novedosas con el apoyo de expertos en el área. ¡No te pierdas la oportunidad de mejorar tus habilidades tecnológicas y conectar con otros entusiastas tecnológicos de Arequipa! Por favor, espera la confirmación de tu inscripción para asegurar tu participación. Inscríbete ahora y da el primer paso hacia el futuro con la tecnología IA.",
-    location: "Tecsup, José Luis Bustamante y Rivero",
-    city: "Arequipa",
+    location:
+      "INNOSPACE CAMCO – Cámara de Comercio de Piura, Av. Fortunato Chirichigno A-2, Urb. San Eduardo, Piura",
+    city: "Piura",
     type: "Presencial",
-    organizer: "GDG Arequipa",
-    registration_url: "https://gdg.community.dev/events/details/google-gdg-arequipa-presents-workshop-build-with-ia/",
-    image_url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/event_banners/GDG_Bevy_DefaultEventThumbnail_2_vaeskpB.png"
-  },
-  {
-    title: "Women Engineers Committee – Annual Meet & Greet 2026",
-    description: "Annual Meet & Greet 2026 organizado por el Women Engineers Committee.",
-    date: "2026-06-01",
-    time: "18:00",
-    location: "Por definir",
-    city: "Virtual",
-    type: "Virtual",
-    registration_url: "https://docs.google.com/forms/d/e/1FAIpQLSfn6SJdO7-8l-isM92bWuBRoobwbx9Vb6jIzEfF0dQptDDnOQ/closedform",
-    tags: ["Meet & Greet", "Women in Tech", "Networking"],
-    organizer: "Women Engineers Committee"
-  }
-,
-  {
-    "title": "SecOps Days Lima 2026",
-    "description": "SecOps Days Lima es la cumbre de ciberseguridad más importante de Latinoamérica. Un evento presencial de un día completo con conferencias de expertos internacionales, talleres prácticos hands-on y el CTF más grande del Perú.",
-    "date": "2026-06-25",
-    "time": "08:30",
-    "location": "Centro de Convenciones ESAN",
-    "city": "Lima",
-    "type": "Presencial",
-    "image_url": "https://secopsdays.org/opengraph-image.svg",
-    "registration_url": "https://secopsdays.org/registro",
-    "tags": [
-      "Ciberseguridad",
-      "SecOps",
-      "CTF"
-    ],
-    "organizer": "SecOps Days Lima"
-  },
-  {
-    "title": "Formación de un estudio de juegos en Perú",
-    "description": "🎮✨ ¿Te interesa conocer cómo se ha gestado la creación de un estudio de videojuegos desde Perú y qué aprendizajes se pueden extraer de esa experiencia? 🛠️ Entonces esta ponencia es para ti. Únete a nosotros en una sesión especial junto a Luis Wong, fundador de Leap Game Studios, ingeniero industrial PUCP con maestría en producción de juegos en Francia y amplia experiencia en compañías internacionales de videojuegos. 🚀 En esta charla exploraremos la formación de un estudio de juegos en Perú, tomando como referencia el camino recorrido por Leap Game Studios, desde sus inicios hasta convertirse en un referente en la industria nacional e internacional. 🌿 En esta ponencia aprenderás: • Retos y oportunidades de crear un estudio de videojuegos en Perú. • Cómo estructurar un equipo y definir roles clave. • Estrategias de gestión y producción aplicadas a proyectos interactivos. • Experiencias prácticas de Leap Game Studios en el mercado nacional e internacional. • Consejos para sostener un estudio en un entorno competitivo. 🎤 Será una ponencia teórica, ideal para quienes buscan comprender el proceso de creación y consolidación de un estudio de videojuegos desde una perspectiva profesional y realista. 🎯 ¿El objetivo? Que termines la sesión con una visión clara sobre cómo iniciar y sostener un estudio de videojuegos en Perú, entendiendo tanto los desafíos como las oportunidades que ofrece la industria. 📅 Fecha: 20 de junio de 2026 🕒 Hora: 8:00 PM 💻 Modalidad: Discord 🔥 ¡No pierdas esta oportunidad de aprender directamente de la experiencia de Leap Game Studios y dar el siguiente paso en tu camino profesional!",
-    "date": "2026-06-20",
-    "time": "20:00",
-    "location": "Virtual - Discord",
-    "city": "Virtual",
-    "type": "Virtual",
-    "image_url": "https://images.lumacdn.com/uploads/ji/e77cf574-32bb-4eef-8d1d-eb2c3fd5f844.jpg",
-    "registration_url": "https://lu.ma/soi6gyv7",
-    "tags": [
-      "GameDev",
-      "Videojuegos",
-      "Emprendimiento"
-    ],
-    "organizer": "Game Devs UTP"
-  },
-  {
-    "title": "Vibe Code Fest 2026",
-    "description": "Si tienes una idea, hoy puedes convertirla en producto más rápido que nunca. Llega Vibe Code Fest, el punto de encuentro para quienes quieren aprender, crear y conectar con la nueva generación de builders del Perú. Vive un día presencial en UTEC con más de 30 charlas, 3 ambientes simultáneos y una agenda enfocada en inteligencia artificial, automatización, product design, vibe coding, agentes IA, no-code y herramientas para construir productos digitales más rápido. Conoce toda la agenda y speakers aquí: https://vibecodeperu.com/ Únete al grupo de WhatsApp para no perderte nada: https://chat.whatsapp.com/Jp3K8Utt74JLd2nnUPMs6W?mode=gi_t Porque la IA no reemplaza tus ideas, las convierte en productos.",
-    "date": "2026-06-20",
-    "time": "08:30",
-    "location": "Universidad de Ingeniería y Tecnología - UTEC, Jr. Medrano Silva 165, Barranco",
-    "city": "Lima",
-    "type": "Presencial",
-    "image_url": "https://images.lumacdn.com/uploads/gl/51f7f2b1-4645-40ef-9c35-d151aabd4379.jpg",
-    "registration_url": "https://luma.com/71j27cvx?tk=2vWyIF",
-    "tags": [
-      "AI",
-      "Automation",
-      "Product Design",
-      "Vibe Coding",
-      "No-code"
-    ],
-    "organizer": "Vibe Code Peru"
-  },
-  {
-      "title": "Code, Cloud & Deploy!",
-      "description": "El **Student Builder Group de la UNI** está de vuelta con su segundo evento, y esta vez vamos con todo: **desarrollo web moderno + inteligencia artificial en la nube con AWS**. Si estás aprendiendo a construir, desplegar o escalar aplicaciones, este es tu espacio. 🗓 **Sábado 20 de junio** 🕑 **2:00 PM – 6:00 PM** 📍 **Auditorio de Telecomunicaciones — UNI (FIEE)** **¿Qué vas a encontrar?** * Charlas prácticas sobre Web + IA con servicios AWS * Ambiente para conectar con otros estudiantes y builders * 🍕 Pizza y soda para hacer networking en vivo * 🎁 Sorteos durante el evento La entrada es **gratuita**, pero los cupos son limitados. Regístrate aquí y asegura tu lugar 👇 *Organizado por el Student Builder Group UNI — comunidad estudiantil de AWS en la Universidad Nacional de Ingeniería.*",
-      "date": "2026-06-20",
-      "time": "14:00",
-      "location": "Lab. de Telecomunicaciones FIEE UNI, Facultad de Ingeniería Eléctrica y Electrónica, Lima",
-      "city": "Lima",
-      "type": "Presencial",
-      "image_url": "https://secure.meetupstatic.com/images/classic-events/534812413/HIGHRES",
-      "registration_url": "https://www.meetup.com/aws-sbg-at-national-university-of-engineering/events/315219724/",
-      "tags": [
-          "AWS",
-          "Web Development",
-          "AI",
-          "Cloud"
-      ],
-      "organizer": "AWS SBG at National University of Engineering"
-  },
-  {
-    "title": "CONFERENCIA: CADENA INTELIGENTE",
-    "description": "El mundo empresarial está cambiando más rápido que nunca. La Inteligencia Artificial, el Supply Chain, la analítica de datos y la Industria 4.0 ya no son tendencias del futuro: son las herramientas que hoy definen quién lidera el mercado y quién se queda atrás. Por eso, desde el Centro de Especialización Ejecutiva (CEE-FIIS-UNI) creamos Cadena Inteligente: un espacio donde profesionales, egresados y estudiantes pueden aprender directamente de ejecutivos y gerentes que están liderando esta transformación en empresas de primer nivel. Organiza: Centro de Especialización Ejecutiva — CEE-FIIS-UNI",
-    "date": "2026-07-01",
-    "time": "15:00",
-    "location": "Auditorio FIIS UNI — Av. Túpac Amaru 210, Rímac",
-    "city": "Lima",
-    "type": "Presencial",
-    "image_url": "https://images.lumacdn.com/uploads/9d/a865a470-2e9a-4c2c-9f53-d793c79e90fa.jpg",
-    "registration_url": "https://luma.com/h6nwj2r9",
-    "organizer": "CENTRO DE ESPECIALIZACIÓN EJECUTIVA FIIS-UNI",
-    "tags": [
-      "AI",
-      "Supply Chain",
-      "Industria 4.0"
-    ]
-  },
-  {
-    "title": "Indie Checkpoint Peru 2026",
-    "description": "¡Bienvenido a Indie Checkpoint! Prepárate para una jornada inolvidable donde la creatividad y la innovación de los videojuegos independientes toman el escenario. Indie Checkpoint es tu punto de encuentro para explorar nuevos mundos, conocer a los talentos detrás de los títulos indies peruanos más prometedores y sumergirte en la vibrante comunidad de desarrolladores de videojuegos. ¿Qué te espera? Juegos Indie en Exhibición: Sé uno de los primeros en probar demos exclusivas y descubrir tu próximo juego favorito. Charlas y Aprendizaje: Amplía tus conocimientos con charlas inspiradoras y paneles de discusión a cargo de expertos del sector. Aprende sobre el desarrollo de videojuegos, las últimas tendencias y cómo la industria indie está redefiniendo el futuro del entretenimiento interactivo. Actividades Interactivas: Participa en dinámicas y actividades que te permitirán conectar con otros entusiastas, desarrolladores y profesionales Detalles del Evento: Fecha: 4 de Julio Horario: de 9AM a 7PM Lugar: Biblioteca Nacional Sede San Borja (Av. De la Poesía 160, San Borja) Costo: ¡La entrada es completamente gratuita! No te pierdas esta oportunidad única de celebrar la pasión por los videojuegos y conectar con la comunidad indie. ¡Regístrate ahora y asegura tu lugar en Indie Checkpoint!  Nota: Una vez que te anotes aqui en lista puedes asistir libremente al evento, tu nombre estará en la lista automáticamente",
-    "date": "2026-07-04",
-    "time": "09:00",
-    "location": "Biblioteca Nacional Sede San Borja (Av. De la Poesía 160, San Borja)",
-    "city": "Lima",
-    "type": "Presencial",
-    "image_url": "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD24IPqXGEuB7GsM4xuvtxV6idUZOx-X-rC4fdXb9IxPnfVJZI09bG4xiJSKVeP2AiVarHnN2G_B4DfWRKiDtGTelCbo5JI-bcU787oFjfZ9yWg8MOL5L4zH_2Kd81d6lBQRfq9QZrePrbqyL39XA9uqin2LvJR445w4xV089C8DxRmXU1M_9cbPBAyxsqOrg5LIsL5jr0YGOGBJwyq7w=w2556?key=WMwJEKtxHXy3D69xg7wm0Q",
-    "registration_url": "https://docs.google.com/forms/d/e/1FAIpQLSdfZrHtDPLrJipzYh7Xl6_yVG5Rqmy0fTT2pFkAZxT2C7bR2g/viewform",
-    "tags": [],
-    "organizer": "Indie Checkpoint"
-  },
-  {
-    "title": "Del diseño al repositorio: las nuevas capacidades de Figma Make",
-    "description": "¿Te imaginas pasar del diseño al repositorio en menos tiempo y con un flujo mucho más inteligente? En esta sesión descubrirás las nuevas capacidades de Figma Make y cómo están transformando la manera en que diseñadores y developers colaboran para llevar ideas a productos reales. 🚀Exploraremos cómo convertir prototipos en experiencias más accionables, optimizar el handoff y entender mejor el puente entre diseño, construcción y producto. ✅ Descubre qué es Figma Make y por qué está dando de qué hablar✅ Explora cómo conectar mejor el diseño con el desarrollo✅ Conoce nuevas formas de prototipar, iterar y construir más rápido✅ Aprende cómo estas capacidades pueden mejorar tu flujo de trabajo en equipo 🎤 Speaker: Lucía Cruz Sancho – Friends of Figma Leader📅 Fecha: 21 de julio🕗 Hora: 08:00 p.m.💻 Modalidad: Sesión Virtual",
-    "date": "2026-07-21",
-    "time": "20:00",
-    "location": "Virtual",
-    "city": "Virtual",
-    "type": "Virtual",
-    "image_url": "https://images.lumacdn.com/uploads/t8/8f8a1dc8-b40a-4266-952b-231b093fe129.png",
-    "registration_url": "https://luma.com/j17k56nt",
-    "tags": [],
-    "organizer": "DSC UTP"
-  },
-  {
-    "title": "TechDay: AI & Security Edition",
-    "description": "¡Descubre lo último en seguridad y IA en TECH DAY, un evento presencial lleno de innovación y tech!",
-    "date": "2026-08-15",
-    "time": "08:00",
-    "location": "UPC Campus San Miguel, 2810 Avenida de la Marina, San Miguel, Provincia de Lima 15087",
-    "city": "Lima",
-    "type": "Presencial",
-    "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186266812%2F3004409241990%2F1%2Foriginal.20260605-190613?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=eb815ccd87bbf0e19d8881327111744d",
-    "registration_url": "https://www.techday.pe/",
-    "organizer": "TECH DAY",
-    "tags": []
-  },
-  {
-    "title": "¿Cómo no morir en el intento al usar Lovable?",
-    "description": "🚀 ¿Has escuchado de Lovable y quieres aprender a crear aplicaciones con IA sin perderte en el intento? En esta sesión descubrirás cómo aprovechar Lovable para desarrollar proyectos de manera más rápida, evitando los errores más comunes que enfrentan quienes recién comienzan. Conocerás buenas prácticas, consejos basados en experiencia real y un flujo de trabajo que te permitirá sacar el máximo provecho a esta herramienta. 🤖✨ ✅ Aprende cómo empezar correctamente con Lovable ✅ Evita los errores más comunes al crear tus primeros proyectos ✅ Descubre buenas prácticas para trabajar con IA de forma eficiente 🎤 Speaker: Jaime Fernández – Lovable Ambassador",
-    "date": "2026-07-08",
-    "time": "19:00",
-    "location": "Virtual",
-    "city": "Virtual",
-    "type": "Virtual",
-    "image_url": "https://images.lumacdn.com/uploads/9b/15d02f66-4a4b-4e12-a8ab-18cf49f12396.png",
-    "registration_url": "https://luma.com/ps6yecwc",
-    "organizer": "Developer Student Clubs - UTP",
-    "tags": [
-      "AI",
-      "Lovable"
-    ]
-  },
-    {
-        "title": "Evento presencial: IA y Comunidad",
-        "description": "🚀 ¡Atención comunidad de Machine Learning e IA en Latam! 🚀 El impacto de la Inteligencia Artificial ya no es una promesa a futuro, es el presente que estamos construyendo juntos. Por eso, desde AWS UG ML Latam, queremos invitarte a nuestro próximo evento presencial: \"IA y comunidad\". Un espacio diseñado para conectar, compartir conocimientos y debatir sobre las últimas tendencias en IA y Machine Learning, mientras fortalecemos los lazos de nuestra comunidad técnica en la región. Si te apasiona la tecnología, buscas inspirarte o simplemente quieres compartir con otros profesionales del área, ¡este evento es para ti! 📅 Cuándo: 2 de julio 📍 Dónde: Moventi | Javier Prado Este 444, Piso 1 👥 Para quién: Entusiastas, estudiantes, profesionales y expertos de IA/ML ¡No te quedes por fuera de este encuentro! Ven, aprende y se parte de la comunidad. 🌐💡 #IA #MachineLearning #AWS #AWSUG #ComunidadTech #Latam",
-        "date": "2026-07-02",
-        "time": "19:00",
-        "location": "Javier Prado Este 444, Piso 1",
-        "city": "Lima",
-        "type": "Presencial",
-        "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQECh5lZKj9htg/feedshare-shrink_800/B4EZ8e0g3eHAAc-/0/1782928510738?e=2147483647&v=beta&t=YoL4lYNg2kkzqn4NdGks3oLHSPS2kP3jVhlSctygx04",
-        "registration_url": "https://www.meetup.com/aws-ug-machine-learning-latam/events/315229928/",
-        "tags": [
-            "AWS",
-            "MachineLearning",
-            "IA"
-        ],
-        "organizer": "AWS UG Machine Learning Latam"
-  },
-  {
-    "title": "Taller de Loop Engineering",
-    "description": "Los agentes de IA no son magia. Son un loop. Un modelo que observa, decide, actúa, mira el resultado y vuelve a empezar — hasta cumplir el objetivo. Ese ciclo es lo que separa un chatbot que responde de un agente que de verdad hace el trabajo.",
-    "date": "2026-07-02",
-    "time": "20:00",
-    "location": "Zoom",
-    "city": "Virtual",
-    "type": "Virtual",
-    "image_url": "https://images.lumacdn.com/uploads/d7/723d17b1-e82b-41d8-b2e0-bb9c0ccb4a1b.png",
-    "registration_url": "https://luma.com/5u4la9sb",
-    "tags": [
-      "AI",
-      "Workshop"
-    ],
-    "organizer": "IA MBA"
-  },
-  {
-    "title": "[Coffee Lab] Crea con Replit + Notion",
-    "description": "Los Coffee Labs son espacios personalizados y prácticos donde dejamos la teoría de lado y nos enfocamos en construir en vivo. Saldrás del laboratorio con integraciones reales funcionando entre tu workspace de Notion y otras herramientas. Descripción: La mayoría de ideas no fallan por falta de potencial, sino porque nunca llegan a convertirse en productos reales. Se quedan en Notion como planes, pero no en ejecución. En este webinar en vivo vas a aprender cómo cerrar esa brecha entre idea y producto usando una combinación poderosa: Notion para estructurar y diseñar sistemas + Replit para construir prototipos funcionales rápidamente. Con un enfoque práctico, verás cómo pasar de conceptos a algo que realmente funciona. Lo que vas a aprender: Cómo estructurar una idea en Notion como si fuera un producto real Cómo usar Replit para construir un MVP funcional sin complejidad técnica Cómo conectar organización, datos y ejecución en un flujo simple y replicable ¿Para quién es este webinar? Para creators, emprendedores digitales, makers y profesionales que quieren dejar de solo planear ideas y empezar a construir productos, automatizaciones o herramientas reales. Speakers Jhon Miranda y Mayckol Cruzado(Co-founders de IA Labs & Replit Ambassador) Josecarlos De Lima(Co-founder de DALA & Replit Ambassador) Únete Grupo de whatsapp: ingresa aquí",
-    "date": "2026-07-03",
-    "time": "16:00",
-    "location": "Lima, Peru",
-    "city": "Lima",
-    "type": "Presencial",
-    "image_url": "https://images.lumacdn.com/uploads/hb/d2d7f1e2-f662-4767-89c4-f5e87961e112.jpg",
-    "registration_url": "https://luma.com/qbvnddh8",
-    "organizer": "IA Labs - Sessions",
-    "tags": [
-      "AI",
-      "Notion",
-      "Replit",
-      "Workshop"
-    ]
-  },
-  {
-    "title": "Women Tech Impact 2026: Inspirar y liderar con propósito y ética",
-    "description": "El Grupo de Afinidad IEEE Women in Engineering - WIE Perú, los invita a participar de un encuentro para aprender, inspirarse y conectar con quienes están liderando el cambio en tecnología. Las actividades de este año se desarrollan bajo el lema “Tecnología con propósito: innovar con responsabilidad, inspirar a nivel global, liderar con integridad”, por lo que los ejes temáticos seleccionados para nuestras celebraciones en Perú son: Liderazgo y empoderamiento en ciencia, tecnología, ingeniería y matemáticas (STEM) Tecnología responsable y ética Innovación y Emprendimiento con sostenibilidad Inclusión digital e impacto comunitario INGRESO LIBRE - Público en General Los esperamos 💜",
-    "date": "2026-07-04",
-    "time": "10:00",
-    "location": "National Major University of San Marcos, Lima 15081, Peru",
-    "city": "Lima",
-    "type": "Presencial",
-    "image_url": "https://images.lumacdn.com/uploads/qf/7aa30e82-6e36-49e7-bd56-ce04c4b5df91.png",
-    "registration_url": "https://luma.com/it7dtaqd",
-    "organizer": "IEEE Women in Engineering - WIE Perú",
-    "tags": [
-      "STEM",
-      "Women in Tech",
-      "Networking",
-      "Liderazgo"
-    ]
-  },
-  {
-    "title": "Meet UP Comunidad 4 🇵🇪 InspiraTech",
-    "description": "Nos volvemos a encontrar! Te invitamos a este encuentro presencial de la comunidad peruana del Programa 4 de InspiraTech, un espacio para conectar, compartir experiencias, fortalecer relaciones y seguir construyendo juntos el futuro de la tecnología en nuestra región. Durante este meet up tendremos la oportunidad de conocernos mejor, intercambiar aprendizajes, conversar sobre nuestros proyectos y explorar nuevas oportunidades de colaboración dentro de la comunidad. ✨ ¿Qué puedes esperar? Networking con participantes del Programa 4. Conversaciones sobre tecnología, innovación e impacto. Intercambio de experiencias y aprendizajes. Espacios para generar conexiones y futuras colaboraciones. Si formas parte de la comunidad InspiraTech Perú, este encuentro es para ti. Ven con ganas de compartir, aprender y conectar con personas que están impulsando el cambio desde la tecnología. ¡Nos vemos pronto! 🚀",
-    "date": "2026-07-04",
-    "time": "15:00",
-    "location": "Av. Gregorio Escobedo 684, Jesús María 15072, Peru",
-    "city": "Jesús María",
-    "type": "Presencial",
-    "image_url": "https://images.lumacdn.com/gallery-images/6n/63fec81d-4939-46b0-89dc-dee963a97b5b.png",
-    "registration_url": "https://luma.com/coyby2ah",
-    "organizer": "InspiraTech",
-    "tags": [
-      "InspiraTech",
-      "Networking",
-      "Comunidad"
-    ]
-  },
-  {
-    "title": "Charla gratuita: Conoce sobre Emprende en Tiktok",
-    "description": "Te invitamos a participar en la charla gratuita, donde aprenderás cómo TikTok puede ayudarte a dar mayor visibilidad a tu emprendimiento, conectar con nuevas audiencias y generar oportunidades de crecimiento. Además, conocerás el proceso de postulación a Emprende TikTok y resolverás tus dudas. ¡Te esperamos para dar el siguiente paso en la transformación digital de tu emprendimiento! 🚀",
-    "date": "2026-07-09",
-    "time": "18:00",
-    "location": "Pacific University Cultural Center, Jirón Luis Sánchez Cerro 2121, Jesús María 15072, Peru",
-    "city": "Jesús María",
-    "type": "Presencial",
-    "image_url": "https://images.lumacdn.com/uploads/5w/56781442-fc1f-4471-80eb-efdf8dbd98e6.jpg",
-    "registration_url": "https://luma.com/gvqv3ipd",
-    "organizer": "Emprende TikTok",
-    "tags": [
-      "TikTok",
-      "Emprendimiento",
-      "Marketing"
-    ]
-  },
-  {
-    "title": "Primeros pasos con Replit: de la idea al prototipo",
-    "description": "🚀 ¿Te gustaría crear aplicaciones con Inteligencia Artificial sin empezar desde cero? Descubre cómo Replit puede ayudarte a transformar una idea en un prototipo funcional en cuestión de minutos. En esta charla conocerás el potencial del desarrollo asistido por IA, aprenderás las mejores prácticas para construir aplicaciones con prompts efectivos y verás una demostración en vivo del proceso completo. 💡🤖 Ya seas estudiante, desarrollador o simplemente tengas curiosidad por el mundo del vibe coding, esta sesión te mostrará cómo acelerar el desarrollo de software utilizando herramientas impulsadas por IA. ✅ Conoce qué es Replit y cómo funciona ✅ Aprende a convertir una idea en un prototipo funcional ✅ Descubre buenas prácticas para crear aplicaciones con IA ✅ Observa una demo en vivo desarrollando una aplicación desde cero 🎤 Speaker: Mayckol Cruzado – Replit Ambassador 📅 Fecha: 13 de julio 🕕 Hora: 6:00 p.m. 💻 Modalidad: Sesión Virtual",
-    "date": "2026-07-13",
-    "time": "18:00",
-    "location": "Virtual",
-    "city": "Virtual",
-    "type": "Virtual",
-    "image_url": "https://images.lumacdn.com/uploads/ce/e60020ea-291d-40d8-9fa9-8332abb2c4d0.png",
-    "registration_url": "https://luma.com/87mg1qrq",
-    "organizer": "DSC UTP",
-    "tags": [
-      "AI",
-      "Replit",
-      "Vibe Coding",
-      "Prototyping"
-    ]
-  },
-  {
-    "title": "Meetup Cloud Native Ayacucho – Julio 2026",
-    "description": "Este evento está diseñado para estudiantes, desarrolladores, DevOps Engineers y entusiastas de la tecnología que quieran aprender de experiencias reales y conectar con la comunidad tecnológica de la región. 📅 Fecha: Sábado 11 de julio de 2026 🕘 Hora: 9:00 AM – 1:00 PM 📍 Lugar: Colegio de Ingenieros del Perú (CIP) – Ayacucho 🎟️ Modalidad: Presencial – Entrada gratuita (Previa inscripción)",
-    "date": "2026-07-11",
-    "time": "09:00",
-    "location": "Colegio de Ingenieros del Perú - Ayacucho, Ayacucho",
-    "city": "Ayacucho",
-    "type": "Presencial",
-    "image_url": "https://ocgroups.dev/images/ee59e4342d18a6fb1b13949c87658c0ef53b21c77be511bb732908ce394725fa.png",
-    "registration_url": "https://ocgroups.dev/cncf/group/ncz2zfb/event/wbnbz6e",
-    "organizer": "Cloud Native Ayacucho",
-    "tags": [
-      "Kubernetes",
-      "Prometheus",
-      "Base de datos",
-      "Cloud Native"
-    ]
-  },
-  {
-    "title": "DevOpsDays Lima 2026",
-    "description": "Este 27 y 28 de agosto del 2026, por 2do año consecutivo, el Centro de Convenciones Lima se convierte en el punto de encuentro de quienes están transformando la forma en que se construye, despliega y opera software en la región. Acceso a charlas, talleres y networking con toda la comunidad DevOps. Ideal para quienes vienen a aprender, conectar y descubrir lo último en plataforma, IA, seguridad y cultura de ingeniería.",
-    "date": "2026-08-27",
-    "time": "09:00",
-    "location": "Centro de Convenciones Lima, Av. de la Arqueología 206, San Borja",
-    "city": "Lima",
-    "type": "Presencial",
-    "image_url": "https://tickets.devopsdays.pe/web/image/1012-b4d5f027/Evento%20%27DevOpsDays%20Lima%202026%27%20cover%20image.webp",
-    "registration_url": "http://entradas.devopsdays.pe/",
-    "tags": [
-      "DevOps",
-      "IA",
-      "Seguridad",
-      "Cultura de ingeniería"
-    ],
-    "organizer": "DevOpsDays Lima"
-  },
-  {
-    "title": "Flutter Cusco #2: \"Inteligencia Artificial en Flutter\"",
-    "description": "¡Volvemos con todo para el segundo encuentro de Flutter Cusco! Tras el increíble arranque de nuestra comunidad, este Sábado 11 de Julio dejamos atrás lo básico para sumergirnos en cómo la Inteligencia Artificial está redefiniendo por completo las reglas del juego en el desarrollo móvil en 2026. No vamos a hablar de simples llamadas a una API de chat. Vamos a ver cómo construir arquitecturas móviles inteligentes, dinámicas y auto-correctivas al nivel de las startups más avanzadas de Silicon Valley. Contaremos con dos ponencias brutales: Generative UI: Interfaces con IA — Por Jesús Aguilar (Flutter Developer) Descubre cómo romper con los layouts estáticos. Aprenderás el concepto de GenUI: cómo estructurar tu app en Flutter para que la interfaz se dibuje y transforme mágicamente en tiempo real, adaptándose al microsegundo según el contexto y las necesidades exactas del usuario. Loop Engineering: Arquitecturas auto-correctivas — Por Enrique Pinedo (CEO at Jumper AI Lab & AI Automation Specialist) Llevamos el desarrollo móvil al siguiente nivel con Agentic Loop Engineering. Veremos cómo coordinar agentes de IA que automatizan el ciclo de desarrollo: generación de código, compilación y auto-corrección de errores mediante bucles autónomos de retroalimentación.",
-    "date": "2026-07-11",
-    "time": "10:00",
-    "location": "Virtual",
-    "city": "Virtual",
-    "type": "Virtual",
-    "image_url": "https://secure.meetupstatic.com/photos/event/2/b/2/0/highres_535091040.jpeg",
-    "registration_url": "https://www.meetup.com/es-es/flutter-cusco/events/315572950/?slug=flutter-cusco&eventId=315572950",
-    "tags": [
-      "Flutter",
-      "IA"
-    ],
-    "organizer": "Flutter Cusco"
-  }
-,
-  {
-    "title": "Hackathon Build with Gemma: GDG Callao",
-    "description": "¡Bienvenidos al hackathon Build with Gemma: GDG Callao! ¡Únete a nosotros para una jornada intensa de innovación y creación! Esta es tu oportunidad para dar vida a ideas creativas, herramientas multimodales o sistemas agentes utilizando los modelos abiertos Gemma de Google DeepMind.Únete a la comunidad del GDG Callao para transformar ideas en soluciones reales utilizando la potencia de Gemma 4, la familia de modelos abiertos más capaz de Google DeepMind.¿Cuál es tu misión? Tu objetivo es desarrollar una solución basada en IA que aborde desafíos alineados con los Objetivos de Desarrollo Sostenible (ODS). Ya sea educación, salud, sostenibilidad urbana o inclusión económica, buscamos proyectos que cuenten una historia poderosa y resuelvan problemas reales de nuestra comunidad.Lo que necesitas saber:Fecha y hora: 25 de julio de 2026.Formato: Hackathon presencial.Lugar: Sede por confirmar (se notificará por correo a los equipos registrados).Requisito técnico: Implementación de Gemma 4.¿Por qué participar? Además de vivir una experiencia intensa de desarrollo, competiremos por una bolsa de premios de USD 2,000 para el podio principal y Certificados de Excelencia Técnica para los proyectos más destacados en Edge/On-Device, IA Multimodal y Agentes Autónomos.Premios:🥇 Primer lugar: USD 1,000🥈 Segundo lugar: USD 600🥉 Tercer lugar: USD 400(La entrega de premios está sujeta al cumplimiento de las reglas oficiales y términos de la plataforma).¿Estás listo para el reto? No importa si eres un desarrollador frontend, full-stack o entusiasta de la IA, este es el espacio para colaborar, aprender y crear impacto junto a otros expertos y entusiastas de la tecnología.Tu camino al hackathon! Para participar, por favor completa los siguientes pasos:Registro oficial: 👉 https://forms.gle/yFqjNPSNWdQtijdJ6Kaggle: ⚙️ https://www.kaggle.com/competitions/build-with-gemma-gdg-callaoNota: Es obligatorio estar registrado en ambos enlaces para ser elegible para participar.¡Regístrate ahora y prepárate para construir el futuro con Gemma 4!",
-    "date": "2026-07-25",
-    "time": "08:30",
-    "location": "Por confirmar",
-    "city": "Lima",
-    "type": "Presencial",
-    "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_7JfIb67",
-    "registration_url": "https://gdg.community.dev/events/details/google-gdg-callao-presents-hackathon-build-with-gemma-gdg-callao/",
-    "tags": [
-      "IA",
-      "Gemma",
-      "Hackathon",
-      "Web"
-    ],
-    "organizer": "GDG Callao"
-  },
-  {
-    "title": "Dragon Sphere Origins: Cyber Security Conference 🐉",
-    "description": "Dragon Sphere Origins: Cyber Conference es un CTF para principiantes. Resuelve retos reales de ciberseguridad, captura flags y escala el scoreboard. El evento presencial es el sábado 25 de julio en la PUCP, con charlas magistrales, networking y premiación a los ganadores del CTF.",
-    "date": "2026-07-25",
-    "time": "09:30",
-    "location": "Auditorio de la Facultad de Ciencias e Ingeniería – PUCP",
-    "city": "San Miguel",
-    "type": "Presencial",
-    "image_url": "https://images.lumacdn.com/uploads/0k/04c17b61-e899-4926-af93-26d8537202a9.jpg",
-    "registration_url": "https://www.dragon-sphere.com/",
-    "tags": [
-      "Ciberseguridad",
-      "CTF",
-      "Hacking Ético",
-      "PUCP"
-    ],
-    "organizer": "IEEE COMSOC PUCP & IEEE CS PUCP"
-  },
-  {
-    "title": "Meetup #3 (Presencial) - Tu primer despliegue en AWS Cloud",
-    "description": "¡Seguimos creciendo con la comunidad del AWS User Group Piura! En nuestro tercer meetup presencial, cambiaremos el formato tradicional de charlas por una experiencia mucho más práctica: un workshop diseñado para que puedas aprender haciendo y realizar tu primer despliegue en AWS Cloud. Durante este espacio trabajaremos con AWS y Flutter para que puedas acercarte al desarrollo y despliegue de aplicaciones en la nube de una forma guiada, dinámica y aplicada. La idea es que no solo escuches conceptos, sino que puedas ponerlos en práctica directamente desde tu laptop, resolver dudas y vivir una experiencia técnica junto a la comunidad. Además del workshop, tendremos un Kahoot! interactivo con concurso por créditos AWS, sorteos, bocaditos, networking y espacios para conectar con estudiantes, profesionales, desarrolladores y entusiastas de la tecnología en Piura. **⚠️ Importante 💻** Este será un workshop práctico, por lo que debes traer tu laptop para poder participar activamente en la sesión y seguir los ejercicios durante el evento.",
-    "date": "2026-08-08",
-    "time": "14:00",
-    "location": "INNOSPACE CAMCO – Cámara de Comercio de Piura, Av. Fortunato Chirichigno A-2, Urb. San Eduardo, Piura",
-    "city": "Piura",
-    "type": "Presencial",
-    "image_url": "https://secure.meetupstatic.com/photos/event/7/d/e/8/highres_535292232.jpeg",
-    "registration_url": "https://www.meetup.com/aws-user-group-piura/events/315600351/",
-    "tags": [
+    image_url:
+      "https://secure.meetupstatic.com/photos/event/7/d/e/8/highres_535292232.jpeg",
+    registration_url:
+      "https://www.meetup.com/aws-user-group-piura/events/315600351/",
+    tags: [
       "Amazon Web Services",
       "Cloud Computing",
       "Cloud Services",
       "Flutter",
-      "Software Development"
+      "Software Development",
     ],
-    "organizer": "AWS USER GROUP PIURA"
+    organizer: "AWS USER GROUP PIURA",
   },
   {
-    "title": "Agentic AI Optimization: Headroom Series",
-    "description": "2da Conferencia Mensual: Agentic AI Optimization - Headroom Series\n\n¿Por qué tu agente IA desperdicia el 70% de su contexto? Entre información repetida y ruido, estás perdiendo eficiencia. Únete a nuestra segunda conferencia mensual y descubre cómo ahorrar entre un 40% y 50% en tokens sin sacrificar precisión.\n\n🗓️ Detalles del Evento\n  * Fecha: 1 de Agosto de 2026\n  * Hora: 8:00 PM\n  * Modalidad: Virtual (Zoom)\n  * Organizan: IEEE Computer Society PUCP & Claude Perú Science\n\n🎓 Certificación Oficial\n\nPara ser acreedor al certificado oficial emitido por la IEEE, es un requisito obligatorio registrar una asistencia mínima de 1 hora y 30 minutos durante la sesión en vivo.\n\n📝 Sobre la Conferencia\n\nEn esta sesión teórica y práctica, aprenderás cómo optimizar agentes de Inteligencia Artificial para reducir drásticamente los costos de API.\n\nExploraremos a fondo la arquitectura detrás de Headroom, una innovadora herramienta open-source creada por Netflix diseñada para reducir hasta un 70% de los tokens en contextos innecesarios. Llevaremos la teoría académica directamente a la implementación práctica utilizando Claude Code.\n\n🧠 Qué Aprenderás\n  * Fundamentos: Compresión reversible de contexto.\n  * SmartCrusher: Técnicas de compresión inteligente de JSON.\n  * CacheAligner: Cómo mejorar drásticamente los cache hits (pasando del 5% al 80%).\n  * RollingWindow: Gestión dinámica del presupuesto de tokens.\n  * Práctica: Setup e instalación paso a paso en Claude Code.\n\n🎯 Detalles Técnicos\n  * Formato: Teórico-práctico\n  * Duración: 2 horas\n  * Nivel: Básico/Intermedio (Se requiere familiaridad previa con Claude Code o herramientas similares).\n\n🎤 Ponente\n  * Daniel Mamani - President of IEEE Computer Society PUCP, AI Engineer PUCP Student.\n\n👥 A Quién Va Dirigido\n\nEstudiantes, desarrolladores, ingenieros de software, emprendedores, startup founders y cualquier profesional interesado en maximizar la eficiencia y reducir los costos de API al trabajar con agentes de IA.\n\n📚 Referencias Académicas\n\nLa conferencia tendrá relación con los siguientes papers de investigación:\n  * Base de SmartCrusher: Compress the Context, Keep the Commitments: A Formal Framework for Verifiable LLM Context Compression (2025) - ArXiv: 2605.17304\n  * Base de CacheAligner: Don't Break the Cache: An Evaluation of Prompt Caching for Long-Horizon Agentic Tasks (2025) - ArXiv: 2601.06007\n  * Base de RollingWindow: ContextBudget: Budget-Aware Context Management for Long-Horizon Search Agents (2024) - ArXiv: 2604.01664\n\nÚnete al canal de difusión: https://whatsapp.com/channel/0029Vb1FIHT4yltW1qOjZr1V",
-    "date": "2026-08-01",
-    "time": "20:00",
-    "location": "Zoom",
-    "city": "Virtual",
-    "type": "Virtual",
-    "image_url": "https://images.lumacdn.com/uploads/f2/444fd47a-8c66-465c-a62a-30f201b6f60e.png",
-    "registration_url": "https://luma.com/o4ua1jwh",
-    "tags": [
-      "AI",
-      "Agentic AI",
-      "Claude Code",
-      "Optimization"
-    ],
-    "organizer": "IEEE Computer Society PUCP"
+    title: "Agentic AI Optimization: Headroom Series",
+    description:
+      "2da Conferencia Mensual: Agentic AI Optimization - Headroom Series\n\n¿Por qué tu agente IA desperdicia el 70% de su contexto? Entre información repetida y ruido, estás perdiendo eficiencia. Únete y descubre cómo ahorrar entre un 40% y 50% en tokens sin sacrificar precisión.\n\nAprenderás sobre SmartCrusher (compresión inteligente de JSON), CacheAligner (mejora de cache hits del 5% al 80%), y RollingWindow (gestión dinámica del presupuesto de tokens).\n\nPonente: Daniel Mamani - President of IEEE Computer Society PUCP.\n\nSe requiere familiaridad previa con Claude Code o herramientas similares.",
+    date: "2026-08-01",
+    time: "20:00",
+    location: "Zoom",
+    city: "Virtual",
+    type: "Virtual",
+    image_url:
+      "https://images.lumacdn.com/uploads/f2/444fd47a-8c66-465c-a62a-30f201b6f60e.png",
+    registration_url: "https://luma.com/o4ua1jwh",
+    tags: ["AI", "Agentic AI", "Claude Code", "Optimization"],
+    organizer: "IEEE Computer Society PUCP",
   },
   {
-    "title": "¿RAG ha muerto? Larga vida al Agentic RAG",
-    "description": "Aunque el RAG tradicional se convirtió en el estándar de oro para conectar modelos de lenguaje con datos corporativos, su dependencia de la simple búsqueda vectorial está chocando contra un muro en casos de uso que requieren razonamiento profundo o múltiples pasos lógicos. En esta charla, desmentiremos el mito de la \"muerte del RAG\" y exploraremos su evolución natural: el Agentic RAG. Acompáñame a descubrir cómo pasar de un sistema de recuperación pasivo a un ecosistema inteligente donde agentes autónomos planifican, usan herramientas, evalúan y sintetizan información, analizando desde la arquitectura necesaria para implementar este razonamiento dinámico hasta casos de uso reales donde el enfoque agéntico marca la diferencia entre una alucinación y una respuesta perfecta.",
-    "date": "2026-08-01",
-    "time": "18:00",
-    "location": "Online event",
-    "city": "Virtual",
-    "type": "Virtual",
-    "image_url": "https://secure.meetupstatic.com/images/classic-events/535336916/676x380.webp",
-    "registration_url": "https://www.meetup.com/my-agents-latam/events/315785374/",
-    "tags": [],
-    "organizer": "My Agents LATAM"
-  }
+    title: "¿RAG ha muerto? Larga vida al Agentic RAG",
+    description:
+      "Aunque el RAG tradicional se convirtió en el estándar de oro para conectar modelos de lenguaje con datos corporativos, su dependencia de la simple búsqueda vectorial está chocando contra un muro en casos de uso que requieren razonamiento profundo o múltiples pasos lógicos. En esta charla exploraremos la evolución natural del RAG: el Agentic RAG, donde agentes autónomos planifican, usan herramientas, evalúan y sintetizan información de forma dinámica.",
+    date: "2026-08-01",
+    time: "18:00",
+    location: "Online event",
+    city: "Virtual",
+    type: "Virtual",
+    image_url:
+      "https://secure.meetupstatic.com/images/classic-events/535336916/676x380.webp",
+    registration_url:
+      "https://www.meetup.com/my-agents-latam/events/315785374/",
+    tags: [],
+    organizer: "My Agents LATAM",
+  },
 ];
