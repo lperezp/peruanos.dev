@@ -6,8 +6,8 @@ export interface IEvent {
     location: string;
     city: string;
     type: 'Presencial' | 'Virtual' | 'Híbrido';
-    image_url?: string;
+    image_url: string;
     registration_url: string;
     tags: string[];
-    organizer?: string;
+    organizer: string;
 }
