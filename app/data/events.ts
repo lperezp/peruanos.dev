@@ -130,7 +130,7 @@ export const EVENTS: IEvent[] = [
     registration_url:
       "https://gdg.community.dev/events/details/google-gdg-open-presents-devfest-open-lima-2026/",
     tags: ["Android", "Angular", "Conferencia", "DevFest", "Firebase", "Flutter", "Google Cloud", "IA", "IA - Gemini", "IA - Gemma", "IA - Plataforma de agente empresarial Gemini", "Networking", "Web"],
-    organizer: "",
+    organizer: "GDG Open",
   },
   {
     title: "DevFest Callao 2026",
@@ -146,7 +146,7 @@ export const EVENTS: IEvent[] = [
     registration_url:
       "https://gdg.community.dev/events/details/google-gdg-callao-presents-devfest-callao-2026/",
     tags: ["Accesibilidad", "Android", "Angular", "Conferencia", "DevFest", "Diseño de UX / UI", "Firebase", "Flutter", "Google Cloud", "Google Workspace", "IA", "Web"],
-    organizer: "",
+    organizer: "GDG Callao",
   },
   {
     title: "DevFest Ica 2026",
@@ -162,7 +162,7 @@ export const EVENTS: IEvent[] = [
     registration_url:
       "https://gdg.community.dev/events/details/google-gdg-ica-presents-devfest-ica-2026/",
     tags: ["Conferencia", "DevFest", "Diseño de UX / UI", "Google Cloud", "IA - Gemini"],
-    organizer: "",
+    organizer: "GDG Ica",
   },
   {
     title: "🎉 ¡YA LLEGÓ GDG AYACUCHO! 🚀",
@@ -178,7 +178,7 @@ export const EVENTS: IEvent[] = [
     registration_url:
       "https://gdg.community.dev/events/details/google-gdg-ayacucho-presents-ya-llego-gdg-ayacucho/",
     tags: ["Community Building", "Tech Talk / Meetup"],
-    organizer: "",
+    organizer: "GDG Ayacucho",
   },
   {
     title: "Microsoft Build 2026 - Next Steps",
@@ -189,7 +189,7 @@ export const EVENTS: IEvent[] = [
     location: "NTT DATA Bloom",
     city: "Lima",
     type: "Presencial",
-    image_url: "",
+    image_url: "https://secure.meetupstatic.com/photos/event/2/2/5/3/highres_534188787.webp",
     registration_url:
       "https://www.meetup.com/msperu/events/315501297/",
     tags: [],
@@ -204,7 +204,7 @@ export const EVENTS: IEvent[] = [
     location: "UPC San Miguel",
     city: "Lima",
     type: "Presencial",
-    image_url: "",
+    image_url: "https://secure.meetupstatic.com/photos/event/4/e/5/5/highres_535340053.webp",
     registration_url:
       "https://www.meetup.com/cloudexpertsc/events/315815423/",
     tags: [],
@@ -219,7 +219,7 @@ export const EVENTS: IEvent[] = [
     location: "NTT DATA Bloom",
     city: "Lima",
     type: "Presencial",
-    image_url: "",
+    image_url: "https://secure.meetupstatic.com/photos/event/7/1/1/0/highres_535408944.webp",
     registration_url:
       "https://www.meetup.com/cloudexpertsc/events/315870034/",
     tags: [],
@@ -234,7 +234,7 @@ export const EVENTS: IEvent[] = [
     location: "Online event",
     city: "Virtual",
     type: "Presencial",
-    image_url: "",
+    image_url: "https://secure.meetupstatic.com/photos/event/c/7/e/2/highres_535431170.webp",
     registration_url:
       "https://www.meetup.com/bi-expert/events/315895644/",
     tags: [],
@@ -249,7 +249,7 @@ export const EVENTS: IEvent[] = [
     location: "Online event",
     city: "Virtual",
     type: "Virtual",
-    image_url: "",
+    image_url: "https://images.lumacdn.com/uploads/9p/36dede6f-90e9-4bc6-987d-e977d27d338d.png",
     registration_url:
       "https://lu.ma/6fk03o23",
     tags: [],
@@ -264,7 +264,7 @@ export const EVENTS: IEvent[] = [
     location: "Online event",
     city: "Virtual",
     type: "Virtual",
-    image_url: "",
+    image_url: "https://images.lumacdn.com/uploads/86/262da715-acb2-4b38-b428-2a0d25aeae48.png",
     registration_url:
       "https://lu.ma/9q5u56zs",
     tags: [],
