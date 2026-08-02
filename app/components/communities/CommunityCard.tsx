@@ -1,13 +1,30 @@
+'use client';
+
+import { useState } from 'react';
 import Image from 'next/image';
 import { ExternalLink } from 'lucide-react';
 import { ICommunity } from '@/app/models/community.model';
 import Badge from '../ui/Badge';
 import TrackedLink from '../ui/TrackedLink';
 import { addUTMParams } from '../../lib/utm';
+import CommunitySideModal from './CommunitySideModal';
 
 export default function CardCommunity({ community }: { community: ICommunity }) {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const handleCardClick = (e: React.MouseEvent) => {
+        if ((e.target as HTMLElement).closest('a')) {
+            return;
+        }
+        setIsModalOpen(true);
+    };
+
     return (
-        <div className="bg-background border border-accent rounded-lg overflow-hidden flex flex-col sm:flex-row sm:h-[250px] w-full">
+        <>
+        <div
+            className="bg-background border border-accent rounded-lg overflow-hidden flex flex-col sm:flex-row sm:h-[250px] w-full cursor-pointer transition-all duration-300 hover:shadow-md hover:border-primary/50"
+            onClick={handleCardClick}
+        >
             <div className="relative w-full sm:w-[250px] h-48 sm:h-full flex-shrink-0 p-10 flex items-center justify-center bg-background overflow-hidden">
                 {community.logo_url ? (
                     <>
@@ -46,12 +63,18 @@ export default function CardCommunity({ community }: { community: ICommunity }) 
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 font-medium text-primary-text"
                     eventName="click_visit_community"
-                    eventParams={{ community_name: community.name, community_city: community.city }}
+                    eventParams={{ event_name: community.name, event_link: community.contact.website, section: 'Community' }}
                 >
                     <span>Visitar sitio web</span>
                     <ExternalLink size={16} />
                 </TrackedLink>
             </div>
         </div>
+        <CommunitySideModal
+            community={community}
+            isOpen={isModalOpen}
+            onClose={() => setIsModalOpen(false)}
+        />
+        </>
     );
 }

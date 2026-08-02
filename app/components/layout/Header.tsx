@@ -8,6 +8,7 @@ import { useState } from 'react';
 import { Menu, X, Github, Star } from 'lucide-react';
 import { addUTMParams } from '../../lib/utm';
 import TrackedLink from '../ui/TrackedLink';
+import { trackEvent } from '../../lib/analytics';
 
 export default function Header() {
     const { theme, toggleTheme, mounted } = useThemeContext();
@@ -16,9 +17,7 @@ export default function Header() {
 
     const handleToggleTheme = () => {
         const newTheme = theme === 'dark' ? 'light' : 'dark';
-        if (typeof window !== 'undefined' && 'gtag' in window && typeof window.gtag === 'function') {
-            window.gtag('event', 'toggle_theme', { new_theme: newTheme });
-        }
+        trackEvent('toggle_theme', { event_name: newTheme, section: 'Header' });
         toggleTheme();
     };
 
@@ -31,10 +30,10 @@ export default function Header() {
 
                 {/* Desktop Navigation */}
                 <nav className="hidden md:flex items-center gap-7 text-foreground">
-                    <TrackedLink className="hover:text-primary transition-colors" href="/events" eventName="navigate_menu" eventParams={{ destination: '/events' }}>Eventos</TrackedLink>
-                    <TrackedLink className="hover:text-primary transition-colors" href="/community" eventName="navigate_menu" eventParams={{ destination: '/community' }}>Comunidades</TrackedLink>
-                    <TrackedLink className="hover:text-primary transition-colors" href="/projects" eventName="navigate_menu" eventParams={{ destination: '/projects' }}>Proyectos Open Source</TrackedLink>
-                    <TrackedLink className="hover:text-primary transition-colors" href="/apis" eventName="navigate_menu" eventParams={{ destination: '/apis' }}>API</TrackedLink>
+                    <TrackedLink className="hover:text-primary transition-colors" href="/events" eventName="navigate_menu" eventParams={{ event_name: '/events', section: 'Header' }}>Eventos</TrackedLink>
+                    <TrackedLink className="hover:text-primary transition-colors" href="/community" eventName="navigate_menu" eventParams={{ event_name: '/community', section: 'Header' }}>Comunidades</TrackedLink>
+                    <TrackedLink className="hover:text-primary transition-colors" href="/projects" eventName="navigate_menu" eventParams={{ event_name: '/projects', section: 'Header' }}>Proyectos Open Source</TrackedLink>
+                    <TrackedLink className="hover:text-primary transition-colors" href="/apis" eventName="navigate_menu" eventParams={{ event_name: '/apis', section: 'Header' }}>API</TrackedLink>
                 </nav>
 
                 {/* Desktop Actions */}
@@ -91,7 +90,7 @@ export default function Header() {
                             href="/events"
                             onClick={() => setIsMenuOpen(false)}
                             eventName="navigate_menu"
-                            eventParams={{ destination: '/events' }}
+                            eventParams={{ event_name: '/events', section: 'Header' }}
                         >
                             Eventos
                         </TrackedLink>
@@ -100,7 +99,7 @@ export default function Header() {
                             href="/community"
                             onClick={() => setIsMenuOpen(false)}
                             eventName="navigate_menu"
-                            eventParams={{ destination: '/community' }}
+                            eventParams={{ event_name: '/community', section: 'Header' }}
                         >
                             Comunidades
                         </TrackedLink>
@@ -109,7 +108,7 @@ export default function Header() {
                             href="/projects"
                             onClick={() => setIsMenuOpen(false)}
                             eventName="navigate_menu"
-                            eventParams={{ destination: '/projects' }}
+                            eventParams={{ event_name: '/projects', section: 'Header' }}
                         >
                             Proyectos Open Source
                         </TrackedLink>
@@ -118,7 +117,7 @@ export default function Header() {
                             href="/apis"
                             onClick={() => setIsMenuOpen(false)}
                             eventName="navigate_menu"
-                            eventParams={{ destination: '/apis' }}
+                            eventParams={{ event_name: '/apis', section: 'Header' }}
                         >
                             API
                         </TrackedLink>

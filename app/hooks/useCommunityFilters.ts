@@ -2,6 +2,7 @@ import { useState, useMemo, useCallback, useEffect } from 'react';
 import { ICommunity } from '../models/community.model';
 import { COMMUNITIES } from '../data/communities';
 import { useDebounce } from './useDebounce';
+import { trackEvent } from '../lib/analytics';
 
 export const useCommunityFilters = () => {
     const [searchQuery, setSearchQuery] = useState('');
@@ -53,18 +54,14 @@ export const useCommunityFilters = () => {
     }, [selectedCities]);
 
     const toggleCity = useCallback((city: string) => {
-        if (typeof window !== 'undefined' && 'gtag' in window && typeof window.gtag === 'function') {
-            window.gtag('event', 'filter_communities', { filter_type: 'city', value: city });
-        }
+        trackEvent('filter_communities', { event_name: city, filter_type: 'city', section: 'Community' });
         setSelectedCities((prev) =>
             prev.includes(city) ? prev.filter((c) => c !== city) : [...prev, city]
         );
     }, []);
 
     const toggleTopic = useCallback((topic: string) => {
-        if (typeof window !== 'undefined' && 'gtag' in window && typeof window.gtag === 'function') {
-            window.gtag('event', 'filter_communities', { filter_type: 'topic', value: topic });
-        }
+        trackEvent('filter_communities', { event_name: topic, filter_type: 'topic', section: 'Community' });
         setSelectedTopics((prev) =>
             prev.includes(topic) ? prev.filter((t) => t !== topic) : [...prev, topic]
         );
@@ -73,9 +70,7 @@ export const useCommunityFilters = () => {
     const debouncedSearchQuery = useDebounce(searchQuery, 500);
 
     useEffect(() => {
-        if (debouncedSearchQuery && typeof window !== 'undefined' && 'gtag' in window && typeof window.gtag === 'function') {
-            window.gtag('event', 'filter_communities', { filter_type: 'search', value: debouncedSearchQuery });
-        }
+        if (debouncedSearchQuery) trackEvent('filter_communities', { event_name: debouncedSearchQuery, filter_type: 'search', section: 'Community' });
     }, [debouncedSearchQuery]);
 
     return {
