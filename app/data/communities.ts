@@ -427,5 +427,105 @@ export const COMMUNITIES: ICommunity[] = [
                 "instagram": "https://www.instagram.com/lead_utp/"
             }
         }
+    },
+    {
+        "name": "F13",
+        "description": "Conferencia hecha por y para programadores, sin importar su stack tecnológico o especialidad. Como la tecla F13 que no existe en el teclado, buscan llenar el vacío que falta en el ecosistema tech peruano, reuniendo a ingenieros de software de nivel medio a senior.",
+        "logo_url": "https://www.f13.pe/_next/static/media/WhiteF13LogoSecondEdition.b9b20a1a.png",
+        "city": "Lima",
+        "topics": ["Backend", "Frontend", "DevOps", "DevSecOps", "Data", "AI"],
+        "contact": {
+            "email": "hola@f13.pe",
+            "website": "https://www.f13.pe/",
+            "socialMedia": {
+                "github": "",
+                "twitter": "",
+                "linkedin": "",
+                "discord": "",
+                "facebook": "",
+                "youtube": "",
+                "instagram": ""
+            }
+        }
+    },
+    {
+        "name": "DevOpsDays Lima",
+        "description": "El punto de encuentro para Ingenieros de Software, Arquitectos, Líderes Técnicos, Ingenieros DevOps, Ingenieros de seguridad, CTOs y CIOs de LATAM. Conecta con la comunidad, aprende de casos reales y acelera decisiones que impactan negocio y plataforma.",
+        "logo_url": "https://devopsdays.pe/images/hero/hero%201.webp",
+        "city": "Lima",
+        "topics": ["DevOps", "Platform Engineering", "Seguridad", "AI", "Cloud"],
+        "contact": {
+            "email": "sponsors@devopsdays.pe",
+            "website": "https://devopsdays.pe/",
+            "socialMedia": {
+                "github": "",
+                "twitter": "",
+                "linkedin": "https://www.linkedin.com/company/devops-days-lima/",
+                "discord": "",
+                "facebook": "",
+                "youtube": "",
+                "instagram": "https://www.instagram.com/devopsdayslima/"
+            }
+        }
+    },
+    {
+        "name": "TECH DAY",
+        "description": "Comunidad que reúne a profesionales para fortalecer la seguridad cibernética y la integración de la IA en empresas, gobierno y academia. Organiza conferencias presenciales con CTF, hackathons y sesiones de hacking ofensivo.",
+        "logo_url": "https://www.techday.pe/assets/images/Logos/Logo_Techday.jpeg",
+        "city": "Lima",
+        "topics": ["Ciberseguridad", "AI", "CTF", "Hacking Ético"],
+        "contact": {
+            "email": "atahack24@gmail.com",
+            "website": "https://www.techday.pe/",
+            "socialMedia": {
+                "github": "",
+                "twitter": "https://x.com/techdayperu",
+                "linkedin": "https://www.linkedin.com/company/techdayperu/",
+                "discord": "",
+                "facebook": "https://www.facebook.com/profile.php?id=61591013711771",
+                "youtube": "https://www.youtube.com/@TECHDAYPERU",
+                "instagram": "https://www.instagram.com/techdayperu/"
+            }
+        }
+    },
+    {
+        "name": "AWS User Group Piura",
+        "description": "Grupo que reúne a estudiantes, profesionales, desarrolladores y entusiastas interesados en aprender, compartir y crecer con Amazon Web Services y la computación en la nube. Organizan meetups, talleres y charlas técnicas en Piura.",
+        "logo_url": "https://secure.meetupstatic.com/photos/member/8/6/a/f/preview_320914479.webp",
+        "city": "Piura",
+        "topics": ["AWS", "Cloud Computing", "DevOps", "AI/ML"],
+        "contact": {
+            "email": "",
+            "website": "https://www.meetup.com/aws-user-group-piura/",
+            "socialMedia": {
+                "github": "",
+                "twitter": "",
+                "linkedin": "https://www.linkedin.com/company/aws-user-group-piura/",
+                "discord": "",
+                "facebook": "https://www.facebook.com/awsugpiura",
+                "youtube": "https://youtube.com/@awsugpiura",
+                "instagram": "https://www.instagram.com/awsugpiura"
+            }
+        }
+    },
+    {
+        "name": "My Agents LATAM",
+        "description": "Comunidad latina enfocada en compartir conocimiento y experiencias sobre la creación de bots y agentes inteligentes utilizando tecnologías emergentes. Hablamos de inteligencia artificial, IA generativa y automatización con un enfoque práctico y colaborativo.",
+        "logo_url": "https://secure.meetupstatic.com/photos/member/6/9/1/f/preview_287726911.webp",
+        "city": "Lima",
+        "topics": ["AI", "IA Generativa", "Agentic AI", "Automatización"],
+        "contact": {
+            "email": "",
+            "website": "https://www.meetup.com/my-agents-latam/",
+            "socialMedia": {
+                "github": "",
+                "twitter": "https://twitter.com/MyBotsLATAM",
+                "linkedin": "https://www.linkedin.com/company/my-agents-latam",
+                "discord": "",
+                "facebook": "https://www.facebook.com/MyBotsLATAM",
+                "youtube": "https://www.youtube.com/MyBotsLatam",
+                "instagram": ""
+            }
+        }
     }
 ];

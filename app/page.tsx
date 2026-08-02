@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import type { Metadata } from 'next';
 
 import CardEventHome from './components/events/EventCardHome';
@@ -63,6 +64,31 @@ export default async function Home() {
   const randomCommunities = getRandomCommunities(COMMUNITIES, 3);
 
   // Fetch GitHub data for projects
+  type GitHubContributor = { login: string; avatar_url: string; html_url: string; contributions: number; type: string };
+  type GitHubIssue = { user: { login: string; avatar_url: string; html_url: string; type: string }; pull_request?: object };
+
+  const [contributorsRes, issuesRes] = await Promise.all([
+    fetch('https://api.github.com/repos/lperezp/peruanos.dev/contributors?per_page=100', { next: { revalidate: 3600 } }),
+    fetch('https://api.github.com/repos/lperezp/peruanos.dev/issues?state=all&per_page=100', { next: { revalidate: 3600 } }),
+  ]);
+
+  const rawContributors: GitHubContributor[] = contributorsRes.ok
+    ? (await contributorsRes.json()).filter((c: GitHubContributor) => c.type !== 'Bot')
+    : [];
+
+  const rawIssues: GitHubIssue[] = issuesRes.ok ? await issuesRes.json() : [];
+  // Merge contributors and issue-only authors, deduped by login
+  const seen = new Set(rawContributors.map((c) => c.login));
+  const contributors: GitHubContributor[] = [...rawContributors];
+  for (const issue of rawIssues) {
+    const u = issue.user;
+    if (!issue.pull_request && u?.type !== 'Bot' && !seen.has(u?.login)) {
+      seen.add(u.login);
+      contributors.push({ login: u.login, avatar_url: u.avatar_url, html_url: u.html_url, contributions: 0, type: u.type });
+    }
+  }
+  contributors.sort((a, b) => a.login.localeCompare(b.login));
+
   const projectsData: IGitHubRepo[] = await Promise.all(
     PROJECTS.map(async (project) => {
       try {
@@ -231,6 +257,37 @@ export default async function Home() {
           </div>
         </div>
       </section>
+      {contributors.length > 0 && (
+        <section className="py-10 sm:py-15 px-5 w-full flex flex-col items-center">
+          <h2 className="text-4xl sm:text-5xl text-center font-bold mb-4">Contribuidores</h2>
+          <p className="text-center w-full sm:w-[70%] text-[18px] text-accent mb-12">
+            Gracias a quienes han enviado un issue o pull request a este proyecto.
+          </p>
+          <div className="flex flex-wrap justify-center gap-3">
+            {contributors.map((contributor) => (
+              <a
+                key={contributor.login}
+                href={contributor.html_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={`${contributor.login}${contributor.contributions > 0 ? ` · ${contributor.contributions} contribución${contributor.contributions !== 1 ? 'es' : ''}` : ' · issue author'}`}
+                className="flex flex-col items-center gap-2 group"
+              >
+                <Image
+                  src={contributor.avatar_url}
+                  alt={contributor.login}
+                  width={56}
+                  height={56}
+                  className="rounded-full border-2 border-transparent group-hover:border-primary transition"
+                />
+                <span className="text-xs text-accent group-hover:text-primary-text transition">
+                  @{contributor.login}
+                </span>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
     </main>
   );
 }
