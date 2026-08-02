@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+.hero-gradient {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(205, 43, 49, 0.5) 0%, transparent 100%);
+}
+
+[data-theme='dark'] .hero-gradient {
+  background: none;
+}
+
 @utility scrollbar-hide {
   scrollbar-width: none;
   &::-webkit-scrollbar {
