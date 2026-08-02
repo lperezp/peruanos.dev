@@ -53,10 +53,10 @@ export default function CardEvent({ event }: Props) {
                 </div>
             </div>
             <div className="p-6 flex-1">
-                <div className="flex mb-3 flex-wrap">
-                    <Badge>{event.type}</Badge>
+                <div className="flex mb-3 overflow-x-auto scrollbar-hide gap-1 flex-nowrap">
+                    <Badge className="flex-shrink-0 whitespace-nowrap !mb-0 !mr-0">{event.type}</Badge>
                     {event.tags.map((tag) => (
-                        <Badge key={tag} variant="outline">{tag}</Badge>
+                        <Badge key={tag} variant="outline" className="flex-shrink-0 whitespace-nowrap !mb-0 !mr-0">{tag}</Badge>
                     ))}
                 </div>
                 <p className="text-[20px] text-foreground font-bold mb-1">{event.title}</p>

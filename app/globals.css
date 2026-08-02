@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@utility scrollbar-hide {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 @theme {
   --font-sans: var(--font-google-sans);
 
