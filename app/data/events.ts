@@ -116,4 +116,158 @@ export const EVENTS: IEvent[] = [
     tags: [],
     organizer: "My Agents LATAM",
   },
+  {
+    title: "DevFest Open Lima 2026",
+    description:
+      "𝗗𝗲𝘃𝗙𝗲𝘀𝘁 es la conferencia tecnológica anual organizada por la comunidad de Google Developer Groups (GDG) , con eventos realizados alrededor del mundo para reunir a desarrolladores, estudiantes, profesionales y entusiastas de la tecnología. Este 2026 nos volveremos a encontrar para conectar, aprender e inspirarnos junto a la comunidad tech. Será una jornada llena de charlas, experiencias, networking y mucho conocimiento de la mano de speakers, Google Developer Experts y líderes de comunidad. 🌎✨ Disfruta de contenido en los tracks de: 🤖 IA 🌐 Web ☁️ Cloud 📱 Mobile 🛡️ Cybersecurity 💡 Tech Skills &amp; No Code 🎟️ Haz clic en \"RSVP\" para registrarte y asegurar tu lugar. ¡Nos vemos en DevFest Open Lima 2026 ! 🚀💙",
+    date: "2026-11-28",
+    time: "09:00",
+    location: "Lima",
+    city: "Lima",
+    type: "Presencial",
+    image_url:
+      "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_DefaultEventThumbnail_2_va1kAS9.png",
+    registration_url:
+      "https://gdg.community.dev/events/details/google-gdg-open-presents-devfest-open-lima-2026/",
+    tags: ["Android", "Angular", "Conferencia", "DevFest", "Firebase", "Flutter", "Google Cloud", "IA", "IA - Gemini", "IA - Gemma", "IA - Plataforma de agente empresarial Gemini", "Networking", "Web"],
+    organizer: "",
+  },
+  {
+    title: "DevFest Callao 2026",
+    description:
+      "DevFest es la conferencia anual más importante de tecnología realizada mundialmente por la comunidad Google Developer Groups dirigida a estudiantes, desarrolladores, profesionales y entusiastas del sector tech 👨🏻‍💻 DevFest Callao 2026 será nuestra primera edición como comunidad GDG Callao, un evento creado para reunir a desarrolladores, estudiantes, profesionales tech y personas interesadas en aprender, conectar y crear con tecnología 🥳 Este encuentro buscará acercar a la comunidad local las últimas novedades del ecosistema Google y las tecnologías que están transformando la industria 🚀 Encontrarás charlas de: 🤖 Inteligencia Artificial: Gemini, Vertex AI, agentes, RAG, machine learning y automatización con IA ☁️ Cloud: Google Cloud, Firebase, Kubernetes, Docker, DevOps, serverless y arquitectura cloud 🌐 Web: JavaScript, TypeScript, React, Angular, Vue, Astro, Diseño UX/UI, CSS, SEO y performance 📱 Mobile: Android, Kotlin, Flutter, Firebase, desarrollo multiplataforma y accesibilidad mó",
+    date: "2026-10-24",
+    time: "09:00",
+    location: "San Miguel",
+    city: "San Miguel",
+    type: "Presencial",
+    image_url:
+      "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_20guCTj",
+    registration_url:
+      "https://gdg.community.dev/events/details/google-gdg-callao-presents-devfest-callao-2026/",
+    tags: ["Accesibilidad", "Android", "Angular", "Conferencia", "DevFest", "Diseño de UX / UI", "Firebase", "Flutter", "Google Cloud", "Google Workspace", "IA", "Web"],
+    organizer: "",
+  },
+  {
+    title: "DevFest Ica 2026",
+    description:
+      "Se parte del evento más grande del año.",
+    date: "2026-11-28",
+    time: "09:00",
+    location: "Utp",
+    city: "Ica",
+    type: "Presencial",
+    image_url:
+      "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_DefaultEventThumbnail_2_va1kAS9.png",
+    registration_url:
+      "https://gdg.community.dev/events/details/google-gdg-ica-presents-devfest-ica-2026/",
+    tags: ["Conferencia", "DevFest", "Diseño de UX / UI", "Google Cloud", "IA - Gemini"],
+    organizer: "",
+  },
+  {
+    title: "🎉 ¡YA LLEGÓ GDG AYACUCHO! 🚀",
+    description:
+      "El próximo 05 DE SEPTIEMBRE a las 8:30 am haremos nuestro LANZAMIENTO OFICIAL 🎊 📍 Lugar: por confirmar (te avisamos antes) 🔗 Regístrate YA: https://bit.ly/450oaBC 🌟 ¿Qué viene? • DevFest • Build with AI • Hackathones • Charlas y talleres con expertos 💬 ¡Invita a tus amigos! Todos son bienvenidos. 📲 Únete a nuestro WhatsApp: https://chat.whatsapp.com/J5qMiez3M0xFL6sPT6wKtV #GDGAyacucho #GoogleDeveloperGroups #ComunidadTech #Ayacucho #Tech #Innovación #Lanzamiento",
+    date: "2026-09-05",
+    time: "08:00",
+    location: "Ayacucho",
+    city: "Ayacucho",
+    type: "Presencial",
+    image_url:
+      "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_Al1Ytdb",
+    registration_url:
+      "https://gdg.community.dev/events/details/google-gdg-ayacucho-presents-ya-llego-gdg-ayacucho/",
+    tags: ["Community Building", "Tech Talk / Meetup"],
+    organizer: "",
+  },
+  {
+    title: "Microsoft Build 2026 - Next Steps",
+    description:
+      "*** Continuamos la conversación después de nuestro pasado evento, con una sesión enfocada en llevar las novedades a la práctica. En este meetup exploraremos repositorios, laboratorios y ejemplos reales inspirados en las sesiones de **Microsoft Build 2026** para profundizar en IA, desarrollo moderno y nube. Aquì nuestra agenda: * Jim Saenz: Multi-agent patterns in VS Code you won't learn from docs * Keyla Dolores: Fabric IQ - Bringing Enterprise Ontology Directly into the Developer Workflow * Ernesto Cardenas: Azure Functions and Connectors Deep Dive * Jorge Castañeda: Observe, optimize and protect your hosted agents in Microsoft Foundry * Lennin Cenas: From prototype to production: build and run agents at scale Será un espacio práctico y colaborativo para compartir aprendizajes, descubrir recursos oficiales y definir los siguientes pasos para seguir construyendo con el ecosistema de Microsoft.",
+    date: "2026-08-08",
+    time: "08:30",
+    location: "NTT DATA Bloom",
+    city: "Lima",
+    type: "Presencial",
+    image_url: "",
+    registration_url:
+      "https://www.meetup.com/msperu/events/315501297/",
+    tags: [],
+    organizer: "Microsoft User Group Perú",
+  },
+  {
+    title: " AI Saturday 2026 - Cloud Experts",
+    description:
+      "Un día completo pensado para audiencia técnica: desarrolladores, arquitectos y entusiastas de IA que quieren ver de primera mano hacia dónde va el ecosistema de Microsoft en inteligencia artificial.",
+    date: "2026-08-22",
+    time: "09:00",
+    location: "UPC San Miguel",
+    city: "Lima",
+    type: "Presencial",
+    image_url: "",
+    registration_url:
+      "https://www.meetup.com/cloudexpertsc/events/315815423/",
+    tags: [],
+    organizer: "Cloud Experts Community",
+  },
+  {
+    title: "Automation in a Day",
+    description:
+      "Este es un curso intensivo, ideal para principiantes, está diseñado para que aprendas a automatizar procesos con Power Automate y Power Automate Desktop. Si bien las posibilidades son infinitas, tu tiempo es limitado. Tanto si eres un experto en negocios como un desarrollador de TI, aprenderás a digitalizar procesos empresariales, conectar todas tus aplicaciones para compartir datos en tiempo real y automatizar y optimizar tus procesos. Registro en [https://forms.cloud.microsoft/r/zftMECUmbh?origin=lprLink](https://forms.cloud.microsoft/r/zftMECUmbh?origin=lprLink//) Speakers: Juan Rafael https://www.linkedin.com/in/juanrafael/ Elard Koch https://www.linkedin.com/in/ekoch1993/",
+    date: "2026-08-15",
+    time: "09:00",
+    location: "NTT DATA Bloom",
+    city: "Lima",
+    type: "Presencial",
+    image_url: "",
+    registration_url:
+      "https://www.meetup.com/cloudexpertsc/events/315870034/",
+    tags: [],
+    organizer: "Cloud Experts Community",
+  },
+  {
+    title: "Fabric Power Query",
+    description:
+      "Si trabajas con datos, BI, Fabric, SQL o simplemente quieres llevar tus habilidades al siguiente nivel… este evento es para ti. Aprenderás a transformar datos con Power Query en Fabric Verás casos reales, trucos y buenas prácticas Descubrirás cómo impulsar tus proyectos con el nuevo ecosistema de Fabric Todo 100% en vivo, con interacción y demostraciones 🎤 Speakers Natali Lujan MVP Nicolas Nakasone Los esperamos...!!!",
+    date: "2026-08-07",
+    time: "18:00",
+    location: "Online event",
+    city: "Virtual",
+    type: "Presencial",
+    image_url: "",
+    registration_url:
+      "https://www.meetup.com/bi-expert/events/315895644/",
+    tags: [],
+    organizer: "BI Expert",
+  },
+  {
+    title: "Devin Lima Meetup",
+    description:
+      "Join local developers for networking, learning, and building with Devin.\nIf you&#x27;re curious about AI-powered development or looking to connect with like-minded…",
+    date: "2026-08-08",
+    time: "09:00",
+    location: "Online event",
+    city: "Virtual",
+    type: "Virtual",
+    image_url: "",
+    registration_url:
+      "https://lu.ma/6fk03o23",
+    tags: [],
+    organizer: "Erasmo Hernandez",
+  },
+  {
+    title: "De idea a producto: cómo construí una plataforma educativa con IA en 3 días",
+    description:
+      "¿Es posible convertir una idea en un producto funcional en solo unos días? En esta sesión descubrirás el proceso real de Rhomina Sosa (Founder de Prueba del…",
+    date: "2026-08-04",
+    time: "19:00",
+    location: "Online event",
+    city: "Virtual",
+    type: "Virtual",
+    image_url: "",
+    registration_url:
+      "https://lu.ma/9q5u56zs",
+    tags: [],
+    organizer: "Mayckol Cruzado",
+  },
 ];
