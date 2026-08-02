@@ -15,6 +15,7 @@
 
 # next.js
 /.next/
+/.agents/
 /out/
 
 # production
@@ -30,6 +31,9 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 *.log
+
+# skill
+skills-lock.json
 
 # env files (can opt-in for committing if needed)
 .env*
