@@ -15,7 +15,6 @@
 
 # next.js
 /.next/
-/.agents/
 /out/
 
 # production
@@ -34,6 +33,7 @@ yarn-error.log*
 
 # skill
 skills-lock.json
+.agents/
 
 # env files (can opt-in for committing if needed)
 .env*
