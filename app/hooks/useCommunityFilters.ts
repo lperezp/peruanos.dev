@@ -54,14 +54,14 @@ export const useCommunityFilters = () => {
     }, [selectedCities]);
 
     const toggleCity = useCallback((city: string) => {
-        trackEvent('filter_communities', { filter_type: 'city', value: city });
+        trackEvent('filter_communities', { event_name: city, filter_type: 'city', section: 'Community' });
         setSelectedCities((prev) =>
             prev.includes(city) ? prev.filter((c) => c !== city) : [...prev, city]
         );
     }, []);
 
     const toggleTopic = useCallback((topic: string) => {
-        trackEvent('filter_communities', { filter_type: 'topic', value: topic });
+        trackEvent('filter_communities', { event_name: topic, filter_type: 'topic', section: 'Community' });
         setSelectedTopics((prev) =>
             prev.includes(topic) ? prev.filter((t) => t !== topic) : [...prev, topic]
         );
@@ -70,7 +70,7 @@ export const useCommunityFilters = () => {
     const debouncedSearchQuery = useDebounce(searchQuery, 500);
 
     useEffect(() => {
-        if (debouncedSearchQuery) trackEvent('filter_communities', { filter_type: 'search', value: debouncedSearchQuery });
+        if (debouncedSearchQuery) trackEvent('filter_communities', { event_name: debouncedSearchQuery, filter_type: 'search', section: 'Community' });
     }, [debouncedSearchQuery]);
 
     return {

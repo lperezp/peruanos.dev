@@ -6,6 +6,7 @@ import { MapPin } from 'lucide-react';
 import { IEvent } from '../../models/event.model';
 import Badge from '../ui/Badge';
 import EventSideModal from './EventSideModal';
+import ShareButton from '../ui/ShareButton';
 
 interface Props {
     event: IEvent;
@@ -65,12 +66,21 @@ export default function CardEvent({ event }: Props) {
                     <MapPin size={16} />
                     <span>{event.location}</span>
                 </div>
-                <button
-                        className="flex items-center mt-4 gap-2 font-medium text-primary cursor-pointer"
+                <div className="flex items-center mt-4 gap-4">
+                    <button
+                        className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors cursor-pointer"
                         onClick={handleCardClick}
-                >
-                    Ver detalles
-                </button>
+                    >
+                        Ver detalles
+                    </button>
+                    <ShareButton
+                        title={event.title}
+                        text={`¡Mira este evento en peruanos.dev! ${event.title}`}
+                        url={event.registration_url}
+                        eventName="click_share_event"
+                        eventParams={{ event_name: event.title, event_link: event.registration_url, section: 'Events' }}
+                    />
+                </div>
             </div>
         </div>
         <EventSideModal
