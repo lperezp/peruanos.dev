@@ -270,4 +270,19 @@ export const EVENTS: IEvent[] = [
     tags: [],
     organizer: "Mayckol Cruzado",
   },
+  {
+    title: "Hackathon I: Prophecy Tech & UTEC",
+    description:
+      "20 devs tendrán 2 horas para sumar puntos dentro de un ambiente simulado. El dev con la mayor cantidad de puntos ganará un premio valorizado en 1,000+ soles.\n\nAgenda:\n- 10:00 Salida de bus desde la UTEC\n- 11:00 Registro y setup\n- 12:00 Comienza el reto\n- 14:00 Termina el reto y premiación\n- 14:45 Salida de bus hacia la UTEC\n\nReglas:\n- Presencial\n- Trae tu laptop y cargador",
+    date: "2026-08-15",
+    time: "11:00",
+    location: "UTEC",
+    city: "Lima",
+    type: "Presencial",
+    image_url:
+      "https://images.lumacdn.com/uploads/6f/1aa55782-a2e0-4ad3-9496-0a6a17c96d3a.png",
+    registration_url: "https://lu.ma/5uils5p0",
+    tags: ["AI", "Hackathon"],
+    organizer: "Prophecy Tech",
+  },
 ];
