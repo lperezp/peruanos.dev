@@ -285,4 +285,19 @@ export const EVENTS: IEvent[] = [
     tags: ["AI", "Hackathon"],
     organizer: "Prophecy Tech",
   },
+  {
+    title: "DIA 6 - FULL DAY PRESENCIAL & CIERRE CS WEEK PERÚ 2026",
+    description:
+      "Cierre Presencial - CS WEEK Perú 2026 🇵🇪\n\n¡Bienvenidos al evento cumbre de la tecnología y la computación en el país! La CS WEEK Perú 2026 es el evento anual más esperado, organizando con pasión y dedicación por las ramas estudiantiles de la IEEE Computer Society en el Perú.\n\nTe invitamos a nuestro Full Day Presencial este sábado 15 de agosto, una jornada completa diseñada para estudiantes, profesionales y entusiastas de la tecnología que buscan expandir sus conocimientos, conectar con expertos y llevar sus habilidades al siguiente nivel.\n\n🗓️ ¿Qué te espera en este Full Day?\nHemos preparado una agenda doble para que puedas elegir las temáticas que más te apasionen. ¡Tendremos actividades en simultáneo!\n\n🎙️ Track Principal: Charlas y Conferencias (11:25 AM - 5:30 PM)\nDisfruta de ponencias magistrales con expertos del sector que compartirán sus conocimientos sobre las últimas tendencias tecnológicas.\n• Jimena Rebaza Carpio (Confidencial)\n• Gianmarco Guerrero (NTT DATA & AWS)\n☕ Coffee Break de Integración\n• Gerardo Vilcamiza (NTT DATA & Python LIMA)\n• Manuel Flores (Banco Central de Reserva del Perú - BCRP)\n• Juan José Miranda (Director NTT DATA)\n• IEEE Xtreme Ambassadors\nCeremonia de Cierre\n• IEEE Computer Society Chapters Perú\n\n🛠️ Track Paralelo: Workshops Prácticos (Desde las 12:00 PM)\nWorkshops de la Sala 1: Sesiones intensivas a cargo de las comunidades:\n• QPerú\n• Henry\n• DSC PUCP\n\nWorkshops de la Sala 2: Explora nuevas tecnologías junto a:\n• Quantum Hub\n• Lead UTP\n• Claude Community Perú\n\n🌟 ¿Por qué deberías asistir?\n• Networking de alto nivel: Conecta con líderes de la industria, ponentes y estudiantes de las mejores universidades del país.\n• Aprendizaje práctico: Llévate conocimientos aplicables a tus proyectos personales o vida profesional.\n• Comunidad: Sé parte del ecosistema tecnológico que está transformando el Perú.\n\n🎟️ ¡Asegura tu entrada! Los cupos presenciales son limitados, así que no dejes pasar esta oportunidad de vivir la experiencia completa de la CS WEEK.",
+    date: "2026-08-15",
+    time: "11:00",
+    location: "Open PUCP, Blvd. Plaza Mantaro 102 (5to Piso)",
+    city: "Lima",
+    type: "Presencial",
+    image_url:
+      "https://images.lumacdn.com/uploads/yt/ac763e62-eb8b-4b6e-b053-f5fa9def9654.png",
+    registration_url: "https://luma.com/7nis6bhq",
+    tags: ["Tech"],
+    organizer: "IEEE CS PUCP & CSWEEKPERU",
+  },
 ];
