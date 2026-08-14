@@ -300,4 +300,19 @@ export const EVENTS: IEvent[] = [
     tags: ["Tech"],
     organizer: "IEEE CS PUCP & CSWEEKPERU",
   },
+  {
+    title: "Warm-Up: DevOpsDays Lima 2026",
+    description:
+      "Antes del gran evento, te invitamos al Warm-Up DevOpsDays Lima: un meetup previo para vivir un adelanto de lo que se viene en la edición más grande de la comunidad DevOps en Perú y Latam.\n\n📅 Miércoles 19 de agosto, 2026 desde las 06:30 p.m.\n\n📍 Oficinas de Interbank: Av. Carlos Villarán 140, La Victoria, Lima\n\nEn esta antesala tendremos:\n\n⚡ Charlas relámpago con contenido de alto impacto\n\n🎤 Participación de Carlos Gallardo, CTO de Clever IT y speaker invitado de DevOpsDays Lima 2026, quien abordará un tema del eje temático Enterprise AI & Data Strategy\n\n🤝 Networking con la comunidad tech\n\n🎯 Todos los detalles de lo que viviremos los días 27 y 28 de agosto en el Centro de Convenciones de Lima\n\nAprende, Conecta y Despega 🚀",
+    date: "2026-08-19",
+    time: "18:30",
+    location: "Interbank Headquarters",
+    city: "La Victoria",
+    type: "Presencial",
+    image_url:
+      "https://images.lumacdn.com/uploads/s7/bb06dfdc-6aec-4b6a-ac32-7feb7b59d90c.png",
+    registration_url: "https://luma.com/kxlboun3",
+    tags: ["DevOps"],
+    organizer: "DevOpsDays Lima 2026",
+  },
 ];
