@@ -315,4 +315,20 @@ export const EVENTS: IEvent[] = [
     tags: ["DevOps"],
     organizer: "DevOpsDays Lima 2026",
   },
+  {
+    title: "Webflow MCP 2.0 Challenge",
+    description: "Webflow Perú vuelve con un build session en vivo, parte del MCP 2.0 Community Challenge global de Webflow.\n\nVas a conectar el Webflow MCP a una herramienta de IA como Claude o Cursor y construir algo en vivo, ahí mismo en la sala. No necesitas experiencia previa con MCP, los starter prompts te ponen a construir en minutos, seas developer, diseñador o marketer.\n\n🏆 $500 en premios para nuestro chapter, divididos entre los primeros puestos, además del sorteo global del challenge.\n*Fecha límite de envío: 31 de agosto. Ganadores anunciados el 8 de septiembre.\n\n⏰ Empezamos puntual, nada de \"hora peruana\" 😄\n\n⚠️ Checklist — no te olvides traer\n- Laptop + cargador (obligatorio — es un build en vivo, sin laptop no hay build)\n- Cuenta de Webflow\n- Claude, Cursor u otra herramienta de IA instalada y con sesión iniciada\n\n🍪 No te olvides aceptar las cookies al entrar.\n\nSíguenos para más actualizaciones 👇\n- WhatsApp: https://chat.whatsapp.com/JT6EUPdACMwCP43q9SBP8K\n- Instagram: https://www.instagram.com/webflowperu",
+    date: "2026-08-26",
+    time: "18:30",
+    location: "Urb Cercado de Miraflores",
+    city: "Miraflores",
+    type: "Presencial",
+    image_url: "https://images.lumacdn.com/uploads/ld/b25b4b5d-5d40-497d-84ed-6bedebc8ce09.png",
+    registration_url: "https://luma.com/5gvtciwr",
+    tags: [
+      "Design",
+      "AI"
+    ],
+    organizer: "Webflow Perú"
+  },
 ];
