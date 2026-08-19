@@ -486,5 +486,27 @@ export const EVENTS: IEvent[] = [
     registration_url: "https://lu.ma/0vqr9ma8",
     tags: ["IA"],
     organizer: "Mayckol Cruzado",
-  }
+  },
+  {
+    title: "Meetup #4 (Virtual) - Introducción al FinOps con AWS Cloud",
+    description:
+      "☁️ **Introducción al FinOps con AWS Cloud** ☁️\n\n📅 **Fecha:** Jueves 3 de septiembre de 2026\n⏰ **Hora:** 7:00 PM – 9:00 PM 🇵🇪\n📍 **Evento Virtual** – [YouTube Live](https://www.youtube.com/@awsugpiura)\n🎟️ Evento gratuito\n\n**☀️ Sobre este evento**\n¡Seguimos creciendo con la comunidad del AWS User Group Piura! En nuestro cuarto meetup regresamos al formato virtual para una noche dedicada a uno de los temas más relevantes del ecosistema cloud: FinOps.\n\n¿Sabes cuánto gastas realmente en la nube? ¿Tus decisiones de arquitectura consideran el impacto financiero? En este evento exploraremos cómo construir una cultura de decisiones inteligentes sobre costos en AWS, desde los principios fundamentales de FinOps hasta el uso de agentes de IA para gobernar costos de forma proactiva.\n\nContaremos con dos charlas técnicas a cargo de profesionales con amplia experiencia en FinOps, arquitectura cloud e inteligencia artificial aplicada a la optimización de costos.\n\n**🗓️ Agenda:**\n\n⏰ **Hora:** 7:00 PM – 7:20 PM\n☁️ **Bienvenida y novedades de la comunidad**\nConoce las últimas novedades del AWS User Group Piura, próximos eventos y oportunidades para participar en la comunidad.\n\n⏰ **Hora:** 7:20 PM – 8:00 PM\n☁️ **Tema: FinOps Intelligence: Construyendo una cultura de decisiones inteligentes en la nube**\n🎤 **Speaker:** [Carlos Cortez](https://www.linkedin.com/in/carloscortezcloud/)\nDescubre cómo FinOps ayuda a organizaciones y equipos a comprender, optimizar y gobernar sus costos en la nube. Exploraremos los principios fundamentales de FinOps, las métricas más importantes y cómo transformar datos de consumo en decisiones más inteligentes para AWS y entornos cloud.\n\n⏰ **Hora:** 8:00 PM – 8:40 PM\n☁️ **Tema: El futuro del gobierno de costos con AWS FinOps Agent**\n🎤 **Speaker:** [Luis Arapa](https://www.linkedin.com/in/luis-angel-arapa-chambi-/)\n¿Alguna vez te enteraste de un sobrecosto en la nube recién al cierre de mes, cuando ya no había nada que hacer? Hoy entender la factura de AWS exige cruzar dashboards, logs y reportes de forma manual. En esta sesión veremos cómo un agente de IA construido sobre Amazon Bedrock cambia esa historia: investiga anomalías de costo en tiempo real, responde en lenguaje natural y propone mejoras sobre tus soluciones. Con un caso práctico en vivo, descubriremos cómo pasar del gobierno de costos reactivo al proactivo.\n\n⏰ **Hora:** 8:40 PM – 9:00 PM\n🏆 **Kahoot! interactivo y cierre del evento**\nParticipa respondiendo preguntas sobre FinOps y cloud computing para tener la oportunidad de ganar créditos de AWS.\n\n**🙌 ¿Por qué asistir?**\n• Aprende los fundamentos de FinOps y optimización de costos en la nube\n• Descubre cómo usar agentes de IA para gobernar costos en AWS de forma proactiva\n• Conecta con profesionales y entusiastas de tecnología en Latinoamérica\n• Participa por créditos de AWS\n\n**📌 Dirigido a:**\n• Estudiantes\n• Arquitectos cloud\n• Profesionales de tecnología\n• Personas interesadas en optimización de costos\n• Personas que desean iniciar o profundizar en AWS\n\n**No se requiere experiencia previa avanzada.**\n\n🙏 ¡Te esperamos para seguir construyendo juntos la comunidad cloud en Piura y Latinoamérica!\n\n#AWSUserGroupPiura #AWSCommunity #AWS #CloudComputing #AWSUserGroups #TechCommunity #AWSPeru #Networking #AWSUserGroup #Piura #FinOps",
+    date: "2026-09-03",
+    time: "19:00",
+    location: "Online event",
+    city: "Virtual",
+    type: "Virtual",
+    image_url:
+      "https://secure.meetupstatic.com/photos/event/9/a/e/6/highres_535299654.jpeg",
+    registration_url:
+      "https://www.meetup.com/aws-user-group-piura/events/315769620/",
+    tags: [
+      "Amazon Web Services",
+      "Cloud Computing",
+      "Cloud Services",
+      "Information Technology",
+      "Software Development",
+    ],
+    organizer: "AWS USER GROUP PIURA",
+  },
 ];
