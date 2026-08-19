@@ -486,5 +486,18 @@ export const EVENTS: IEvent[] = [
     registration_url: "https://lu.ma/0vqr9ma8",
     tags: ["IA"],
     organizer: "Mayckol Cruzado",
+  },
+  {
+    title: "Cloud Quest!",
+    description: "**AWS Cloud Quest: ¡Aprende Cloud jugando! ☁️**\n\n¿Quieres aprender sobre **Cloud Computing y AWS** de una forma diferente?\nEl **AWS Student Builder Group UNI** te invita a participar en **AWS Cloud Quest**, una experiencia de aprendizaje gamificada donde podrás explorar conceptos de Cloud mientras completas retos y misiones.\nAprende haciendo, resuelve desafíos y descubre cómo se aplican los servicios de AWS en escenarios prácticos.\n\n**¿Qué haremos?**\n• 🎮 Exploraremos **AWS Cloud Quest** y completaremos sus desafíos.\n• ☁️ Aprenderemos conceptos fundamentales de **Cloud Computing y AWS**.\n• 🤝 Compartiremos la experiencia y conectaremos con otros estudiantes interesados en tecnología.\n\n**¿Para quién es?**\nNo necesitas ser un experto en AWS. Si estás comenzando en Cloud, quieres conocer AWS o simplemente quieres aprender de una manera diferente, **este evento es para ti.**\n**Información del evento**\n📅 **Fecha:** 22 de agosto de 2026\n🕐 **Hora:** 1:00 p. m. – 4:00 p. m.\n📍 **Lugar:** Laboratorio de Telecomunicaciones(UNI)\n\n**Organiza:** AWS Student Builder Group UNI\n**Prepárate para aprender Cloud de una manera diferente. ¿Aceptas el reto?**\n\n**PSDT:** Como siempre, habrá sorteos y regalos ;)",
+    date: "2026-08-22",
+    time: "13:00",
+    location: "Lab. de Telecomunicaciones FIEE UNI, Facultad de Ingeniería Eléctrica y Electrónica, Lima 15333",
+    city: "Lima",
+    type: "Presencial",
+    image_url: "https://secure.meetupstatic.com/photos/event/c/2/f/c/highres_535609916.jpeg",
+    registration_url: "https://www.meetup.com/aws-sbg-at-national-university-of-engineering/events/316066917/",
+    tags: ["Cloud Computing", "AWS"],
+    organizer: "AWS SBG at National University of Engineering",
   }
 ];
