@@ -64,6 +64,18 @@ Esta es la forma más fácil de contribuir. Solo necesitas una cuenta de GitHub.
    - Tecnologías principales
 4. Envía el issue
 
+#### Agregar una Startup
+
+1. Ve a la [página de Issues](https://github.com/lperezp/peruanos.dev/issues/new/choose)
+2. Selecciona "Agregar Startup"
+3. Completa el formulario con la información de la startup:
+   - Nombre, descripción y sitio web
+   - Logo e industria(s)
+   - Etapa (Bootstrapped, Seed, Series A, Series B+)
+   - Estado de contratación (Hiring) y link a vacantes
+   - Ubicación y redes sociales
+4. Envía el issue
+
 **Nota:** Una vez enviado el issue, un mantenedor del proyecto revisará la información y agregará el contenido al sitio web.
 
 ---
@@ -163,6 +175,30 @@ Edita el archivo [`app/data/projects.ts`](app/data/projects.ts):
 ```
 
 **Nota:** La información del proyecto se obtiene automáticamente de la API de GitHub.
+
+#### Agregar una Startup Directamente
+
+Edita el archivo [`app/data/startups.ts`](app/data/startups.ts):
+
+```typescript
+{
+  id: "nombre-startup",
+  name: "Nombre de la Startup",
+  description: "Descripción breve de la startup y su producto",
+  logo: "https://...",
+  website: "https://...",
+  industry: ["Fintech", "SaaS"],
+  stage: "Series A", // "Bootstrapped" | "Seed" | "Series A" | "Series B+"
+  hiring: true,
+  careersUrl: "https://.../careers", // opcional
+  location: "Lima, Perú", // o "Remoto"
+  socials: {
+    linkedin: "https://linkedin.com/company/...",
+    twitter: "https://twitter.com/...",
+    github: "https://github.com/..."
+  }
+}
+```
 
 ### 4. Verificar los Cambios
 
