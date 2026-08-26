@@ -202,21 +202,23 @@ export default async function Home() {
           Explorar comunidades
         </Link>
       </section>
-      <section className="py-10 sm:py-15 px-5 w-full flex flex-col items-center">
-        <h2 className="text-4xl sm:text-5xl text-center font-bold mb-9">Startups <span className="text-primary-text">Peruanas</span></h2>
-        <p className="text-center w-full sm:w-[70%] text-[20px]">Conoce las empresas tecnológicas e innovadoras que están revolucionando el mercado.</p>
-        <div className="flex flex-col sm:flex-row gap-6 m-0 mt-10 mb-10 sm:m-10">
-          {randomStartups.map((startup: Startup) => (
-            <StartupCardHome
-              key={startup.id}
-              startup={startup}
-            />
-          ))}
-        </div>
-        <Link className="px-6 py-3 bg-primary text-white rounded-full hover:bg-primary-hover transition" href='/startups'>
-          Explorar startups
-        </Link>
-      </section>
+      {randomStartups.length > 0 && (
+        <section className="py-10 sm:py-15 px-5 w-full flex flex-col items-center">
+          <h2 className="text-4xl sm:text-5xl text-center font-bold mb-9">Startups <span className="text-primary-text">Peruanas</span></h2>
+          <p className="text-center w-full sm:w-[70%] text-[20px]">Conoce las empresas tecnológicas e innovadoras que están revolucionando el mercado.</p>
+          <div className="flex flex-col sm:flex-row gap-6 m-0 mt-10 mb-10 sm:m-10">
+            {randomStartups.map((startup: Startup) => (
+              <StartupCardHome
+                key={startup.id}
+                startup={startup}
+              />
+            ))}
+          </div>
+          <Link className="px-6 py-3 bg-primary text-white rounded-full hover:bg-primary-hover transition" href='/startups'>
+            Explorar startups
+          </Link>
+        </section>
+      )}
       <section className="py-10 sm:py-15 px-5 w-full flex flex-col items-center">
         <h2 className="text-4xl sm:text-5xl text-center font-bold mb-9">Proyectos <span className="text-primary-text">Open Source</span></h2>
         <p className="text-center w-full sm:w-[70%] text-[20px]">Descubre y contribuye a proyectos de código abierto creados por desarrolladores peruanos.</p>
