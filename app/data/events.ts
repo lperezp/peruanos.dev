@@ -563,4 +563,30 @@ export const EVENTS: IEvent[] = [
     tags: ["Blockchain", "Stellar", "Rust", "Web3"],
     organizer: "Blockchain Acceleration Foundation",
   },
+  {
+    title: "Next × I/O Extended: Cloud to Code",
+    description:
+      "Sabemos que el ritmo de la tecnología no se detiene y que mantenerte al día con los lanzamientos de Google puede ser un reto. Por eso, en GDG Cloud Lima decidimos no elegir y traer lo mejor de dos mundos en un solo lugar: Next × I/O Extended: Cloud to Code ⚡\n\nUna edición especial en la que conectamos la potencia de la infraestructura en la nube (Google Cloud Next) con la innovación en desarrollo, IA y herramientas para creadores (Google I/O).\n\n¿Qué te espera en esta jornada? ☁️ Cloud 🤖 Code & AI 🤝 Networking\n\n🎟️ Los cupos son limitados, no te quedes sin tu entrada.",
+    date: "2026-08-29",
+    time: "09:00",
+    location: "UTP - Torre Arequipa, 265 Avenida Arequipa",
+    city: "Lima",
+    type: "Presencial",
+    image_url:
+      "https://storage.googleapis.com/platform-data-goog/event_banners/Banner%20Bevy%20-%20Next%20%C3%97%20I_O%20Extended_%20Cloud%20to%20Code_yI2Ouvf.png",
+    registration_url:
+      "https://gdg.community.dev/events/details/google-gdg-cloud-lima-presents-next-x-io-extended-cloud-to-code/",
+    tags: [
+      "Charla técnica / Encuentro",
+      "Conferencia",
+      "Firebase",
+      "Google Cloud",
+      "Google I/O Extended",
+      "Google Workspace",
+      "IA",
+      "Networking",
+      "Web",
+    ],
+    organizer: "GDG Cloud Lima",
+  },
 ];
