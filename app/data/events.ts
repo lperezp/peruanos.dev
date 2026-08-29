@@ -548,4 +548,19 @@ export const EVENTS: IEvent[] = [
     ],
     organizer: "AWS USER GROUP PIURA",
   },
+  {
+    title: "Live-Coding en Stellar",
+    description:
+      "¿Quieres aprender a desarrollar aplicaciones en la blockchain pasando directo al código?\n\nEn este taller online y práctico, aprenderás los fundamentos de blockchain construyendo Stellar Mystery Box. Sin importar si nunca has visto código o si es tu primera vez escuchando sobre Web3, te guiaremos para personalizar tu propia caja digital, esconder un mensaje secreto y programar una regla automática para que nadie pueda abrirla hasta que termine la cuenta regresiva en vivo durante la llamada.\n\nPrepara tu laptop porque clonaremos un repositorio base, editaremos la lógica en Rust (Soroban), conectaremos el frontend con nuestra wallet y desplegaremos nuestros contratos en la red de pruebas.\n\n¿Qué haremos en el workshop?\n- Smart Contracts en Rust: Modifica y compila funciones clave de custodia, timelocks (bloqueo por bloques/tiempo) y condiciones de retiro en Soroban.\n- Personalización & Commits: Configura tus propios parámetros on-chain y personaliza la interfaz visual de tu Vault.\n- Deploy a Testnet: Usa Stellar CLI para desplegar tu contrato inteligente e interactuar con la red mediante Friendbot.\n- Dinámica en vivo: Realizaremos depósitos cruzados entre todos los asistentes y ejecutaremos un desbloqueo sincronizado on-chain en tiempo real.\n\n¿Para quién es este evento?\nDesarrolladores, estudiantes y entusiastas de la tecnología que quieran interactuar con código real y entender cómo funciona el ecosistema de smart contracts de Stellar de forma dinámica y colaborativa.\n\n¡Los cupos son limitados para asegurar soporte personalizado durante la sesión práctica!",
+    date: "2026-08-30",
+    time: "10:00",
+    location: "Online event",
+    city: "Virtual",
+    type: "Virtual",
+    image_url:
+      "https://images.lumacdn.com/uploads/qx/d07e6ef1-e842-4c26-b19b-b7774ada5b2d.png",
+    registration_url: "https://luma.com/ekhytvtr",
+    tags: ["Blockchain", "Stellar", "Rust", "Web3"],
+    organizer: "Blockchain Acceleration Foundation",
+  },
 ];
