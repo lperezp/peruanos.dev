@@ -589,4 +589,19 @@ export const EVENTS: IEvent[] = [
     ],
     organizer: "GDG Cloud Lima",
   },
+  {
+    title: "Testing Day Peru - 2da Edición",
+    description:
+      "🚀 Testing Day Perú 2026 – 2da Edición es el evento que reúne a la comunidad de Quality Engineering, Software Testing y Tecnología para compartir conocimiento, experiencias y las últimas tendencias que están transformando el desarrollo de software.\n\nDurante dos días podrás participar en conferencias y workshops impartidos por expertos nacionales e internacionales sobre Inteligencia Artificial aplicada al Testing, Automatización de Pruebas, Performance Testing, Ciberseguridad, DevOps, QA, Agile y mucho más.\n\nEste evento está dirigido a Test Engineers, QA Engineers, Software Developers, Automation Engineers, DevOps Engineers, Tech Leads, Product Owners, Scrum Masters, arquitectos de software, líderes tecnológicos, estudiantes y profesionales que buscan fortalecer sus conocimientos, ampliar su red de contactos y mantenerse a la vanguardia de la industria tecnológica.\n\n📅 18 y 19 de septiembre de 2026\n📍 Lima, Perú\n\nConecta. Aprende. Innova. Inspira.",
+    date: "2026-09-18",
+    time: "09:00",
+    location: "Lima",
+    city: "Lima",
+    type: "Presencial",
+    image_url:
+      "https://images.lumacdn.com/uploads/ud/78bc442f-1751-44ad-8030-f70a9f7a6a29.png",
+    registration_url: "https://luma.com/ibbkykgd",
+    tags: ["Quality Engineering", "Software Testing", "QA", "DevOps", "IA"],
+    organizer: "Testing Perú",
+  },
 ];
