@@ -20,11 +20,11 @@
 
   --color-background: var(--color-background);
   --color-foreground: var(--color-foreground);
-  
+
   --color-primary: var(--color-primary);
   --color-primary-text: var(--color-primary-text);
   --color-primary-hover: var(--color-primary-hover);
-  
+
   --color-accent: var(--color-accent);
   --color-hover: var(--color-hover);
   --color-border: var(--color-border);
