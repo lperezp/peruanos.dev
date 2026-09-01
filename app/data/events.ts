@@ -604,4 +604,25 @@ export const EVENTS: IEvent[] = [
     tags: ["Quality Engineering", "Software Testing", "QA", "DevOps", "IA"],
     organizer: "Testing Perú",
   },
+  {
+    title: "IEEEXTREME 20.0 Competencia de Selección Perú",
+    description:
+      "🚀 ¡Llegó tu Oportunidad de representar al Perú! Únete a la Competencia de Selección Perú para el IEEEXTREME 20.0 🇵🇪💻.\n\n📅 Fecha: 05 de Setiembre\n📍 Lugar: OPEN PUCP, Plaza San Miguel (Charlas en Anfiteatro, Competencia en Salones de OPEN PUCP)\n⏰ Hora de Ingreso: 10:30 - 11.00 AM\n\n¿Qué necesitas para participar?\n- Forma un equipo de 1 a 3 estudiantes (Se puede formar el equipo en el mismo evento presencial).\n- Puede ser de cualquier universidad.\n- En caso no tengas membresia IEEE (Existe la posibilidad de subvencionar a competidores destacados, ya que es necesaria tener la membresia de estudiante activa)\n- Serán 24 hrs sin parar programando en el evento mundial (Octubre)!\n- Problemas tipo: Algoritmos basicos, Optimizaciones, Grafos, Algoritmos intermedios (Puedes consultar con IA sintaxis)\n\nQué puedes ganar el mismo Sábado 5 Setiembre:\n- Certificado por participar en la competencia presencial.\n- Algunas Becas DataCamp valuadas en 80$\n\nPremios Históricos:\n🥇 1er Lugar Mundial: ¡Un viaje con todos los gastos pagados a la conferencia IEEE que elijas en CUALQUIER parte del mundo! ✈️🌍\n🥈🥉 2do y 3er Lugar: Premios en efectivo de US$400 y US$300 por miembro.\n🏅 Además: Premios regionales (Top 3) y certificados internacionales para todos los que logren puntuar.\n\n¡Arma tu equipo, trae tu laptop y prepárate para la competencia! Nos vemos en OPEN PUCP. 👾🏆",
+    date: "2026-09-05",
+    time: "10:30",
+    location: "Open PUCP, 5to Piso, Blvd. Plaza Mantaro 102, San Miguel",
+    city: "Lima",
+    type: "Presencial",
+    image_url:
+      "https://images.lumacdn.com/uploads/m7/d7deffdf-333d-4f36-8772-9b60669f57b3.png",
+    registration_url: "https://luma.com/i5iuinm1",
+    tags: [
+      "Competencia",
+      "Programación Competitiva",
+      "IEEE",
+      "Algoritmos",
+      "Hackathon",
+    ],
+    organizer: "IEEE Computer Society PUCP",
+  },
 ];
