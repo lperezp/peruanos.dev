@@ -625,4 +625,64 @@ export const EVENTS: IEvent[] = [
     ],
     organizer: "IEEE Computer Society PUCP",
   },
+  {
+    title: "Orquestación de IA con Jules en tus flujos de GitHub",
+    description:
+      "En esta charla, exploramos la transición de asistentes de IA a agentes de codificación autónomos, centrándonos en Jules, un agente integrado en los flujos de trabajo de GitHub.\n\nDemostramos cómo Jules puede razonar, usar herramientas en entornos seguros y completar de forma independiente tareas complejas como la corrección de errores, la refactorización de código y la generación de documentación.",
+    date: "2026-09-09",
+    time: "20:00",
+    location: "Online event",
+    city: "Virtual",
+    type: "Virtual",
+    image_url:
+      "https://images.lumacdn.com/uploads/97/0cd68ef3-9054-41dc-8f8a-96bc23272e64.png",
+    registration_url: "https://luma.com/jpa7teab",
+    tags: ["IA", "GitHub", "Jules", "Agents"],
+    organizer: "Luis Eduardo Perez Pacherrez",
+  },
+  {
+    title: "Dev Days | Lima, Peru",
+    description:
+      "Dev Days is a global, in-person community-led initiative taking place from September 1st - October 31st, 2026. The series brings together developers, enthusiasts, and local tech communities to explore the power of GitHub Copilot through practical, hands-on experiences.\n\nOpen to all developers, each session runs for approximately 2-3 hours and focuses on real-world workflows, hands-on activities, and workshops centered on GitHub Copilot in the Copilot app and the CLI.",
+    date: "2026-09-12",
+    time: "09:00",
+    location: "Lima",
+    city: "Lima",
+    type: "Presencial",
+    image_url:
+      "https://images.lumacdn.com/uploads/5y/59180eba-2fc4-45d8-9be7-592d3f84b5b9.png",
+    registration_url: "https://luma.com/dy38re3p",
+    tags: ["GitHub Copilot", "Dev Days", "AI"],
+    organizer: "Dev Days",
+  },
+  {
+    title: "Grok Bot Lima : Build night",
+    description:
+      "Grok Bot Build Night llega a Lima: menos charla, más construir. 🛠️\n\nUna noche hands-on para armar equipo, traer tu laptop y shippear una app funcional en una sola sesión — usando Grok Bot de Cursor y xAI. No importa si recién empiezas o ya vives en workflows agénticos: tendrás créditos de Grok Bot, mentores toda la noche y espacio para experimentar.\n\nLa noche incluye:\n- 🧑‍💻 Construcción en conjunto (ven con equipo , haz solo team o te ayudamos a formar uno)\n- 🎨 Demo de apertura: getting started with Grok Bot\n- ⚡ Créditos gratis de Grok Bot para construir durante el evento\n- 🍕 Comida, bebidas y buena energía\n- 🎤 Demo showcase final — comparte lo que construiste\n- 🤝 Networking con builders, diseñadores y founders de Lima\n\nNo necesitas ser experto. Puedes avanzar haciendo vibe coding, aprender sobre la marcha y colaborar. Y si ya tienes experiencia, hay margen de sobra para experimentar y competir.\n\nTrae tu laptop y tus ganas de crear — construyamos las cosas que Perú necesita. 🇵🇪\nCupos limitados",
+    date: "2026-09-11",
+    time: "18:30",
+    location: "Lima",
+    city: "Lima",
+    type: "Presencial",
+    image_url:
+      "https://images.lumacdn.com/uploads/ez/b34ac273-e81b-4824-b448-2dff11692dbb.png",
+    registration_url: "https://luma.com/ybo7udvo",
+    tags: ["Cursor", "Grok Bot", "AI", "Build Night"],
+    organizer: "Cursor Lima, Peru",
+  },
+  {
+    title: "Notion Meetup Lima",
+    description:
+      "Notion está evolucionando rápido. En este Meetup vamos a descubrir sus novedades y explorar cómo Custom Agents, Notion Worker y Notion AI pueden abrir nuevas posibilidades para trabajar, automatizar y mejorar procesos.\n\nEn esta sesión aprenderás:\n🤖 Qué son los Custom Agents y cómo puedes aprovecharlos.\n⚙️ Qué propone Notion Worker y qué nuevas posibilidades habilita.\n🏢 Ideas y casos de uso de Notion para agencias.\n\n¿Para quién es?\nPara personas que ya usan Notion, profesionales, equipos y agencias que quieren conocer sus nuevas capacidades y encontrar formas de trabajar mejor con la plataforma.",
+    date: "2026-10-19",
+    time: "18:00",
+    location: "Lima",
+    city: "Lima",
+    type: "Presencial",
+    image_url:
+      "https://images.lumacdn.com/uploads/f9/f5baa568-b2a6-4981-b613-02aa7bd8a102.png",
+    registration_url: "https://luma.com/notion-6vkm",
+    tags: ["Notion", "AI", "Automation"],
+    organizer: "Notion Lima",
+  },
 ];
