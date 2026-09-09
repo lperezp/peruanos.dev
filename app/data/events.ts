@@ -685,4 +685,36 @@ export const EVENTS: IEvent[] = [
     tags: ["Notion", "AI", "Automation"],
     organizer: "Notion Lima",
   },
+  {
+    title: "DevFest Arequipa 2026",
+    description:
+      "\ud83d\ude80 \u00a1Llega DevFest Arequipa 2026!\nPrep\u00e1rate para vivir una jornada llena de tecnolog\u00eda, aprendizaje, innovaci\u00f3n y comunidad. DevFest Arequipa re\u00fane a desarrolladores, estudiantes, profesionales, emprendedores y entusiastas de la tecnolog\u00eda en un mismo espacio para compartir conocimientos, descubrir nuevas ideas y conectar con personas que est\u00e1n construyendo el futuro. \ud83d\udca1\nEste a\u00f1o esperamos recibir a m\u00e1s de 400 asistentes y contaremos con 2 tracks de sesiones en paralelo, con charlas, lightning talks y workshops sobre distintas \u00e1reas del ecosistema tecnol\u00f3gico. \ud83c\udfa4\n\ud83d\udcbb \u00bfQu\u00e9 encontrar\u00e1s en DevFest Arequipa 2026?\n\u2728 Inteligencia Artificial, Gemini y Machine Learning\n\ud83d\udcf1 Android, Flutter y desarrollo m\u00f3vil\n\ud83c\udf10 Desarrollo web y tecnolog\u00edas multiplataforma\n\u2601\ufe0f Firebase, Google Cloud, Cloud Computing, DevOps y SRE\n\ud83d\udd10 Ciberseguridad\n\ud83d\udcca Data, Analytics y tecnolog\u00edas emergentes\n\ud83d\ude80 Emprendimiento y creaci\u00f3n de productos digitales\n\ud83d\udc65 Liderazgo, gesti\u00f3n de equipos y desarrollo profesional\n\ud83e\udde9 Casos reales, experiencias y aprendizajes de proyectos\n\ud83d\udd35 Tecnolog\u00edas de Google y mucho m\u00e1s\nDevFest no es solo un espacio para escuchar charlas. Tambi\u00e9n es una oportunidad para conocer personas de la comunidad, intercambiar experiencias, descubrir nuevas tecnolog\u00edas y generar conexiones con otros apasionados por el mundo tech. \ud83e\udd1d\n\ud83c\udfaf Dos tracks. M\u00e1s de 400 asistentes. Una comunidad reunida para aprender y compartir.\nTanto si eres estudiante, desarrollador, profesional con experiencia o simplemente tienes curiosidad por la tecnolog\u00eda, DevFest Arequipa 2026 es para ti.\n\ud83d\udccd Evento presencial en Arequipa\n\ud83d\udd25 Ven a aprender, conectar, compartir y ser parte de una de las reuniones tecnol\u00f3gicas m\u00e1s importantes de nuestra comunidad.\n\u00a1Nos vemos en DevFest Arequipa 2026! \ud83d\ude80",
+    date: "2026-11-07",
+    time: "09:00",
+    location: "Tecsup",
+    city: "Arequipa",
+    type: "Presencial",
+    image_url:
+      "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_DefaultEventThumbnail_2_va1kAS9.png",
+    registration_url:
+      "https://gdg.community.dev/events/details/google-gdg-arequipa-presents-devfest-arequipa-2026/",
+    tags: ["DevFest", "Google", "AI", "Cloud", "Mobile", "Web"],
+    organizer: "GDG Arequipa",
+  },
+  {
+    title: "DevFest Tacna 2026",
+    description:
+      "La conferencia tecnol\u00f3gica m\u00e1s grande del mundo impulsada por la comunidad llega a Tacna\n\ud83d\udcc5 Fecha: S\u00e1bado 21 de Noviembre del 2026\n\ud83d\udccd Lugar: Universidad Tecnol\u00f3gica del Per\u00fa - Sede Tacna\n\n\u00bfQu\u00e9 es DevFest?\nDevFest es mucho m\u00e1s que una simple conferencia tecnol\u00f3gica; es una celebraci\u00f3n global del conocimiento, la innovaci\u00f3n y la comunidad en el mundo del desarrollo de software. Organizado por los Google Developer Groups (GDGs) en m\u00e1s de 100 pa\u00edses, DevFest representa la culminaci\u00f3n anual de eventos tecnol\u00f3gicos respaldados por Google.\nEn Tacna, nos enorgullece ser parte de este movimiento global, tray\u00e9ndote una experiencia \u00fanica que combina:\n\ud83c\udf1f Aprendizaje de Vanguardia: Sum\u00e9rgete en las \u00faltimas tecnolog\u00edas de Google y tendencias de la industria.\n\ud83e\udd1d Networking de Alto Nivel: Conecta con desarrolladores, expertos de la industria y entusiastas tecnol\u00f3gicos.\n\ud83d\udca1 Inspiraci\u00f3n e Innovaci\u00f3n: Descubre ideas revolucionarias y proyectos que est\u00e1n cambiando el mundo.\n\ud83d\ude80 Oportunidades de Crecimiento: Impulsa tu carrera con conocimientos pr\u00e1cticos y contactos valiosos.\n\nLo que te espera\n\ud83c\udfa4 Charlas inspiradoras de Google Developer Experts y l\u00edderes de la comunidad\n\ud83d\udca1 Sesiones pr\u00e1cticas y demostraciones en vivo\n\ud83e\udd1d Networking con profesionales y entusiastas de la tecnolog\u00eda\n\n\ud83c\udf9f\ufe0f Haz clic en \"RSVP\" para registrarte y asegurar tu lugar.",
+    date: "2026-11-20",
+    time: "08:30",
+    location: "Universidad Tecnol\u00f3gica del Per\u00fa CAMPUS TACNA",
+    city: "Tacna",
+    type: "Presencial",
+    image_url:
+      "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_lnFcuUh",
+    registration_url:
+      "https://gdg.community.dev/events/details/google-gdg-tacna-presents-devfest-tacna-2026/",
+    tags: ["AI", "Conference", "DevFest", "Google Cloud", "Workshop"],
+    organizer: "GDG Tacna",
+  },
 ];
