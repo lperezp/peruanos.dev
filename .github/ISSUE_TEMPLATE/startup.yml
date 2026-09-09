@@ -1,0 +1,134 @@
+name: Agregar startup
+description: Proponer una nueva startup tech peruana para el directorio
+title: "[Startup] "
+labels: ["startup"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por querer agregar una startup a peruanos.dev!
+        Por favor completa la siguiente información.
+
+  - type: input
+    id: name
+    attributes:
+      label: Nombre de la startup
+      description: Nombre oficial de la empresa o startup
+      placeholder: 'ej. Crehana'
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción
+      description: Describe brevemente la startup, su propuesta de valor y producto principal
+      placeholder: |
+        Somos una plataforma tecnológica que...
+    validations:
+      required: true
+
+  - type: input
+    id: logo
+    attributes:
+      label: URL del logo
+      description: Link al logo de la startup (PNG, SVG, etc.)
+      placeholder: 'https://ejemplo.com/logo.png'
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: Sitio Web
+      description: URL del sitio web oficial
+      placeholder: 'https://ejemplo.com'
+    validations:
+      required: true
+
+  - type: input
+    id: industry
+    attributes:
+      label: Industria(s)
+      description: Industrias o sectores principales separados por comas
+      placeholder: 'Fintech, Edtech, SaaS, E-commerce'
+    validations:
+      required: true
+
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Etapa / Stage
+      description: Etapa actual de desarrollo o financiamiento
+      options:
+        - Bootstrapped
+        - Seed
+        - Series A
+        - Series B+
+    validations:
+      required: false
+
+  - type: dropdown
+    id: hiring
+    attributes:
+      label: ¿Tienen vacantes abiertas? (Hiring)
+      description: Selecciona si actualmente están buscando talento tech
+      options:
+        - "Sí"
+        - "No"
+    validations:
+      required: true
+
+  - type: input
+    id: careersUrl
+    attributes:
+      label: URL de Vacantes / Empleos
+      description: (Opcional) Link a la página de empleos o portal de vacantes
+      placeholder: 'https://ejemplo.com/careers'
+
+  - type: input
+    id: location
+    attributes:
+      label: Ubicación / Ciudad
+      description: Ciudad y país donde operan o 'Remoto'
+      placeholder: 'ej. Lima, Perú'
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## Redes Sociales y Links Adicionales"
+
+  - type: input
+    id: linkedin
+    attributes:
+      label: LinkedIn
+      description: (Opcional) URL de la empresa en LinkedIn
+      placeholder: 'https://linkedin.com/company/...'
+
+  - type: input
+    id: twitter
+    attributes:
+      label: Twitter/X
+      description: (Opcional) URL del perfil en Twitter/X
+      placeholder: 'https://twitter.com/...'
+
+  - type: input
+    id: github
+    attributes:
+      label: GitHub
+      description: (Opcional) URL de la organización o repositorio oficial en GitHub
+      placeholder: 'https://github.com/...'
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmación
+      description: Por favor confirma lo siguiente
+      options:
+        - label: He verificado que la startup no esté duplicada
+          required: true
+        - label: La startup es una empresa o iniciativa tecnológica peruana
+          required: true
+        - label: La información proporcionada es correcta y actualizada
+          required: true
