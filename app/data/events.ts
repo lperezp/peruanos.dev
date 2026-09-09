@@ -717,4 +717,20 @@ export const EVENTS: IEvent[] = [
     tags: ["AI", "Conference", "DevFest", "Google Cloud", "Workshop"],
     organizer: "GDG Tacna",
   },
+  {
+    title: "Agents, Everywhere: Bots, Channels, & More — Global Hackathon",
+    description:
+      "Un hackathon global con OpenAI. El sábado 12 de septiembre, las ciudades de AI Tinkerers de todo el mundo se unirán en una jornada de construcción compartida. Construye un agente para un lugar donde las personas ya trabajan, conversan o viven, y haz que sea significativamente más útil gracias a ese contexto.",
+    date: "2026-09-12",
+    time: "10:00",
+    location: "102 Boulevard Plaza Mantaro, San Miguel",
+    city: "San Miguel",
+    type: "Presencial",
+    image_url:
+      "https://images.aitinkerers.org/cdn-cgi/image/format=jpeg/agentic_banner/_GAN2aYeaPus.jpg",
+    registration_url:
+      "https://lima.aitinkerers.org/p/agents-everywhere-bots-channels-more-global-hackathon",
+    tags: ["AI", "Hackathon", "OpenAI"],
+    organizer: "IEEE Computer Society PUCP & AI Tinkerers - Lima",
+  },
 ];

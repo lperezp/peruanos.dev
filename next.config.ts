@@ -107,6 +107,10 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'www.techday.pe',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.aitinkerers.org',
       }
     ],
   },
