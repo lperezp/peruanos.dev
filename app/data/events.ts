@@ -733,4 +733,19 @@ export const EVENTS: IEvent[] = [
     tags: ["AI", "Hackathon", "OpenAI"],
     organizer: "IEEE Computer Society PUCP & AI Tinkerers - Lima",
   },
+  {
+    title: "Blockchain Conf",
+    description:
+      "Por primera vez en UTP, llega la Blockchain Conf 🚀\nLa tecnología blockchain continúa transformando la manera en que construimos soluciones digitales, y ahora tendremos un espacio dedicado a aprender, compartir y explorar todo su potencial. 💻✨\nLa Blockchain Conf reunirá a estudiantes, developers, profesionales y entusiastas de la tecnología en una jornada donde podremos conocer más sobre Blockchain, Web3 y las nuevas posibilidades que están surgiendo alrededor de estas tecnologías.\n\n✨ ¿Qué encontrarás en el evento?\n🔹 Charlas y experiencias junto a speakers de la comunidad\n🔹 Contenido sobre Blockchain y tecnologías relacionadas\n🔹 Espacios para conectar con otros apasionados por la tecnología\n🔹 Aprendizaje, comunidad y muchas sorpresas durante el evento\n\n📍 Auditorio UTP Sede Central\n📅 Sábado 19 de septiembre\n⏰ 9:00 a.m. a 3:00 p.m.\n\nUna nueva experiencia tecnológica llega a nuestra comunidad. ¡Prepárate para la Blockchain Conf! 🚀",
+    date: "2026-09-19",
+    time: "09:00",
+    location: "Auditorio UTP Sede Central, Av. Petit Thouars 116",
+    city: "Lima",
+    type: "Presencial",
+    image_url:
+      "https://images.lumacdn.com/uploads/kc/87bf690f-8254-4070-92fa-933c7cef7103.png",
+    registration_url: "https://luma.com/r750uqs6",
+    tags: ["Blockchain", "Web3"],
+    organizer: "Developer Student Club UTP",
+  },
 ];
