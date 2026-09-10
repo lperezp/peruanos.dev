@@ -748,4 +748,19 @@ export const EVENTS: IEvent[] = [
     tags: ["Blockchain", "Web3"],
     organizer: "Developer Student Club UTP",
   },
+  {
+    title: "CodeOn 2026 Final Edition",
+    description:
+      "Todo gran recorrido tiene un comienzo, una historia y un final. Y este es el nuestro.\nEn 2023, comenzamos este camino como GDSC Fest 2023, con el propósito de reunir a estudiantes, desarrolladores y apasionados por la tecnología en un mismo espacio para aprender, conectar y compartir.\nEn 2024, esa historia evolucionó y nació CodeOn, llevando nuestra visión a un nuevo nivel. En 2025, continuamos creciendo, reuniendo a nuestra comunidad alrededor de nuevas ideas, tecnologías y experiencias.\nAhora, en 2026, llegamos a la Final Edition de CodeOn. 💙\nQueremos cerrar este capítulo a lo grande, reuniendo a la comunidad tecnológica en una experiencia que combine aprendizaje, inspiración, networking y tecnología.\n🎤 Charlas y experiencias de profesionales y referentes del mundo tech.\n💻 3 espacios preparados para explorar diferentes temas, perspectivas y áreas de la tecnología.\n🤝 Networking para conectar con estudiantes, profesionales, comunidades y personas que comparten la misma pasión por construir el futuro.\n🔥 CodeOn 2026 no es una edición más. Es el cierre de una historia que comenzó en 2023.\nDespués de cuatro años de evolución, queremos que seas parte de este último capítulo.\nVen a vivir la experiencia. Ven a cerrar el ciclo con nosotros.",
+    date: "2026-10-17",
+    time: "09:00",
+    location: "UTP - Torre Arequipa, Av. Arequipa 265",
+    city: "Lima",
+    type: "Presencial",
+    image_url:
+      "https://images.lumacdn.com/uploads/yq/e2481e34-11ac-478f-833b-786bc2ec01bb.png",
+    registration_url: "https://luma.com/5974zdfy",
+    tags: ["Community", "Conference", "Networking"],
+    organizer: "DSC UTP",
+  },
 ];
