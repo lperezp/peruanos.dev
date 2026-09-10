@@ -94,6 +94,28 @@ export const communitySchema = (community: {
     },
 });
 
+export const startupSchema = (startup: {
+    name: string;
+    description: string;
+    url?: string;
+    logo?: string;
+    location: string;
+    industry?: string[];
+}) => ({
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: startup.name,
+    description: startup.description,
+    ...(startup.url && { url: startup.url }),
+    ...(startup.logo && { logo: startup.logo }),
+    address: {
+        '@type': 'PostalAddress',
+        addressLocality: startup.location,
+        addressCountry: 'PE',
+    },
+    ...(startup.industry && { keywords: startup.industry.join(', ') }),
+});
+
 export const softwareSourceCodeSchema = (project: {
     name: string;
     description: string;

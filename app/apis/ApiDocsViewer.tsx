@@ -61,6 +61,28 @@ const ENDPOINTS = [
   },
   // ...
 ]`
+  },
+  {
+    id: "startups",
+    method: "GET",
+    path: "/api/startups",
+    title: "/api/startups",
+    description: "Obtiene el directorio de startups tecnológicas en Perú, con filtros por industria, etapa y vacantes abiertas.",
+    filters: ["industry=fintech", "hiring=true"],
+    fetchCode: "fetch('https://peruanos.dev/api/startups?industry=fintech&hiring=true')\n  .then(res => res.json())\n  .then(data => console.log(data))",
+    jsonSnippet: `data = [
+  {
+    "id": "crehana",
+    "name": "Crehana",
+    "description": "Plataforma de gestión del desarrollo de talento...",
+    "website": "https://www.crehana.com",
+    "industry": ["Edtech", "SaaS", "HRTech"],
+    "stage": "Series B+",
+    "hiring": true,
+    "location": "Lima, Perú"
+  },
+  // ...
+]`
   }
 ];
 
