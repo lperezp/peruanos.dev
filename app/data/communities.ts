@@ -527,5 +527,269 @@ export const COMMUNITIES: ICommunity[] = [
                 "instagram": ""
             }
         }
+    },
+    {
+        "name": "GDG Arequipa",
+        "description": "Somos un comunidad establecida ciudad blanca de Arequipa en el Perú que buscamos impactar con la tecnología a nuestro ciudad de forma positiva. buscamos en nuestros eventos buscan poder enseñar, empoderar y animar a las personas a encontrar una forma de hacer las cosas. ¡Buscanos en facebook!",
+        "logo_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/chapter_banners/Logo%20GDG%20Arequipa.png",
+        "city": "Arequipa",
+        "topics": [
+            "Google Technologies",
+            "Software Development",
+            "Community"
+        ],
+        "contact": {
+            "email": "",
+            "website": "https://gdg.community.dev/gdg-arequipa/",
+            "socialMedia": {
+                "github": "",
+                "twitter": "",
+                "linkedin": "https://www.linkedin.com/company/gdg-arequipa",
+                "discord": "",
+                "facebook": "https://www.facebook.com/gdgaqp/",
+                "youtube": "",
+                "instagram": "https://www.instagram.com/gdgarequipa"
+            }
+        }
+    },
+    {
+        "name": "GDG Ayacucho",
+        "description": "🌍🚀 ¡Bienvenidos al GDG Ayacucho! 🌍🚀\n\nEn nuestra comunidad, nos apasiona descubrir y difundir las últimas tendencias en el mundo de la tecnología. Aquí encontrarás un espacio para aprender, compartir y colaborar, donde cada idea se transforma en una posibilidad y cada miembro se convierte en un agente de cambio.\n\n¿Eres un apasionado de IA, Machine Learning, Blockchain, Cybersecurity, o de Android, Flutter, Firebase, Google Cloud y más? ¿O simplemente estás buscando un lugar para comenzar tu viaje en el mundo de la tecnología? ¡Este es tu hogar!\n\nNos reunimos regularmente para aprender y compartir a través de charlas, talleres, codelabs y hackathons. Si buscas inspiración, aquí encontrarás a mentores y compañeros dispuestos a ayudarte a alcanzar tus metas. Y si ya tienes experiencia, es tu oportunidad de dar un paso más y ayudar a otros a seguir tu camino.\n\n¡No importa tu nivel de experiencia o tus intereses! En GDG Ayacucho, creemos que la diversidad es nuestra mayor fortaleza y la tecnología es para todos.\n\n🔥 ¡Inscríbete, participa y deja tu huella en el mundo tecnológico! 🔥\n\nDisclaimer: GDG Ayacucho is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit https://developers.google.com/community/gdg",
+        "logo_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_DefaultChapterThumbnail_5oO1cMY.png",
+        "city": "Ayacucho",
+        "topics": [
+            "Google Technologies",
+            "Software Development",
+            "Community"
+        ],
+        "contact": {
+            "email": "",
+            "website": "https://developergroupsayacucho.web.app",
+            "socialMedia": {
+                "github": "",
+                "twitter": "",
+                "linkedin": "https://www.linkedin.com/company/gdgayacucho",
+                "discord": "",
+                "facebook": "https://www.facebook.com/gdgayacucho",
+                "youtube": "",
+                "instagram": "https://www.instagram.com/gdgayacucho"
+            }
+        }
+    },
+    {
+        "name": "GDG Callao",
+        "description": "¡Bienvenidos a Google Developer Group Callao! 🎉\n\nUna comunidad donde somos entusiastas de la tecnología.\n\n¿Quieres conocer a otros desarrolladores, programadores, diseñadores, empresarios y tecnólogos? GDG Callao es el lugar perfecto para conectar y compartir tus ideas y conocimientos. Desde charlas inspiradoras hasta talleres prácticos y eventos de networking, nuestra comunidad de tecnología está lista para recibirte con los brazos abiertos.\n\nEn GDG Callao, nuestro objetivo es fomentar la colaboración, el aprendizaje y la creatividad en la industria de la tecnología. Ya sea que seas un principiante curioso o un experto experimentado, estamos seguros de que encontrarás algo que te interese en nuestros eventos.\n\nDisclaimer: GDG Callao es un grupo independiente; Nuestras actividades y las opiniones expresadas aquí no deben vincularse de ninguna manera con Google, la corporación. Para obtener más información sobre el programa GDG, visite https://developers.google.com/community/gdg/\n\nRedes sociales:\n\nFacebook: https://www.facebook.com/gdgcallao\n\nInstagram: https://www.instagram.com/gdg_callao/\n\nX: https://x.com/gdg_callao\n\nGrupo de Whatsapp:\n\nhttps://chat.whatsapp.com/HPgEdFJRUAbAwrEqUUhr4G?s=cl&p=a&mlu=4&ilr=4",
+        "logo_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/chapter_banners/Frame%201618872768_6dCIc6M.png",
+        "city": "Callao",
+        "topics": [
+            "Google Technologies",
+            "Software Development",
+            "Community"
+        ],
+        "contact": {
+            "email": "",
+            "website": "https://gdgcallao.dev",
+            "socialMedia": {
+                "github": "",
+                "twitter": "https://x.com/gdg_callao",
+                "linkedin": "https://www.linkedin.com/company/google-developer-groups-callao",
+                "discord": "",
+                "facebook": "https://www.facebook.com/gdgcallao",
+                "youtube": "",
+                "instagram": "https://www.instagram.com/gdg_callao"
+            }
+        }
+    },
+    {
+        "name": "GDG Chimbote",
+        "description": "GDG Chimbote is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit https://developers.google.com/community/gdg/",
+        "logo_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_DefaultChapterThumbnail_5oO1cMY.png",
+        "city": "Chimbote",
+        "topics": [
+            "Google Technologies",
+            "Software Development",
+            "Community"
+        ],
+        "contact": {
+            "email": "",
+            "website": "https://gdg.community.dev/gdg-chimbote/",
+            "socialMedia": {
+                "github": "",
+                "twitter": "https://x.com/gdgchimbote",
+                "linkedin": "https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+                "discord": "",
+                "facebook": "https://www.facebook.com/gdgchimbote",
+                "youtube": "",
+                "instagram": "https://www.instagram.com/gdgchimbote"
+            }
+        }
+    },
+    {
+        "name": "GDG Cloud Lima",
+        "description": "¡Bienvenidos a Google Developer Group Cloud Lima! 🎉\n\n¿Qué te espera en esta comunidad? ☁️ Cloud 🤖 Code & AI 🤝 Networking\n\nRedes sociales:\n\nLinkedin: https://www.linkedin.com/company/gdg-cloud-lima/\n\nInstagram: https://www.instagram.com/gdgcloudlima\n\nDisclaimer: GDG Cloud Lima is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit https://developers.google.com/community/gdg/",
+        "logo_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/chapter_banners/gdgcloudsqr.png",
+        "city": "Lima",
+        "topics": [
+            "Google Technologies",
+            "Software Development",
+            "Community"
+        ],
+        "contact": {
+            "email": "",
+            "website": "https://gdg.community.dev/gdg-cloud-lima/",
+            "socialMedia": {
+                "github": "",
+                "twitter": "https://x.com/gdgcloudlima",
+                "linkedin": "https://www.linkedin.com/company/gdg-cloud-lima",
+                "discord": "",
+                "facebook": "https://www.facebook.com/gdgcloudlima",
+                "youtube": "",
+                "instagram": "https://www.instagram.com/gdgcloudlima"
+            }
+        }
+    },
+    {
+        "name": "GDG Cusco",
+        "description": "Capítulo oficial de Google Developers Group en Cusco.\n\nSomos una comunidad donde los desarrolladores y entusiastas se unen para explorar nuevas tecnologías. Los estudiantes y profesionales de todo el mundo interesados ​​en la tecnología son bienvenidos.\n\n✅ Al unirte a un grupo de desarrolladores de Google, tendrás la oportunidad de aprender nuevas habilidades en una variedad de formatos.\n\n✅ También conocerás a desarrolladores locales de forma virtual o en persona con intereses similares en tecnología.\n\n✅ La comunidad se enorgullece de ser un entorno inclusivo en el que todas las personas interesadas en la tecnología, desde desarrolladores principiantes hasta profesionales experimentados, pueden unirse.\n\n✅ Canal de WhatsApp: https://chat.whatsapp.com/L3PYa6eooXS0JbD0dROKST\n\nhttps://developers.google.com/community/gdg",
+        "logo_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/chapter_banners/blob_xSRdA5Z",
+        "city": "Cusco",
+        "topics": [
+            "Google Technologies",
+            "Software Development",
+            "Community"
+        ],
+        "contact": {
+            "email": "",
+            "website": "https://gdg.community.dev/gdg-cusco/",
+            "socialMedia": {
+                "github": "",
+                "twitter": "",
+                "linkedin": "https://www.linkedin.com/showcase/community-groups-program-gdg/about/",
+                "discord": "",
+                "facebook": "",
+                "youtube": "",
+                "instagram": ""
+            }
+        }
+    },
+    {
+        "name": "GDG Huancayo",
+        "description": "🌍🚀 ¡Bienvenidos al GDG Huancayo! 🌍🚀\n\nEn nuestra comunidad, nos apasiona descubrir y difundir las últimas tendencias en el mundo de la tecnología. Aquí encontrarás un espacio para aprender, compartir y colaborar, donde cada idea se transforma en una posibilidad y cada miembro se convierte en un agente de cambio.\n\n¿Eres un apasionado de IA, Machine Learning, Blockchain, Cybersecurity, o de Android, Flutter, Firebase, Google Cloud y más? ¿O simplemente estás buscando un lugar para comenzar tu viaje en el mundo de la tecnología? ¡Este es tu hogar!\n\nNos reunimos regularmente para aprender y compartir a través de charlas, talleres, codelabs y hackathons. Si buscas inspiración, aquí encontrarás a mentores y compañeros dispuestos a ayudarte a alcanzar tus metas. Y si ya tienes experiencia, es tu oportunidad de dar un paso más y ayudar a otros a seguir tu camino.\n\n¡No importa tu nivel de experiencia o tus intereses! En GDG Huancayo, creemos que la diversidad es nuestra mayor fortaleza y la tecnología es para todos.\n\n🔥 ¡Inscríbete, participa y deja tu huella en el mundo tecnológico! 🔥\n\nDisclaimer: GDG Huancayo is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit https://developers.google.com/community/gdg",
+        "logo_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_DefaultChapterThumbnail_5oO1cMY.png",
+        "city": "Huancayo",
+        "topics": [
+            "Google Technologies",
+            "Software Development",
+            "Community"
+        ],
+        "contact": {
+            "email": "",
+            "website": "https://www.youtube.com/channel/UC-tYFKG49e86EcP2imW4CgA",
+            "socialMedia": {
+                "github": "",
+                "twitter": "",
+                "linkedin": "https://www.linkedin.com/company/google-developer-group-huancayo/",
+                "discord": "",
+                "facebook": "https://www.facebook.com/profile.php?id=100093752427810",
+                "youtube": "",
+                "instagram": "https://www.instagram.com/gdghuancayo/"
+            }
+        }
+    },
+    {
+        "name": "GDG Ica",
+        "description": "Capítulo oficial de Google Developers Group en Ica.\n\nSomos una comunidad donde los desarrolladores y entusiastas se unen para explorar nuevas tecnologías. Los estudiantes y profesionales de todo el mundo interesados ​​en la tecnología son bienvenidos.\n\n✅ Al unirte a un grupo de desarrolladores de Google, tendrás la oportunidad de aprender nuevas habilidades en una variedad de formatos.\n\n✅ También conocerás a desarrolladores locales de forma virtual o en persona con intereses similares en tecnología.\n\n✅ La comunidad se enorgullece de ser un entorno inclusivo en el que todas las personas interesadas en la tecnología, desde desarrolladores principiantes hasta profesionales experimentados, pueden unirse.\n\n✅ Canal de WhatsApp: https://whatsapp.com/channel/0029Vb8FSORFnSz2KTkqqG1L",
+        "logo_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/chapter_banners/315573538_3213840138829353_2847360455518116742_n_1AllN9b.jpg",
+        "city": "Ica",
+        "topics": [
+            "Google Technologies",
+            "Software Development",
+            "Community"
+        ],
+        "contact": {
+            "email": "",
+            "website": "https://gdgica.com",
+            "socialMedia": {
+                "github": "",
+                "twitter": "",
+                "linkedin": "https://www.linkedin.com/company/gdg-ica",
+                "discord": "",
+                "facebook": "https://www.facebook.com/gdgica",
+                "youtube": "",
+                "instagram": "https://www.instagram.com/gdgica"
+            }
+        }
+    },
+    {
+        "name": "GDG Lima",
+        "description": "El Google Developer Group - GDG Lima es una comunidad que investiga, comparte y difunde tecnología Google en las áreas de desarrollo de software basado en IA, Cloud, Mobile y Web.Nuestro objetivo es fortalecer los conocimientos de los profesionales de TI en la región difundiendo dichas tecnologías mediante eventos, workshops, reuniones mensuales, hangouts, entre otras actividades.",
+        "logo_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/chapter_logos/forums/chapter_banners/24-gdglima_FOHLWM1.png",
+        "city": "Lima",
+        "topics": [
+            "Google Technologies",
+            "Software Development",
+            "Community"
+        ],
+        "contact": {
+            "email": "",
+            "website": "http://www.gdglima.com/",
+            "socialMedia": {
+                "github": "",
+                "twitter": "https://x.com/gdglima",
+                "linkedin": "https://www.linkedin.com/company/gdg-lima---google-developer-group-lima",
+                "discord": "",
+                "facebook": "https://www.facebook.com/gdglima",
+                "youtube": "",
+                "instagram": "https://www.instagram.com/gdglima"
+            }
+        }
+    },
+    {
+        "name": "GDG Piura",
+        "description": "Google Developer Group - GDG Piura es una comunidad que investiga, comparte y difunde tecnología Google en las áreas de desarrollo de software basado en Cloud, Mobile y Web.\n\nNuestro objetivo es fortalecer los conocimientos de los profesionales de TI en la región difundiendo dichas tecnologías mediante eventos, workshops, reuniones mensuales, hangouts, entre otras actividades.\n\nLa participación es libre y gratuita, tanto para principiantes, desarrolladores, lideres de proyectos y organizaciones en general interesadas en utilizar tecnología Google en sus proyectos.\n\nTo learn more about the GDG program, visit https://developers.google.com/community/gdg/\n\nVerification for JetBrains User Group Program: =29102025/18379818",
+        "logo_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/chapter_banners/blob_XG7PuJS",
+        "city": "Piura",
+        "topics": [
+            "Google Technologies",
+            "Software Development",
+            "Community"
+        ],
+        "contact": {
+            "email": "",
+            "website": "https://gdg.community.dev/gdg-piura/",
+            "socialMedia": {
+                "github": "",
+                "twitter": "https://x.com/gdgpiura",
+                "linkedin": "https://www.linkedin.com/company/100315031/",
+                "discord": "",
+                "facebook": "https://www.facebook.com/gdgpiura",
+                "youtube": "",
+                "instagram": "https://www.instagram.com/gdgpiura"
+            }
+        }
+    },
+    {
+        "name": "GDG Tacna",
+        "description": "¡Bienvenida/o a GDG Tacna, el Grupo Oficial de Desarrolladores Google en Tacna, Perú!\n\nGDG Tacna es una comunidad de personas que les interesa compartir sus experiencias con tecnologías de Google como factor común. Entre ellas  aplicaciones móviles, desarrollo para la web, cloud, Inteligencia Artificial, Data Science entre otras.\n\nNos reunimos regularmente para aprender y compartir a través de charlas, talleres, codelabs y hackathons. Si buscas inspiración, aquí encontrarás a mentores y compañeros dispuestos a ayudarte a alcanzar tus metas. Y si ya tienes experiencia, es tu oportunidad de dar un paso más y ayudar a otros a seguir tu camino. El espíritu es de colaboración entre todos y la apertura a que todos participemos de forma voluntaria tanto como asistentes, speakers u organizadores.",
+        "logo_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/chapter_banners/GDG%20Tacna%20%281%29_tjveos2.png",
+        "city": "Tacna",
+        "topics": [
+            "Google Technologies",
+            "Software Development",
+            "Community"
+        ],
+        "contact": {
+            "email": "",
+            "website": "https://www.youtube.com/channel/UCn8uc98C59mxIhezsIR2fEg",
+            "socialMedia": {
+                "github": "",
+                "twitter": "",
+                "linkedin": "https://www.linkedin.com/company/108324252",
+                "discord": "",
+                "facebook": "https://www.facebook.com/gdgtkn/",
+                "youtube": "",
+                "instagram": "https://www.instagram.com/gdgtacna"
+            }
+        }
     }
 ];
