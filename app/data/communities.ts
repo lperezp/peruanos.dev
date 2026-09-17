@@ -577,30 +577,6 @@ export const COMMUNITIES: ICommunity[] = [
         }
     },
     {
-        "name": "GDG Callao",
-        "description": "¡Bienvenidos a Google Developer Group Callao! 🎉\n\nUna comunidad donde somos entusiastas de la tecnología.\n\n¿Quieres conocer a otros desarrolladores, programadores, diseñadores, empresarios y tecnólogos? GDG Callao es el lugar perfecto para conectar y compartir tus ideas y conocimientos. Desde charlas inspiradoras hasta talleres prácticos y eventos de networking, nuestra comunidad de tecnología está lista para recibirte con los brazos abiertos.\n\nEn GDG Callao, nuestro objetivo es fomentar la colaboración, el aprendizaje y la creatividad en la industria de la tecnología. Ya sea que seas un principiante curioso o un experto experimentado, estamos seguros de que encontrarás algo que te interese en nuestros eventos.\n\nDisclaimer: GDG Callao es un grupo independiente; Nuestras actividades y las opiniones expresadas aquí no deben vincularse de ninguna manera con Google, la corporación. Para obtener más información sobre el programa GDG, visite https://developers.google.com/community/gdg/\n\nRedes sociales:\n\nFacebook: https://www.facebook.com/gdgcallao\n\nInstagram: https://www.instagram.com/gdg_callao/\n\nX: https://x.com/gdg_callao\n\nGrupo de Whatsapp:\n\nhttps://chat.whatsapp.com/HPgEdFJRUAbAwrEqUUhr4G?s=cl&p=a&mlu=4&ilr=4",
-        "logo_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/chapter_banners/Frame%201618872768_6dCIc6M.png",
-        "city": "Callao",
-        "topics": [
-            "Google Technologies",
-            "Software Development",
-            "Community"
-        ],
-        "contact": {
-            "email": "",
-            "website": "https://gdgcallao.dev",
-            "socialMedia": {
-                "github": "",
-                "twitter": "https://x.com/gdg_callao",
-                "linkedin": "https://www.linkedin.com/company/google-developer-groups-callao",
-                "discord": "",
-                "facebook": "https://www.facebook.com/gdgcallao",
-                "youtube": "",
-                "instagram": "https://www.instagram.com/gdg_callao"
-            }
-        }
-    },
-    {
         "name": "GDG Chimbote",
         "description": "GDG Chimbote is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit https://developers.google.com/community/gdg/",
         "logo_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_DefaultChapterThumbnail_5oO1cMY.png",
