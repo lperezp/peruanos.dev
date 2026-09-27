@@ -111,6 +111,10 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'images.aitinkerers.org',
+      },
+      {
+        protocol: 'https',
+        hostname: 'startups.pe',
       }
     ],
   },

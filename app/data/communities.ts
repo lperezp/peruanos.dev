@@ -767,5 +767,29 @@ export const COMMUNITIES: ICommunity[] = [
                 "instagram": "https://www.instagram.com/gdgtacna"
             }
         }
+    },
+    {
+        "name": "Startups.pe",
+        "description": "Comunidad enfocada en innovación, tecnología y startups. Conectamos a fundadores, emprendedores y entusiastas del ecosistema tech peruano a través de eventos, contenido y espacios de networking.",
+        "logo_url": "https://startups.pe/imgs/appLogo-alt.png",
+        "city": "Peru",
+        "topics": [
+            "tecnologia",
+            "innovacion",
+            "startups"
+        ],
+        "contact": {
+            "email": "hola@startups.p",
+            "website": "https://startups.pe",
+            "socialMedia": {
+                "github": "",
+                "twitter": "",
+                "linkedin": "https://www.linkedin.com/company/startupspeoficial/?",
+                "discord": "",
+                "facebook": "",
+                "youtube": "",
+                "instagram": ""
+            }
+        }
     }
 ];
