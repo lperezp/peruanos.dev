@@ -961,5 +961,18 @@ export const EVENTS: IEvent[] = [
     "registration_url": "https://gdg.community.dev/events/details/google-gdg-piura-presents-vibe-coding-ampprompting-1/",
     "tags": [],
     "organizer": "GDG Piura"
+  },
+  {
+    "title": "De Perú al mundo: Construye tu startup global | Stripe Lima Community",
+    "description": "Bienvenidos al primer evento de Stripe Lima community, organizado en colaboración con Startups.pe. Un espacio para conocer a otros fundadores, compartir lo que estamos aprendiendo y conversar sobre cómo construir desde Perú para clientes de todo el mundo.\n\nEn este primer encuentro escucharemos a dos fundadores en momentos distintos: uno que ya tiene experiencia creciendo con Stripe y otro que está dando sus primeros pasos. Hablaremos de cómo empezaron, qué decisiones tomaron y qué les hubiera gustado saber antes.\n\nA partir de sus historias, exploraremos cómo cobrar a clientes internacionales, qué implica constituir una empresa en Estados Unidos con Stripe Atlas y dónde encajan Stripe y Stripe Connect según tu negocio.\n\nHabrá una conversación con los fundadores, una sesión práctica sobre estas herramientas, preguntas del público y tiempo para conocernos. La idea es que te lleves más claridad sobre tus próximos pasos y conexiones con personas que también están construyendo.\n\n¿PARA QUIÉN ES?\nPara fundadores, personas con una idea de negocio, desarrolladores, inversionistas y quienes quieran conectar con el ecosistema startup peruano. No necesitas ser usuario de Stripe para participar.\n\nSPEAKERS\nDos fundadores usuarios de Stripe nos contarán su experiencia.\n- Juan Luis Auccatoma, Co-fundador de Whaticket nos contará sobre boostraping y como Stripe le apoyó en su expansión de negocio.\n- Luis Pimentel, Co-fundador de Inklop, nos contará sobre crear una startup en el sector de influencers y como Stripe le está solucionando la operativa de su negocio.\n- Paul Siccha, Co-fundador de Startups.pe, nos contará los beneficios de Stripe.\n\nORGANIZACIÓN\nOrganizado por Paul Siccha, Stripe Lima Community Builder y fundador de Startups.pe, comunidad que conecta a quienes forman parte del ecosistema startup en Perú.\n\nCon el apoyo de StartUPC, la incubadora y aceleradora de negocios de la UPC, que nos abre las puertas y nos recibe en su espacio para este encuentro.\n\nCOMUNIDAD\nÚnete a la comunidad de Whatsapp: Unirse al grupo de Whatsapp\nSíguenos en Instagram: /startups.pe\nSíguenos en LinkedIn: /startups.pe",
+    "date": "2026-10-13",
+    "time": "19:00",
+    "location": "San Isidro",
+    "city": "San Isidro",
+    "type": "Presencial",
+    "image_url": "https://images.lumacdn.com/uploads/0y/1ab6b891-1248-4ba0-9d9c-c41c649b219c.png",
+    "registration_url": "https://luma.com/y7ic8a5t?tk=lyWyHX",
+    "tags": [],
+    "organizer": "Startups.pe"
   }
 ];
