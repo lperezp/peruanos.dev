@@ -4,16 +4,19 @@ import type { Metadata } from 'next';
 
 import CardEventHome from './components/events/EventCardHome';
 import CardCommunityHome from './components/communities/CommunityCardHome';
+import StartupCardHome from './components/startups/StartupCardHome';
 import CardProject from './components/projects/ProjectCard';
 import { COMMUNITIES } from './data/communities';
 import { ICommunity } from './models/community.model';
+import { STARTUPS } from './data/startups';
+import { Startup } from './models/startup.model';
 import { EVENTS } from './data/events';
 import { IEvent } from './models/event.model';
 import { PROJECTS } from './data/projects';
 import { IGitHubRepo } from './models/project.model';
 import { CircleCheck, Edit, GitFork, Github } from 'lucide-react';
 import { addUTMParams } from './lib/utm';
-import { eventSchema, itemListSchema, softwareSourceCodeSchema } from './lib/structured-data';
+import { eventSchema, itemListSchema, softwareSourceCodeSchema, startupSchema } from './lib/structured-data';
 import TrackedLink from './components/ui/TrackedLink';
 
 export const metadata: Metadata = {
@@ -55,6 +58,15 @@ function getRandomCommunities(communities: ICommunity[], count: number) {
   return shuffled.slice(0, count);
 }
 
+function getRandomStartups(startups: Startup[], count: number) {
+  const shuffled = [...startups];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled.slice(0, count);
+}
+
 export default async function Home() {
   const upcomingEvents = EVENTS
     .filter((event) => new Date(event.date) >= new Date())
@@ -62,6 +74,7 @@ export default async function Home() {
     .slice(0, 3);
 
   const randomCommunities = getRandomCommunities(COMMUNITIES, 3);
+  const randomStartups = getRandomStartups(STARTUPS, 3);
 
   // Fetch GitHub data for projects
   type GitHubContributor = { login: string; avatar_url: string; html_url: string; contributions: number; type: string };
@@ -120,6 +133,15 @@ export default async function Home() {
     author: project.owner.login,
   })));
 
+  const jsonLdStartups = itemListSchema(randomStartups.map(startup => startupSchema({
+    name: startup.name,
+    description: startup.description,
+    url: startup.website,
+    logo: startup.logo,
+    location: startup.location,
+    industry: startup.industry,
+  })));
+
   return (
     <main className="flex w-full max-w-7xl flex-col items-center bg-background mx-auto">
       <script
@@ -129,6 +151,10 @@ export default async function Home() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdProjects) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdStartups) }}
       />
       <section className="relative flex flex-col items-center py-25 sm:py-40 px-16 max-sm:px-10 overflow-hidden hero-gradient">
         <h1 className="text-5xl sm:text-7xl z-10 text-center font-bold mb-9 leading-[1.4] w-full sm:w-[90%]">Conecta con <span className={`relative max-md:block before:content-[''] before:block before:w-[418px] before:h-[42px] before:bg-[url('/svg/line-text.svg')] before:bg-no-repeat before:bg-cover before:absolute before:-bottom-[10px] before:left-[130px] max-md:before:w-[240px] max-md:before:h-[24px] max-md:before:top-[50px] max-md:before:left-[50px] text-primary-text`}>la comunidad tech</span> en el Perú</h1>
@@ -176,6 +202,23 @@ export default async function Home() {
           Explorar comunidades
         </Link>
       </section>
+      {randomStartups.length > 0 && (
+        <section className="py-10 sm:py-15 px-5 w-full flex flex-col items-center">
+          <h2 className="text-4xl sm:text-5xl text-center font-bold mb-9">Startups <span className="text-primary-text">Peruanas</span></h2>
+          <p className="text-center w-full sm:w-[70%] text-[20px]">Conoce las empresas tecnológicas e innovadoras que están revolucionando el mercado.</p>
+          <div className="flex flex-col sm:flex-row gap-6 m-0 mt-10 mb-10 sm:m-10">
+            {randomStartups.map((startup: Startup) => (
+              <StartupCardHome
+                key={startup.id}
+                startup={startup}
+              />
+            ))}
+          </div>
+          <Link className="px-6 py-3 bg-primary text-white rounded-full hover:bg-primary-hover transition" href='/startups'>
+            Explorar startups
+          </Link>
+        </section>
+      )}
       <section className="py-10 sm:py-15 px-5 w-full flex flex-col items-center">
         <h2 className="text-4xl sm:text-5xl text-center font-bold mb-9">Proyectos <span className="text-primary-text">Open Source</span></h2>
         <p className="text-center w-full sm:w-[70%] text-[20px]">Descubre y contribuye a proyectos de código abierto creados por desarrolladores peruanos.</p>
@@ -235,6 +278,12 @@ export default async function Home() {
               <span className="text-primary font-bold">•</span>
               <div>
                 <strong>Comunidades:</strong> Grupos de usuarios, comunidades tech, espacios de aprendizaje y networking.
+              </div>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-primary font-bold">•</span>
+              <div>
+                <strong>Startups:</strong> Empresas tecnológicas, Fintechs, Edtechs, SaaS e iniciativas innovadoras peruanas.
               </div>
             </li>
             <li className="flex items-start gap-2">

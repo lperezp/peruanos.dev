@@ -32,6 +32,7 @@ export default function Header() {
                 <nav className="hidden md:flex items-center gap-7 text-foreground">
                     <TrackedLink className="hover:text-primary transition-colors" href="/events" eventName="navigate_menu" eventParams={{ event_name: '/events', section: 'Header' }}>Eventos</TrackedLink>
                     <TrackedLink className="hover:text-primary transition-colors" href="/community" eventName="navigate_menu" eventParams={{ event_name: '/community', section: 'Header' }}>Comunidades</TrackedLink>
+                    <TrackedLink className="hover:text-primary transition-colors" href="/startups" eventName="navigate_menu" eventParams={{ event_name: '/startups', section: 'Header' }}>Startups</TrackedLink>
                     <TrackedLink className="hover:text-primary transition-colors" href="/projects" eventName="navigate_menu" eventParams={{ event_name: '/projects', section: 'Header' }}>Proyectos Open Source</TrackedLink>
                     <TrackedLink className="hover:text-primary transition-colors" href="/apis" eventName="navigate_menu" eventParams={{ event_name: '/apis', section: 'Header' }}>API</TrackedLink>
                 </nav>
@@ -102,6 +103,15 @@ export default function Header() {
                             eventParams={{ event_name: '/community', section: 'Header' }}
                         >
                             Comunidades
+                        </TrackedLink>
+                        <TrackedLink
+                            className="text-lg hover:text-primary transition-colors"
+                            href="/startups"
+                            onClick={() => setIsMenuOpen(false)}
+                            eventName="navigate_menu"
+                            eventParams={{ event_name: '/startups', section: 'Header' }}
+                        >
+                            Startups
                         </TrackedLink>
                         <TrackedLink
                             className="text-lg hover:text-primary transition-colors"
