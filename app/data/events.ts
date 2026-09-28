@@ -991,5 +991,66 @@ export const EVENTS: IEvent[] = [
       "Software Architecture"
     ],
     "organizer": "NTT DATA Perú - Eventos"
+  },
+  {
+    "title": "Devfest Huancayo",
+    "description": "Devfest Huancayo 2026 se establece como el evento más destacado en tecnología en la región de Junín. Organizado por GDG Huancayo junto con la Universidad Peruana Los Andes, este festival se convierte en el epicentro tech de la sierra central del Perú. Es un espacio único que reúne a jóvenes, estudiantes universitarios, emprendedores, profesionales del sector salud, desarrolladores, y apasionados de la tecnología y la creatividad.",
+    "date": "2026-10-23",
+    "time": "07:30",
+    "location": "Parque Huamanmarca, 781 Jirón Ancash, Huancayo",
+    "city": "Huancayo",
+    "type": "Híbrido",
+    "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_dHzaCfm",
+    "registration_url": "https://gdg.community.dev/events/details/google-gdg-huancayo-presents-devfest-huancayo-1/",
+    "tags": [
+      "Conferencia",
+      "DevFest",
+      "Google Cloud",
+      "IA",
+      "IA - Gemini",
+      "Networking",
+      "Taller / sesión práctica"
+    ],
+    "organizer": "GDG Huancayo"
+  },
+  {
+    "title": "Devfest Ayacucho",
+    "description": "DEVFEST AYACUCHO 2026: FESTIVAL REGIONAL DE TECNOLOGÍA, INNOVACIÓN Y EMPRENDIMIENTO se consolida como el evento tecnológico de mayor trascendencia en la región Ayacucho, realizado por la comunidad GDG Ayacucho. Durante dos jornadas consecutivas, reuniendo a jóvenes, estudiantes universitarios, emprendedores, profesionales de la salud, desarrolladores y entusiastas de la tecnología y la innovación.",
+    "date": "2026-11-21",
+    "time": "08:00",
+    "location": "Ayacucho",
+    "city": "Ayacucho",
+    "type": "Presencial",
+    "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_RXCgrkS",
+    "registration_url": "https://gdg.community.dev/events/details/google-gdg-ayacucho-presents-devfest-ayacucho/",
+    "tags": [
+      "AI",
+      "AI - Gemini",
+      "Conference",
+      "DevFest",
+      "Google Cloud",
+      "Workshop / hands-on session"
+    ],
+    "organizer": "GDG Ayacucho"
+  },
+  {
+    "title": "DevFest Cusco 2026 Kickoff",
+    "description": "Join us for the exciting kickoff of DevFest Cusco 2026! Dive into the world of Google technologies with engaging talks and hands-on workshops led by local experts. This event is a fantastic opportunity to connect with technology enthusiasts, share ideas, and learn about the latest trends. Don't miss out on this chance to be part of a vibrant, inclusive community. RSVP now to secure your spot and bring your friends along to grow our GDG Cusco family!",
+    "date": "2026-11-07",
+    "time": "09:00",
+    "location": "Paraninfo Universitario (Cuzco), Calle Mantas 117, Cusco 08002, Perú.",
+    "city": "Cusco",
+    "type": "Presencial",
+    "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_sjVYo2V",
+    "registration_url": "https://gdg.community.dev/events/details/google-gdg-cusco-presents-devfest-cusco-2026-kickoff/",
+    "tags": [
+      "AI",
+      "AI - Gemini",
+      "Conference",
+      "DevFest",
+      "Google Cloud",
+      "Workshop / hands-on session"
+    ],
+    "organizer": "GDG Cusco"
   }
 ];
