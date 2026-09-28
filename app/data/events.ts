@@ -974,5 +974,22 @@ export const EVENTS: IEvent[] = [
     "registration_url": "https://luma.com/y7ic8a5t?tk=lyWyHX",
     "tags": [],
     "organizer": "Startups.pe"
+  },
+  {
+    "title": "Tech Connect - Microservicios",
+    "description": "¡Gracias por tu interés en participar!\nEste encuentro está dirigido a profesionales con experiencia en el sector tecnológico.\nLos cupos son limitados y la participación estará sujeta a confirmación.",
+    "date": "2026-10-03",
+    "time": "19:00",
+    "location": "Lima",
+    "city": "Lima",
+    "type": "Presencial",
+    "image_url": "",
+    "registration_url": "https://forms.cloud.microsoft/e/GbLzHpESHA",
+    "tags": [
+      "Microservicios",
+      "Cloud",
+      "Software Architecture"
+    ],
+    "organizer": "NTT DATA Perú - Eventos"
   }
 ];
