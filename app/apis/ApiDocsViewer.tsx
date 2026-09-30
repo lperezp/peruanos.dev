@@ -61,6 +61,27 @@ const ENDPOINTS = [
   },
   // ...
 ]`
+  },
+  {
+    id: "cfs",
+    method: "GET",
+    path: "/api/cfs",
+    title: "/api/cfs",
+    description: "Obtiene el directorio de convocatorias para ponentes (Call for Speakers) abiertas y continuas en Perú.",
+    filters: ["topic=devops", "type=presencial", "status=open"],
+    fetchCode: "fetch('https://peruanos.dev/api/cfs?topic=devops&status=open')\n  .then(res => res.json())\n  .then(data => console.log(data))",
+    jsonSnippet: `data = [
+  {
+    "id": "cfs-devopsdays-lima-2025",
+    "title": "DevOpsDays Lima 2025 - Call for Speakers",
+    "community": "DevOpsDays Lima",
+    "deadline": "2025-06-15",
+    "cfs_url": "https://sessionize.com/devopsdays-lima-2025",
+    "type": "Presencial",
+    "topics": ["DevOps", "SRE", "Cloud Native"]
+  },
+  // ...
+]`
   }
 ];
 

@@ -1,0 +1,64 @@
+name: Agregar Call for Speakers
+description: Proponer una nueva convocatoria de ponentes (CFS) para la comunidad tech en Perú
+title: "[CFS] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por querer compartir un Call for Speakers en peruanos.dev!
+        Por favor completa la siguiente información sobre la convocatoria.
+
+  - type: input
+    id: title
+    attributes:
+      label: Título de la convocatoria / evento
+      description: Nombre o título de la convocatoria para speakers
+      placeholder: 'ej. DevOpsDays Lima 2025 - Call for Speakers'
+    validations:
+      required: true
+
+  - type: input
+    id: community
+    attributes:
+      label: Comunidad o evento organizador
+      description: Nombre de la comunidad u organización que convoca
+      placeholder: 'ej. React Lima'
+    validations:
+      required: true
+
+  - type: input
+    id: cfs_url
+    attributes:
+      label: Link para postular (CFS URL)
+      description: URL del formulario o plataforma para enviar propuestas (ej. Sessionize, Google Forms)
+      placeholder: 'ej. https://sessionize.com/... o https://forms.gle/...'
+    validations:
+      required: true
+
+  - type: input
+    id: deadline
+    attributes:
+      label: Fecha límite de postulación (Deadline)
+      description: Fecha límite para enviar propuestas (YYYY-MM-DD) o indicar si es continua/abierta todo el año
+      placeholder: 'ej. 2025-06-30 o Abierto todo el año'
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción de la convocatoria
+      description: Resumen de los temas buscados, formato de charlas, etc.
+      placeholder: 'Buscamos charlas de 30 minutos sobre...'
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmación
+      description: Por favor confirma lo siguiente
+      options:
+        - label: He verificado que la convocatoria no esté duplicada
+          required: true
+        - label: La información proporcionada es correcta y está actualizada
+          required: true
+        - label: Tengo permiso o represento a la comunidad convocante
+          required: true
