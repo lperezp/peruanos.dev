@@ -115,6 +115,10 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'startups.pe',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.sessionize.com',
       }
     ],
   },

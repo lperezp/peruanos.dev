@@ -30,6 +30,21 @@ export async function GET(request: Request) {
       );
     }
 
+    filtered = [...filtered].sort((a, b) => {
+      const aClosed = a.status === 'closed';
+      const bClosed = b.status === 'closed';
+      if (!aClosed && bClosed) return -1;
+      if (aClosed && !bClosed) return 1;
+
+      if (a.deadline && b.deadline) {
+        return new Date(a.deadline).getTime() - new Date(b.deadline).getTime();
+      }
+      if (a.deadline && !b.deadline) return -1;
+      if (!a.deadline && b.deadline) return 1;
+
+      return 0;
+    });
+
     return NextResponse.json(filtered, { status: 200 });
   } catch (error) {
     console.error("Error al obtener los Call for Speakers:", error);

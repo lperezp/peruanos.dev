@@ -9,7 +9,6 @@ export default function CfsClient() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedTopic, setSelectedTopic] = useState<string>('todos');
   const [selectedType, setSelectedType] = useState<string>('todos');
-  const [selectedStatus, setSelectedStatus] = useState<string>('todos');
 
   // Extract all unique topics
   const allTopics = useMemo(() => {
@@ -41,29 +40,37 @@ export default function CfsClient() {
         selectedType === 'todos' ||
         item.type.toLowerCase() === selectedType.toLowerCase();
 
-      // Status filter
-      const matchesStatus =
-        selectedStatus === 'todos' ||
-        (selectedStatus === 'open' && (item.status === 'open' || item.status === 'closing_soon' || item.status === 'always_open')) ||
-        (selectedStatus === 'always_open' && item.status === 'always_open') ||
-        (selectedStatus === 'closed' && item.status === 'closed');
+      return matchesSearch && matchesTopic && matchesType;
+    })
+    .sort((a, b) => {
+      // Convocatorias activas primero, cerradas al final
+      const aClosed = a.status === 'closed';
+      const bClosed = b.status === 'closed';
+      if (!aClosed && bClosed) return -1;
+      if (aClosed && !bClosed) return 1;
 
-      return matchesSearch && matchesTopic && matchesType && matchesStatus;
+      // Si ambas tienen deadline, ordenar por la fecha más próxima (ascendente)
+      if (a.deadline && b.deadline) {
+        return new Date(a.deadline).getTime() - new Date(b.deadline).getTime();
+      }
+      // Convocatorias con deadline específico van antes que las continuas sin fecha límite
+      if (a.deadline && !b.deadline) return -1;
+      if (!a.deadline && b.deadline) return 1;
+
+      return 0;
     });
-  }, [searchTerm, selectedTopic, selectedType, selectedStatus]);
+  }, [searchTerm, selectedTopic, selectedType]);
 
   const clearFilters = () => {
     setSearchTerm('');
     setSelectedTopic('todos');
     setSelectedType('todos');
-    setSelectedStatus('todos');
   };
 
   const hasActiveFilters =
     searchTerm !== '' ||
     selectedTopic !== 'todos' ||
-    selectedType !== 'todos' ||
-    selectedStatus !== 'todos';
+    selectedType !== 'todos';
 
   return (
     <div className="w-full mt-8 flex flex-col gap-8">
@@ -101,18 +108,6 @@ export default function CfsClient() {
               <option value="presencial">Presencial</option>
               <option value="virtual">Virtual</option>
               <option value="híbrido">Híbrido</option>
-            </select>
-
-            {/* Status Dropdown */}
-            <select
-              value={selectedStatus}
-              onChange={(e) => setSelectedStatus(e.target.value)}
-              className="py-2.5 px-3 rounded-lg border border-border bg-background text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary transition-all cursor-pointer"
-            >
-              <option value="todos">Todos los estados</option>
-              <option value="open">Convocatorias Abiertas</option>
-              <option value="always_open">Abiertas Todo el Año</option>
-              <option value="closed">Cerradas</option>
             </select>
           </div>
         </div>
@@ -168,9 +163,9 @@ export default function CfsClient() {
         </p>
       </div>
 
-      {/* Grid of CFS Cards */}
+      {/* List of CFS Cards */}
       {filteredCfs.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="flex flex-col gap-4 w-full">
           {filteredCfs.map((cfs) => (
             <CfsCard key={cfs.id} cfs={cfs} />
           ))}
