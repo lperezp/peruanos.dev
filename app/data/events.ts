@@ -961,5 +961,96 @@ export const EVENTS: IEvent[] = [
     "registration_url": "https://gdg.community.dev/events/details/google-gdg-piura-presents-vibe-coding-ampprompting-1/",
     "tags": [],
     "organizer": "GDG Piura"
+  },
+  {
+    "title": "De Perú al mundo: Construye tu startup global | Stripe Lima Community",
+    "description": "Bienvenidos al primer evento de Stripe Lima community, organizado en colaboración con Startups.pe. Un espacio para conocer a otros fundadores, compartir lo que estamos aprendiendo y conversar sobre cómo construir desde Perú para clientes de todo el mundo.\n\nEn este primer encuentro escucharemos a dos fundadores en momentos distintos: uno que ya tiene experiencia creciendo con Stripe y otro que está dando sus primeros pasos. Hablaremos de cómo empezaron, qué decisiones tomaron y qué les hubiera gustado saber antes.\n\nA partir de sus historias, exploraremos cómo cobrar a clientes internacionales, qué implica constituir una empresa en Estados Unidos con Stripe Atlas y dónde encajan Stripe y Stripe Connect según tu negocio.\n\nHabrá una conversación con los fundadores, una sesión práctica sobre estas herramientas, preguntas del público y tiempo para conocernos. La idea es que te lleves más claridad sobre tus próximos pasos y conexiones con personas que también están construyendo.\n\n¿PARA QUIÉN ES?\nPara fundadores, personas con una idea de negocio, desarrolladores, inversionistas y quienes quieran conectar con el ecosistema startup peruano. No necesitas ser usuario de Stripe para participar.\n\nSPEAKERS\nDos fundadores usuarios de Stripe nos contarán su experiencia.\n- Juan Luis Auccatoma, Co-fundador de Whaticket nos contará sobre boostraping y como Stripe le apoyó en su expansión de negocio.\n- Luis Pimentel, Co-fundador de Inklop, nos contará sobre crear una startup en el sector de influencers y como Stripe le está solucionando la operativa de su negocio.\n- Paul Siccha, Co-fundador de Startups.pe, nos contará los beneficios de Stripe.\n\nORGANIZACIÓN\nOrganizado por Paul Siccha, Stripe Lima Community Builder y fundador de Startups.pe, comunidad que conecta a quienes forman parte del ecosistema startup en Perú.\n\nCon el apoyo de StartUPC, la incubadora y aceleradora de negocios de la UPC, que nos abre las puertas y nos recibe en su espacio para este encuentro.\n\nCOMUNIDAD\nÚnete a la comunidad de Whatsapp: Unirse al grupo de Whatsapp\nSíguenos en Instagram: /startups.pe\nSíguenos en LinkedIn: /startups.pe",
+    "date": "2026-10-13",
+    "time": "19:00",
+    "location": "San Isidro",
+    "city": "San Isidro",
+    "type": "Presencial",
+    "image_url": "https://images.lumacdn.com/uploads/0y/1ab6b891-1248-4ba0-9d9c-c41c649b219c.png",
+    "registration_url": "https://luma.com/y7ic8a5t?tk=lyWyHX",
+    "tags": [],
+    "organizer": "Startups.pe"
+  },
+  {
+    "title": "Tech Connect - Microservicios",
+    "description": "¡Gracias por tu interés en participar!\nEste encuentro está dirigido a profesionales con experiencia en el sector tecnológico.\nLos cupos son limitados y la participación estará sujeta a confirmación.",
+    "date": "2026-10-03",
+    "time": "19:00",
+    "location": "Lima",
+    "city": "Lima",
+    "type": "Presencial",
+    "image_url": "",
+    "registration_url": "https://forms.cloud.microsoft/e/GbLzHpESHA",
+    "tags": [
+      "Microservicios",
+      "Cloud",
+      "Software Architecture"
+    ],
+    "organizer": "NTT DATA Perú - Eventos"
+  },
+  {
+    "title": "Devfest Huancayo",
+    "description": "Devfest Huancayo 2026 se establece como el evento más destacado en tecnología en la región de Junín. Organizado por GDG Huancayo junto con la Universidad Peruana Los Andes, este festival se convierte en el epicentro tech de la sierra central del Perú. Es un espacio único que reúne a jóvenes, estudiantes universitarios, emprendedores, profesionales del sector salud, desarrolladores, y apasionados de la tecnología y la creatividad.",
+    "date": "2026-10-23",
+    "time": "07:30",
+    "location": "Parque Huamanmarca, 781 Jirón Ancash, Huancayo",
+    "city": "Huancayo",
+    "type": "Híbrido",
+    "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_dHzaCfm",
+    "registration_url": "https://gdg.community.dev/events/details/google-gdg-huancayo-presents-devfest-huancayo-1/",
+    "tags": [
+      "Conferencia",
+      "DevFest",
+      "Google Cloud",
+      "IA",
+      "IA - Gemini",
+      "Networking",
+      "Taller / sesión práctica"
+    ],
+    "organizer": "GDG Huancayo"
+  },
+  {
+    "title": "Devfest Ayacucho",
+    "description": "DEVFEST AYACUCHO 2026: FESTIVAL REGIONAL DE TECNOLOGÍA, INNOVACIÓN Y EMPRENDIMIENTO se consolida como el evento tecnológico de mayor trascendencia en la región Ayacucho, realizado por la comunidad GDG Ayacucho. Durante dos jornadas consecutivas, reuniendo a jóvenes, estudiantes universitarios, emprendedores, profesionales de la salud, desarrolladores y entusiastas de la tecnología y la innovación.",
+    "date": "2026-11-21",
+    "time": "08:00",
+    "location": "Ayacucho",
+    "city": "Ayacucho",
+    "type": "Presencial",
+    "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_RXCgrkS",
+    "registration_url": "https://gdg.community.dev/events/details/google-gdg-ayacucho-presents-devfest-ayacucho/",
+    "tags": [
+      "AI",
+      "AI - Gemini",
+      "Conference",
+      "DevFest",
+      "Google Cloud",
+      "Workshop / hands-on session"
+    ],
+    "organizer": "GDG Ayacucho"
+  },
+  {
+    "title": "DevFest Cusco 2026 Kickoff",
+    "description": "Join us for the exciting kickoff of DevFest Cusco 2026! Dive into the world of Google technologies with engaging talks and hands-on workshops led by local experts. This event is a fantastic opportunity to connect with technology enthusiasts, share ideas, and learn about the latest trends. Don't miss out on this chance to be part of a vibrant, inclusive community. RSVP now to secure your spot and bring your friends along to grow our GDG Cusco family!",
+    "date": "2026-11-07",
+    "time": "09:00",
+    "location": "Paraninfo Universitario (Cuzco), Calle Mantas 117, Cusco 08002, Perú.",
+    "city": "Cusco",
+    "type": "Presencial",
+    "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_sjVYo2V",
+    "registration_url": "https://gdg.community.dev/events/details/google-gdg-cusco-presents-devfest-cusco-2026-kickoff/",
+    "tags": [
+      "AI",
+      "AI - Gemini",
+      "Conference",
+      "DevFest",
+      "Google Cloud",
+      "Workshop / hands-on session"
+    ],
+    "organizer": "GDG Cusco"
   }
 ];
