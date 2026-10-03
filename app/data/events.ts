@@ -846,19 +846,6 @@ export const EVENTS: IEvent[] = [
     "organizer": "GDG Ayacucho"
   },
   {
-    "title": "Ng Conf Perú 2026",
-    "description": "¡Únete a nosotros para la tercera edición de la Ng Conf Perú 2026! 🌟 Este evento te brindará un vistazo fascinante al mundo de Angular y cómo puedes aprovechar esta potente herramienta en tus proyectos de desarrollo. No importa si eres un desarrollador experimentado o recién estás comenzando, esta es tu oportunidad de aprender y hacer nuevas conexiones en la comunidad tecnológica.\n\nDurante el evento, contaremos con sesiones interactivas, oportunidad para preguntas y respuestas, y la posibilidad de interactuar con otros apasionados de la tecnología. ¡No te pierdas la oportunidad de desbloquear todo el potencial de Angular!\n\n¡Reserva tu lugar ahora para asegurar tu participación en este evento único y memorable! Nos reuniremos en un ambiente acogedor para compartir conocimientos y crecer juntos como comunidad. ¡Te esperamos con ansiedad para inspirar y ser inspirados!\n\nÚnete a GDG Callao en nuestras redes sociales para más detalles y actualizaciones. Estamos emocionados de compartir esta gran experiencia contigo. ¡No te lo puedes perder!",
-    "date": "2026-10-09",
-    "time": "09:00",
-    "location": "Universidad de Ingeniería y Tecnología - UTEC",
-    "city": "Callao",
-    "type": "Presencial",
-    "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_scale,w_2560/c_crop,h_640,w_2560,y_0.0_mul_h_sub_0.0_mul_640/c_crop,h_640,w_2560/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/event_banners/GDG_Bevy_DefaultEventBanner_x7tGQf5.png",
-    "registration_url": "https://gdg.community.dev/events/details/google-gdg-callao-presents-ng-conf-peru-2026/",
-    "tags": [],
-    "organizer": "GDG Callao"
-  },
-  {
     "title": "DevFest Chimbote 2026",
     "description": "¿Qué es DevFest?\n\nDevFest es mucho más que una simple conferencia tecnológica; es una celebración global del conocimiento, la innovación y la comunidad en el mundo del desarrollo de software. Organizado por los Google Developer Groups (GDGs) en más de 100 países, DevFest representa la culminación anual de eventos tecnológicos respaldados por Google.\n\nEn Lima, nos enorgullece ser parte de este movimiento global, trayéndote una experiencia única que combina:\n\n🌟 Aprendizaje de Vanguardia: Sumérgete en las últimas tecnologías de Google y tendencias de la industria.\n\n🤝 Networking de Alto Nivel: Conecta con desarrolladores, expertos de la industria y entusiastas tecnológicos.\n\n💡 Inspiración e Innovación: Descubre ideas revolucionarias y proyectos que están cambiando el mundo.\n\n🚀 Oportunidades de Crecimiento: Impulsa tu carrera con conocimientos prácticos y contactos valiosos.\n\nLo que te espera:\n\n🎤 Charlas inspiradoras de Google Developer Experts y líderes de la comunidad\n\n💡 Sesiones prácticas y demostraciones en vivo\n\n🤝 Networking con profesionales y entusiastas de la tecnología\n\n🏆 Competencias y premios exclusivos\n\n¿Por qué asistir?\n\nAprende de los mejores en la industria\n\nDescubre las últimas tendencias y herramientas\n\nAmplía tu red profesional\n\nInspírate para tu próximo gran proyecto\n\n¡Corre la voz! Comparte esta invitación y hagamos del DevFest 2026 un evento inolvidable.",
     "date": "2026-12-12",
