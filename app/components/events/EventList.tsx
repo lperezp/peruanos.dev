@@ -19,7 +19,7 @@ export default function EventList({ events }: EventListProps) {
     return (
         <div className="flex flex-col gap-6 w-full">
             {events.map((event: IEvent) => (
-                <CardEvent key={`${event.title}-${event.date}`} event={event} />
+                <CardEvent key={event.id} event={event} />
             ))}
         </div>
     );

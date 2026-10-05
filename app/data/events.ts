@@ -2,6 +2,7 @@ import { IEvent } from "../models/event.model";
 
 export const EVENTS: IEvent[] = [
   {
+    "id": "5700cc22-e993-434b-bf6a-cf19cdd63873",
     "title": "F13: Code Summit",
     "description": "En F13 buscamos de crear una conferencia hecha por y para programadores, sin importar tu stack tecnológico o especialidad. Como la tecla F13 que no existe en tu teclado, buscamos llenar ese vacío que falta en el ecosistema tech peruano.",
     "date": "2026-09-12",
@@ -20,6 +21,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "F13"
   },
   {
+    "id": "be8e0ed6-4166-43d9-8a17-234bb344ab31",
     "title": "Historias que generan valor",
     "description": "En esta edición profundizamos en la fricción como motor de mejores decisiones. En el mundo corporativo, salir rápido casi siempre le gana a salir bien: las decisiones se toman con lo que hay, los procesos se acortan y la innovación termina siendo más intención que realidad.\n\nConversaremos con:\n- Alejandra Vizquerra – Gerente Comercial en RIMAC Seguros\n- Jupio Ishiyama – Gerente de Brand Innovation en Alicorp y Fundador de Wandertaku\n- Tony Arévalo – Gerente General de SHIFT\n- César Castañeda – Diseñador estratégico y Cofundador de Reboot",
     "date": "2026-08-20",
@@ -33,6 +35,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Rimac Design"
   },
   {
+    "id": "9a349eb5-0fff-4920-b436-ebb8e89f1063",
     "title": "TechDay: AI & Security Edition",
     "description": "¡Descubre lo último en seguridad y IA en TECH DAY, un evento presencial lleno de innovación y tech!",
     "date": "2026-08-15",
@@ -46,6 +49,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "TECH DAY"
   },
   {
+    "id": "897b75f2-3a92-4d72-82f1-70debaeec00a",
     "title": "DevOpsDays Lima 2026",
     "description": "Este 27 y 28 de agosto del 2026, por 2do año consecutivo, el Centro de Convenciones Lima se convierte en el punto de encuentro de quienes están transformando la forma en que se construye, despliega y opera software en la región. Acceso a charlas, talleres y networking con toda la comunidad DevOps. Ideal para quienes vienen a aprender, conectar y descubrir lo último en plataforma, IA, seguridad y cultura de ingeniería.",
     "date": "2026-08-27",
@@ -64,6 +68,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "DevOpsDays Lima"
   },
   {
+    "id": "fb95c540-4efd-48f7-a284-c2edc139823b",
     "title": "Meetup #3 (Presencial) - Tu primer despliegue en AWS Cloud",
     "description": "¡Seguimos creciendo con la comunidad del AWS User Group Piura! En nuestro tercer meetup presencial, cambiaremos el formato tradicional de charlas por una experiencia práctica: un workshop para realizar tu primer despliegue en AWS Cloud. Trabajaremos con AWS y Flutter de forma guiada. Además habrá Kahoot! con créditos AWS, sorteos, bocaditos y networking.\n\n⚠️ Importante: traer laptop para participar activamente.",
     "date": "2026-08-08",
@@ -83,6 +88,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "AWS USER GROUP PIURA"
   },
   {
+    "id": "4591c1ca-e78f-44b7-990e-a11c9eb9907a",
     "title": "Agentic AI Optimization: Headroom Series",
     "description": "2da Conferencia Mensual: Agentic AI Optimization - Headroom Series\n\n¿Por qué tu agente IA desperdicia el 70% de su contexto? Entre información repetida y ruido, estás perdiendo eficiencia. Únete y descubre cómo ahorrar entre un 40% y 50% en tokens sin sacrificar precisión.\n\nAprenderás sobre SmartCrusher (compresión inteligente de JSON), CacheAligner (mejora de cache hits del 5% al 80%), y RollingWindow (gestión dinámica del presupuesto de tokens).\n\nPonente: Daniel Mamani - President of IEEE Computer Society PUCP.\n\nSe requiere familiaridad previa con Claude Code o herramientas similares.",
     "date": "2026-08-01",
@@ -101,6 +107,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "IEEE Computer Society PUCP"
   },
   {
+    "id": "a1778818-f74b-4948-97ca-235b94b585d1",
     "title": "¿RAG ha muerto? Larga vida al Agentic RAG",
     "description": "Aunque el RAG tradicional se convirtió en el estándar de oro para conectar modelos de lenguaje con datos corporativos, su dependencia de la simple búsqueda vectorial está chocando contra un muro en casos de uso que requieren razonamiento profundo o múltiples pasos lógicos. En esta charla exploraremos la evolución natural del RAG: el Agentic RAG, donde agentes autónomos planifican, usan herramientas, evalúan y sintetizan información de forma dinámica.",
     "date": "2026-08-01",
@@ -114,6 +121,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "My Agents LATAM"
   },
   {
+    "id": "d6b73a14-6bb9-4225-ad52-f089952dd938",
     "title": "DevFest Open Lima 2026",
     "description": "𝗗𝗲𝘃𝗙𝗲𝘀𝘁 es la conferencia tecnológica anual organizada por la comunidad de Google Developer Groups (GDG) , con eventos realizados alrededor del mundo para reunir a desarrolladores, estudiantes, profesionales y entusiastas de la tecnología. Este 2026 nos volveremos a encontrar para conectar, aprender e inspirarnos junto a la comunidad tech. Será una jornada llena de charlas, experiencias, networking y mucho conocimiento de la mano de speakers, Google Developer Experts y líderes de comunidad. 🌎✨ Disfruta de contenido en los tracks de: 🤖 IA 🌐 Web ☁️ Cloud 📱 Mobile 🛡️ Cybersecurity 💡 Tech Skills &amp; No Code 🎟️ Haz clic en \"RSVP\" para registrarte y asegurar tu lugar. ¡Nos vemos en DevFest Open Lima 2026 ! 🚀💙",
     "date": "2026-11-21",
@@ -141,6 +149,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "GDG Open"
   },
   {
+    "id": "f1d63111-af58-4556-97b1-a908d396ad3a",
     "title": "DevFest Callao 2026",
     "description": "DevFest es la conferencia anual más importante de tecnología realizada mundialmente por la comunidad Google Developer Groups dirigida a estudiantes, desarrolladores, profesionales y entusiastas del sector tech 👨🏻‍💻\n\nDevFest Callao 2026 será nuestra primera edición como comunidad GDG Callao, un evento creado para reunir a desarrolladores, estudiantes, profesionales tech y personas interesadas en aprender, conectar y crear con tecnología 🥳\n\nEste encuentro buscará acercar a la comunidad local las últimas novedades del ecosistema Google y las tecnologías que están transformando la industria 🚀\n\nEncontrarás charlas de:\n\n🤖 Inteligencia Artificial: Gemini, Vertex AI, agentes, RAG, machine learning y automatización con IA\n\n☁️ Cloud: Google Cloud, Firebase, Kubernetes, Docker, DevOps, serverless y arquitectura cloud\n\n🌐 Web: JavaScript, TypeScript, React, Angular, Vue, Astro, Diseño UX/UI, CSS, SEO y performance\n\n📱 Mobile: Android, Kotlin, Flutter, Firebase, desarrollo multiplataforma y accesibilidad móvil\n\n🔐 Cybersecurity: Seguridad web y cloud, privacidad, protección de datos, OWASP, phishing y desarrollo seguro\n\n💼 Tech Skills: CV y LinkedIn, tech recruitment, portafolio, marca personal y crecimiento profesional\n\n🧩 No-code: n8n, AppSheet, Make, Zapier, automatización de procesos, integraciones y creación de soluciones sin código\n\nMás que una conferencia, DevFest Callao será un espacio para compartir conocimiento, fortalecer la comunidad tecnológica y seguir impulsando el crecimiento del talento local 👩🏽‍💻🧑🏻‍💻",
     "date": "2026-10-24",
@@ -167,6 +176,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "GDG Callao"
   },
   {
+    "id": "43be85d6-92a2-4ad2-a7dd-119a2a5a3c80",
     "title": "DevFest Ica 2026",
     "description": "Se parte del evento más grande del año.",
     "date": "2026-11-28",
@@ -186,6 +196,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "GDG Ica"
   },
   {
+    "id": "d710f3b1-c631-451d-9a9e-78356cf0cb3e",
     "title": "🎉 ¡YA LLEGÓ GDG AYACUCHO! 🚀",
     "description": "El próximo 05 DE SEPTIEMBRE a las 8:30 am haremos nuestro LANZAMIENTO OFICIAL 🎊 📍 Lugar: por confirmar (te avisamos antes) 🔗 Regístrate YA: https://bit.ly/450oaBC 🌟 ¿Qué viene? • DevFest • Build with AI • Hackathones • Charlas y talleres con expertos 💬 ¡Invita a tus amigos! Todos son bienvenidos. 📲 Únete a nuestro WhatsApp: https://chat.whatsapp.com/J5qMiez3M0xFL6sPT6wKtV #GDGAyacucho #GoogleDeveloperGroups #ComunidadTech #Ayacucho #Tech #Innovación #Lanzamiento",
     "date": "2026-09-05",
@@ -202,6 +213,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "GDG Ayacucho"
   },
   {
+    "id": "900f104d-cbf6-42fe-82c8-ab4f2bdc5b6e",
     "title": "Microsoft Build 2026 - Next Steps",
     "description": "*** Continuamos la conversación después de nuestro pasado evento, con una sesión enfocada en llevar las novedades a la práctica. En este meetup exploraremos repositorios, laboratorios y ejemplos reales inspirados en las sesiones de **Microsoft Build 2026** para profundizar en IA, desarrollo moderno y nube. Aquì nuestra agenda: * Jim Saenz: Multi-agent patterns in VS Code you won't learn from docs * Keyla Dolores: Fabric IQ - Bringing Enterprise Ontology Directly into the Developer Workflow * Ernesto Cardenas: Azure Functions and Connectors Deep Dive * Jorge Castañeda: Observe, optimize and protect your hosted agents in Microsoft Foundry * Lennin Cenas: From prototype to production: build and run agents at scale Será un espacio práctico y colaborativo para compartir aprendizajes, descubrir recursos oficiales y definir los siguientes pasos para seguir construyendo con el ecosistema de Microsoft.",
     "date": "2026-08-08",
@@ -215,6 +227,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Microsoft User Group Perú"
   },
   {
+    "id": "a856e2ff-5ba0-41a5-9828-fc50def9a45c",
     "title": " AI Saturday 2026 - Cloud Experts",
     "description": "Un día completo pensado para audiencia técnica: desarrolladores, arquitectos y entusiastas de IA que quieren ver de primera mano hacia dónde va el ecosistema de Microsoft en inteligencia artificial.",
     "date": "2026-08-22",
@@ -228,6 +241,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Cloud Experts Community"
   },
   {
+    "id": "49857c5f-d6ac-4e95-be4c-465134d7924a",
     "title": "Automation in a Day",
     "description": "Este es un curso intensivo, ideal para principiantes, está diseñado para que aprendas a automatizar procesos con Power Automate y Power Automate Desktop. Si bien las posibilidades son infinitas, tu tiempo es limitado. Tanto si eres un experto en negocios como un desarrollador de TI, aprenderás a digitalizar procesos empresariales, conectar todas tus aplicaciones para compartir datos en tiempo real y automatizar y optimizar tus procesos. Registro en [https://forms.cloud.microsoft/r/zftMECUmbh?origin=lprLink](https://forms.cloud.microsoft/r/zftMECUmbh?origin=lprLink//) Speakers: Juan Rafael https://www.linkedin.com/in/juanrafael/ Elard Koch https://www.linkedin.com/in/ekoch1993/",
     "date": "2026-08-15",
@@ -241,6 +255,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Cloud Experts Community"
   },
   {
+    "id": "ba81d21c-27ba-4185-913f-8e0589046098",
     "title": "Fabric Power Query",
     "description": "Si trabajas con datos, BI, Fabric, SQL o simplemente quieres llevar tus habilidades al siguiente nivel… este evento es para ti. Aprenderás a transformar datos con Power Query en Fabric Verás casos reales, trucos y buenas prácticas Descubrirás cómo impulsar tus proyectos con el nuevo ecosistema de Fabric Todo 100% en vivo, con interacción y demostraciones 🎤 Speakers Natali Lujan MVP Nicolas Nakasone Los esperamos...!!!",
     "date": "2026-08-07",
@@ -254,6 +269,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "BI Expert"
   },
   {
+    "id": "99094397-9ec9-47d5-ba59-4a70b1622a75",
     "title": "Devin Lima Meetup",
     "description": "Join local developers for networking, learning, and building with Devin.\nIf you&#x27;re curious about AI-powered development or looking to connect with like-minded…",
     "date": "2026-08-08",
@@ -267,6 +283,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Erasmo Hernandez"
   },
   {
+    "id": "d579b90a-38c2-481a-b572-a7a1670449f4",
     "title": "De idea a producto: cómo construí una plataforma educativa con IA en 3 días",
     "description": "¿Es posible convertir una idea en un producto funcional en solo unos días? En esta sesión descubrirás el proceso real de Rhomina Sosa (Founder de Prueba del…",
     "date": "2026-08-04",
@@ -280,6 +297,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Mayckol Cruzado"
   },
   {
+    "id": "639aa899-bef3-4e38-88fc-e0cac91af199",
     "title": "Hackathon I: Prophecy Tech & UTEC",
     "description": "20 devs tendrán 2 horas para sumar puntos dentro de un ambiente simulado. El dev con la mayor cantidad de puntos ganará un premio valorizado en 1,000+ soles.\n\nAgenda:\n- 10:00 Salida de bus desde la UTEC\n- 11:00 Registro y setup\n- 12:00 Comienza el reto\n- 14:00 Termina el reto y premiación\n- 14:45 Salida de bus hacia la UTEC\n\nReglas:\n- Presencial\n- Trae tu laptop y cargador",
     "date": "2026-08-15",
@@ -296,6 +314,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Prophecy Tech"
   },
   {
+    "id": "424fc573-532e-4657-8c7d-87f336c3f773",
     "title": "DIA 6 - FULL DAY PRESENCIAL & CIERRE CS WEEK PERÚ 2026",
     "description": "Cierre Presencial - CS WEEK Perú 2026 🇵🇪\n\n¡Bienvenidos al evento cumbre de la tecnología y la computación en el país! La CS WEEK Perú 2026 es el evento anual más esperado, organizando con pasión y dedicación por las ramas estudiantiles de la IEEE Computer Society en el Perú.\n\nTe invitamos a nuestro Full Day Presencial este sábado 15 de agosto, una jornada completa diseñada para estudiantes, profesionales y entusiastas de la tecnología que buscan expandir sus conocimientos, conectar con expertos y llevar sus habilidades al siguiente nivel.\n\n🗓️ ¿Qué te espera en este Full Day?\nHemos preparado una agenda doble para que puedas elegir las temáticas que más te apasionen. ¡Tendremos actividades en simultáneo!\n\n🎙️ Track Principal: Charlas y Conferencias (11:25 AM - 5:30 PM)\nDisfruta de ponencias magistrales con expertos del sector que compartirán sus conocimientos sobre las últimas tendencias tecnológicas.\n• Jimena Rebaza Carpio (Confidencial)\n• Gianmarco Guerrero (NTT DATA & AWS)\n☕ Coffee Break de Integración\n• Gerardo Vilcamiza (NTT DATA & Python LIMA)\n• Manuel Flores (Banco Central de Reserva del Perú - BCRP)\n• Juan José Miranda (Director NTT DATA)\n• IEEE Xtreme Ambassadors\nCeremonia de Cierre\n• IEEE Computer Society Chapters Perú\n\n🛠️ Track Paralelo: Workshops Prácticos (Desde las 12:00 PM)\nWorkshops de la Sala 1: Sesiones intensivas a cargo de las comunidades:\n• QPerú\n• Henry\n• DSC PUCP\n\nWorkshops de la Sala 2: Explora nuevas tecnologías junto a:\n• Quantum Hub\n• Lead UTP\n• Claude Community Perú\n\n🌟 ¿Por qué deberías asistir?\n• Networking de alto nivel: Conecta con líderes de la industria, ponentes y estudiantes de las mejores universidades del país.\n• Aprendizaje práctico: Llévate conocimientos aplicables a tus proyectos personales o vida profesional.\n• Comunidad: Sé parte del ecosistema tecnológico que está transformando el Perú.\n\n🎟️ ¡Asegura tu entrada! Los cupos presenciales son limitados, así que no dejes pasar esta oportunidad de vivir la experiencia completa de la CS WEEK.",
     "date": "2026-08-15",
@@ -311,6 +330,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "IEEE CS PUCP & CSWEEKPERU"
   },
   {
+    "id": "b57db3dd-2aa5-40fb-b8de-56beb9ee9097",
     "title": "Warm-Up: DevOpsDays Lima 2026",
     "description": "Antes del gran evento, te invitamos al Warm-Up DevOpsDays Lima: un meetup previo para vivir un adelanto de lo que se viene en la edición más grande de la comunidad DevOps en Perú y Latam.\n\n📅 Miércoles 19 de agosto, 2026 desde las 06:30 p.m.\n\n📍 Oficinas de Interbank: Av. Carlos Villarán 140, La Victoria, Lima\n\nEn esta antesala tendremos:\n\n⚡ Charlas relámpago con contenido de alto impacto\n\n🎤 Participación de Carlos Gallardo, CTO de Clever IT y speaker invitado de DevOpsDays Lima 2026, quien abordará un tema del eje temático Enterprise AI & Data Strategy\n\n🤝 Networking con la comunidad tech\n\n🎯 Todos los detalles de lo que viviremos los días 27 y 28 de agosto en el Centro de Convenciones de Lima\n\nAprende, Conecta y Despega 🚀",
     "date": "2026-08-19",
@@ -326,6 +346,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "DevOpsDays Lima 2026"
   },
   {
+    "id": "51ad6dbc-8c54-4fa4-9e91-cc0f15f53baf",
     "title": "Webflow MCP 2.0 Challenge",
     "description": "Webflow Perú vuelve con un build session en vivo, parte del MCP 2.0 Community Challenge global de Webflow.\n\nVas a conectar el Webflow MCP a una herramienta de IA como Claude o Cursor y construir algo en vivo, ahí mismo en la sala. No necesitas experiencia previa con MCP, los starter prompts te ponen a construir en minutos, seas developer, diseñador o marketer.\n\n🏆 $500 en premios para nuestro chapter, divididos entre los primeros puestos, además del sorteo global del challenge.\n*Fecha límite de envío: 31 de agosto. Ganadores anunciados el 8 de septiembre.\n\n⏰ Empezamos puntual, nada de \"hora peruana\" 😄\n\n⚠️ Checklist — no te olvides traer\n- Laptop + cargador (obligatorio — es un build en vivo, sin laptop no hay build)\n- Cuenta de Webflow\n- Claude, Cursor u otra herramienta de IA instalada y con sesión iniciada\n\n🍪 No te olvides aceptar las cookies al entrar.\n\nSíguenos para más actualizaciones 👇\n- WhatsApp: https://chat.whatsapp.com/JT6EUPdACMwCP43q9SBP8K\n- Instagram: https://www.instagram.com/webflowperu",
     "date": "2026-08-26",
@@ -342,6 +363,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Webflow Perú"
   },
   {
+    "id": "4661015d-8337-4634-80d9-d17770e9ab7f",
     "title": "ElevenLabs + Make: agentes de voz con Notion",
     "description": "Únete a la comunidad\nGrupo de whatsapp: ingresa aquí\n​​Descripción\nEn esta sesión de IA Labs aprenderás cómo combinar ElevenLabs + Make + Notion para crear un agente de voz inteligente, conectando conversaciones, automatizaciones y conocimiento en un sistema práctico que puedes aplicar en tus propios proyectos.\nLo que aprenderás:\nCómo crear un agente de voz con IA usando ElevenLabs.\nCómo conectar automatizaciones con Make para ejecutar acciones automáticamente.\nCómo usar Notion como cerebro central para organizar información y procesos.\nIdeas prácticas para aplicar agentes de voz en negocios, proyectos y tareas repetitivas.\n¿Para quién es esta sesión?\nPara makers, emprendedores, profesionales y personas interesadas en IA que quieren aprender a construir automatizaciones reales y crear sistemas inteligentes sin empezar desde cero.\n​​Speakers\nJhon & Mayckol (Co-founders de IA Labs)\n​​Horarios\n🇲🇽 5:00 p. m. | 🇵🇪 🇨🇴 6:00 p. m. | 🇨🇱 7:00 p. m. | 🇦🇷 8:00 p. m.",
     "date": "2026-08-19",
@@ -357,6 +379,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Mayckol Cruzado"
   },
   {
+    "id": "ad2cbec4-99ce-4286-b4e7-ef224b2fe779",
     "title": "Notion Developer Platform: automatiza, conecta y construye",
     "description": "Únete a la comunidad \nGrupo de whatsapp: ingresa aquí\nDescripción \nNotion puede ser mucho más que un espacio para organizar información. En esta sesión en vivo vamos a explorar cómo automatizar procesos, conectar Notion con otras herramientas y construir soluciones propias usando Notion Developer Platform.\nEn esta sesión aprenderás: \n• Cómo automatizar tareas y procesos con Notion.\n• Cómo conectar Notion con otras herramientas y servicios.\n• Qué puedes construir con Notion Developer Platform y cómo extender sus capacidades.\n¿Para quién es? \nPara developers, makers, automatizadores y usuarios avanzados de Notion que quieren llevar sus sistemas y proyectos un paso más allá.\nSpeakers \nJhon & Mayckol (Notion Ambassadors & Co-founders de IA Labs)",
     "date": "2026-08-20",
@@ -372,6 +395,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "IA Labs Events"
   },
   {
+    "id": "cd84d11c-f568-4dd6-92bd-c9b86bad0a56",
     "title": "[Coffee Lab] Eleven Creative & Make: automatiza tus contenidos de multimedia",
     "description": "Los Coffee Labs son espacios personalizados y prácticos donde dejamos la teoría de lado y nos enfocamos en construir en vivo. Saldrás del laboratorio con integraciones reales funcionando entre tu workspace de Notion y otras herramientas.\nDescripción\nLa inteligencia artificial está cambiando la forma en la que creamos y automatizamos. En esta sesión práctica exploraremos cómo combinar ElevenLabs + Make para construir flujos creativos con voz e IA.\nEn este Coffee Lab aprenderás:\nCómo usar ElevenLabs para crear experiencias y contenidos con voz generada por IA.\nCómo automatizar procesos conectando herramientas con Make.\nIdeas prácticas para transformar tareas repetitivas en flujos inteligentes.\nCómo combinar creatividad e IA para construir nuevas soluciones.\n¿Para quién es esta sesión?\nPara makers, creadores, emprendedores y personas interesadas en aprender cómo aplicar herramientas de IA para crear, automatizar y experimentar con nuevas posibilidades.\nSpeakers\nJhon Miranda: Co-founder de IA Labs & ElevenLabs Ambassador\nMayckol Cruzado: Co-founder de IA Labs & Make Ambassador\n​​Únete\nGrupo de whatsapp: ingresa aquí",
     "date": "2026-08-21",
@@ -387,6 +411,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "IA Labs Events"
   },
   {
+    "id": "3a0e779d-9de0-40cc-a257-d0777c6f3fc8",
     "title": "Build with Claude Lima",
     "description": "​Únete a la comunidad\nGrupo de whatsapp: ingresa aquí\n​​​Descripción\nÚnete a la primera edición de Build with Claude Lima, un encuentro pensado para reunir a la comunidad de builders, desarrolladores, creadores y entusiastas de la IA que quieren aprender construyendo.\nDurante esta sesión compartiremos proyectos reales, casos de uso, demostraciones en vivo y conversaciones con personas que ya están utilizando Claude para crear productos, automatizar procesos y desarrollar nuevas ideas. Más que un webinar, queremos que sea el punto de partida para una comunidad donde aprender, compartir y conectar.\n¿Qué encontrarás aquí?\nCharlas de builders que mostrarán cómo utilizan Claude en proyectos reales.\nDemostraciones prácticas y flujos de trabajo que podrás replicar.\nIdeas, herramientas y buenas prácticas para construir más rápido con IA.\nEspacio de preguntas y respuestas con los speakers.\nNetworking con otros makers, desarrolladores, emprendedores y profesionales interesados en crear con IA.\n¿Para quién es?\nPara cualquier persona que quiera pasar de experimentar con IA a construir soluciones reales con Claude, sin importar si recién está empezando o ya desarrolla sus propios proyectos.",
     "date": "2026-08-22",
@@ -402,6 +427,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "IA Labs Events"
   },
   {
+    "id": "4605c13b-7931-43f3-98ac-5c64ba780a9b",
     "title": "Hice 5 cifras en dos meses con IA",
     "description": "​Únete a la comunidad\nGrupo de whatsapp: ingresa aquí\n​​Descripción\nLa inteligencia artificial está cambiando la forma de emprender, pero la diferencia está en saber cómo aplicarla al mundo real. En esta sesión, Nayeli Azabache compartirá cómo logró generar cinco cifras en solo dos meses utilizando herramientas de IA y las estrategias que cualquier emprendedor puede comenzar a implementar.\n¿Qué aprenderás?\nCómo utilizar herramientas de IA para aumentar la productividad y generar más oportunidades de negocio.\nEstrategias prácticas aplicables a la realidad de los emprendedores peruanos.\nLecciones, herramientas y errores que te ayudarán a acelerar la implementación de IA en tu negocio.\n¿Para quién es?\nEsta charla está dirigida a emprendedores, freelancers, dueños de negocios y profesionales que quieren aprovechar la inteligencia artificial para crecer de forma más rápida y eficiente.\nSpeaker\nNayeli Azabache (Founder de Talent Staff)\n​​Horarios\n🇲🇽 6:00 p. m. | 🇵🇪 🇨🇴 7:00 p. m. | 🇨🇱 8:00 p. m. | 🇦🇷 9:00 p. m.",
     "date": "2026-08-24",
@@ -417,6 +443,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Mayckol Cruzado"
   },
   {
+    "id": "0aaaff68-c924-4d81-9d28-ba855735fc64",
     "title": "Convierte tu Second Brain en una Content Machine",
     "description": "Únete a la comunidad\nGrupo de whatsapp: ingresa aquí\n​​Descripción\nTienes ideas, notas y conocimiento acumulado… pero ¿cuánto de eso realmente se convierte en contenido?\nEn esta sesión en vivo aprenderás cómo transformar tu Second Brain en un sistema inteligente de creación de contenido utilizando Openclaw, Notion y Obsidian, para pasar de almacenar información a generar contenido con ayuda de IA.\nEn esta sesión aprenderás:\nCómo convertir tus notas e ideas en contenido accionable.\nCómo crear un flujo de trabajo con IA para acelerar tu proceso creativo.\nCómo conectar tu conocimiento organizado en Notion y Obsidian con nuevas formas de creación de contenido.\n¿Para quién es esta sesión?\nPara creadores, emprendedores, profesionales y personas interesadas en productividad e IA que quieren aprovechar mejor su conocimiento y crear contenido de forma más rápida y sistemática.\n​​Speakers\nJhon & Mayckol (Co-founders de IA Labs)\n​​Horarios\n🇲🇽 5:00 p. m. | 🇵🇪 🇨🇴 6:00 p. m. | 🇨🇱 7:00 p. m. | 🇦🇷 8:00 p. m.",
     "date": "2026-08-26",
@@ -432,6 +459,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Mayckol Cruzado"
   },
   {
+    "id": "f9c0d38b-12a9-4c99-9d13-56d980663a87",
     "title": "[Workshop] Construye tu Second Brain con Openclaw",
     "description": "Costo del workshop\nPrecio de preventa: S/99 hasta el 20 de agosto.A partir del 21 de agosto, el precio sube a S/159.\n¿Tienes dudas sobre si este workshop es para ti?Escríbenos por WhatsApp y te ayudamos a resolverlas.\nDescripción\nLa información está creciendo más rápido que nunca. La diferencia ahora está en tener un sistema que te ayude a capturar, conectar y aprovechar ese conocimiento.\nEn este workshop aprenderás a construir tu propio Second Brain con Openclaw y Notion/Obsidian, creando un sistema práctico para organizar tus ideas, proyectos y recursos con ayuda de inteligencia artificial.\nEn esta sesión aprenderás a:\nCrear la base de tu Second Brain usando Openclaw y Notion/Obsdian.\nIntegrar IA en tu flujo de conocimiento para trabajar de forma más eficiente.\nOrganizar notas, ideas y recursos para encontrarlos cuando realmente los necesitas.\n¿Qué incluye este workshop?\nMateriales de la sesión para que puedas aplicar lo aprendido.\nGuías de instalación y configuración paso a paso.\nGuías prácticas para usar tu nuevo sistema de conocimiento.\nGrupo privado de WhatsApp con la comunidad.\nQ&A en vivo con los mentores para resolver tus dudas.\nConstancia de participación.\nNo solo aprenderás la metodología: tendrás los recursos y acompañamiento para construir tu propio sistema con IA.\nDetalles\nDuración: 3 horas\nModalidad: Presencial\nLugar: Por confirmar\nCupos: limitados",
     "date": "2026-08-28",
@@ -447,6 +475,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "IA Labs Events"
   },
   {
+    "id": "9ad9f53c-f8dc-4e9f-ad68-452a86dcb968",
     "title": "Construye con Cursor y Notion as Code",
     "description": "Únete a la comunidad\nGrupo de whatsapp: ingresa aquí\n​​Descripción\nLa forma de crear productos y sistemas está cambiando. En esta sesión en vivo de IA Labs aprenderás cómo combinar Cursor y Notion as Code para transformar ideas en proyectos reales usando nuevas herramientas potenciadas por inteligencia artificial.\nEn esta sesión aprenderás:\nCómo usar Cursor como copiloto para construir y acelerar proyectos con IA.\nCómo aplicar Notion as Code para crear sistemas más inteligentes y personalizados.\nNuevas formas de conectar código, organización del conocimiento y automatización.\n¿Para quién es esta sesión?\nPara makers, emprendedores, creadores, desarrolladores y profesionales curiosos por descubrir cómo construir más rápido utilizando IA y herramientas modernas.\n​Speakers\nJhon & Mayckol (Co-founders de IA Labs)\n​​Horarios\n🇲🇽 5:00 p. m. | 🇵🇪 🇨🇴 6:00 p. m. | 🇨🇱 7:00 p. m. | 🇦🇷 8:00 p. m.",
     "date": "2026-09-02",
@@ -462,6 +491,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Mayckol Cruzado"
   },
   {
+    "id": "5925d9e8-66e7-4286-8a3d-b8d1a4f0edda",
     "title": "De horas a minutos: edita videos con Claude, MCP y Remotion",
     "description": "Únete a la comunidad\nGrupo de whatsapp: ingresa aquí\n​​Descripción\nEn esta sesión descubrirás cómo combinar Claude, MCP, Palmier Pro y Remotion para crear un flujo moderno de edición de video donde la IA puede ayudarte a automatizar tareas, controlar proyectos y acelerar la producción de contenido.\nAprenderás cómo:\nConectar Claude con herramientas de edición mediante MCP para leer proyectos, modificar líneas de tiempo y automatizar tareas.\nUsar Palmier Pro para controlar un proyecto de video desde una conversación con agentes de IA.\nCrear videos programáticamente con Remotion usando código, animaciones, overlays e intros reutilizables.\n¿Para quién es esta sesión?\nPara creadores de contenido, desarrolladores, makers y profesionales interesados en aplicar IA para automatizar procesos creativos y construir nuevos flujos de producción de video.\nSpeaker\nCristhian Recalde (Desarrollador Mobile en HomeTeam Network)\n​​Horarios\n🇲🇽 6:00 p. m. | 🇵🇪 🇨🇴 7:00 p. m. | 🇨🇱 8:00 p. m. | 🇦🇷 9:00 p. m.",
     "date": "2026-09-07",
@@ -477,6 +507,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Mayckol Cruzado"
   },
   {
+    "id": "027e36ff-2024-4f28-a1a5-7b81ac181ddb",
     "title": "Claude para el trabajo aburrido: convierte lo repetitivo en un sistema",
     "description": "Únete a la comunidad\nGrupo de whatsapp: ingresa aquí\n​​​​Descripción\nTodos repetimos tareas cada semana: la misma cotización, el mismo reporte, la misma presentación. El problema es que muchas veces sabemos hacerlas, pero nunca hemos explicado cómo. En esta sesión aprenderás a convertir ese conocimiento en un sistema que Claude pueda reutilizar.\n​En esta sesión aprenderás:\nConvierte una tarea que hoy haces “de memoria” en un sistema reutilizable.\nConstruye el sistema con Claude de principio a fin, sin escribir código.\nDescubre cuándo tiene sentido agregar datos en vivo, plantillas, automatizaciones y cuándo es mejor mantenerlo simple.\n¿Para quién es?\nPara asistentes, personas de operaciones, analistas, freelancers, pequeños negocios y desarrolladores que repiten trabajo cada semana. No necesitas experiencia técnica.Speaker\nAndres Zeballos (Solutions Architect en phData)\n​Horarios\n🇲🇽 6:00 p. m. | 🇵🇪 🇨🇴 7:00 p. m. | 🇨🇱 8:00 p. m. | 🇦🇷 9:00 p. m.",
     "date": "2026-09-14",
@@ -492,6 +523,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Mayckol Cruzado"
   },
   {
+    "id": "1f01dfe9-a045-41ac-826f-0323a0754754",
     "title": "Cómo construir un asistente de entrevistas laborales con IA",
     "description": "​Únete a la comunidad\nGrupo de whatsapp: ingresa aquí\n​​​​Descripción\n¿Quieres ver cómo una idea puede convertirse en una aplicación de IA funcional? En esta sesión, Gian Sandoval mostrará cómo construyó un asistente que analiza un CV, considera el rol al que se desea postular y utiliza Gemini para personalizar la preparación para entrevistas.\nEn esta sesión aprenderás:\nCómo construir una aplicación de IA que personaliza la experiencia según el perfil del usuario.\nCómo utilizó Codex con Claude como modelo para desarrollar el proyecto e integrar Gemini.\nLos principales retos, decisiones y aprendizajes detrás de la construcción.\n¿Para quién es?\nPara personas que quieren construir aplicaciones de IA reales, experimentar con coding agents o aprender de un proyecto práctico de principio a fin.\nSpeaker\nGian Sandoval (Software Architect en Scotiabank)\n​Horarios\n🇲🇽 6:00 p. m. | 🇵🇪 🇨🇴 7:00 p. m. | 🇨🇱 8:00 p. m. | 🇦🇷 9:00 p. m.",
     "date": "2026-09-21",
@@ -507,6 +539,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Mayckol Cruzado"
   },
   {
+    "id": "7438401a-1ec8-4996-9d19-f763a9825fd4",
     "title": "Cómo construir un sistema multi-agente en producción",
     "description": "Únete a la comunidad\nGrupo de whatsapp: ingresa aquí\n​​​Descripción\nConstruir agentes es fácil. Llevarlos a producción y convertirlos en un producto real es otra historia. En esta charla, Angelo Castillo, CEO de HERO IA, compartirá cómo construyó MATTIU, una plataforma de agentes de IA en producción, siendo solo founder y usando Claude Code como principal herramienta de desarrollo.\nEn esta sesión aprenderás:\nCómo diseñar la arquitectura de un sistema multi-agente, incluyendo orquestación y skills.\nQué considerar para construir sistemas seguros y multi-tenant.\nUn workflow replicable para pasar de una idea a un producto funcionando, incluyendo los errores y aprendizajes del proceso.\n¿Para quién es?\nIdeal para desarrolladores, data professionals y founders técnicos que quieren construir con IA más allá del chat y llevar sus ideas a producción.\nSpeaker\nAngelo Castillo (CEO de HERO IA)\nHorarios\n🇲🇽 6:00 p. m. | 🇵🇪 🇨🇴 7:00 p. m. | 🇨🇱 8:00 p. m. | 🇦🇷 9:00 p. m.",
     "date": "2026-09-28",
@@ -522,6 +555,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Mayckol Cruzado"
   },
   {
+    "id": "c92f010d-9a50-4ca0-b25b-bf104b191c9b",
     "title": "EdHack Aniversario <Aidea> Bienestar Docente - Perfiles Tech",
     "description": "✨ ¿Quieres crear soluciones a los retos sobre bienestar que enfrentas día a día como docente y al mismo tiempo aprender a usar inteligencia artificial para potenciar tu práctica?\n¡Únete a la EdHack - Bienestar Docente organizada por Aidea! Un espacio de colaboración e innovación donde trabajarás con otros educadores, tecnólogos y estrategas para imaginar, prototipar y presentar soluciones de IA que atiendan el bienestar de quienes enseñan. 10 horas. 8 equipos. 8 prototipos de alto impacto en el bienestar docente.\n📅 Fecha: Sábado 29 de agosto📍 Lugar: UTEC, Lima – Perú🎯 Modalidad: Presencial📥 Postula ahora | Cupos limitados",
     "date": "2026-08-29",
@@ -539,6 +573,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Aidea"
   },
   {
+    "id": "19936b89-860b-48db-9559-0ba1fe92f5fd",
     "title": "Meetup: Kiro & Crew",
     "description": "Meetup sobre agentes: Kiro & Crew\n\n📅Fecha: 21 de agosto 2026\n▶️Modalidad: Virtual - Canal de youtube\n🎙️Speaker: Kaarstthenn Alexander\n\n🤖En esta charla exploramos Kiro — el IDE agent-first de AWS que planifica, codea y verifica antes de que escribas una sola línea — y Kiro Crew, el agente autónomo que corre 24/7, recuerda lo que le enseñas, y ejecuta tareas mientras tú duermes.\n\n📰Anuncio y más novedades para este 2026 se anunciarán en la comunidad: ¡no te lo pierdas!",
     "date": "2026-08-21",
@@ -557,6 +592,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "AWS User Group Tacna"
   },
   {
+    "id": "822562bf-1139-4587-844e-02da18ee8f97",
     "title": "Cloud Quest!",
     "description": "**AWS Cloud Quest: ¡Aprende Cloud jugando! ☁️**\n\n¿Quieres aprender sobre **Cloud Computing y AWS** de una forma diferente?\nEl **AWS Student Builder Group UNI** te invita a participar en **AWS Cloud Quest**, una experiencia de aprendizaje gamificada donde podrás explorar conceptos de Cloud mientras completas retos y misiones.\nAprende haciendo, resuelve desafíos y descubre cómo se aplican los servicios de AWS en escenarios prácticos.\n\n**¿Qué haremos?**\n• 🎮 Exploraremos **AWS Cloud Quest** y completaremos sus desafíos.\n• ☁️ Aprenderemos conceptos fundamentales de **Cloud Computing y AWS**.\n• 🤝 Compartiremos la experiencia y conectaremos con otros estudiantes interesados en tecnología.\n\n**¿Para quién es?**\nNo necesitas ser un experto en AWS. Si estás comenzando en Cloud, quieres conocer AWS o simplemente quieres aprender de una manera diferente, **este evento es para ti.**\n**Información del evento**\n📅 **Fecha:** 22 de agosto de 2026\n🕐 **Hora:** 1:00 p. m. – 4:00 p. m.\n📍 **Lugar:** Laboratorio de Telecomunicaciones(UNI)\n\n**Organiza:** AWS Student Builder Group UNI\n**Prepárate para aprender Cloud de una manera diferente. ¿Aceptas el reto?**\n\n**PSDT:** Como siempre, habrá sorteos y regalos ;)",
     "date": "2026-08-22",
@@ -573,6 +609,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "AWS SBG at National University of Engineering"
   },
   {
+    "id": "d1ba3c60-58e3-4c9d-ade0-3dd0978766c6",
     "title": "Meetup #4 (Virtual) - Introducción al FinOps con AWS Cloud",
     "description": "☁️ **Introducción al FinOps con AWS Cloud** ☁️\n\n📅 **Fecha:** Jueves 3 de septiembre de 2026\n⏰ **Hora:** 7:00 PM – 9:00 PM 🇵🇪\n📍 **Evento Virtual** – [YouTube Live](https://www.youtube.com/@awsugpiura)\n🎟️ Evento gratuito\n\n**☀️ Sobre este evento**\n¡Seguimos creciendo con la comunidad del AWS User Group Piura! En nuestro cuarto meetup regresamos al formato virtual para una noche dedicada a uno de los temas más relevantes del ecosistema cloud: FinOps.\n\n¿Sabes cuánto gastas realmente en la nube? ¿Tus decisiones de arquitectura consideran el impacto financiero? En este evento exploraremos cómo construir una cultura de decisiones inteligentes sobre costos en AWS, desde los principios fundamentales de FinOps hasta el uso de agentes de IA para gobernar costos de forma proactiva.\n\nContaremos con dos charlas técnicas a cargo de profesionales con amplia experiencia en FinOps, arquitectura cloud e inteligencia artificial aplicada a la optimización de costos.\n\n**🗓️ Agenda:**\n\n⏰ **Hora:** 7:00 PM – 7:20 PM\n☁️ **Bienvenida y novedades de la comunidad**\nConoce las últimas novedades del AWS User Group Piura, próximos eventos y oportunidades para participar en la comunidad.\n\n⏰ **Hora:** 7:20 PM – 8:00 PM\n☁️ **Tema: FinOps Intelligence: Construyendo una cultura de decisiones inteligentes en la nube**\n🎤 **Speaker:** [Carlos Cortez](https://www.linkedin.com/in/carloscortezcloud/)\nDescubre cómo FinOps ayuda a organizaciones y equipos a comprender, optimizar y gobernar sus costos en la nube. Exploraremos los principios fundamentales de FinOps, las métricas más importantes y cómo transformar datos de consumo en decisiones más inteligentes para AWS y entornos cloud.\n\n⏰ **Hora:** 8:00 PM – 8:40 PM\n☁️ **Tema: El futuro del gobierno de costos con AWS FinOps Agent**\n🎤 **Speaker:** [Luis Arapa](https://www.linkedin.com/in/luis-angel-arapa-chambi-/)\n¿Alguna vez te enteraste de un sobrecosto en la nube recién al cierre de mes, cuando ya no había nada que hacer? Hoy entender la factura de AWS exige cruzar dashboards, logs y reportes de forma manual. En esta sesión veremos cómo un agente de IA construido sobre Amazon Bedrock cambia esa historia: investiga anomalías de costo en tiempo real, responde en lenguaje natural y propone mejoras sobre tus soluciones. Con un caso práctico en vivo, descubriremos cómo pasar del gobierno de costos reactivo al proactivo.\n\n⏰ **Hora:** 8:40 PM – 9:00 PM\n🏆 **Kahoot! interactivo y cierre del evento**\nParticipa respondiendo preguntas sobre FinOps y cloud computing para tener la oportunidad de ganar créditos de AWS.\n\n**🙌 ¿Por qué asistir?**\n• Aprende los fundamentos de FinOps y optimización de costos en la nube\n• Descubre cómo usar agentes de IA para gobernar costos en AWS de forma proactiva\n• Conecta con profesionales y entusiastas de tecnología en Latinoamérica\n• Participa por créditos de AWS\n\n**📌 Dirigido a:**\n• Estudiantes\n• Arquitectos cloud\n• Profesionales de tecnología\n• Personas interesadas en optimización de costos\n• Personas que desean iniciar o profundizar en AWS\n\n**No se requiere experiencia previa avanzada.**\n\n🙏 ¡Te esperamos para seguir construyendo juntos la comunidad cloud en Piura y Latinoamérica!\n\n#AWSUserGroupPiura #AWSCommunity #AWS #CloudComputing #AWSUserGroups #TechCommunity #AWSPeru #Networking #AWSUserGroup #Piura #FinOps",
     "date": "2026-09-03",
@@ -592,6 +629,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "AWS USER GROUP PIURA"
   },
   {
+    "id": "c4a2c1fa-0ba9-4d81-be81-dce953713eb9",
     "title": "Live-Coding en Stellar",
     "description": "¿Quieres aprender a desarrollar aplicaciones en la blockchain pasando directo al código?\n\nEn este taller online y práctico, aprenderás los fundamentos de blockchain construyendo Stellar Mystery Box. Sin importar si nunca has visto código o si es tu primera vez escuchando sobre Web3, te guiaremos para personalizar tu propia caja digital, esconder un mensaje secreto y programar una regla automática para que nadie pueda abrirla hasta que termine la cuenta regresiva en vivo durante la llamada.\n\nPrepara tu laptop porque clonaremos un repositorio base, editaremos la lógica en Rust (Soroban), conectaremos el frontend con nuestra wallet y desplegaremos nuestros contratos en la red de pruebas.\n\n¿Qué haremos en el workshop?\n- Smart Contracts en Rust: Modifica y compila funciones clave de custodia, timelocks (bloqueo por bloques/tiempo) y condiciones de retiro en Soroban.\n- Personalización & Commits: Configura tus propios parámetros on-chain y personaliza la interfaz visual de tu Vault.\n- Deploy a Testnet: Usa Stellar CLI para desplegar tu contrato inteligente e interactuar con la red mediante Friendbot.\n- Dinámica en vivo: Realizaremos depósitos cruzados entre todos los asistentes y ejecutaremos un desbloqueo sincronizado on-chain en tiempo real.\n\n¿Para quién es este evento?\nDesarrolladores, estudiantes y entusiastas de la tecnología que quieran interactuar con código real y entender cómo funciona el ecosistema de smart contracts de Stellar de forma dinámica y colaborativa.\n\n¡Los cupos son limitados para asegurar soporte personalizado durante la sesión práctica!",
     "date": "2026-08-30",
@@ -610,6 +648,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Blockchain Acceleration Foundation"
   },
   {
+    "id": "8d8a7ec4-d8c1-41ba-bc48-c68dd0735a0f",
     "title": "Next × I/O Extended: Cloud to Code",
     "description": "Sabemos que el ritmo de la tecnología no se detiene y que mantenerte al día con los lanzamientos de Google puede ser un reto. Por eso, en GDG Cloud Lima decidimos no elegir y traer lo mejor de dos mundos en un solo lugar: Next × I/O Extended: Cloud to Code ⚡\n\nUna edición especial en la que conectamos la potencia de la infraestructura en la nube (Google Cloud Next) con la innovación en desarrollo, IA y herramientas para creadores (Google I/O).\n\n¿Qué te espera en esta jornada? ☁️ Cloud 🤖 Code & AI 🤝 Networking\n\n🎟️ Los cupos son limitados, no te quedes sin tu entrada.",
     "date": "2026-08-29",
@@ -633,6 +672,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "GDG Cloud Lima"
   },
   {
+    "id": "dc652c97-2cc1-446a-9e09-a6e1caa5e05a",
     "title": "Testing Day Peru - 2da Edición",
     "description": "🚀 Testing Day Perú 2026 – 2da Edición es el evento que reúne a la comunidad de Quality Engineering, Software Testing y Tecnología para compartir conocimiento, experiencias y las últimas tendencias que están transformando el desarrollo de software.\n\nDurante dos días podrás participar en conferencias y workshops impartidos por expertos nacionales e internacionales sobre Inteligencia Artificial aplicada al Testing, Automatización de Pruebas, Performance Testing, Ciberseguridad, DevOps, QA, Agile y mucho más.\n\nEste evento está dirigido a Test Engineers, QA Engineers, Software Developers, Automation Engineers, DevOps Engineers, Tech Leads, Product Owners, Scrum Masters, arquitectos de software, líderes tecnológicos, estudiantes y profesionales que buscan fortalecer sus conocimientos, ampliar su red de contactos y mantenerse a la vanguardia de la industria tecnológica.\n\n📅 18 y 19 de septiembre de 2026\n📍 Lima, Perú\n\nConecta. Aprende. Innova. Inspira.",
     "date": "2026-09-18",
@@ -652,6 +692,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Testing Perú"
   },
   {
+    "id": "27fb13bc-c0f0-489f-b85e-a0638046a94e",
     "title": "IEEEXTREME 20.0 Competencia de Selección Perú",
     "description": "🚀 ¡Llegó tu Oportunidad de representar al Perú! Únete a la Competencia de Selección Perú para el IEEEXTREME 20.0 🇵🇪💻.\n\n📅 Fecha: 05 de Setiembre\n📍 Lugar: OPEN PUCP, Plaza San Miguel (Charlas en Anfiteatro, Competencia en Salones de OPEN PUCP)\n⏰ Hora de Ingreso: 10:30 - 11.00 AM\n\n¿Qué necesitas para participar?\n- Forma un equipo de 1 a 3 estudiantes (Se puede formar el equipo en el mismo evento presencial).\n- Puede ser de cualquier universidad.\n- En caso no tengas membresia IEEE (Existe la posibilidad de subvencionar a competidores destacados, ya que es necesaria tener la membresia de estudiante activa)\n- Serán 24 hrs sin parar programando en el evento mundial (Octubre)!\n- Problemas tipo: Algoritmos basicos, Optimizaciones, Grafos, Algoritmos intermedios (Puedes consultar con IA sintaxis)\n\nQué puedes ganar el mismo Sábado 5 Setiembre:\n- Certificado por participar en la competencia presencial.\n- Algunas Becas DataCamp valuadas en 80$\n\nPremios Históricos:\n🥇 1er Lugar Mundial: ¡Un viaje con todos los gastos pagados a la conferencia IEEE que elijas en CUALQUIER parte del mundo! ✈️🌍\n🥈🥉 2do y 3er Lugar: Premios en efectivo de US$400 y US$300 por miembro.\n🏅 Además: Premios regionales (Top 3) y certificados internacionales para todos los que logren puntuar.\n\n¡Arma tu equipo, trae tu laptop y prepárate para la competencia! Nos vemos en OPEN PUCP. 👾🏆",
     "date": "2026-09-05",
@@ -671,6 +712,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "IEEE Computer Society PUCP"
   },
   {
+    "id": "7871951a-e5c7-4636-9cfc-6be82a7533a5",
     "title": "Orquestación de IA con Jules en tus flujos de GitHub",
     "description": "En esta charla, exploramos la transición de asistentes de IA a agentes de codificación autónomos, centrándonos en Jules, un agente integrado en los flujos de trabajo de GitHub.\n\nDemostramos cómo Jules puede razonar, usar herramientas en entornos seguros y completar de forma independiente tareas complejas como la corrección de errores, la refactorización de código y la generación de documentación.",
     "date": "2026-09-09",
@@ -689,6 +731,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Luis Eduardo Perez Pacherrez"
   },
   {
+    "id": "688cf1b8-b307-4f47-838a-4d19cb895b76",
     "title": "Dev Days | Lima, Peru",
     "description": "Dev Days is a global, in-person community-led initiative taking place from September 1st - October 31st, 2026. The series brings together developers, enthusiasts, and local tech communities to explore the power of GitHub Copilot through practical, hands-on experiences.\n\nOpen to all developers, each session runs for approximately 2-3 hours and focuses on real-world workflows, hands-on activities, and workshops centered on GitHub Copilot in the Copilot app and the CLI.",
     "date": "2026-09-12",
@@ -706,6 +749,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Dev Days"
   },
   {
+    "id": "fa1b0dfd-1acc-4560-aa10-56a3f754ffe6",
     "title": "Grok Bot Lima : Build night",
     "description": "Grok Bot Build Night llega a Lima: menos charla, más construir. 🛠️\n\nUna noche hands-on para armar equipo, traer tu laptop y shippear una app funcional en una sola sesión — usando Grok Bot de Cursor y xAI. No importa si recién empiezas o ya vives en workflows agénticos: tendrás créditos de Grok Bot, mentores toda la noche y espacio para experimentar.\n\nLa noche incluye:\n- 🧑‍💻 Construcción en conjunto (ven con equipo , haz solo team o te ayudamos a formar uno)\n- 🎨 Demo de apertura: getting started with Grok Bot\n- ⚡ Créditos gratis de Grok Bot para construir durante el evento\n- 🍕 Comida, bebidas y buena energía\n- 🎤 Demo showcase final — comparte lo que construiste\n- 🤝 Networking con builders, diseñadores y founders de Lima\n\nNo necesitas ser experto. Puedes avanzar haciendo vibe coding, aprender sobre la marcha y colaborar. Y si ya tienes experiencia, hay margen de sobra para experimentar y competir.\n\nTrae tu laptop y tus ganas de crear — construyamos las cosas que Perú necesita. 🇵🇪\nCupos limitados",
     "date": "2026-09-11",
@@ -724,6 +768,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Cursor Lima, Peru"
   },
   {
+    "id": "ead16b70-b38d-4fff-891b-45ee079d1893",
     "title": "Notion Meetup Lima",
     "description": "Notion está evolucionando rápido. En este Meetup vamos a descubrir sus novedades y explorar cómo Custom Agents, Notion Worker y Notion AI pueden abrir nuevas posibilidades para trabajar, automatizar y mejorar procesos.\n\nEn esta sesión aprenderás:\n🤖 Qué son los Custom Agents y cómo puedes aprovecharlos.\n⚙️ Qué propone Notion Worker y qué nuevas posibilidades habilita.\n🏢 Ideas y casos de uso de Notion para agencias.\n\n¿Para quién es?\nPara personas que ya usan Notion, profesionales, equipos y agencias que quieren conocer sus nuevas capacidades y encontrar formas de trabajar mejor con la plataforma.",
     "date": "2026-10-19",
@@ -741,6 +786,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Notion Lima"
   },
   {
+    "id": "63a548de-5e6a-4df3-a403-a53b21f7d3f1",
     "title": "DevFest Arequipa 2026",
     "description": "🚀 ¡Llega DevFest Arequipa 2026!\n\nPrepárate para vivir una jornada llena de tecnología, aprendizaje, innovación y comunidad. DevFest Arequipa reúne a desarrolladores, estudiantes, profesionales, emprendedores y entusiastas de la tecnología en un mismo espacio para compartir conocimientos, descubrir nuevas ideas y conectar con personas que están construyendo el futuro. 💡\n\nEste año esperamos recibir a más de 400 asistentes y contaremos con 2 tracks de sesiones en paralelo, con charlas, lightning talks y workshops sobre distintas áreas del ecosistema tecnológico. 🎤\n\n💻 ¿Qué encontrarás en DevFest Arequipa 2026?\n\n✨ Inteligencia Artificial, Gemini y Machine Learning\n\n📱 Android, Flutter y desarrollo móvil\n\n🌐 Desarrollo web y tecnologías multiplataforma\n\n☁️ Firebase, Google Cloud, Cloud Computing, DevOps y SRE\n\n🔐 Ciberseguridad\n\n📊 Data, Analytics y tecnologías emergentes\n\n🚀 Emprendimiento y creación de productos digitales\n\n👥 Liderazgo, gestión de equipos y desarrollo profesional\n\n🧩 Casos reales, experiencias y aprendizajes de proyectos\n\n🔵 Tecnologías de Google y mucho más\n\nDevFest no es solo un espacio para escuchar charlas. También es una oportunidad para conocer personas de la comunidad, intercambiar experiencias, descubrir nuevas tecnologías y generar conexiones con otros apasionados por el mundo tech. 🤝\n\n🎯 Dos tracks. Más de 400 asistentes. Una comunidad reunida para aprender y compartir.\n\nTanto si eres estudiante, desarrollador, profesional con experiencia o simplemente tienes curiosidad por la tecnología, DevFest Arequipa 2026 es para ti.\n\n📍 Evento presencial en Arequipa\n\n🔥 Ven a aprender, conectar, compartir y ser parte de una de las reuniones tecnológicas más importantes de nuestra comunidad.\n\n¡Nos vemos en DevFest Arequipa 2026! 🚀",
     "date": "2026-11-07",
@@ -761,6 +807,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "GDG Arequipa"
   },
   {
+    "id": "13170dde-bbc4-46bb-b216-0ad2461b59b0",
     "title": "DevFest Tacna 2026",
     "description": "La conferencia tecnológica más grande del mundo impulsada por la comunidad llega a Tacna\n\n📅 Fecha: Sábado 21 de Noviembre del 2026\n\n📍 Lugar: Universidad Tecnológica del Perú - Sede Tacna\n\n¿Qué es DevFest?\n\nDevFest es mucho más que una simple conferencia tecnológica; es una celebración global del conocimiento, la innovación y la comunidad en el mundo del desarrollo de software. Organizado por los Google Developer Groups (GDGs) en más de 100 países, DevFest representa la culminación anual de eventos tecnológicos respaldados por Google.\n\nEn Tacna, nos enorgullece ser parte de este movimiento global, trayéndote una experiencia única que combina:\n\n🌟 Aprendizaje de Vanguardia: Sumérgete en las últimas tecnologías de Google y tendencias de la industria.\n\n🤝 Networking de Alto Nivel: Conecta con desarrolladores, expertos de la industria y entusiastas tecnológicos.\n\n💡 Inspiración e Innovación: Descubre ideas revolucionarias y proyectos que están cambiando el mundo.\n\n🚀 Oportunidades de Crecimiento: Impulsa tu carrera con conocimientos prácticos y contactos valiosos.\n\nLo que te espera\n\n🎤 Charlas inspiradoras de Google Developer Experts y líderes de la comunidad\n\n💡 Sesiones prácticas y demostraciones en vivo\n\n🤝 Networking con profesionales y entusiastas de la tecnología\n\n🎟️ Haz clic en \"RSVP\" para registrarte y asegurar tu lugar.",
     "date": "2026-11-20",
@@ -780,6 +827,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "GDG Tacna"
   },
   {
+    "id": "4518d355-fe04-43af-89a4-733facad68ed",
     "title": "Agents, Everywhere: Bots, Channels, & More — Global Hackathon",
     "description": "Un hackathon global con OpenAI. El sábado 12 de septiembre, las ciudades de AI Tinkerers de todo el mundo se unirán en una jornada de construcción compartida. Construye un agente para un lugar donde las personas ya trabajan, conversan o viven, y haz que sea significativamente más útil gracias a ese contexto.",
     "date": "2026-09-12",
@@ -797,6 +845,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "IEEE Computer Society PUCP & AI Tinkerers - Lima"
   },
   {
+    "id": "98869282-11b8-452d-bdb1-a0cd4b1bec02",
     "title": "Blockchain Conf",
     "description": "Por primera vez en UTP, llega la Blockchain Conf 🚀\nLa tecnología blockchain continúa transformando la manera en que construimos soluciones digitales, y ahora tendremos un espacio dedicado a aprender, compartir y explorar todo su potencial. 💻✨\nLa Blockchain Conf reunirá a estudiantes, developers, profesionales y entusiastas de la tecnología en una jornada donde podremos conocer más sobre Blockchain, Web3 y las nuevas posibilidades que están surgiendo alrededor de estas tecnologías.\n\n✨ ¿Qué encontrarás en el evento?\n🔹 Charlas y experiencias junto a speakers de la comunidad\n🔹 Contenido sobre Blockchain y tecnologías relacionadas\n🔹 Espacios para conectar con otros apasionados por la tecnología\n🔹 Aprendizaje, comunidad y muchas sorpresas durante el evento\n\n📍 Auditorio UTP Sede Central\n📅 Sábado 19 de septiembre\n⏰ 9:00 a.m. a 3:00 p.m.\n\nUna nueva experiencia tecnológica llega a nuestra comunidad. ¡Prepárate para la Blockchain Conf! 🚀",
     "date": "2026-09-19",
@@ -813,6 +862,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Developer Student Club UTP"
   },
   {
+    "id": "26b00cd3-3fbd-4969-941b-84e4f3e012e5",
     "title": "CodeOn 2026 Final Edition",
     "description": "Todo gran recorrido tiene un comienzo, una historia y un final. Y este es el nuestro.\nEn 2023, comenzamos este camino como GDSC Fest 2023, con el propósito de reunir a estudiantes, desarrolladores y apasionados por la tecnología en un mismo espacio para aprender, conectar y compartir.\nEn 2024, esa historia evolucionó y nació CodeOn, llevando nuestra visión a un nuevo nivel. En 2025, continuamos creciendo, reuniendo a nuestra comunidad alrededor de nuevas ideas, tecnologías y experiencias.\nAhora, en 2026, llegamos a la Final Edition de CodeOn. 💙\nQueremos cerrar este capítulo a lo grande, reuniendo a la comunidad tecnológica en una experiencia que combine aprendizaje, inspiración, networking y tecnología.\n🎤 Charlas y experiencias de profesionales y referentes del mundo tech.\n💻 3 espacios preparados para explorar diferentes temas, perspectivas y áreas de la tecnología.\n🤝 Networking para conectar con estudiantes, profesionales, comunidades y personas que comparten la misma pasión por construir el futuro.\n🔥 CodeOn 2026 no es una edición más. Es el cierre de una historia que comenzó en 2023.\nDespués de cuatro años de evolución, queremos que seas parte de este último capítulo.\nVen a vivir la experiencia. Ven a cerrar el ciclo con nosotros.",
     "date": "2026-10-17",
@@ -833,6 +883,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "DSC UTP"
   },
   {
+    "id": "e76c2d1c-42c8-4d85-b47b-4680a9e8fcc5",
     "title": "Devfest Ayacucho",
     "description": "\"DEVFEST AYACUCHO 2026: FESTIVAL REGIONAL DE TECNOLOGÍA, INNOVACIÓN Y EMPRENDIMIENTO\" se consolida como el evento tecnológico de mayor trascendencia en la región Ayacucho, realizado por la comunidad GDG Ayacucho. Durante dos jornadas consecutivas, reuniendo a jóvenes, estudiantes universitarios, emprendedores, profesionales de la salud, desarrolladores y entusiastas de la tecnología y la innovación.",
     "date": "2026-11-21",
@@ -846,6 +897,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "GDG Ayacucho"
   },
   {
+    "id": "1c01738e-958f-4683-bce2-7e02ad7974e5",
     "title": "DevFest Chimbote 2026",
     "description": "¿Qué es DevFest?\n\nDevFest es mucho más que una simple conferencia tecnológica; es una celebración global del conocimiento, la innovación y la comunidad en el mundo del desarrollo de software. Organizado por los Google Developer Groups (GDGs) en más de 100 países, DevFest representa la culminación anual de eventos tecnológicos respaldados por Google.\n\nEn Lima, nos enorgullece ser parte de este movimiento global, trayéndote una experiencia única que combina:\n\n🌟 Aprendizaje de Vanguardia: Sumérgete en las últimas tecnologías de Google y tendencias de la industria.\n\n🤝 Networking de Alto Nivel: Conecta con desarrolladores, expertos de la industria y entusiastas tecnológicos.\n\n💡 Inspiración e Innovación: Descubre ideas revolucionarias y proyectos que están cambiando el mundo.\n\n🚀 Oportunidades de Crecimiento: Impulsa tu carrera con conocimientos prácticos y contactos valiosos.\n\nLo que te espera:\n\n🎤 Charlas inspiradoras de Google Developer Experts y líderes de la comunidad\n\n💡 Sesiones prácticas y demostraciones en vivo\n\n🤝 Networking con profesionales y entusiastas de la tecnología\n\n🏆 Competencias y premios exclusivos\n\n¿Por qué asistir?\n\nAprende de los mejores en la industria\n\nDescubre las últimas tendencias y herramientas\n\nAmplía tu red profesional\n\nInspírate para tu próximo gran proyecto\n\n¡Corre la voz! Comparte esta invitación y hagamos del DevFest 2026 un evento inolvidable.",
     "date": "2026-12-12",
@@ -859,6 +911,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "GDG Chimbote"
   },
   {
+    "id": "ad617387-8065-451d-9d4b-0eb91eda233e",
     "title": "DevFest Cusco 2026 Kickoff",
     "description": "Join us for the exciting kickoff of DevFest Cusco 2026! Dive into the world of Google technologies with engaging talks and hands-on workshops led by local experts. This event is a fantastic opportunity to connect with technology enthusiasts, share ideas, and learn about the latest trends. Don't miss out on this chance to be part of a vibrant, inclusive community. RSVP now to secure your spot and bring your friends along to grow our GDG Cusco family!",
     "date": "2026-11-07",
@@ -872,6 +925,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "GDG Cusco"
   },
   {
+    "id": "00c31885-19c1-4414-90e1-f3d2680fc834",
     "title": "Devfest Huancayo",
     "description": "\"DEVFEST HUANCAYO 2026: FESTIVAL REGIONAL DE TECNOLOGÍA, INNOVACIÓN Y EMPRENDIMIENTO\" se consolida como el evento tecnológico de mayor trascendencia en la región Junín, organizado por la Universidad Peruana Los Andes a través de la Oficina de Responsabilidad Social, en articulación con la comunidad GDG Huancayo. Durante dos jornadas consecutivas —sábado 17 y domingo 18 de octubre de 2026— Colegio Mariscal Castilla - se transformará en el punto de encuentro de la sierra central del Perú, reuniendo a jóvenes, estudiantes universitarios, emprendedores, profesionales de la salud, desarrolladores y entusiastas de la tecnología y la innovación.",
     "date": "2026-10-17",
@@ -885,6 +939,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "GDG Huancayo"
   },
   {
+    "id": "3e8f5753-b9e2-43dd-9d30-24a9b7891d6a",
     "title": "Certification Study Group - Info Session - Digital Leader",
     "description": "Certification Study Group - Info session will provide more information and details about Google Cloud certifications and the Certification Study Groups.\n\nCertification Study Group - Info session will discuss:\n\nDemand for cloud computing roles\n\nThe importance of Google Cloud certificates\n\nCertification Study Group programme details\n\nWhat Google Cloud certification paths we support\n\nPre-requisite requirements for Google Cloud certification paths\n\nAccess to Google Skills",
     "date": "2026-09-20",
@@ -898,6 +953,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "GDG Open"
   },
   {
+    "id": "66236571-b3ef-4c74-b58b-e7e379cbf1e7",
     "title": "Full day de comunidades",
     "description": "El full day de comunidades es un día lleno de charlas, talleres impartidas por las comunidades de: GDG Piura, Piura AI, AWS User Group Piura y Fluter Piura. En el turno de la mañana nos encontraremos en la CAMCO y en la tarde en la UTP.\n\nIMPORTANTE: registrarte con tu DNI y para el día del evento llevarlo para su acceso al evento",
     "date": "2026-10-09",
@@ -911,6 +967,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "GDG Piura"
   },
   {
+    "id": "0016d6cf-c3ab-4a5b-a0de-8173d89be72a",
     "title": "Hackathon Regional de Innovación",
     "description": "La hackathon convoca el diseño de herramientas de software y plataformas digitales que impacten positivamente en el desarrollo de Piura. Cada equipo recibe mediante sorteo uno de los siguientes ejes temáticos:\n\nIndustria Agropecuaria e Hidrobiológica\n\nPiura región creativa, cultural y turística\n\nHub Logístico y Transfronterizo\n\nPiura territorio sustentable\n\nPiura región emprendedora y del saber",
     "date": "2026-10-10",
@@ -924,6 +981,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "GDG Piura"
   },
   {
+    "id": "ac018fa6-61a3-4c09-8c31-fcdfa2dd2a24",
     "title": "Introducción a la IA con AWS Cloud",
     "description": "¡La inteligencia artificial a tu alcance! 🤖\n\nNos unimos a la comunidad local de AWS para traerte un evento diseñado especialmente para que entiendas la inteligencia artificial desde cero y descubras cómo AWS te permite construir soluciones inteligentes.\n\nSi quieres comprender qué es la IA, cómo funciona la IA generativa y cómo empezar a aplicarla en tus propios proyectos, este espacio es para ti.\n\n¿Qué aprenderás en esta sesión?\n\nIA sin misterio: Qué es la inteligencia artificial, cómo funciona la IA generativa y conceptos clave como modelos fundacionales, prompts, RAG y Guardrails.\n\nIA generativa en AWS: Cómo AWS facilita la adopción de IA mediante servicios como Amazon Bedrock, Amazon Q, Rekognition y Textract.\n\nManos a la obra: Cómo construir, sin escribir código, un asistente de IA que responde preguntas usando tus propios documentos.\n\n¡No dejes pasar la oportunidad de conectar con expertos y llevar tus habilidades al siguiente nivel! Asegura tu cupo.",
     "date": "2026-10-17",
@@ -937,6 +995,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "GDG Piura"
   },
   {
+    "id": "d31e6295-9c67-46ca-b04f-99bcac19231b",
     "title": "Vibe Coding &Prompting",
     "description": "​¿Alguna vez soñaste con crear algo con código sin saber programar? Esta es tu oportunidad.\n\n​Scale Hub — HUB UDEP y GDG Piura te invitan a una sesión práctica donde descubrirás el vibe coding: la nueva forma de desarrollar soluciones usando inteligencia artificial generativa como tu aliada de programación.\n\n​En 90 minutos aprenderás:\n\n✅ Qué es el vibe coding y cómo cambia la forma de crear software\n\n✅ Los fundamentos del prompting: contexto, claridad, restricciones y formato\n\n✅ Cómo estructurar un prompt efectivo (plantilla probada)\n\n✅ A iterar y refinar resultados hasta lograr lo que buscas\n\n​No necesitas experiencia previa en programación. Solo trae tu laptop, muchas ganas de experimentar, y sal con al menos un prompt propio, probado e iterado en vivo.\n\n​📅 Fecha: 19 de septiembre\n\n📍 Modalidad: Presencial\n\n🎯 Dirigido a: Estudiantes UDEP y público afín interesado en tecnología y emprendimiento.\n\n​Una alianza entre Scale Hub — HUB UDEP y GDG Piura para conectar la academia con el ecosistema tech local.",
     "date": "2026-09-19",
@@ -950,6 +1009,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "GDG Piura"
   },
   {
+    "id": "6bffaf4a-45bf-4f3e-b2c6-39e7e2d2c107",
     "title": "De Perú al mundo: Construye tu startup global | Stripe Lima Community",
     "description": "Bienvenidos al primer evento de Stripe Lima community, organizado en colaboración con Startups.pe. Un espacio para conocer a otros fundadores, compartir lo que estamos aprendiendo y conversar sobre cómo construir desde Perú para clientes de todo el mundo.\n\nEn este primer encuentro escucharemos a dos fundadores en momentos distintos: uno que ya tiene experiencia creciendo con Stripe y otro que está dando sus primeros pasos. Hablaremos de cómo empezaron, qué decisiones tomaron y qué les hubiera gustado saber antes.\n\nA partir de sus historias, exploraremos cómo cobrar a clientes internacionales, qué implica constituir una empresa en Estados Unidos con Stripe Atlas y dónde encajan Stripe y Stripe Connect según tu negocio.\n\nHabrá una conversación con los fundadores, una sesión práctica sobre estas herramientas, preguntas del público y tiempo para conocernos. La idea es que te lleves más claridad sobre tus próximos pasos y conexiones con personas que también están construyendo.\n\n¿PARA QUIÉN ES?\nPara fundadores, personas con una idea de negocio, desarrolladores, inversionistas y quienes quieran conectar con el ecosistema startup peruano. No necesitas ser usuario de Stripe para participar.\n\nSPEAKERS\nDos fundadores usuarios de Stripe nos contarán su experiencia.\n- Juan Luis Auccatoma, Co-fundador de Whaticket nos contará sobre boostraping y como Stripe le apoyó en su expansión de negocio.\n- Luis Pimentel, Co-fundador de Inklop, nos contará sobre crear una startup en el sector de influencers y como Stripe le está solucionando la operativa de su negocio.\n- Paul Siccha, Co-fundador de Startups.pe, nos contará los beneficios de Stripe.\n\nORGANIZACIÓN\nOrganizado por Paul Siccha, Stripe Lima Community Builder y fundador de Startups.pe, comunidad que conecta a quienes forman parte del ecosistema startup en Perú.\n\nCon el apoyo de StartUPC, la incubadora y aceleradora de negocios de la UPC, que nos abre las puertas y nos recibe en su espacio para este encuentro.\n\nCOMUNIDAD\nÚnete a la comunidad de Whatsapp: Unirse al grupo de Whatsapp\nSíguenos en Instagram: /startups.pe\nSíguenos en LinkedIn: /startups.pe",
     "date": "2026-10-13",
@@ -963,6 +1023,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "Startups.pe"
   },
   {
+    "id": "78a00e72-e419-4093-ae1e-6217d03cb100",
     "title": "Tech Connect - Microservicios",
     "description": "¡Gracias por tu interés en participar!\nEste encuentro está dirigido a profesionales con experiencia en el sector tecnológico.\nLos cupos son limitados y la participación estará sujeta a confirmación.",
     "date": "2026-10-03",
@@ -980,6 +1041,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "NTT DATA Perú - Eventos"
   },
   {
+    "id": "4594cb2b-4b69-4933-8a23-58732328c77a",
     "title": "Devfest Huancayo",
     "description": "Devfest Huancayo 2026 se establece como el evento más destacado en tecnología en la región de Junín. Organizado por GDG Huancayo junto con la Universidad Peruana Los Andes, este festival se convierte en el epicentro tech de la sierra central del Perú. Es un espacio único que reúne a jóvenes, estudiantes universitarios, emprendedores, profesionales del sector salud, desarrolladores, y apasionados de la tecnología y la creatividad.",
     "date": "2026-10-23",
@@ -1001,6 +1063,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "GDG Huancayo"
   },
   {
+    "id": "4986f3ba-cc47-4aba-9ceb-892d867b4410",
     "title": "Devfest Ayacucho",
     "description": "DEVFEST AYACUCHO 2026: FESTIVAL REGIONAL DE TECNOLOGÍA, INNOVACIÓN Y EMPRENDIMIENTO se consolida como el evento tecnológico de mayor trascendencia en la región Ayacucho, realizado por la comunidad GDG Ayacucho. Durante dos jornadas consecutivas, reuniendo a jóvenes, estudiantes universitarios, emprendedores, profesionales de la salud, desarrolladores y entusiastas de la tecnología y la innovación.",
     "date": "2026-11-21",
@@ -1021,6 +1084,7 @@ export const EVENTS: IEvent[] = [
     "organizer": "GDG Ayacucho"
   },
   {
+    "id": "2e00268a-4918-4159-a336-4e7457f9e574",
     "title": "DevFest Cusco 2026 Kickoff",
     "description": "Join us for the exciting kickoff of DevFest Cusco 2026! Dive into the world of Google technologies with engaging talks and hands-on workshops led by local experts. This event is a fantastic opportunity to connect with technology enthusiasts, share ideas, and learn about the latest trends. Don't miss out on this chance to be part of a vibrant, inclusive community. RSVP now to secure your spot and bring your friends along to grow our GDG Cusco family!",
     "date": "2026-11-07",
