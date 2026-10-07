@@ -833,19 +833,6 @@ export const EVENTS: IEvent[] = [
     "organizer": "DSC UTP"
   },
   {
-    "title": "Devfest Ayacucho",
-    "description": "\"DEVFEST AYACUCHO 2026: FESTIVAL REGIONAL DE TECNOLOGÍA, INNOVACIÓN Y EMPRENDIMIENTO\" se consolida como el evento tecnológico de mayor trascendencia en la región Ayacucho, realizado por la comunidad GDG Ayacucho. Durante dos jornadas consecutivas, reuniendo a jóvenes, estudiantes universitarios, emprendedores, profesionales de la salud, desarrolladores y entusiastas de la tecnología y la innovación.",
-    "date": "2026-11-21",
-    "time": "08:00",
-    "location": "Ayacucho",
-    "city": "Ayacucho",
-    "type": "Virtual",
-    "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_scale,w_2560/c_crop,h_640,w_2560,y_0.0_mul_h_sub_0.0_mul_640/c_crop,h_640,w_2560/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/event_banners/blob_YNuTSCE",
-    "registration_url": "https://gdg.community.dev/events/details/google-gdg-ayacucho-presents-devfest-ayacucho/",
-    "tags": [],
-    "organizer": "GDG Ayacucho"
-  },
-  {
     "title": "DevFest Chimbote 2026",
     "description": "¿Qué es DevFest?\n\nDevFest es mucho más que una simple conferencia tecnológica; es una celebración global del conocimiento, la innovación y la comunidad en el mundo del desarrollo de software. Organizado por los Google Developer Groups (GDGs) en más de 100 países, DevFest representa la culminación anual de eventos tecnológicos respaldados por Google.\n\nEn Lima, nos enorgullece ser parte de este movimiento global, trayéndote una experiencia única que combina:\n\n🌟 Aprendizaje de Vanguardia: Sumérgete en las últimas tecnologías de Google y tendencias de la industria.\n\n🤝 Networking de Alto Nivel: Conecta con desarrolladores, expertos de la industria y entusiastas tecnológicos.\n\n💡 Inspiración e Innovación: Descubre ideas revolucionarias y proyectos que están cambiando el mundo.\n\n🚀 Oportunidades de Crecimiento: Impulsa tu carrera con conocimientos prácticos y contactos valiosos.\n\nLo que te espera:\n\n🎤 Charlas inspiradoras de Google Developer Experts y líderes de la comunidad\n\n💡 Sesiones prácticas y demostraciones en vivo\n\n🤝 Networking con profesionales y entusiastas de la tecnología\n\n🏆 Competencias y premios exclusivos\n\n¿Por qué asistir?\n\nAprende de los mejores en la industria\n\nDescubre las últimas tendencias y herramientas\n\nAmplía tu red profesional\n\nInspírate para tu próximo gran proyecto\n\n¡Corre la voz! Comparte esta invitación y hagamos del DevFest 2026 un evento inolvidable.",
     "date": "2026-12-12",
@@ -857,32 +844,6 @@ export const EVENTS: IEvent[] = [
     "registration_url": "https://gdg.community.dev/events/details/google-gdg-chimbote-presents-devfest-chimbote-2026/",
     "tags": [],
     "organizer": "GDG Chimbote"
-  },
-  {
-    "title": "DevFest Cusco 2026 Kickoff",
-    "description": "Join us for the exciting kickoff of DevFest Cusco 2026! Dive into the world of Google technologies with engaging talks and hands-on workshops led by local experts. This event is a fantastic opportunity to connect with technology enthusiasts, share ideas, and learn about the latest trends. Don't miss out on this chance to be part of a vibrant, inclusive community. RSVP now to secure your spot and bring your friends along to grow our GDG Cusco family!",
-    "date": "2026-11-07",
-    "time": "09:00",
-    "location": "Paraninfo Universitario (Cuzco)",
-    "city": "Cusco",
-    "type": "Presencial",
-    "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_scale,w_2560/c_crop,h_640,w_2560,y_0.0_mul_h_sub_0.0_mul_640/c_crop,h_640,w_2560/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/event_banners/blob_LsUiLon",
-    "registration_url": "https://gdg.community.dev/events/details/google-gdg-cusco-presents-devfest-cusco-2026-kickoff/",
-    "tags": [],
-    "organizer": "GDG Cusco"
-  },
-  {
-    "title": "Devfest Huancayo",
-    "description": "\"DEVFEST HUANCAYO 2026: FESTIVAL REGIONAL DE TECNOLOGÍA, INNOVACIÓN Y EMPRENDIMIENTO\" se consolida como el evento tecnológico de mayor trascendencia en la región Junín, organizado por la Universidad Peruana Los Andes a través de la Oficina de Responsabilidad Social, en articulación con la comunidad GDG Huancayo. Durante dos jornadas consecutivas —sábado 17 y domingo 18 de octubre de 2026— Colegio Mariscal Castilla - se transformará en el punto de encuentro de la sierra central del Perú, reuniendo a jóvenes, estudiantes universitarios, emprendedores, profesionales de la salud, desarrolladores y entusiastas de la tecnología y la innovación.",
-    "date": "2026-10-17",
-    "time": "12:51",
-    "location": "Institución Educativa Mariscal Castilla",
-    "city": "Lima",
-    "type": "Presencial",
-    "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_scale,w_2560/c_crop,h_640,w_2560,y_0.0_mul_h_sub_0.0_mul_640/c_crop,h_640,w_2560/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/event_banners/blob_1bNYJLg",
-    "registration_url": "https://gdg.community.dev/events/details/google-gdg-huancayo-presents-devfest-huancayo-1/",
-    "tags": [],
-    "organizer": "GDG Huancayo"
   },
   {
     "title": "Certification Study Group - Info Session - Digital Leader",
