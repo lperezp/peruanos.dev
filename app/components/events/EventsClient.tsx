@@ -3,6 +3,7 @@
 import { useEventFilters } from '../../hooks/useEventFilters';
 import EventFilters from './EventFilters';
 import EventList from './EventList';
+import EventsMap from './EventsMap';
 
 export default function EventsClient() {
     const {
@@ -48,7 +49,14 @@ export default function EventsClient() {
                 setIsTypeOpen={setIsTypeOpen}
             />
 
-            <EventList events={filteredEvents} />
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full">
+                <div className="w-full">
+                    <EventList events={filteredEvents} />
+                </div>
+                <div className="w-full hidden lg:block">
+                    <EventsMap events={filteredEvents} />
+                </div>
+            </div>
         </>
     );
 }
