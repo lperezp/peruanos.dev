@@ -1,19 +1,26 @@
 import type { Metadata } from 'next';
 import ApiDocsViewer from './ApiDocsViewer';
+import { breadcrumbSchema } from '../lib/structured-data';
 
 export const metadata: Metadata = {
     title: 'Documentación de la API',
     description: 'Documentación de las APIs públicas de Peruanos.dev para acceder a eventos, comunidades y proyectos de código abierto.',
     keywords: ['api peru', 'api eventos', 'api comunidades', 'api tech peru'],
     authors: [{ name: 'Luis Eduardo', url: 'https://lperezp.dev' }],
+    alternates: {
+        canonical: '/apis',
+    },
     openGraph: {
         title: 'Documentación de la API | Peruanos.dev',
         description: 'Documentación de las APIs públicas de Peruanos.dev.',
-         images: [
-      {
-        url: 'https://peruanos.dev/images/og-image.png',
-      }
-    ],
+        images: [
+            {
+                url: 'https://peruanos.dev/images/og-image.png',
+                width: 1200,
+                height: 630,
+                alt: 'Documentación de la API - Peruanos.dev',
+            }
+        ],
         url: 'https://peruanos.dev/apis',
         siteName: 'Peruanos.dev',
         locale: 'es_PE',
@@ -23,14 +30,23 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'APIs Públicas | Peruanos.dev',
         description: 'Documentación de las APIs públicas de Peruanos.dev.',
-        images: 'https://peruanos.dev/images/og-image.png',
+        images: ['https://peruanos.dev/images/og-image.png'],
         creator: '@lperezp_pe',
     },
 };
 
 export default function APIs() {
+    const jsonLdBreadcrumbs = breadcrumbSchema([
+        { name: 'Inicio', url: 'https://peruanos.dev' },
+        { name: 'APIs', url: 'https://peruanos.dev/apis' },
+    ]);
+
     return (
         <main className="flex w-full max-w-7xl flex-col items-center bg-background mx-auto">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBreadcrumbs) }}
+            />
             <section className="py-20 flex flex-col items-start w-full px-8 sm:px-10">
                 <h1 className="text-4xl sm:text-6xl text-left font-bold mb-4 leading-[1.4] w-full">
                     Documentación de la <span className="text-primary-text">API</span>

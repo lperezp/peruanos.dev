@@ -21,26 +21,32 @@ export const metadata: Metadata = {
   description: 'Conecta con la comunidad tech en el Perú. Descubre eventos, únete a comunidades y contribuye a proyectos de código abierto realizados por peruanos.',
   keywords: ['eventos', 'tech', 'meetups', 'conferencias', 'tecnología', 'workshops', 'desarrollo', 'hackathons', 'peru', 'comunidad', 'desarrolladores'],
   authors: [{ name: 'Luis Eduardo', url: 'https://lperezp.dev' }],
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: 'Peruanos.dev | Conecta con la comunidad tech en el Perú.',
     description: 'Conecta con la comunidad tech en el Perú. Descubre eventos, únete a comunidades y contribuye a proyectos de código abierto.',
     images: [
       {
         url: 'https://peruanos.dev/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Peruanos.dev - Comunidad tech en Perú',
       }
     ],
-     url: 'https://peruanos.dev/',
-        siteName: 'Peruanos.dev',
-        locale: 'es_PE',
-        type: 'website',
+    url: 'https://peruanos.dev',
+    siteName: 'Peruanos.dev',
+    locale: 'es_PE',
+    type: 'website',
   },
-    twitter: {
-        card: 'summary_large_image',
-        title: 'Peruanos.dev | Conecta con la comunidad tech en el Perú.',
-        description: 'Conecta con la comunidad tech en el Perú. Descubre eventos, únete a comunidades y contribuye a proyectos de código abierto.',
-      images: 'https://peruanos.dev/images/og-image.png',
-        creator: '@lperezp_pe',
-    },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Peruanos.dev | Conecta con la comunidad tech en el Perú.',
+    description: 'Conecta con la comunidad tech en el Perú. Descubre eventos, únete a comunidades y contribuye a proyectos de código abierto.',
+    images: ['https://peruanos.dev/images/og-image.png'],
+    creator: '@lperezp_pe',
+  },
 };
 
 export const dynamic = 'force-dynamic';
@@ -108,9 +114,12 @@ export default async function Home() {
     name: event.title,
     description: event.description,
     startDate: event.date,
+    time: event.time,
     location: event.location,
     organizer: event.organizer || '',
     url: event.registration_url,
+    image_url: event.image_url,
+    type: event.type,
   })));
 
   const jsonLdProjects = itemListSchema(projectsData.map(project => softwareSourceCodeSchema({

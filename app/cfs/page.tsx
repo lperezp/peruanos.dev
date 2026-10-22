@@ -2,12 +2,16 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import CfsClient from '../components/cfs/CfsClient';
 import { addUTMParams } from '../lib/utm';
+import { breadcrumbSchema } from '../lib/structured-data';
 
 export const metadata: Metadata = {
     title: 'Call for Speakers | Convocatorias para Speakers Tech en Perú',
     description: 'Directorio centralizado de Call for Speakers (CFS) y convocatorias de ponentes para eventos, conferencias y meetups de la comunidad tech en Perú.',
     keywords: ['call for speakers', 'cfs', 'speakers peru', 'conferencias tech', 'meetups peru', 'charlas tecnologia', 'comunidad tech', 'desarrolladores peru'],
     authors: [{ name: 'Luis Eduardo', url: 'https://lperezp.dev' }],
+    alternates: {
+        canonical: '/cfs',
+    },
     openGraph: {
         title: 'Call for Speakers | Convocatorias Tech en Perú',
         description: 'Encuentra oportunidades para dar charlas y workshops en eventos y comunidades tecnológicas de Perú.',
@@ -15,6 +19,9 @@ export const metadata: Metadata = {
         images: [
             {
                 url: 'https://peruanos.dev/images/og-image.png',
+                width: 1200,
+                height: 630,
+                alt: 'Call for Speakers Tech en Perú - Peruanos.dev',
             }
         ],
         siteName: 'Peruanos.dev',
@@ -25,14 +32,23 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Call for Speakers | Convocatorias Tech en Perú',
         description: 'Encuentra oportunidades para dar charlas y workshops en eventos y comunidades tecnológicas de Perú.',
-        images: 'https://peruanos.dev/images/og-image.png',
+        images: ['https://peruanos.dev/images/og-image.png'],
         creator: '@lperezp_pe',
     },
 };
 
 export default function CfsPage() {
+    const jsonLdBreadcrumbs = breadcrumbSchema([
+        { name: 'Inicio', url: 'https://peruanos.dev' },
+        { name: 'Call for Speakers', url: 'https://peruanos.dev/cfs' },
+    ]);
+
     return (
         <main className="flex w-full max-w-7xl flex-col items-center bg-background mx-auto">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBreadcrumbs) }}
+            />
             <section className="py-20 flex flex-col items-start w-full px-8 sm:px-10">
                 <h1 className="text-4xl sm:text-6xl text-left font-bold mb-4 leading-[1.4] w-full">
                     Call for <span className="text-primary-text">Speakers</span>

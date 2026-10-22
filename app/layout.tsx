@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     // bing: 'tu-codigo-bing',
   },
   alternates: {
-    canonical: 'https://peruanos.dev',
+    canonical: '/',
   },
 };
 

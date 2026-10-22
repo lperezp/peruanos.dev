@@ -3,21 +3,27 @@ import type { Metadata } from 'next';
 import ProjectsClient from '../components/projects/ProjectsClient';
 import { addUTMParams } from '../lib/utm';
 import { PROJECTS } from '../data/projects';
-import { itemListSchema, softwareSourceCodeSchema } from '../lib/structured-data';
+import { breadcrumbSchema, itemListSchema, softwareSourceCodeSchema } from '../lib/structured-data';
 
 export const metadata: Metadata = {
     title: 'Proyectos Open Source peruanos',
     description: 'Explora y contribuye a proyectos de código abierto creados por desarrolladores peruanos. Librerías, herramientas, aplicaciones y más.',
     keywords: ['open source peru', 'proyectos opensource peruanos', 'github peru', 'codigo abierto peru', 'desarrolladores peru'],
     authors: [{ name: 'Luis Eduardo', url: 'https://lperezp.dev' }],
+    alternates: {
+        canonical: '/projects',
+    },
     openGraph: {
         title: 'Proyectos Open Source peruanos',
         description: 'Explora y contribuye a proyectos de código abierto creados por desarrolladores peruanos.',
-           images: [
-      {
-        url: 'https://peruanos.dev/images/og-image.png',
-      }
-    ],
+        images: [
+            {
+                url: 'https://peruanos.dev/images/og-image.png',
+                width: 1200,
+                height: 630,
+                alt: 'Proyectos Open Source peruanos - Peruanos.dev',
+            }
+        ],
         url: 'https://peruanos.dev/projects',
         siteName: 'Peruanos.dev',
         locale: 'es_PE',
@@ -27,7 +33,7 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Proyectos Open Source peruanos',
         description: 'Explora y contribuye a proyectos de código abierto creados por desarrolladores peruanos.',
-        images: 'https://peruanos.dev/images/og-image.png',
+        images: ['https://peruanos.dev/images/og-image.png'],
         creator: '@lperezp_pe',
     },
 };
@@ -40,11 +46,20 @@ export default function Projects() {
         author: project.owner,
     })));
 
+    const jsonLdBreadcrumbs = breadcrumbSchema([
+        { name: 'Inicio', url: 'https://peruanos.dev' },
+        { name: 'Proyectos', url: 'https://peruanos.dev/projects' },
+    ]);
+
     return (
         <main className="flex w-full max-w-7xl flex-col items-center bg-background mx-auto">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdProjects) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBreadcrumbs) }}
             />
             <section className="py-20 flex flex-col items-start w-full px-8 sm:px-10">
                 <h1 className="text-4xl sm:text-6xl text-left font-bold mb-4 leading-[1.4] w-full">
