@@ -3,22 +3,28 @@ import type { Metadata } from 'next';
 import CommunityClient from '../components/communities/CommunityClient';
 import { addUTMParams } from '../lib/utm';
 import { COMMUNITIES } from '../data/communities';
-import { communitySchema, itemListSchema } from '../lib/structured-data';
+import { breadcrumbSchema, communitySchema, itemListSchema } from '../lib/structured-data';
 
 export const metadata: Metadata = {
     title: 'Comunidades tecnológicas en Perú',
     description: 'Únete a comunidades de desarrolladores, grupos de usuarios y espacios de aprendizaje tech en Perú. Descubre Angular Perú, GDG, Python Perú y más.',
     keywords: ['comunidades tech peru', 'grupos desarrolladores peru', 'comunidad programadores', 'user groups peru', 'tech communities lima'],
     authors: [{ name: 'Luis Eduardo', url: 'https://lperezp.dev' }],
+    alternates: {
+        canonical: '/community',
+    },
     openGraph: {
         title: 'Comunidades tecnológicas en Perú',
         description: 'Únete a comunidades de desarrolladores, grupos de usuarios y espacios de aprendizaje tech en Perú.',
         url: 'https://peruanos.dev/community',
-           images: [
-      {
-        url: 'https://peruanos.dev/images/og-image.png',
-      }
-    ],
+        images: [
+            {
+                url: 'https://peruanos.dev/images/og-image.png',
+                width: 1200,
+                height: 630,
+                alt: 'Comunidades tecnológicas en Perú - Peruanos.dev',
+            }
+        ],
         siteName: 'Peruanos.dev',
         locale: 'es_PE',
         type: 'website',
@@ -27,7 +33,7 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Comunidades tecnológicas en Perú',
         description: 'Únete a comunidades de desarrolladores, grupos de usuarios y espacios de aprendizaje tech en Perú.',
-        images: 'https://peruanos.dev/images/og-image.png',
+        images: ['https://peruanos.dev/images/og-image.png'],
         creator: '@lperezp_pe',
     },
 };
@@ -41,11 +47,20 @@ export default function Community() {
         location: community.city || 'Perú',
     })));
 
+    const jsonLdBreadcrumbs = breadcrumbSchema([
+        { name: 'Inicio', url: 'https://peruanos.dev' },
+        { name: 'Comunidades', url: 'https://peruanos.dev/community' },
+    ]);
+
     return (
         <main className="flex w-full max-w-7xl flex-col items-center bg-background mx-auto">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdCommunities) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBreadcrumbs) }}
             />
             <section className="py-20 flex flex-col items-start w-full px-8 sm:px-10">
                 <h1 className="text-4xl sm:text-6xl text-left font-bold mb-4 leading-[1.4] w-full">Comunidades</h1>

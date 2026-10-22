@@ -3,22 +3,28 @@ import type { Metadata } from 'next';
 import EventsClient from '../components/events/EventsClient';
 import { addUTMParams } from '../lib/utm';
 import { EVENTS } from '../data/events';
-import { eventSchema, itemListSchema } from '../lib/structured-data';
+import { breadcrumbSchema, eventSchema, itemListSchema } from '../lib/structured-data';
 
 export const metadata: Metadata = {
     title: 'Eventos tecnológicos en Perú',
     description: 'Descubre meetups, conferencias, workshops y hackathons organizados por la comunidad tech en Perú. Conecta con desarrolladores y aprende nuevas tecnologías.',
     keywords: ['eventos', 'tech', 'meetups', 'conferencias', 'tecnología', 'workshops', 'desarrollo', 'hackathons', 'peru', 'comunidad', 'desarrolladores'],
     authors: [{ name: 'Luis Eduardo', url: 'https://lperezp.dev' }],
+    alternates: {
+        canonical: '/events',
+    },
     openGraph: {
         title: 'Eventos tecnológicos en Perú',
         description: 'Descubre meetups, conferencias, workshops y hackathons organizados por la comunidad tech en Perú.',
         url: 'https://peruanos.dev/events',
-           images: [
-      {
-        url: 'https://peruanos.dev/images/og-image.png',
-      }
-    ],
+        images: [
+            {
+                url: 'https://peruanos.dev/images/og-image.png',
+                width: 1200,
+                height: 630,
+                alt: 'Eventos tecnológicos en Perú - Peruanos.dev',
+            }
+        ],
         siteName: 'Peruanos.dev',
         locale: 'es_PE',
         type: 'website',
@@ -27,7 +33,7 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Eventos tecnológicos en Perú',
         description: 'Descubre meetups, conferencias, workshops y hackathons organizados por la comunidad tech en Perú.',
-        images: 'https://peruanos.dev/images/og-image.png',
+        images: ['https://peruanos.dev/images/og-image.png'],
         creator: '@lperezp_pe',
     },
 };
@@ -37,16 +43,28 @@ export default function Events() {
         name: event.title,
         description: event.description,
         startDate: event.date,
+        time: event.time,
         location: event.location,
         organizer: event.organizer || '',
         url: event.registration_url,
+        image_url: event.image_url,
+        type: event.type,
     })));
+
+    const jsonLdBreadcrumbs = breadcrumbSchema([
+        { name: 'Inicio', url: 'https://peruanos.dev' },
+        { name: 'Eventos', url: 'https://peruanos.dev/events' },
+    ]);
 
     return (
         <main className="flex w-full max-w-7xl flex-col items-center bg-background mx-auto">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdEvents) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBreadcrumbs) }}
             />
             <section className="py-20 flex flex-col items-start w-full px-8 sm:px-10">
                 <h1 className="text-4xl sm:text-6xl text-left font-bold mb-4 leading-[1.4] w-full">
