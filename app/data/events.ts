@@ -1000,5 +1000,25 @@ export const EVENTS: IEvent[] = [
       "Workshop / hands-on session"
     ],
     "organizer": "GDG Cusco"
+  },
+  {
+    "title": "DEVFEST PIURA 2026",
+    "description": "¡Nuestra cita anual con la tecnología está de regreso!\n\nComo cada año, renovamos nuestro compromiso con la comunidad reuniéndonos en el DevFest Piura 2026. Esta es nuestra tradición anual impulsada por Google Developer Groups (GDG), un espacio pensado por y para apasionados de la tecnología, donde nos reencontramos para compartir conocimiento, aprender y seguir creciendo juntos.\n\nDetalles de nuestra edición 2026:\n- Lugar: Campus Universidad de Piura (UDEP)\n- Horario: 9:00 a. m. – 6:00 p. m.\n- Modalidad: Presencial\n\n¿Qué compartiremos en este DevFest?\n- Charlas Magistrales: Como siempre, traemos a referentes de la industria para hablar sobre las últimas tendencias en IA, Cloud, Web, Mobile y más.\n- Talleres Prácticos (Hands-on): Fieles a nuestro estilo de \"aprender haciendo\", tendremos sesiones guiadas para que construyas soluciones en tiempo real.\n- Networking Cercano: El espacio perfecto para reencontrarte con colegas, conocer a nuevos talentos locales y conectar con empresas aliadas de la región.\n- Swag y Sorpresas: Porque ninguna de nuestras ediciones anuales estaría completa sin dinámicas, sorteos y premios para la comunidad.\n\n¡Sigamos construyendo tecnología juntos, un año más! Asegura tu cupo y acompáñanos en esta jornada llena de aprendizaje y código.",
+    "date": "2026-11-28",
+    "time": "08:30",
+    "location": "Universidad de Piura, 131 Avenida Ramón Mugica",
+    "city": "Piura",
+    "type": "Presencial",
+    "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_kjVFAqB",
+    "registration_url": "https://gdg.community.dev/events/details/google-gdg-piura-presents-devfest-piura-2026/",
+    "tags": [
+      "Conferencia",
+      "DevFest",
+      "Google Cloud",
+      "IA",
+      "IA - Gemini",
+      "Taller / sesión práctica"
+    ],
+    "organizer": "GDG Piura"
   }
 ];
