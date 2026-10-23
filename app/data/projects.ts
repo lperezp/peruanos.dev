@@ -8,5 +8,9 @@ export const PROJECTS: IProject[] = [
     {
         owner: 'lperezp',
         repo: 'ngx-culqi'
+    },
+    {
+        owner: 'chasqui-stack',
+        repo: 'chasqui'
     }
 ];
