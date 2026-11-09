@@ -1076,5 +1076,24 @@ export const EVENTS: IEvent[] = [
       "Seguridad"
     ],
     "organizer": "Black Alpaca Security Conference"
+  },
+  {
+    "title": "AWS Student Community Day Lima 2026",
+    "description": "¡Es oficial! Llega el AWS Student Community Day Lima 2026.\n\nUn día completo para aprender y construir en la nube, organizado por estudiantes del AWS Student Builder Group UNI.\n\nQué habrá:\n→ Charlas técnicas sobre cloud, IA generativa y ciberseguridad\n→ Workshops prácticos con cupos limitados\n→ Torneo de Clash Cards\n→ Networking con la comunidad AWS de Lima\n\nGratuito y abierto a todo público. No necesitas experiencia previa con AWS. El aforo es limitado, así que inscríbete temprano.",
+    "date": "2026-11-28",
+    "time": "09:00",
+    "location": "Facultad de Ingeniería Industrial y de Sistemas (FIIS), UNI",
+    "city": "Lima",
+    "type": "Presencial",
+    "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQEMllB-BpvFdw/feedshare-shrink_800/B4EaF039nNKMAg-/0/1792962190049?e=2147483647&v=beta&t=vR-sosvBQzuICeiYwOVp3xbfLx6PQDORJZmqlgL8E_o",
+    "registration_url": "https://www.linkedin.com/posts/student-builder-group-uni_awsstudentbuildergroup-aws-cloud-activity-7520228488532967425-Nrii",
+    "tags": [
+      "AWS",
+      "Cloud",
+      "Cloud Computing",
+      "Conferencia",
+      "IA"
+    ],
+    "organizer": "AWS Student Builder Group UNI"
   }
 ];
