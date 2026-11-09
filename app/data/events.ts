@@ -1060,5 +1060,21 @@ export const EVENTS: IEvent[] = [
       "Web"
     ],
     "organizer": "GDG Callao"
+  },
+  {
+    "title": "Black Alpaca Security Conference 2026",
+    "description": "A kickass cybersecurity conference for curious minds eager to explore, learn, and connect in a dynamic and engaging setting!\n\nLa Black Alpaca Security Conference es la conferencia de ciberseguridad hecha por y para la comunidad, que reúne a expertos, estudiantes y entusiastas para aprender, compartir y colaborar en torno a los últimos avances en ciberseguridad, hacking ético y defensa digital.\n\nUn espacio de colaboración donde la comunidad intercambia conocimientos, ideas y experiencias, impulsando el fortalecimiento y crecimiento del ecosistema de ciberseguridad en el Perú.",
+    "date": "2026-11-14",
+    "time": "09:00",
+    "location": "NOS PUCP",
+    "city": "San Isidro",
+    "type": "Presencial",
+    "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193603964%2F2780666603701%2F1%2Foriginal.20260915-221632?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c752c9d19f2840bb19ab75a2d3000ee3",
+    "registration_url": "https://www.eventbrite.com.pe/e/black-alpaca-security-conference-2026-tickets-2000906328692",
+    "tags": [
+      "Conferencia",
+      "Seguridad"
+    ],
+    "organizer": "Black Alpaca Security Conference"
   }
 ];
