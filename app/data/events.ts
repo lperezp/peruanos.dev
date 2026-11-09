@@ -1035,5 +1035,30 @@ export const EVENTS: IEvent[] = [
       "Taller / sesión práctica"
     ],
     "organizer": "GDG Piura"
+  },
+  {
+    "title": "DevFest Callao 2026 - Segunda Edición 🦖",
+    "description": "🚀 ¡DevFest Callao 2026 está de regreso con su Segunda Edición! 🎉\n\n¿Pensaron que el DevFest Callao había terminado? 👀 ¡Todavía nos queda una última sorpresa! 🦖\n\n🔥 Cerramos nuestra temporada 2026 a lo grande con una segunda edición llena de tecnología, aprendizaje y comunidad.\n\nY porque queremos celebrar este año increíble con ustedes, tendremos:\n\n🎁 Merch exclusivo\n🍪 Google Cookies\n🏆 Premios increíbles\n🎟️ ¡Muchos sorteos y sorpresas!\n(Spoiler arlet: Tenemos mucho más premios esta vez)\n\n💙❤️💛💚 Una última edición para aprender, conectar y celebrar todo lo que hemos construido juntos como comunidad.\n\n🚀 DevFest Callao 2026 - Segunda Edición: ¡El gran cierre de temporada que no te puedes perder!\n\n¿Listos para acompañarnos una vez más? 🦖\n\nHaz click en RSPV y regístrate!",
+    "date": "2026-11-14",
+    "time": "09:30",
+    "location": "UPC - Campus San Miguel",
+    "city": "Callao",
+    "type": "Presencial",
+    "image_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_fdhsFBx",
+    "registration_url": "https://gdg.community.dev/events/details/google-gdg-callao-presents-devfest-callao-2026-segunda-edicion/",
+    "tags": [
+      "Accesibilidad",
+      "Angular",
+      "Conferencia",
+      "Desarrollo profesional",
+      "DevFest",
+      "Diseño de UX / UI",
+      "Google Cloud",
+      "IA",
+      "IA - Gemini",
+      "Taller / sesión práctica",
+      "Web"
+    ],
+    "organizer": "GDG Callao"
   }
 ];
