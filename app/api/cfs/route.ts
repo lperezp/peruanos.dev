@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { CFS_LIST } from '@/app/data/cfs';
 import { API_HEADERS } from '@/app/lib/api-utils';
 
-export const revalidate = 3600;
+export const dynamic = 'force-dynamic';
 
 export async function GET(request: Request) {
   try {

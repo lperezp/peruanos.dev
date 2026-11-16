@@ -1,5 +1,6 @@
 import { useState, useMemo, useCallback, useEffect, useRef } from 'react';
 import { EVENTS } from '../data/events';
+import { IEvent } from '../models/event.model';
 import { useDebounce } from './useDebounce';
 import { trackEvent } from '../lib/analytics';
 
@@ -12,11 +13,32 @@ function matchParamValues(paramValue: string | null, candidates: string[]): stri
     return candidates.filter((candidate) => requested.includes(candidate.toLowerCase()));
 }
 
+function matchesEventCriteria(
+    event: IEvent,
+    searchQuery: string,
+    cityFilters: string[],
+    topicFilters: string[],
+    typeFilters: string[]
+): boolean {
+    if (
+        searchQuery &&
+        !event.title.toLowerCase().includes(searchQuery.toLowerCase()) &&
+        !event.description.toLowerCase().includes(searchQuery.toLowerCase())
+    ) {
+        return false;
+    }
+    if (cityFilters.length > 0 && !cityFilters.includes(event.city)) return false;
+    if (topicFilters.length > 0 && !event.tags.some((tag) => topicFilters.includes(tag))) return false;
+    if (typeFilters.length > 0 && !typeFilters.includes(event.type)) return false;
+    return true;
+}
+
 export function useEventFilters() {
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedCities, setSelectedCities] = useState<string[]>([]);
     const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
     const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
+    const [timeFilter, setTimeFilter] = useState<'upcoming' | 'past'>('upcoming');
     const [isCityOpen, setIsCityOpen] = useState(false);
     const [isTopicOpen, setIsTopicOpen] = useState(false);
     const [isTypeOpen, setIsTypeOpen] = useState(false);
@@ -33,6 +55,7 @@ export function useEventFilters() {
         const matchedCities = matchParamValues(params.get('city'), allCities);
         const matchedTopics = matchParamValues(params.get('topic'), allTopics);
         const matchedTypes = matchParamValues(params.get('type'), allTypes);
+        const tabParam = (params.get('tab') ?? params.get('time') ?? '').toLowerCase();
 
         if (q) {
             initialSearchRef.current = true;
@@ -42,6 +65,7 @@ export function useEventFilters() {
         if (matchedCities.length > 0) setSelectedCities(matchedCities);
         if (matchedTopics.length > 0) setSelectedTopics(matchedTopics);
         if (matchedTypes.length > 0) setSelectedTypes(matchedTypes);
+        if (tabParam === 'past') setTimeFilter('past');
         setIsHydrated(true);
     }, []);
 
@@ -55,20 +79,18 @@ export function useEventFilters() {
         return eventDate >= today;
     }, []);
 
-    // Función helper para filtrar eventos válidos (solo próximos)
+    // Función helper para filtrar eventos por pestaña temporal activa
     const getFilteredEvents = useCallback((
         cityFilters: string[],
         topicFilters: string[],
         typeFilters: string[]
     ) => {
-        return EVENTS.filter(event => {
-            if (!isUpcomingEvent(event.date)) return false;
-            if (cityFilters.length > 0 && !cityFilters.includes(event.city)) return false;
-            if (topicFilters.length > 0 && !event.tags.some(tag => topicFilters.includes(tag))) return false;
-            if (typeFilters.length > 0 && !typeFilters.includes(event.type)) return false;
-            return true;
+        return EVENTS.filter((event) => {
+            const matchesTime = timeFilter === 'upcoming' ? isUpcomingEvent(event.date) : !isUpcomingEvent(event.date);
+            if (!matchesTime) return false;
+            return matchesEventCriteria(event, '', cityFilters, topicFilters, typeFilters);
         });
-    }, [isUpcomingEvent]);
+    }, [isUpcomingEvent, timeFilter]);
 
     // Ciudades disponibles basadas en temas y tipos seleccionados
     const cities = useMemo(() => {
@@ -91,23 +113,35 @@ export function useEventFilters() {
         return Array.from(typeSet).sort();
     }, [selectedCities, selectedTopics, getFilteredEvents]);
 
+    const { upcomingCount, pastCount } = useMemo(() => {
+        let upcoming = 0;
+        let past = 0;
+        for (const event of EVENTS) {
+            if (!matchesEventCriteria(event, searchQuery, selectedCities, selectedTopics, selectedTypes)) {
+                continue;
+            }
+            if (isUpcomingEvent(event.date)) {
+                upcoming += 1;
+            } else {
+                past += 1;
+            }
+        }
+        return { upcomingCount: upcoming, pastCount: past };
+    }, [searchQuery, selectedCities, selectedTopics, selectedTypes, isUpcomingEvent]);
+
     // Eventos filtrados
     const filteredEvents = useMemo(() => {
         return EVENTS
-            .filter(event => isUpcomingEvent(event.date))
-            .filter(event => {
-                if (searchQuery &&
-                    !event.title.toLowerCase().includes(searchQuery.toLowerCase()) &&
-                    !event.description.toLowerCase().includes(searchQuery.toLowerCase())) {
-                    return false;
-                }
-                if (selectedCities.length > 0 && !selectedCities.includes(event.city)) return false;
-                if (selectedTopics.length > 0 && !event.tags.some(tag => selectedTopics.includes(tag))) return false;
-                if (selectedTypes.length > 0 && !selectedTypes.includes(event.type)) return false;
-                return true;
+            .filter((event) => {
+                const matchesTime = timeFilter === 'upcoming' ? isUpcomingEvent(event.date) : !isUpcomingEvent(event.date);
+                if (!matchesTime) return false;
+                return matchesEventCriteria(event, searchQuery, selectedCities, selectedTopics, selectedTypes);
             })
-            .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
-    }, [searchQuery, selectedCities, selectedTopics, selectedTypes, isUpcomingEvent]);
+            .sort((a, b) => {
+                const diff = new Date(a.date).getTime() - new Date(b.date).getTime();
+                return timeFilter === 'upcoming' ? diff : -diff;
+            });
+    }, [searchQuery, selectedCities, selectedTopics, selectedTypes, timeFilter, isUpcomingEvent]);
 
     // Toggle functions
     const toggleCity = useCallback((city: string) => {
@@ -152,6 +186,7 @@ export function useEventFilters() {
 
         const url = new URL(window.location.href);
         url.searchParams.delete('search');
+        url.searchParams.delete('time');
 
         if (debouncedSearchQuery === searchQuery) {
             if (debouncedSearchQuery) {
@@ -179,11 +214,17 @@ export function useEventFilters() {
             url.searchParams.delete('type');
         }
 
+        if (timeFilter === 'past') {
+            url.searchParams.set('tab', 'past');
+        } else {
+            url.searchParams.delete('tab');
+        }
+
         const nextUrl = url.pathname + url.search;
         if (nextUrl !== window.location.pathname + window.location.search) {
             window.history.replaceState(null, '', nextUrl);
         }
-    }, [isHydrated, selectedCities, selectedTopics, selectedTypes, debouncedSearchQuery, searchQuery]);
+    }, [isHydrated, selectedCities, selectedTopics, selectedTypes, timeFilter, debouncedSearchQuery, searchQuery]);
 
     return {
         searchQuery,
@@ -191,6 +232,10 @@ export function useEventFilters() {
         selectedCities,
         selectedTopics,
         selectedTypes,
+        timeFilter,
+        setTimeFilter,
+        upcomingCount,
+        pastCount,
         isCityOpen,
         setIsCityOpen,
         isTopicOpen,

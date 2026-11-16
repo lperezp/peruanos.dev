@@ -11,6 +11,10 @@ export default function EventsClient() {
         selectedCities,
         selectedTopics,
         selectedTypes,
+        timeFilter,
+        setTimeFilter,
+        upcomingCount,
+        pastCount,
         isCityOpen,
         setIsCityOpen,
         isTopicOpen,
@@ -47,6 +51,35 @@ export default function EventsClient() {
                 isTypeOpen={isTypeOpen}
                 setIsTypeOpen={setIsTypeOpen}
             />
+
+            <div className="flex flex-wrap items-center gap-3 mb-8 w-full" role="tablist" aria-label="Filtrar por vigencia del evento">
+                <button
+                    type="button"
+                    role="tab"
+                    aria-selected={timeFilter === 'upcoming'}
+                    onClick={() => setTimeFilter('upcoming')}
+                    className={`px-4 py-2 rounded-full text-sm font-medium transition-colors cursor-pointer ${
+                        timeFilter === 'upcoming'
+                            ? 'bg-primary text-white'
+                            : 'bg-hover text-foreground hover:bg-border'
+                    }`}
+                >
+                    Próximos eventos ({upcomingCount})
+                </button>
+                <button
+                    type="button"
+                    role="tab"
+                    aria-selected={timeFilter === 'past'}
+                    onClick={() => setTimeFilter('past')}
+                    className={`px-4 py-2 rounded-full text-sm font-medium transition-colors cursor-pointer ${
+                        timeFilter === 'past'
+                            ? 'bg-primary text-white'
+                            : 'bg-hover text-foreground hover:bg-border'
+                    }`}
+                >
+                    Eventos pasados ({pastCount})
+                </button>
+            </div>
 
             <EventList events={filteredEvents} />
         </>
