@@ -1,6 +1,6 @@
-import Link from 'next/link';
 import type { Metadata } from 'next';
 import EventsClient from '../components/events/EventsClient';
+import TrackedLink from '../components/ui/TrackedLink';
 import { addUTMParams } from '../lib/utm';
 import { EVENTS } from '../data/events';
 import { breadcrumbSchema, eventSchema, itemListSchema } from '../lib/structured-data';
@@ -73,14 +73,16 @@ export default function Events() {
                 <p className="text-left mb-4 w-full sm:text-[20px]">
                     Conecta con la comunidad tech peruana en eventos, meetups y conferencias. ¿Organizas un evento? ¡Agrégalo a la lista!
                 </p>
-                <Link
+                <TrackedLink
                     className="px-6 py-3 text-center bg-primary text-white rounded-full hover:bg-primary-hover transition"
                     href={addUTMParams('https://github.com/lperezp/peruanos.dev/issues/new?template=event.yml')}
                     target='_blank'
                     rel="noopener noreferrer"
+                    eventName="click_publish_event"
+                    eventParams={{ event_name: 'Publicar un evento', event_link: 'https://github.com/lperezp/peruanos.dev/issues/new?template=event.yml', section: 'Events' }}
                 >
                     Publicar un evento
-                </Link>
+                </TrackedLink>
 
                 <EventsClient />
             </section>

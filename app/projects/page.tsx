@@ -1,6 +1,6 @@
-import Link from 'next/link';
 import type { Metadata } from 'next';
 import ProjectsClient from '../components/projects/ProjectsClient';
+import TrackedLink from '../components/ui/TrackedLink';
 import { addUTMParams } from '../lib/utm';
 import { PROJECTS } from '../data/projects';
 import { breadcrumbSchema, itemListSchema, softwareSourceCodeSchema } from '../lib/structured-data';
@@ -68,14 +68,16 @@ export default function Projects() {
                 <p className="text-left mb-4 w-full sm:text-[20px]">
                     Descubre y contribuye a proyectos de código abierto creados por desarrolladores peruanos. ¿Tienes un proyecto? ¡Agrégalo a la lista!
                 </p>
-                <Link
+                <TrackedLink
                     className="px-6 py-3 text-center bg-primary text-white rounded-full hover:bg-primary-hover transition mb-8"
                     href={addUTMParams('https://github.com/lperezp/peruanos.dev/issues/new?template=project.yml')}
                     target='_blank'
                     rel="noopener noreferrer"
+                    eventName="click_publish_project"
+                    eventParams={{ event_name: 'Publicar un proyecto', event_link: 'https://github.com/lperezp/peruanos.dev/issues/new?template=project.yml', section: 'Projects' }}
                 >
                     Publicar un proyecto
-                </Link>
+                </TrackedLink>
 
                 <ProjectsClient />
             </section>

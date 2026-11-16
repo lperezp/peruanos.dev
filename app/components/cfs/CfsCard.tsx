@@ -194,7 +194,7 @@ export default function CfsCard({ cfs }: Props) {
           target="_blank"
           rel="noopener noreferrer"
           eventName="click_apply_cfs"
-          eventParams={{ cfs_title: cfs.title, community: cfs.community, section: 'CFS' }}
+          eventParams={{ event_name: cfs.title, event_link: cfs.cfs_url, section: 'CFS' }}
         >
           <span>Postular como Speaker</span>
           <ExternalLink size={15} />
@@ -205,7 +205,7 @@ export default function CfsCard({ cfs }: Props) {
           text={`¡Postula como speaker a "${cfs.title}" con la comunidad ${cfs.community}! Vía peruanos.dev`}
           url={cfs.cfs_url}
           eventName="click_share_cfs"
-          eventParams={{ cfs_title: cfs.title, section: 'CFS' }}
+          eventParams={{ event_name: cfs.title, event_link: cfs.cfs_url, section: 'CFS' }}
         />
       </div>
     </div>

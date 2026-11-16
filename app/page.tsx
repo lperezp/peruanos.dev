@@ -260,6 +260,7 @@ export default async function Home() {
               target='_blank'
               rel="noopener noreferrer"
               eventName="click_contribute_repo"
+              eventParams={{ event_name: 'Ir al repositorio', event_link: 'https://github.com/lperezp/peruanos.dev', section: 'Home' }}
             >
               Ir al repositorio
             </TrackedLink>

@@ -1,6 +1,6 @@
-import Link from 'next/link';
 import type { Metadata } from 'next';
 import CfsClient from '../components/cfs/CfsClient';
+import TrackedLink from '../components/ui/TrackedLink';
 import { addUTMParams } from '../lib/utm';
 import { breadcrumbSchema } from '../lib/structured-data';
 
@@ -57,14 +57,16 @@ export default function CfsPage() {
                     Directorio centralizado de convocatorias para speakers en el Perú. Si deseas compartir tus conocimientos, experiencias o proyectos con la comunidad tech, explora las convocatorias abiertas y postula a tu próximo evento o meetup.
                 </p>
                 <div className="flex flex-wrap gap-4 items-center">
-                    <Link
+                    <TrackedLink
                         className="px-6 py-3 text-center bg-primary text-white rounded-full hover:bg-primary-hover transition"
                         href={addUTMParams('https://github.com/lperezp/peruanos.dev/issues/new?template=cfs.yml')}
                         target='_blank'
                         rel="noopener noreferrer"
+                        eventName="click_publish_cfs"
+                        eventParams={{ event_name: 'Publicar un Call for Speakers', event_link: 'https://github.com/lperezp/peruanos.dev/issues/new?template=cfs.yml', section: 'CFS' }}
                     >
                         Publicar un Call for Speakers
-                    </Link>
+                    </TrackedLink>
                 </div>
 
                 <CfsClient />

@@ -1,6 +1,6 @@
-import Link from 'next/link';
 import type { Metadata } from 'next';
 import CommunityClient from '../components/communities/CommunityClient';
+import TrackedLink from '../components/ui/TrackedLink';
 import { addUTMParams } from '../lib/utm';
 import { COMMUNITIES } from '../data/communities';
 import { breadcrumbSchema, communitySchema, itemListSchema } from '../lib/structured-data';
@@ -67,14 +67,16 @@ export default function Community() {
                 <p className="text-left mb-4 w-full sm:text-[20px]">
                     Descubre y únete a las comunidades que impulsan la tecnología en el Perú. ¿Organizas una comunidad? ¡Agrégala a la lista!
                 </p>
-                <Link
+                <TrackedLink
                     className="px-6 py-3 text-center bg-primary text-white rounded-full hover:bg-primary-hover transition"
                     href={addUTMParams('https://github.com/lperezp/peruanos.dev/issues/new?template=community.yml')}
                     target='_blank'
                     rel="noopener noreferrer"
+                    eventName="click_publish_community"
+                    eventParams={{ event_name: 'Publicar una comunidad', event_link: 'https://github.com/lperezp/peruanos.dev/issues/new?template=community.yml', section: 'Community' }}
                 >
                     Publicar una comunidad
-                </Link>
+                </TrackedLink>
 
                 <CommunityClient />
             </section>
