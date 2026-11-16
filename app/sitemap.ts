@@ -1,8 +1,24 @@
 import { MetadataRoute } from 'next';
+import { execSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 
 function getFileLastModified(relativePath: string, fallback: Date): Date {
+    try {
+        const gitDate = execSync(`git log -1 --format=%cI -- "${relativePath}"`, {
+            encoding: 'utf-8',
+            stdio: ['ignore', 'pipe', 'ignore'],
+        }).trim();
+        if (gitDate) {
+            const parsedDate = new Date(gitDate);
+            if (!Number.isNaN(parsedDate.getTime())) {
+                return parsedDate;
+            }
+        }
+    } catch {
+        // Fallback to filesystem mtime when git history is unavailable
+    }
+
     try {
         const absolutePath = path.join(process.cwd(), relativePath);
         if (fs.existsSync(absolutePath)) {
@@ -74,6 +90,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
             url: `${baseUrl}/apis`,
             lastModified: apisModified,
             changeFrequency: 'monthly',
+            priority: 0.6,
+        },
+        {
+            url: `${baseUrl}/llms.txt`,
+            lastModified: newestModification,
+            changeFrequency: 'daily',
+            priority: 0.7,
+        },
+        {
+            url: `${baseUrl}/llms-full.txt`,
+            lastModified: newestModification,
+            changeFrequency: 'daily',
             priority: 0.6,
         },
     ];
