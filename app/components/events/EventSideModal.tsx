@@ -62,7 +62,7 @@ export default function EventSideModal({ event, isOpen, onClose }: EventSideModa
                             eventParams={{ event_name: event.title, event_link: event.registration_url, section: 'EventModal' }}
                         />
                     </div>
-                    <h1 className="text-2xl font-bold text-foreground mb-2 break-words">{event.title}</h1>
+                    <h2 className="text-2xl font-bold text-foreground mb-2 break-words">{event.title}</h2>
                     {event.organizer && (
                         <div className="flex items-center gap-2 text-accent mb-4">
                             <User size={18} />

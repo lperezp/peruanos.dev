@@ -58,7 +58,7 @@ export default function CommunitySideModal({ community, isOpen, onClose }: Commu
                 </div>
 
                 <div>
-                    <h1 className="text-2xl font-bold text-foreground mb-2 break-words">{community.name}</h1>
+                    <h2 className="text-2xl font-bold text-foreground mb-2 break-words">{community.name}</h2>
                     <div className="flex items-start gap-2 text-accent mb-4">
                         <MapPin size={18} className="shrink-0 mt-1" />
                         <span className="font-medium break-words">{community.city}</span>

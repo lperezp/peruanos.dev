@@ -63,7 +63,9 @@ export default function Community() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBreadcrumbs) }}
             />
             <section className="py-20 flex flex-col items-start w-full px-8 sm:px-10">
-                <h1 className="text-4xl sm:text-6xl text-left font-bold mb-4 leading-[1.4] w-full">Comunidades</h1>
+                <h1 className="text-4xl sm:text-6xl text-left font-bold mb-4 leading-[1.4] w-full">
+                    Comunidades <span className="text-primary-text">tecnológicas</span>
+                </h1>
                 <p className="text-left mb-4 w-full sm:text-[20px]">
                     Descubre y únete a las comunidades que impulsan la tecnología en el Perú. ¿Organizas una comunidad? ¡Agrégala a la lista!
                 </p>

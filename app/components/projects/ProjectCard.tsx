@@ -16,7 +16,7 @@ export default function CardProject({ project }: Props) {
             )}
             <div className="flex items-center gap-2 mb-1">
                 <Github size={24} />
-                <p className="text-[20px] font-bold">{project.name}</p>
+                <h3 className="text-[20px] font-bold">{project.name}</h3>
             </div>
             <p className="text-sm text-accent mb-4">por {project.owner.login}</p>
             <p className="font-medium my-4 text-accent line-clamp-2 overflow-hidden text-ellipsis">

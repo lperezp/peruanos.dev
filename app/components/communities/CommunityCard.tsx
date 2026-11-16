@@ -44,7 +44,7 @@ export default function CardCommunity({ community }: { community: ICommunity }) 
                 )}
             </div>
             <div className="p-6 flex-1 flex flex-col min-w-0">
-                <p className="text-[20px] text-foreground font-bold mb-1">{community.name}</p>
+                <h2 className="text-[20px] text-foreground font-bold mb-1">{community.name}</h2>
                 <p className="font-medium text-accent">{community.city}</p>
                 <p className="font-medium my-4 text-accent line-clamp-2">{community.description}</p>
                 <div className="mb-3 overflow-x-auto overflow-y-hidden custom-scrollbar">

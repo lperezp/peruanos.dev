@@ -19,7 +19,7 @@ export default function CardCommunityHome({ community }: { community: ICommunity
         <div
             className="card-event-home p-6 bg-background border border-accent rounded-lg flex-1 max-w-sm transition-all duration-300 hover:scale-[1.02] hover:shadow-md hover:border-primary/50 cursor-pointer"
         >
-            <p className="text-[20px] text-foreground font-bold mb-1">{community.name}</p>
+            <h3 className="text-[20px] text-foreground font-bold mb-1">{community.name}</h3>
             <p className="font-medium text-accent">{community.city}</p>
             <p className="font-medium my-4 text-accent line-clamp-4">{community.description}</p>
             <button

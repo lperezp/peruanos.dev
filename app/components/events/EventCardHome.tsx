@@ -25,7 +25,7 @@ export default function CardEventHome({ event }: Props) {
             className="card-event-home p-6 bg-background border border-accent rounded-lg flex-1 max-w-sm transition-all duration-300"
 
         >
-            <p className="text-[20px] text-foreground font-bold mb-1 line-clamp-1">{event.title}</p>
+            <h3 className="text-[20px] text-foreground font-bold mb-1 line-clamp-1">{event.title}</h3>
             <p className="font-medium text-accent">{event.organizer}</p>
             <p className="font-medium my-4 text-accent line-clamp-4 min-h-[6rem]">{event.description.replace(/\*\*/g, '')}</p>
             <div className="flex items-center gap-2 font-medium text-accent mb-1">
