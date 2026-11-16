@@ -29,6 +29,7 @@ export default function CardCommunity({ community }: { community: ICommunity }) 
                             src={community.logo_url}
                             alt=""
                             fill
+                            sizes="(max-width: 640px) 100vw, 250px"
                             className="object-contain blur-2xl opacity-60 scale-75"
                             aria-hidden="true"
                         />
@@ -36,6 +37,7 @@ export default function CardCommunity({ community }: { community: ICommunity }) 
                             src={community.logo_url}
                             alt={community.name}
                             fill
+                            sizes="(max-width: 640px) 100vw, 250px"
                             className="object-contain drop-shadow-lg z-10"
                         />
                     </>

@@ -40,6 +40,7 @@ export default function CardEvent({ event }: Props) {
                         src={event.image_url}
                         alt={event.title}
                         fill
+                        sizes="(max-width: 640px) 100vw, 300px"
                         className="object-cover"
                     />
                 ) : (

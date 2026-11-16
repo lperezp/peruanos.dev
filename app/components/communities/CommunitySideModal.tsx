@@ -50,6 +50,7 @@ export default function CommunitySideModal({ community, isOpen, onClose }: Commu
                             src={community.logo_url}
                             alt={community.name}
                             fill
+                            sizes="(max-width: 768px) 100vw, 512px"
                             className="object-contain p-4"
                         />
                     ) : (

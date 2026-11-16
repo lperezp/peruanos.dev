@@ -39,6 +39,7 @@ export default function EventSideModal({ event, isOpen, onClose }: EventSideModa
                             src={event.image_url}
                             alt={event.title}
                             fill
+                            sizes="(max-width: 768px) 100vw, 512px"
                             className="object-cover"
                         />
                     ) : (
