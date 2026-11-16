@@ -221,6 +221,19 @@ export const cfsSchema = (cfs: ICFS) => {
     };
 };
 
+export const faqPageSchema = (faqs: { question: string; answer: string }[]) => ({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+        '@type': 'Question',
+        name: faq.question,
+        acceptedAnswer: {
+            '@type': 'Answer',
+            text: cleanSchemaText(faq.answer),
+        },
+    })),
+});
+
 export const itemListSchema = (items: Record<string, unknown>[]) => ({
     '@context': 'https://schema.org',
     '@type': 'ItemList',

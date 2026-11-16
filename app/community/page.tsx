@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import CommunityClient from '../components/communities/CommunityClient';
 import TrackedLink from '../components/ui/TrackedLink';
+import FaqSection from '../components/ui/FaqSection';
 import { addUTMParams } from '../lib/utm';
 import { COMMUNITIES } from '../data/communities';
-import { breadcrumbSchema, communitySchema, itemListSchema } from '../lib/structured-data';
+import { breadcrumbSchema, communitySchema, faqPageSchema, itemListSchema } from '../lib/structured-data';
 
 export const metadata: Metadata = {
     title: 'Comunidades tecnológicas en Perú',
@@ -52,6 +53,29 @@ export default function Community() {
         { name: 'Comunidades', url: 'https://peruanos.dev/community' },
     ]);
 
+    const communityCities = Array.from(new Set(COMMUNITIES.map((c) => c.city))).sort();
+
+    const communityFaqs = [
+        {
+            question: '¿Cuáles son las principales comunidades de programación y tecnología en Perú?',
+            answer: `El directorio reúne ${COMMUNITIES.length} comunidades activas en Perú, incluyendo grupos de desarrolladores como Angular Perú, GDG Lima, GDG Callao, Python Perú, Flutter Lima, AWS User Group, comunidades universitarias y espacios de IA, Cloud y Ciberseguridad.`,
+        },
+        {
+            question: '¿Cómo unirse a una comunidad tech en Perú?',
+            answer: 'Puedes explorar cada comunidad en la lista o abrir su página de detalle para acceder directamente a su sitio web oficial, Meetup, Discord, GitHub o redes sociales.',
+        },
+        {
+            question: '¿Hay comunidades tecnológicas fuera de Lima?',
+            answer: `Sí. Actualmente hay comunidades registradas en ${communityCities.join(', ')}, además de grupos con actividades virtuales abiertas a todo el país.`,
+        },
+        {
+            question: '¿Cómo registrar una nueva comunidad en Peruanos.dev?',
+            answer: 'Usa el botón "Publicar una comunidad" para enviar un issue en GitHub con los datos de tu comunidad o abre un Pull Request editando app/data/communities.ts.',
+        },
+    ];
+
+    const jsonLdFaq = faqPageSchema(communityFaqs);
+
     return (
         <main className="flex w-full max-w-7xl flex-col items-center bg-background mx-auto">
             <script
@@ -62,12 +86,19 @@ export default function Community() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBreadcrumbs) }}
             />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdFaq) }}
+            />
             <section className="py-20 flex flex-col items-start w-full px-8 sm:px-10">
                 <h1 className="text-4xl sm:text-6xl text-left font-bold mb-4 leading-[1.4] w-full">
                     Comunidades <span className="text-primary-text">tecnológicas</span>
                 </h1>
-                <p className="text-left mb-4 w-full sm:text-[20px]">
+                <p className="text-left mb-3 w-full sm:text-[20px]">
                     Descubre y únete a las comunidades que impulsan la tecnología en el Perú. ¿Organizas una comunidad? ¡Agrégala a la lista!
+                </p>
+                <p className="text-left mb-6 w-full text-sm sm:text-base text-accent">
+                    Directorio con {COMMUNITIES.length} comunidades tecnológicas en {communityCities.join(', ')}.
                 </p>
                 <TrackedLink
                     className="px-6 py-3 text-center bg-primary text-white rounded-full hover:bg-primary-hover transition"
@@ -81,6 +112,8 @@ export default function Community() {
                 </TrackedLink>
 
                 <CommunityClient />
+
+                <FaqSection title="Preguntas frecuentes sobre comunidades tech en Perú" faqs={communityFaqs} />
             </section>
         </main>
     );

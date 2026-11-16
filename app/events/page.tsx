@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import EventsClient from '../components/events/EventsClient';
 import TrackedLink from '../components/ui/TrackedLink';
+import FaqSection from '../components/ui/FaqSection';
 import { addUTMParams } from '../lib/utm';
 import { EVENTS } from '../data/events';
-import { breadcrumbSchema, eventSchema, itemListSchema } from '../lib/structured-data';
+import { breadcrumbSchema, eventSchema, faqPageSchema, itemListSchema } from '../lib/structured-data';
 
 export const metadata: Metadata = {
     title: 'Eventos tecnológicos en Perú',
@@ -62,6 +63,31 @@ export default function Events() {
         { name: 'Eventos', url: 'https://peruanos.dev/events' },
     ]);
 
+    const activeCities = Array.from(
+        new Set((upcomingEvents.length > 0 ? upcomingEvents : EVENTS).map((event) => event.city).filter((city) => city !== 'Virtual'))
+    ).sort();
+
+    const eventFaqs = [
+        {
+            question: '¿Cómo encontrar eventos de tecnología en Perú?',
+            answer: `En Peruanos.dev puedes filtrar ${EVENTS.length} eventos tecnológicos registrados (${upcomingEvents.length} próximos en cartelera) por ciudad, temática (IA, Cloud, DevOps, Web, Mobile, Ciberseguridad) y modalidad (Presencial, Virtual o Híbrido).`,
+        },
+        {
+            question: '¿En qué ciudades del Perú hay meetups y conferencias tech?',
+            answer: `Además de Lima y Callao, las comunidades organizan eventos presenciales e híbridos en regiones como ${activeCities.filter((c) => c !== 'Lima' && c !== 'Callao').slice(0, 6).join(', ') || 'Piura, Arequipa, Trujillo, Cusco y Chimbote'}.`,
+        },
+        {
+            question: '¿Los eventos publicados en Peruanos.dev son gratuitos?',
+            answer: 'La mayoría de meetups comunitarios y grupos de usuarios en Perú son gratuitos con registro previo. Algunas conferencias anuales como DevOpsDays Lima o F13 cuentan con entradas pagadas que se detallan en su página de registro.',
+        },
+        {
+            question: '¿Cómo puedo publicar un evento tecnológico en Peruanos.dev?',
+            answer: 'Haz clic en "Publicar un evento" para abrir la plantilla en GitHub o envía un Pull Request agregando los datos del evento en app/data/events.ts.',
+        },
+    ];
+
+    const jsonLdFaq = faqPageSchema(eventFaqs);
+
     return (
         <main className="flex w-full max-w-7xl flex-col items-center bg-background mx-auto">
             <script
@@ -72,12 +98,19 @@ export default function Events() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBreadcrumbs) }}
             />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdFaq) }}
+            />
             <section className="py-20 flex flex-col items-start w-full px-8 sm:px-10">
                 <h1 className="text-4xl sm:text-6xl text-left font-bold mb-4 leading-[1.4] w-full">
                     Próximos <span className="text-primary-text">eventos</span>
                 </h1>
-                <p className="text-left mb-4 w-full sm:text-[20px]">
+                <p className="text-left mb-3 w-full sm:text-[20px]">
                     Conecta con la comunidad tech peruana en eventos, meetups y conferencias. ¿Organizas un evento? ¡Agrégalo a la lista!
+                </p>
+                <p className="text-left mb-6 w-full text-sm sm:text-base text-accent">
+                    Cartelera actualizada con {upcomingEvents.length} eventos próximos y {EVENTS.length} eventos registrados en Perú en ciudades como {activeCities.slice(0, 6).join(', ')} y modalidad virtual.
                 </p>
                 <TrackedLink
                     className="px-6 py-3 text-center bg-primary text-white rounded-full hover:bg-primary-hover transition"
@@ -91,6 +124,8 @@ export default function Events() {
                 </TrackedLink>
 
                 <EventsClient />
+
+                <FaqSection title="Preguntas frecuentes sobre eventos tech en Perú" faqs={eventFaqs} />
             </section>
         </main>
     );
