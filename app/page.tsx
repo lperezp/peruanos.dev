@@ -13,8 +13,9 @@ import { PROJECTS } from './data/projects';
 import { IGitHubRepo } from './models/project.model';
 import { CircleCheck, Edit, GitFork, Github } from 'lucide-react';
 import { addUTMParams } from './lib/utm';
-import { eventSchema, itemListSchema, softwareSourceCodeSchema } from './lib/structured-data';
+import { eventSchema, faqPageSchema, itemListSchema, softwareSourceCodeSchema } from './lib/structured-data';
 import TrackedLink from './components/ui/TrackedLink';
+import FaqSection from './components/ui/FaqSection';
 
 export const metadata: Metadata = {
   title: 'Peruanos.dev | Conecta con la comunidad tech en el Perú.',
@@ -131,6 +132,35 @@ export default async function Home() {
     programmingLanguage: project.language,
   })));
 
+  const activeCities = Array.from(
+    new Set(COMMUNITIES.map((community) => community.city))
+  ).sort();
+
+  const homeFaqs = [
+    {
+      question: '¿Qué es Peruanos.dev?',
+      answer: 'Peruanos.dev es el portal abierto y comunitario que centraliza eventos tecnológicos, comunidades de desarrolladores, convocatorias Call for Speakers (CFS) y proyectos open source creados en el Perú.',
+    },
+    {
+      question: '¿Qué eventos y comunidades tech puedo encontrar en Peruanos.dev?',
+      answer: `Actualmente el portal reúne ${EVENTS.length} eventos registrados (entre meetups, conferencias, workshops y hackathons) y ${COMMUNITIES.length} comunidades tecnológicas activas en ciudades como ${activeCities.join(', ')} y en formato virtual.`,
+    },
+    {
+      question: '¿Peruanos.dev es gratuito y de código abierto?',
+      answer: 'Sí. Tanto el acceso a toda la información del portal como su código fuente en GitHub son 100% gratuitos y open source bajo colaboración de la comunidad peruana.',
+    },
+    {
+      question: '¿Cómo puedo publicar un evento, comunidad, Call for Speakers o proyecto?',
+      answer: 'Puedes abrir un issue usando las plantillas del repositorio en GitHub (lperezp/peruanos.dev) o enviar un Pull Request agregando tu registro en los archivos de datos correspondientes.',
+    },
+    {
+      question: '¿Peruanos.dev ofrece una API pública para desarrolladores?',
+      answer: 'Sí. Expone endpoints públicos en JSON sin autenticación en /api/events, /api/communities, /api/cfs y /api/projects, además de índices en Markdown para asistentes de IA en /llms.txt y /llms-full.txt.',
+    },
+  ];
+
+  const jsonLdFaq = faqPageSchema(homeFaqs);
+
   return (
     <main className="flex w-full max-w-7xl flex-col items-center bg-background mx-auto">
       <script
@@ -140,6 +170,10 @@ export default async function Home() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdProjects) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdFaq) }}
       />
       <section className="relative flex flex-col items-center py-25 sm:py-40 px-16 max-sm:px-10 overflow-hidden hero-gradient">
         <h1 className="text-5xl sm:text-7xl z-10 text-center font-bold mb-9 leading-[1.4] w-full sm:w-[90%]">Conecta con <span className={`relative max-md:block before:content-[''] before:block before:w-[418px] before:h-[42px] before:bg-[url('/svg/line-text.svg')] before:bg-no-repeat before:bg-cover before:absolute before:-bottom-[10px] before:left-[130px] max-md:before:w-[240px] max-md:before:h-[24px] max-md:before:top-[50px] max-md:before:left-[50px] text-primary-text`}>la comunidad tech</span> en el Perú</h1>
@@ -300,6 +334,9 @@ export default async function Home() {
           </div>
         </section>
       )}
+      <div className="w-full max-w-5xl px-5 pb-10">
+        <FaqSection title="Preguntas frecuentes sobre Peruanos.dev" faqs={homeFaqs} />
+      </div>
     </main>
   );
 }
