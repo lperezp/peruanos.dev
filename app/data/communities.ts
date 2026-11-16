@@ -17,9 +17,9 @@ export const COMMUNITIES: ICommunity[] = [
                 "github": "https://github.com/AngularPeru/",
                 "twitter": "https://x.com/angularperung/",
                 "linkedin": "https://www.linkedin.com/company/angular-community-peru/",
-                "discord": "https://www.youtube.com/@AngularPeru/",
+                "discord": "",
                 "facebook": "",
-                "youtube": "",
+                "youtube": "https://www.youtube.com/@AngularPeru/",
                 "instagram": ""
             }
         }
@@ -43,7 +43,7 @@ export const COMMUNITIES: ICommunity[] = [
                 "github": "https://github.com/GDGCallao/",
                 "twitter": "https://x.com/GDG_Callao/",
                 "linkedin": "https://www.linkedin.com/company/google-developer-groups-callao/",
-                "discord": "https://www.youtube.com/@GDG_Callao/",
+                "discord": "",
                 "facebook": "https://www.facebook.com/gdgcallao",
                 "youtube": "https://www.youtube.com/@GDG_Callao",
                 "instagram": "https://www.instagram.com/gdg_callao/"
