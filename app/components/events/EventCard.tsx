@@ -2,8 +2,10 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { MapPin } from 'lucide-react';
 import { IEvent } from '../../models/event.model';
+import { getEventSlug } from '../../lib/slug';
 import Badge from '../ui/Badge';
 import EventSideModal from './EventSideModal';
 import ShareButton from '../ui/ShareButton';
@@ -60,7 +62,11 @@ export default function CardEvent({ event }: Props) {
                         <Badge key={tag} variant="outline" className="flex-shrink-0 whitespace-nowrap !mb-0 !mr-0">{tag}</Badge>
                     ))}
                 </div>
-                <h2 className="text-[20px] text-foreground font-bold mb-1">{event.title}</h2>
+                <h2 className="text-[20px] text-foreground font-bold mb-1">
+                    <Link href={`/events/${getEventSlug(event)}`} className="hover:text-primary-text transition-colors">
+                        {event.title}
+                    </Link>
+                </h2>
                 <p className="font-medium text-accent">{event.organizer}</p>
                 <p className="font-medium my-4 text-accent line-clamp-2">{event.description.replace(/\*\*/g, '')}</p>
                 <div className="flex items-center gap-2 font-medium text-accent">

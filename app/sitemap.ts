@@ -2,6 +2,9 @@ import { MetadataRoute } from 'next';
 import { execSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
+import { EVENTS } from './data/events';
+import { COMMUNITIES } from './data/communities';
+import { getCommunitySlug, getEventSlug } from './lib/slug';
 
 function getFileLastModified(relativePath: string, fallback: Date): Date {
     try {
@@ -104,5 +107,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
             changeFrequency: 'daily',
             priority: 0.6,
         },
+        ...EVENTS.map((event) => ({
+            url: `${baseUrl}/events/${getEventSlug(event)}`,
+            lastModified: eventsModified,
+            changeFrequency: 'weekly' as const,
+            priority: 0.7,
+        })),
+        ...COMMUNITIES.map((community) => ({
+            url: `${baseUrl}/community/${getCommunitySlug(community)}`,
+            lastModified: communityModified,
+            changeFrequency: 'monthly' as const,
+            priority: 0.7,
+        })),
     ];
 }
