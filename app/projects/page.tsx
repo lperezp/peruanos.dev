@@ -3,6 +3,7 @@ import ProjectsClient from '../components/projects/ProjectsClient';
 import TrackedLink from '../components/ui/TrackedLink';
 import { addUTMParams } from '../lib/utm';
 import { PROJECTS } from '../data/projects';
+import { IGitHubRepo } from '../models/project.model';
 import { breadcrumbSchema, itemListSchema, softwareSourceCodeSchema } from '../lib/structured-data';
 
 export const metadata: Metadata = {
@@ -38,12 +39,48 @@ export const metadata: Metadata = {
     },
 };
 
-export default function Projects() {
-    const jsonLdProjects = itemListSchema(PROJECTS.map(project => softwareSourceCodeSchema({
-        name: project.repo,
-        description: `Open source project ${project.repo} by ${project.owner}`,
-        codeRepository: `https://github.com/${project.owner}/${project.repo}`,
-        author: project.owner,
+export const revalidate = 3600;
+
+function createFallbackRepo(owner: string, repo: string): IGitHubRepo {
+    return {
+        name: repo,
+        full_name: `${owner}/${repo}`,
+        description: `Proyecto open source ${repo} por ${owner}`,
+        html_url: `https://github.com/${owner}/${repo}`,
+        stargazers_count: 0,
+        forks_count: 0,
+        language: '',
+        owner: {
+            login: owner,
+            avatar_url: `https://github.com/${owner}.png`,
+        },
+    };
+}
+
+export default async function Projects() {
+    const projectsData: IGitHubRepo[] = await Promise.all(
+        PROJECTS.map(async (project) => {
+            try {
+                const response = await fetch(`https://api.github.com/repos/${project.owner}/${project.repo}`, {
+                    next: { revalidate: 3600 },
+                });
+                if (!response.ok) {
+                    console.error(`Failed to fetch ${project.owner}/${project.repo}: ${response.status}`);
+                    return createFallbackRepo(project.owner, project.repo);
+                }
+                return (await response.json()) as IGitHubRepo;
+            } catch (error) {
+                console.error(`Error fetching ${project.owner}/${project.repo}:`, error);
+                return createFallbackRepo(project.owner, project.repo);
+            }
+        })
+    );
+
+    const jsonLdProjects = itemListSchema(projectsData.map(project => softwareSourceCodeSchema({
+        name: project.name,
+        description: project.description || `Proyecto open source ${project.name} por ${project.owner.login}`,
+        codeRepository: project.html_url,
+        author: project.owner.login,
     })));
 
     const jsonLdBreadcrumbs = breadcrumbSchema([
@@ -79,7 +116,7 @@ export default function Projects() {
                     Publicar un proyecto
                 </TrackedLink>
 
-                <ProjectsClient />
+                <ProjectsClient initialProjects={projectsData} />
             </section>
         </main>
     );

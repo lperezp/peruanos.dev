@@ -4,11 +4,17 @@ import { useEffect, useState } from 'react';
 import CardProject from './ProjectCard';
 import { IGitHubRepo } from '../../models/project.model';
 
-export default function ProjectsClient() {
-    const [projects, setProjects] = useState<IGitHubRepo[]>([]);
-    const [loading, setLoading] = useState(true);
+interface ProjectsClientProps {
+    initialProjects?: IGitHubRepo[];
+}
+
+export default function ProjectsClient({ initialProjects = [] }: ProjectsClientProps) {
+    const [projects, setProjects] = useState<IGitHubRepo[]>(initialProjects);
+    const [loading, setLoading] = useState(initialProjects.length === 0);
 
     useEffect(() => {
+        if (initialProjects.length > 0) return;
+
         const fetchProjects = async () => {
             try {
                 const response = await fetch('/api/projects');
@@ -23,7 +29,7 @@ export default function ProjectsClient() {
         };
 
         fetchProjects();
-    }, []);
+    }, [initialProjects.length]);
 
     if (loading) {
         return (
