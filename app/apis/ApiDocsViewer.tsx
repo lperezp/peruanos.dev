@@ -8,16 +8,20 @@ const ENDPOINTS = [
     method: "GET",
     path: "/api/events",
     title: "/api/events",
-    description: "Obtiene la lista de todos los eventos tecnológicos registrados, incluyendo meetups, conferencias, talleres y hackathons en Perú.",
+    description: "Obtiene la lista de los próximos eventos tecnológicos vigentes en Perú, incluyendo meetups, conferencias, talleres y hackathons.",
     filters: ["city=lima", "type=presencial"],
     fetchCode: "fetch('https://peruanos.dev/api/events?city=lima&type=presencial')\n  .then(res => res.json())\n  .then(data => console.log(data))",
     jsonSnippet: `data = [
   {
-    "title": "Hackathon Lima 2024",
-    "date": "2024-11-15T09:00:00Z",
-    "location": "Lima, Perú",
-    "link": "https://hackathonlima.pe",
-    "organizer": "Comunidad Tech Perú"
+    "title": "DevFest Open Lima 2026",
+    "date": "2026-11-21",
+    "time": "09:00",
+    "location": "Universidad de Lima, Santiago de Surco",
+    "city": "Lima",
+    "type": "Presencial",
+    "registration_url": "https://gdg.community.dev/...",
+    "organizer": "GDG Open Lima",
+    "tags": ["IA", "Web", "Cloud"]
   },
   // ...
 ]`
@@ -32,12 +36,16 @@ const ENDPOINTS = [
     fetchCode: "fetch('https://peruanos.dev/api/communities?city=lima')\n  .then(res => res.json())\n  .then(data => console.log(data))",
     jsonSnippet: `data = [
   {
-    "name": "React Lima",
-    "description": "Comunidad de desarrolladores React y React Native en Lima.",
-    "website": "https://reactlima.pe",
-    "social": {
-      "twitter": "https://twitter.com/reactlima",
-      "github": "https://github.com/reactlima"
+    "name": "Angular Perú",
+    "description": "Comunidad de desarrolladores Angular en Perú.",
+    "city": "Lima",
+    "topics": ["Angular", "Google Technologies"],
+    "contact": {
+      "website": "https://www.angular-peru.com/",
+      "socialMedia": {
+        "github": "https://github.com/AngularPeru/",
+        "twitter": "https://x.com/angularperung/"
+      }
     }
   },
   // ...
@@ -54,10 +62,12 @@ const ENDPOINTS = [
     jsonSnippet: `data = [
   {
     "name": "peruanos.dev",
+    "full_name": "lperezp/peruanos.dev",
     "description": "Plataforma open source de la comunidad tech en Perú.",
-    "repo_url": "https://github.com/peruanos-dev/peruanos.dev",
+    "html_url": "https://github.com/lperezp/peruanos.dev",
     "language": "TypeScript",
-    "stars": 128
+    "stargazers_count": 42,
+    "forks_count": 35
   },
   // ...
 ]`
@@ -72,13 +82,16 @@ const ENDPOINTS = [
     fetchCode: "fetch('https://peruanos.dev/api/cfs?topic=devops&status=open')\n  .then(res => res.json())\n  .then(data => console.log(data))",
     jsonSnippet: `data = [
   {
-    "id": "cfs-devopsdays-lima-2025",
-    "title": "DevOpsDays Lima 2025 - Call for Speakers",
-    "community": "DevOpsDays Lima",
-    "deadline": "2025-06-15",
-    "cfs_url": "https://sessionize.com/devopsdays-lima-2025",
+    "id": "cfs-jconf-peru-2026",
+    "title": "JConf Perú 2026 - Call for Speakers",
+    "community": "JConf Perú",
+    "event_date": "2026-11-28",
+    "deadline": "2026-11-10",
+    "cfs_url": "https://sessionize.com/jconf-peru-2026",
+    "city": "Lima",
     "type": "Presencial",
-    "topics": ["DevOps", "SRE", "Cloud Native"]
+    "topics": ["Java", "Spring Boot", "Cloud"],
+    "status": "open"
   },
   // ...
 ]`

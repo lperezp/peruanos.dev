@@ -1,7 +1,8 @@
 import { NextResponse } from 'next/server';
 import { CFS_LIST } from '@/app/data/cfs';
+import { API_HEADERS } from '@/app/lib/api-utils';
 
-export const dynamic = 'force-dynamic';
+export const revalidate = 3600;
 
 export async function GET(request: Request) {
   try {
@@ -45,7 +46,7 @@ export async function GET(request: Request) {
       return 0;
     });
 
-    return NextResponse.json(filtered, { status: 200 });
+    return NextResponse.json(filtered, { status: 200, headers: API_HEADERS });
   } catch (error) {
     console.error("Error al obtener los Call for Speakers:", error);
     return NextResponse.json(
