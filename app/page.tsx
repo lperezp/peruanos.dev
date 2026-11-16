@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   },
 };
 
-export const dynamic = 'force-dynamic';
+export const revalidate = 3600;
 
 function getRandomCommunities(communities: ICommunity[], count: number) {
   // Fisher-Yates shuffle
