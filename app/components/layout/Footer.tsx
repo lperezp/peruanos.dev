@@ -33,20 +33,14 @@ export default function Footer() {
                     </nav>
 
                     <nav aria-label="Recursos y comunidad" className="flex flex-col gap-2 text-sm">
-                        <p className="font-semibold text-white mb-1">Recursos & Comunidad</p>
+                        <p className="font-semibold text-white mb-1">Comunidad</p>
                         <Link
                             href={addUTMParams('https://github.com/lperezp/peruanos.dev')}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-gray-300 hover:text-white transition-colors"
                         >
-                            Contribuir en GitHub
-                        </Link>
-                        <Link href="/llms.txt" className="text-gray-300 hover:text-white transition-colors">
-                            Índice para IA (llms.txt)
-                        </Link>
-                        <Link href="/sitemap.xml" className="text-gray-300 hover:text-white transition-colors">
-                            Mapa del sitio (sitemap.xml)
+                            GitHub
                         </Link>
                     </nav>
                 </div>

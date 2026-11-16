@@ -143,7 +143,7 @@ export default async function Home() {
     },
     {
       question: '¿Qué eventos y comunidades tech puedo encontrar en Peruanos.dev?',
-      answer: `Actualmente el portal reúne ${EVENTS.length} eventos registrados (entre meetups, conferencias, workshops y hackathons) y ${COMMUNITIES.length} comunidades tecnológicas activas en ciudades como ${activeCities.join(', ')} y en formato virtual.`,
+      answer: `Actualmente el portal reúne eventos registrados (entre meetups, conferencias, workshops y hackathons) y comunidades tecnológicas activas en ciudades como ${activeCities.join(', ')} y en formato virtual.`,
     },
     {
       question: '¿Peruanos.dev es gratuito y de código abierto?',
@@ -155,7 +155,7 @@ export default async function Home() {
     },
     {
       question: '¿Peruanos.dev ofrece una API pública para desarrolladores?',
-      answer: 'Sí. Expone endpoints públicos en JSON sin autenticación en /api/events, /api/communities, /api/cfs y /api/projects, además de índices en Markdown para asistentes de IA en /llms.txt y /llms-full.txt.',
+      answer: 'Sí. Expone endpoints públicos en JSON sin autenticación en /apis.',
     },
   ];
 
@@ -335,7 +335,7 @@ export default async function Home() {
         </section>
       )}
       <div className="w-full max-w-5xl px-5 pb-10">
-        <FaqSection title="Preguntas frecuentes sobre Peruanos.dev" faqs={homeFaqs} />
+        <FaqSection title="FAQs" faqs={homeFaqs} />
       </div>
     </main>
   );

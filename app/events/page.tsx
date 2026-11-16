@@ -70,7 +70,7 @@ export default function Events() {
     const eventFaqs = [
         {
             question: '¿Cómo encontrar eventos de tecnología en Perú?',
-            answer: `En Peruanos.dev puedes filtrar ${EVENTS.length} eventos tecnológicos registrados (${upcomingEvents.length} próximos en cartelera) por ciudad, temática (IA, Cloud, DevOps, Web, Mobile, Ciberseguridad) y modalidad (Presencial, Virtual o Híbrido).`,
+            answer: `En Peruanos.dev puedes filtrar eventos tecnológicos registrados (${upcomingEvents.length} próximos en cartelera) por ciudad, temática (IA, Cloud, DevOps, Web, Mobile, Ciberseguridad) y modalidad (Presencial, Virtual o Híbrido).`,
         },
         {
             question: '¿En qué ciudades del Perú hay meetups y conferencias tech?',

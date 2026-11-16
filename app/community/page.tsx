@@ -58,7 +58,7 @@ export default function Community() {
     const communityFaqs = [
         {
             question: '¿Cuáles son las principales comunidades de programación y tecnología en Perú?',
-            answer: `El directorio reúne ${COMMUNITIES.length} comunidades activas en Perú, incluyendo grupos de desarrolladores como Angular Perú, GDG Lima, GDG Callao, Python Perú, Flutter Lima, AWS User Group, comunidades universitarias y espacios de IA, Cloud y Ciberseguridad.`,
+            answer: `El directorio reúne comunidades activas en Perú, incluyendo grupos de desarrolladores como Angular Perú, GDG Lima, GDG Callao, Python Perú, Flutter Lima, AWS User Group, comunidades universitarias y espacios de IA, Cloud y Ciberseguridad.`,
         },
         {
             question: '¿Cómo unirse a una comunidad tech en Perú?',
@@ -98,7 +98,7 @@ export default function Community() {
                     Descubre y únete a las comunidades que impulsan la tecnología en el Perú. ¿Organizas una comunidad? ¡Agrégala a la lista!
                 </p>
                 <p className="text-left mb-6 w-full text-sm sm:text-base text-accent">
-                    Directorio con {COMMUNITIES.length} comunidades tecnológicas en {communityCities.join(', ')}.
+                    Directorio con comunidades tecnológicas en {communityCities.join(', ')}.
                 </p>
                 <TrackedLink
                     className="px-6 py-3 text-center bg-primary text-white rounded-full hover:bg-primary-hover transition"
