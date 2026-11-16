@@ -38,13 +38,19 @@ export const metadata: Metadata = {
     },
 };
 
+export const revalidate = 3600;
+
 export default function Events() {
-    const jsonLdEvents = itemListSchema(EVENTS.map(event => eventSchema({
+    const today = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Lima' });
+    const upcomingEvents = EVENTS.filter(event => event.date >= today);
+
+    const jsonLdEvents = itemListSchema(upcomingEvents.map(event => eventSchema({
         name: event.title,
         description: event.description,
         startDate: event.date,
         time: event.time,
         location: event.location,
+        city: event.city,
         organizer: event.organizer || '',
         url: event.registration_url,
         image_url: event.image_url,

@@ -2,7 +2,8 @@ import type { Metadata } from 'next';
 import CfsClient from '../components/cfs/CfsClient';
 import TrackedLink from '../components/ui/TrackedLink';
 import { addUTMParams } from '../lib/utm';
-import { breadcrumbSchema } from '../lib/structured-data';
+import { CFS_LIST } from '../data/cfs';
+import { breadcrumbSchema, cfsSchema, itemListSchema } from '../lib/structured-data';
 
 export const metadata: Metadata = {
     title: 'Call for Speakers | Convocatorias para Speakers Tech en Perú',
@@ -38,6 +39,9 @@ export const metadata: Metadata = {
 };
 
 export default function CfsPage() {
+    const activeCfs = CFS_LIST.filter((cfs) => cfs.status !== 'closed');
+    const jsonLdCfs = itemListSchema(activeCfs.map((cfs) => cfsSchema(cfs)));
+
     const jsonLdBreadcrumbs = breadcrumbSchema([
         { name: 'Inicio', url: 'https://peruanos.dev' },
         { name: 'Call for Speakers', url: 'https://peruanos.dev/cfs' },
@@ -45,6 +49,10 @@ export default function CfsPage() {
 
     return (
         <main className="flex w-full max-w-7xl flex-col items-center bg-background mx-auto">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdCfs) }}
+            />
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBreadcrumbs) }}

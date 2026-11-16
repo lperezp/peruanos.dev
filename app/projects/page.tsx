@@ -81,6 +81,7 @@ export default async function Projects() {
         description: project.description || `Proyecto open source ${project.name} por ${project.owner.login}`,
         codeRepository: project.html_url,
         author: project.owner.login,
+        programmingLanguage: project.language,
     })));
 
     const jsonLdBreadcrumbs = breadcrumbSchema([

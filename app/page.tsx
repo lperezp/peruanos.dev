@@ -116,6 +116,7 @@ export default async function Home() {
     startDate: event.date,
     time: event.time,
     location: event.location,
+    city: event.city,
     organizer: event.organizer || '',
     url: event.registration_url,
     image_url: event.image_url,
@@ -127,6 +128,7 @@ export default async function Home() {
     description: project.description,
     codeRepository: project.html_url,
     author: project.owner.login,
+    programmingLanguage: project.language,
   })));
 
   return (
