@@ -1,19 +1,36 @@
 # Robots.txt para peruanos.dev
-# Permitir acceso a todos los bots de búsqueda
+# Permitir acceso a todos los bots de búsqueda y motores generativos (AI/GEO)
 
 User-agent: *
 Allow: /
-Disallow: /api/
 
-# Sitemap
-Sitemap: https://peruanos.dev/sitemap.xml
-
-# Bots específicos
+# Buscadores tradicionales
 User-agent: Googlebot
 Allow: /
 
 User-agent: Bingbot
 Allow: /
 
-# Prevenir scraping agresivo
-Crawl-delay: 1
+# Bots de búsqueda e indexación de IA
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Sitemap y contexto para LLMs
+Sitemap: https://peruanos.dev/sitemap.xml
+# LLMs: https://peruanos.dev/llms.txt
+# LLMs Full: https://peruanos.dev/llms-full.txt
