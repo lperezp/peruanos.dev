@@ -67,9 +67,10 @@ export default function CfsCard({ cfs }: Props) {
   }
 
   const isClosed = cfs.status === 'closed';
+  const cfsCanonicalUrl = `https://peruanos.dev/cfs#${cfs.id}`;
 
   return (
-    <div className="bg-background border border-border hover:border-primary/50 rounded-xl p-5 sm:p-6 shadow-xs hover:shadow-md transition-all flex flex-col justify-between gap-4">
+    <div id={cfs.id} className="bg-background border border-border hover:border-primary/50 rounded-xl p-5 sm:p-6 shadow-xs hover:shadow-md transition-all flex flex-col justify-between gap-4">
       <div>
         {/* Top Badges Row (Sessionize layout styled strictly with app tokens) */}
         <div className="flex flex-wrap items-center gap-2 mb-3">
@@ -203,9 +204,9 @@ export default function CfsCard({ cfs }: Props) {
         <ShareButton
           title={cfs.title}
           text={`¡Postula como speaker a "${cfs.title}" con la comunidad ${cfs.community}! Vía peruanos.dev`}
-          url={cfs.cfs_url}
+          url={cfsCanonicalUrl}
           eventName="click_share_cfs"
-          eventParams={{ event_name: cfs.title, event_link: cfs.cfs_url, section: 'CFS' }}
+          eventParams={{ event_name: cfs.title, event_link: cfsCanonicalUrl, section: 'CFS' }}
         />
       </div>
     </div>

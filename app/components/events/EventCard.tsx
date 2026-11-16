@@ -31,6 +31,8 @@ export default function CardEvent({ event }: Props) {
         setIsModalOpen(true);
     };
 
+    const eventCanonicalUrl = `https://peruanos.dev/events/${getEventSlug(event)}`;
+
     return (
         <>
         <div
@@ -83,9 +85,9 @@ export default function CardEvent({ event }: Props) {
                     <ShareButton
                         title={event.title}
                         text={`¡Mira este evento en peruanos.dev! ${event.title}`}
-                        url={event.registration_url}
+                        url={eventCanonicalUrl}
                         eventName="click_share_event"
-                        eventParams={{ event_name: event.title, event_link: event.registration_url, section: 'Events' }}
+                        eventParams={{ event_name: event.title, event_link: eventCanonicalUrl, section: 'Events' }}
                     />
                 </div>
             </div>

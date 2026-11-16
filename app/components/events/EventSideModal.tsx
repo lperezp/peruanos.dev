@@ -8,6 +8,7 @@ import TrackedLink from '../ui/TrackedLink';
 import ShareButton from '../ui/ShareButton';
 import { addUTMParams } from '@/app/lib/utm';
 import { trackEvent } from '@/app/lib/analytics';
+import { getEventSlug } from '@/app/lib/slug';
 
 interface EventSideModalProps {
     event: IEvent;
@@ -29,6 +30,8 @@ export default function EventSideModal({ event, isOpen, onClose }: EventSideModa
         day: 'numeric',
         timeZone: 'UTC'
     });
+
+    const eventCanonicalUrl = `https://peruanos.dev/events/${getEventSlug(event)}`;
 
     return (
         <SideModal isOpen={isOpen} onClose={onClose} title="Detalles del Evento">
@@ -58,9 +61,9 @@ export default function EventSideModal({ event, isOpen, onClose }: EventSideModa
                         <ShareButton
                             title={event.title}
                             text={`¡Mira este evento en peruanos.dev! ${event.title}`}
-                            url={event.registration_url}
+                            url={eventCanonicalUrl}
                             eventName="click_share_event"
-                            eventParams={{ event_name: event.title, event_link: event.registration_url, section: 'EventModal' }}
+                            eventParams={{ event_name: event.title, event_link: eventCanonicalUrl, section: 'EventModal' }}
                         />
                     </div>
                     <h2 className="text-2xl font-bold text-foreground mb-2 break-words">{event.title}</h2>
