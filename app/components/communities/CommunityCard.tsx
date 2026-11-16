@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ICommunity } from '@/app/models/community.model';
@@ -10,6 +10,17 @@ import CommunitySideModal from './CommunitySideModal';
 
 export default function CardCommunity({ community }: { community: ICommunity }) {
     const [isModalOpen, setIsModalOpen] = useState(false);
+
+    useEffect(() => {
+        const param = new URLSearchParams(window.location.search).get('community');
+        if (!param) return;
+        const decodedParam = param.toLowerCase();
+        const legacySlug = community.name.toLowerCase().replace(/ /g, '-');
+        if (decodedParam === getCommunitySlug(community) || decodedParam === legacySlug) {
+            // eslint-disable-next-line react-hooks/set-state-in-effect
+            setIsModalOpen(true);
+        }
+    }, [community]);
 
     const handleCardClick = (e: React.MouseEvent) => {
         if ((e.target as HTMLElement).closest('a')) {

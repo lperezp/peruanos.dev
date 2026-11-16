@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { MapPin, Globe, Github, Twitter, Linkedin, MessageSquare, Facebook, Youtube, Instagram, Mail } from 'lucide-react';
 import { ICommunity } from '@/app/models/community.model';
@@ -7,6 +7,7 @@ import Badge from '../ui/Badge';
 import TrackedLink from '../ui/TrackedLink';
 import { addUTMParams } from '@/app/lib/utm';
 import { trackEvent } from '@/app/lib/analytics';
+import { getCommunitySlug } from '@/app/lib/slug';
 
 interface CommunitySideModalProps {
     community: ICommunity;
@@ -15,21 +16,26 @@ interface CommunitySideModalProps {
 }
 
 export default function CommunitySideModal({ community, isOpen, onClose }: CommunitySideModalProps) {
+    const wasOpenRef = useRef(false);
+
     useEffect(() => {
         if (isOpen) {
+            wasOpenRef.current = true;
             trackEvent('view_community', { event_name: community.name, section: 'Community' });
 
-            const slug = encodeURIComponent(community.name.toLowerCase().replace(/ /g, '-'));
-            window.history.pushState(null, '', `?community=${slug}`);
-        } else {
-            // Restore URL if closed, ensuring we only do this if it was previously set by us
+            const slug = getCommunitySlug(community);
+            const url = new URL(window.location.href);
+            url.searchParams.set('community', slug);
+            window.history.pushState(null, '', url.pathname + url.search);
+        } else if (wasOpenRef.current) {
+            wasOpenRef.current = false;
             const url = new URL(window.location.href);
             if (url.searchParams.has('community')) {
                 url.searchParams.delete('community');
                 window.history.pushState(null, '', url.pathname + url.search);
             }
         }
-    }, [isOpen, community.name, community.city]);
+    }, [isOpen, community]);
 
     const socialLinks = [
         { key: 'github', icon: Github, url: community.contact.socialMedia.github },
