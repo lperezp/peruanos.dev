@@ -3442,5 +3442,23 @@ export const EVENTS: IEvent[] = [
       "PUCP"
     ],
     "organizer": "IEEE COMSOC PUCP & IEEE CS PUCP"
+  },
+  {
+    "title": "Datathon Sprint GCP",
+    "description": "🚀 Datathon Sprint GCP\n\nCierre de Bootcamp Data Sprint 2026\n\n¿Te gustaría poner a prueba tus habilidades con datos, resolver problemas de negocio y construir soluciones utilizando Google Cloud? ¡Esta es tu oportunidad!\n\nEl Datathon Sprint GCP es una jornada intensiva de desafíos prácticos en la que trabajarás con grandes volúmenes de datos para resolver problemas inspirados en escenarios empresariales. Es también la jornada de cierre de Data Sprint 2026, el bootcamp de formación en GCP Data organizado por DSC UNI y GDG Open Lima.\n\nAdemás, ¡el evento está abierto a estudiantes externos! No necesitas haber participado en el bootcamp para formar parte de esta experiencia.\n\n💡 ¿En qué consiste el reto?\n\nLos equipos se enfrentarán a un caso de negocio con grandes volúmenes de datos, que deberán explorar, analizar y transformar para construir una solución. Habrá desafíos de distintas industrias:\n\n- Fintech\n- Retail\n- Telecom\n- Salud\n- Movilidad\n\n🛠️ ¿Cómo podrás abordar el desafío?\n\nAntes de iniciar el reto, tendremos dos sesiones introductorias a cargo de speakers invitados, quienes presentarán algunas de las herramientas de Google Cloud que utilizaremos durante el Datathon. Luego, conocerás la dinámica del desafío y la configuración inicial del entorno junto a nuestro instructor.\n\nCada equipo podrá elegir una ruta de solución según sus intereses y fortalezas. Trabajaremos con herramientas del ecosistema Google Cloud.\n\n👥 ¿Quiénes pueden participar?\n\nEl Datathon está dirigido a estudiantes del bootcamp Data Sprint 2026 y estudiantes externos interesados en la tecnología, los datos y la resolución de problemas.\n\n¡No necesitas tener un equipo para inscribirte! Los participantes trabajarán en equipos de 3 integrantes, que serán conformados por la organización durante la jornada presencial.\n\n📅 Información del evento\n\n- Fecha: sábado 21 de noviembre de 2026.\n- Horario: 9:00 a. m. – 5:00 p. m.\n- Modalidad: presencial.\n- Lugar: SUM - Facultad de Ingeniería Económica, Estadística y Ciencias Sociales (FIEECS-UNI)\n- Cupos: 30 participantes.\n- Costo: gratuito.\n- Requisito: traer laptop propia.\n\nOrganizan: DSC UNI y GDG Open Lima.\nCon el apoyo de: Centro Cultural Karl Pearson - FIEECS-UNI.",
+    "date": "2026-11-21",
+    "time": "09:00",
+    "location": "Facultad de Ingeniería Económica, Estadística y CCSS - UNI, Rímac",
+    "city": "Lima",
+    "type": "Presencial",
+    "image_url": "https://images.lumacdn.com/uploads/xv/847ef180-44e9-4a30-b13c-cdb43c9cd215.png",
+    "registration_url": "https://luma.com/q8hzs4la",
+    "tags": [
+      "Data",
+      "Google Cloud",
+      "Hackathon",
+      "Tech"
+    ],
+    "organizer": "DSC UNI & GDG Open Lima"
   }
 ];
