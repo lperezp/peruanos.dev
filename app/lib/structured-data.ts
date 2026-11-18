@@ -5,6 +5,25 @@ function cleanSchemaText(text?: string | null): string {
     return text.replace(/\*\*/g, '').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
 }
 
+function buildIsoDateTime(date: string, time?: string): string {
+    if (!time) return date;
+    const trimmed = time.trim();
+    if (/^\d{2}:\d{2}$/.test(trimmed)) {
+        return `${date}T${trimmed}:00-05:00`;
+    }
+    const match12h = trimmed.match(/^(\d{1,2}):(\d{2})\s*(AM|PM)$/i);
+    if (match12h) {
+        let hours = parseInt(match12h[1], 10);
+        const minutes = match12h[2];
+        const period = match12h[3].toUpperCase();
+        if (period === 'PM' && hours < 12) hours += 12;
+        if (period === 'AM' && hours === 12) hours = 0;
+        const hh = String(hours).padStart(2, '0');
+        return `${date}T${hh}:${minutes}:00-05:00`;
+    }
+    return date;
+}
+
 function buildAttendanceAndLocation(
     type: 'Presencial' | 'Virtual' | 'Híbrido' | undefined,
     locationName: string,
@@ -109,6 +128,7 @@ export const eventSchema = (event: {
     location: string;
     city?: string;
     organizer: string;
+    organizerUrl?: string;
     url?: string;
     image_url?: string;
     type?: 'Presencial' | 'Virtual' | 'Híbrido';
@@ -121,7 +141,8 @@ export const eventSchema = (event: {
         eventUrl
     );
 
-    const startIsoDate = event.time ? `${event.startDate}T${event.time}:00-05:00` : event.startDate;
+    const startIsoDate = buildIsoDateTime(event.startDate, event.time);
+    const endIsoDate = event.endDate ? buildIsoDateTime(event.endDate, event.time) : startIsoDate;
     const organizerName = event.organizer || 'Comunidad Tech Perú';
 
     return {
@@ -130,11 +151,12 @@ export const eventSchema = (event: {
         name: event.name,
         description: cleanSchemaText(event.description),
         startDate: startIsoDate,
-        endDate: event.endDate ? (event.time ? `${event.endDate}T${event.time}:00-05:00` : event.endDate) : startIsoDate,
+        endDate: endIsoDate,
         location: locationData,
         organizer: {
             '@type': 'Organization',
             name: organizerName,
+            url: event.organizerUrl || eventUrl,
         },
         performer: {
             '@type': 'Organization',
@@ -149,9 +171,10 @@ export const eventSchema = (event: {
             price: '0',
             priceCurrency: 'PEN',
             availability: 'https://schema.org/InStock',
+            validFrom: startIsoDate,
         },
-        ...(event.image_url && { image: [event.image_url] }),
-        ...(event.url && { url: event.url }),
+        image: [event.image_url || 'https://peruanos.dev/images/og-image.png'],
+        url: eventUrl,
     };
 };
 
@@ -195,11 +218,15 @@ export const softwareSourceCodeSchema = (project: {
 });
 
 export const cfsSchema = (cfs: ICFS) => {
+    const cfsUrl = cfs.cfs_url || cfs.website_url || 'https://peruanos.dev/cfs';
+    const startDate = cfs.event_date || cfs.deadline;
+    const organizerName = cfs.community || 'Comunidad Tech Perú';
+
     const { attendanceMode, locationData } = buildAttendanceAndLocation(
         cfs.type,
         cfs.location || cfs.city || 'Perú',
         cfs.city,
-        cfs.cfs_url
+        cfsUrl
     );
 
     return {
@@ -207,17 +234,30 @@ export const cfsSchema = (cfs: ICFS) => {
         '@type': 'Event',
         name: cfs.title,
         description: cleanSchemaText(cfs.description),
-        ...(cfs.event_date || cfs.deadline ? { startDate: cfs.event_date || cfs.deadline } : {}),
+        ...(startDate ? { startDate, endDate: startDate } : {}),
         location: locationData,
         organizer: {
             '@type': 'Organization',
-            name: cfs.community,
+            name: organizerName,
+            url: cfs.website_url || cfsUrl,
+        },
+        performer: {
+            '@type': 'Organization',
+            name: organizerName,
         },
         eventAttendanceMode: attendanceMode,
         eventStatus: 'https://schema.org/EventScheduled',
         isAccessibleForFree: true,
-        url: cfs.cfs_url,
-        ...(cfs.image_url && { image: [cfs.image_url] }),
+        offers: {
+            '@type': 'Offer',
+            url: cfsUrl,
+            price: '0',
+            priceCurrency: 'PEN',
+            availability: 'https://schema.org/InStock',
+            ...(startDate ? { validFrom: startDate } : {}),
+        },
+        image: [cfs.image_url || 'https://peruanos.dev/images/og-image.png'],
+        url: cfsUrl,
     };
 };
 
