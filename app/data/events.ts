@@ -763,7 +763,7 @@ export const EVENTS: IEvent[] = [
   {
     "title": "DevFest Tacna 2026",
     "description": "La conferencia tecnológica más grande del mundo impulsada por la comunidad llega a Tacna\n\n📅 Fecha: Sábado 21 de Noviembre del 2026\n\n📍 Lugar: Universidad Tecnológica del Perú - Sede Tacna\n\n¿Qué es DevFest?\n\nDevFest es mucho más que una simple conferencia tecnológica; es una celebración global del conocimiento, la innovación y la comunidad en el mundo del desarrollo de software. Organizado por los Google Developer Groups (GDGs) en más de 100 países, DevFest representa la culminación anual de eventos tecnológicos respaldados por Google.\n\nEn Tacna, nos enorgullece ser parte de este movimiento global, trayéndote una experiencia única que combina:\n\n🌟 Aprendizaje de Vanguardia: Sumérgete en las últimas tecnologías de Google y tendencias de la industria.\n\n🤝 Networking de Alto Nivel: Conecta con desarrolladores, expertos de la industria y entusiastas tecnológicos.\n\n💡 Inspiración e Innovación: Descubre ideas revolucionarias y proyectos que están cambiando el mundo.\n\n🚀 Oportunidades de Crecimiento: Impulsa tu carrera con conocimientos prácticos y contactos valiosos.\n\nLo que te espera\n\n🎤 Charlas inspiradoras de Google Developer Experts y líderes de la comunidad\n\n💡 Sesiones prácticas y demostraciones en vivo\n\n🤝 Networking con profesionales y entusiastas de la tecnología\n\n🎟️ Haz clic en \"RSVP\" para registrarte y asegurar tu lugar.",
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "time": "08:30",
     "location": "Universidad Tecnológica del Perú CAMPUS TACNA",
     "city": "Tacna",
