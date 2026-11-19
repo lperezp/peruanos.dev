@@ -3460,5 +3460,23 @@ export const EVENTS: IEvent[] = [
       "Tech"
     ],
     "organizer": "DSC UNI & GDG Open Lima"
+  },
+  {
+    "title": "¿Quién diseña cuando todos diseñan?",
+    "description": "En esta edición nos hacemos una pregunta incómoda: ¿quién diseña cuando todos diseñan? Hoy cualquiera puede armar un prototipo, una interfaz o una solución en minutos. La IA, las herramientas y el acceso lo cambiaron todo, pero diseñar más rápido no es lo mismo que diseñar mejor.\n\nNos preguntamos: ¿qué rol nos toca a los diseñadores cuando el diseño ya no es solo nuestro?\n\nConversaremos con:\n- Tatiana León – CTPO y co-founder de KAMAI, con experiencia en arquitectura de IA y paso por Rappi e Interbank.\n- Eduardo Marisca – Fundador y Chief Mutant de Mutaciones.\n- Natalia Ferraro – Design & Research Lead en La Victoria Lab, experta en entendimiento humano, diseño estratégico e innovación.\n\nÚnete, conecta y sé parte de la última Design Nights del año. 🎄\n\n📅 Jueves 3 de diciembre | 🕡 6:30 PM\n📍 Presencial · Cupos limitados ⚡\nIngreso por Torre del Parque II, Piso 3. Cuenta con tu DNI y QR de Luma a la mano.",
+    "date": "2026-12-03",
+    "time": "18:30",
+    "location": "Av. las Begonias 650, San Isidro",
+    "city": "Lima",
+    "type": "Presencial",
+    "image_url": "https://images.lumacdn.com/uploads/9y/197b21fb-af3d-4a0b-98a7-5287f7358548.png",
+    "registration_url": "https://luma.com/l59894fd",
+    "tags": [
+      "Design",
+      "AI",
+      "Product Design",
+      "Networking"
+    ],
+    "organizer": "Rimac Design"
   }
 ];
